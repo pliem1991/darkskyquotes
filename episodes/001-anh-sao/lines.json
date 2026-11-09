@@ -1,0 +1,158 @@
+{
+ "lines": [
+  {
+   "text": "Nếu đêm nay bạn thấy mình vô dụng,|ở lại với mình một chút.",
+   "scene": "hook",
+   "gaps": [
+    0.6
+   ],
+   "pause": 1.0,
+   "lead": 0.1,
+   "subs": []
+  },
+  {
+   "text": "Có những đêm bạn ngồi trên giường,|điện thoại sáng trong tay,|chẳng biết mình đang đợi gì.",
+   "scene": "phong-toi",
+   "gaps": [
+    0.6,
+    0.5
+   ],
+   "pause": 1.4
+  },
+  {
+   "text": "Bạn vừa xem số dư,|rồi tắt thật nhanh,|như thể không nhìn thì tiền nhà sẽ tự đủ.",
+   "scene": "hoa-don",
+   "gaps": [
+    0.55,
+    0.6
+   ],
+   "pause": 1.3
+  },
+  {
+   "text": "Ở công ty, ai hỏi dạo này sao,|bạn lại bảo ổn.",
+   "scene": "van-phong",
+   "gaps": [
+    0.6
+   ],
+   "pause": 1.4
+  },
+  {
+   "text": "Tối về, cửa vừa đóng,|bạn đứng đó một lúc,|giày còn chưa tháo.",
+   "scene": "cua-dong",
+   "gaps": [
+    1.3,
+    0.6
+   ],
+   "pause": 1.7
+  },
+  {
+   "text": "Nếu chưa ngủ được,|thì ra ban công một lát,|ngước lên trời đi.",
+   "scene": "ban-cong",
+   "gaps": [
+    0.5,
+    0.6
+   ],
+   "pause": 1.6
+  },
+  {
+   "text": "Có một ngôi sao tên là Chức Nữ.|Ánh sáng từ đó phải đi mất khoảng hai mươi lăm năm,|mới tới được Trái Đất.",
+   "scene": "vega",
+   "gaps": [
+    0.8,
+    0.5
+   ],
+   "pause": 1.4
+  },
+  {
+   "text": "Thứ ánh sáng tới đêm nay,|có khi đã lên đường từ lúc bạn chưa biết đi.",
+   "scene": "streak",
+   "gaps": [
+    0.7
+   ],
+   "pause": 1.3
+  },
+  {
+   "text": "Suốt đường đi,|không ai thấy nó,|cũng chẳng ai biết nó đang tới.",
+   "scene": "streak",
+   "gaps": [
+    0.8,
+    0.8
+   ],
+   "pause": 1.5
+  },
+  {
+   "text": "Vậy mà nó vẫn tới.",
+   "scene": "streak",
+   "gaps": [],
+   "pause": 2.1
+  },
+  {
+   "text": "Hồi bé, có đêm bạn sốt,|có người ngồi quạt cho bạn tới sáng.|Bạn ngủ mất, nên chẳng nhớ gì.",
+   "scene": "tre-ngu",
+   "gaps": [
+    0.5,
+    0.8
+   ],
+   "pause": 1.3
+  },
+  {
+   "text": "Có khi là mẹ, ngồi lại dưới đèn khi cả nhà đã ngủ.",
+   "scene": "nguoi-me",
+   "gaps": [],
+   "pause": 1.0
+  },
+  {
+   "text": "Có khi là cha,|dắt xe ra khỏi nhà lúc trời chưa sáng,|về nhà cũng chẳng kể gì.",
+   "scene": "nguoi-cha",
+   "gaps": [
+    0.7,
+    0.6
+   ],
+   "pause": 1.7
+  },
+  {
+   "text": "Giờ tới lượt bạn đi đoạn đường đó.",
+   "scene": "di-bo",
+   "gaps": [],
+   "pause": 1.4
+  },
+  {
+   "text": "Những đêm thấy mình vô dụng,|bạn không nhìn ra được đã đi bao xa,|vì trời tối quá.",
+   "scene": "cau-thang",
+   "gaps": [
+    0.8,
+    0.5
+   ],
+   "pause": 1.8
+  },
+  {
+   "text": "Mình không biết đoạn này của bạn còn dài bao lâu.",
+   "scene": "lamp",
+   "gaps": [],
+   "pause": 1.3
+  },
+  {
+   "text": "Ngày mai có khi vẫn vậy,|tiền nhà vẫn chưa đủ,|sáng ra bạn vẫn đi làm.",
+   "scene": "lamp",
+   "gaps": [
+    0.6,
+    0.6
+   ],
+   "pause": 1.5
+  },
+  {
+   "text": "Thôi, đêm nay ngủ đi đã.",
+   "scene": "lamp",
+   "gaps": [],
+   "pause": 2.2
+  },
+  {
+   "text": "Khi trời đủ tối,|bạn mới thấy những vì sao.",
+   "scene": "end",
+   "gaps": [
+    0.9
+   ],
+   "pause": 5.2
+  }
+ ]
+}

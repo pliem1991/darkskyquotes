@@ -1,0 +1,113 @@
+{
+ "voices": {
+  "minh": {
+   "preset": "Thiền Tâm Đức",
+   "pitch": 1.0,
+   "tempo": 1.12,
+   "af": "highpass=f=110,equalizer=f=300:t=q:w=1:g=-1.5,equalizer=f=3500:t=q:w=1.2:g=2,equalizer=f=6500:t=q:w=1:g=2,acompressor=threshold=-22dB:ratio=2:attack=15:release=200:makeup=2,loudnorm=I=-15:TP=-1.5:LRA=9"
+  }
+ },
+ "lead_in": 0.15,
+ "lines": [
+  {
+   "file": "c1_minh",
+   "voice": "minh",
+   "text": "Đơn giao hàng đầu tiên trong đời, chạy lòng vòng trong hẻm mười lăm phút, chưa tìm ra nhà thì khách hủy.",
+   "tempo": 1.0,
+   "scene": "c1-khach-huy",
+   "pause": 0.7,
+   "inner_pauses": []
+  },
+  {
+   "file": "c2_minh",
+   "voice": "minh",
+   "text": "Hồ sơ được duyệt lúc năm giờ sáng chủ nhật, tới bảy giờ thì ứng dụng báo có đơn.",
+   "tempo": 1.0,
+   "scene": "c2-nam-gio-sang",
+   "pause": 0.7,
+   "inner_pauses": []
+  },
+  {
+   "file": "c3_minh",
+   "voice": "minh",
+   "text": "Chạy chiếc xe tám năm chở mình đi làm, áo mưa trùm kín cái áo giao hàng mua tối qua, không ai nhận ra mình.",
+   "tempo": 1.0,
+   "scene": "c3-chay-mua",
+   "pause": 0.7,
+   "inner_pauses": []
+  },
+  {
+   "file": "c4_minh",
+   "voice": "minh",
+   "text": "Hai ly cà phê sữa đó coi như của mình. Ngồi dưới mái hiên tiệm thuốc tây chờ đơn, uống hết một ly, ly kia treo lại trên xe.",
+   "tempo": 1.0,
+   "scene": "c4-mai-hien",
+   "pause": 0.7,
+   "inner_pauses": [
+    {
+     "after_part": 0,
+     "sec": 0.4
+    }
+   ]
+  },
+  {
+   "file": "c5_minh",
+   "voice": "minh",
+   "text": "Tới trưa thì tạnh mưa, cởi áo mưa ra, chạy ngang đầu hẻm thì chú Tư nhìn cái áo một hồi. Rồi chú nói, giờ con cũng mặc cái áo giành khách của chú rồi đó.",
+   "tempo": 1.0,
+   "scene": "c5-chu-tu",
+   "pause": 1.5,
+   "inner_pauses": [
+    {
+     "after_part": 2,
+     "sec": 0.4
+    },
+    {
+     "after_part": 3,
+     "sec": 0.3
+    }
+   ]
+  },
+  {
+   "file": "c6_minh",
+   "voice": "minh",
+   "text": "Mình đưa chú ly cà phê còn lại. Đá tan hết rồi mà chú vẫn uống một hơi, xong dặn, số nhà có dấu xẹt thì đừng tin bản đồ, cứ hỏi xe ôm đầu hẻm.",
+   "tempo": 1.0,
+   "scene": "c6-ly-ca-phe",
+   "pause": 0.7,
+   "inner_pauses": [
+    {
+     "after_part": 0,
+     "sec": 0.4
+    },
+    {
+     "after_part": 2,
+     "sec": 0.3
+    }
+   ]
+  },
+  {
+   "file": "c7_minh",
+   "voice": "minh",
+   "text": "Buổi chiều lạc hai lần, lần nào cũng ghé hỏi xe ôm đầu hẻm, chạy thêm mười đơn, tới chín giờ tối mới về.",
+   "tempo": 1.0,
+   "scene": "c7-hoi-duong",
+   "pause": 0.8,
+   "inner_pauses": []
+  },
+  {
+   "file": "c8_minh",
+   "voice": "minh",
+   "text": "Cả ngày được một trăm tám mươi ngàn, chưa trừ tiền xăng. Muốn đủ mười hai triệu cho em, ngày nào cũng phải kiếm hơn gấp đôi vậy.",
+   "tempo": 1.0,
+   "scene": "c8-san-thuong",
+   "pause": 6.2,
+   "inner_pauses": [
+    {
+     "after_part": 1,
+     "sec": 0.4
+    }
+   ]
+  }
+ ]
+}

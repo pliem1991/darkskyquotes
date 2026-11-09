@@ -1,0 +1,325 @@
+{
+ "duration": 62.684,
+ "lines": [
+  {
+   "text": "Bạn chưa từng thấy bầu trời của đêm nay.",
+   "scene": "hook",
+   "start": 0.15,
+   "end": 2.594,
+   "score": 1.0,
+   "heard": "Bạn chưa từng thấy bầu trời của đêm nay.",
+   "phrases": [
+    {
+     "text": "Bạn chưa từng thấy",
+     "start": 0.15,
+     "end": 1.278
+    },
+    {
+     "text": "bầu trời của đêm nay.",
+     "start": 1.278,
+     "end": 2.594
+    }
+   ]
+  },
+  {
+   "text": "Mọi ánh sao bạn nhìn thấy, đều là ánh sáng đã cũ.",
+   "scene": "sky",
+   "start": 3.094,
+   "end": 7.02,
+   "score": 0.917,
+   "heard": "Mọi ánh sao bạn nhìn thấy đều là ánh sáng đa cũ.",
+   "phrases": [
+    {
+     "text": "Mọi ánh sao bạn nhìn thấy,",
+     "start": 3.094,
+     "end": 5.221
+    },
+    {
+     "text": "đều là ánh sáng đã cũ.",
+     "start": 5.221,
+     "end": 7.02
+    }
+   ]
+  },
+  {
+   "text": "Sao Chức Nữ là một trong những ngôi sao sáng nhất trên bầu trời.",
+   "scene": "vega",
+   "start": 7.54,
+   "end": 11.466,
+   "score": 0.929,
+   "heard": "Sao chiếc nữ là một trong những ngôi sao sáng nhất trên bầu trời?",
+   "phrases": [
+    {
+     "text": "Sao Chức Nữ là một trong những",
+     "start": 7.54,
+     "end": 9.41
+    },
+    {
+     "text": "ngôi sao sáng nhất trên bầu trời.",
+     "start": 9.41,
+     "end": 11.466
+    }
+   ]
+  },
+  {
+   "text": "Ánh sáng từ nó chạm vào mắt bạn lúc này, đã lên đường từ khoảng hai mươi lăm năm trước.",
+   "scene": "vega",
+   "start": 11.866,
+   "end": 17.496,
+   "score": 0.895,
+   "heard": "ánh sáng từ nó chạm vào mắt bạn lúc này, đã lên đường từ khoảng 25 năm trước.",
+   "phrases": [
+    {
+     "text": "Ánh sáng từ nó chạm vào mắt",
+     "start": 11.866,
+     "end": 13.676
+    },
+    {
+     "text": "bạn lúc này,",
+     "start": 13.676,
+     "end": 14.48
+    },
+    {
+     "text": "đã lên đường từ khoảng hai mươi",
+     "start": 14.48,
+     "end": 16.558
+    },
+    {
+     "text": "lăm năm trước.",
+     "start": 16.558,
+     "end": 17.496
+    }
+   ]
+  },
+  {
+   "text": "Khi ấy, có thể bạn còn là một đứa trẻ.",
+   "scene": "dua-tre",
+   "start": 18.176,
+   "end": 21.065,
+   "score": 1.0,
+   "heard": "khi ấy có thể bạn còn là một đứa trẻ.",
+   "phrases": [
+    {
+     "text": "Khi ấy,",
+     "start": 18.176,
+     "end": 18.738
+    },
+    {
+     "text": "có thể bạn còn",
+     "start": 18.738,
+     "end": 19.861
+    },
+    {
+     "text": "là một đứa trẻ.",
+     "start": 19.861,
+     "end": 21.065
+    }
+   ]
+  },
+  {
+   "text": "Có thể bạn chưa sinh ra.",
+   "scene": "dua-tre",
+   "start": 21.465,
+   "end": 23.391,
+   "score": 1.0,
+   "heard": "có thể bạn chưa sinh ra.",
+   "phrases": [
+    {
+     "text": "Có thể bạn chưa sinh ra.",
+     "start": 21.465,
+     "end": 23.391
+    }
+   ]
+  },
+  {
+   "text": "Suốt hai mươi lăm năm, ánh sáng ấy vẫn đi trong bóng tối, và chẳng ai biết nó đang trên đường.",
+   "scene": "streak",
+   "start": 24.071,
+   "end": 30.293,
+   "score": 0.9,
+   "heard": "Suốt 25 năm, ánh sáng ấy vẫn đi trong bóng tối, và chẳng ai biết nó đang trên đường.",
+   "phrases": [
+    {
+     "text": "Suốt hai mươi lăm năm,",
+     "start": 24.071,
+     "end": 25.592
+    },
+    {
+     "text": "ánh sáng ấy vẫn",
+     "start": 25.592,
+     "end": 26.629
+    },
+    {
+     "text": "đi trong bóng tối,",
+     "start": 26.629,
+     "end": 27.873
+    },
+    {
+     "text": "và chẳng ai biết",
+     "start": 27.873,
+     "end": 28.979
+    },
+    {
+     "text": "nó đang trên đường.",
+     "start": 28.979,
+     "end": 30.293
+    }
+   ]
+  },
+  {
+   "text": "Chỉ đến khi bạn ngước nhìn lên, hành trình ấy mới kết thúc.",
+   "scene": "streak",
+   "start": 30.793,
+   "end": 34.719,
+   "score": 1.0,
+   "heard": "Chỉ đến khi bạn ngước nhìn lên, hành trình ấy mới kết thúc.",
+   "phrases": [
+    {
+     "text": "Chỉ đến khi bạn ngước nhìn lên,",
+     "start": 30.793,
+     "end": 32.891
+    },
+    {
+     "text": "hành trình ấy mới kết thúc.",
+     "start": 32.891,
+     "end": 34.719
+    }
+   ]
+  },
+  {
+   "text": "Nhiều điều trong đời cũng đến muộn như vậy.",
+   "scene": "sky",
+   "start": 35.469,
+   "end": 38.506,
+   "score": 1.0,
+   "heard": "nhiều điều trong đời cũng đến muộn như vậy.",
+   "phrases": [
+    {
+     "text": "Nhiều điều trong đời",
+     "start": 35.469,
+     "end": 36.915
+    },
+    {
+     "text": "cũng đến muộn như vậy.",
+     "start": 36.915,
+     "end": 38.506
+    }
+   ]
+  },
+  {
+   "text": "Cuốn sách bạn đọc từ năm ngoái.",
+   "scene": "cuon-sach",
+   "start": 38.956,
+   "end": 41.178,
+   "score": 1.0,
+   "heard": "cuốn sách bạn đọc từ năm ngoái.",
+   "phrases": [
+    {
+     "text": "Cuốn sách bạn đọc từ năm ngoái.",
+     "start": 38.956,
+     "end": 41.178
+    }
+   ]
+  },
+  {
+   "text": "Số tiền nhỏ bạn để dành.",
+   "scene": "tien-de-danh",
+   "start": 41.678,
+   "end": 43.604,
+   "score": 1.0,
+   "heard": "số tiền nhỏ bạn để dành.",
+   "phrases": [
+    {
+     "text": "Số tiền nhỏ bạn để dành.",
+     "start": 41.678,
+     "end": 43.604
+    }
+   ]
+  },
+  {
+   "text": "Một lời tử tế bạn đã nói rồi quên mất.",
+   "scene": "loi-tu-te",
+   "start": 44.104,
+   "end": 46.993,
+   "score": 1.0,
+   "heard": "Một lời tử tế bạn đã nói rồi quên mất.",
+   "phrases": [
+    {
+     "text": "Một lời tử tế bạn đã nói",
+     "start": 44.104,
+     "end": 45.978
+    },
+    {
+     "text": "rồi quên mất.",
+     "start": 45.978,
+     "end": 46.993
+    }
+   ]
+  },
+  {
+   "text": "Mình không dám hứa mọi cố gắng rồi sẽ được đền đáp.",
+   "scene": "lamp",
+   "start": 47.743,
+   "end": 51.076,
+   "score": 1.0,
+   "heard": "Mình không dám hứa mọi cố gắng, rồi sẽ được đền đáp.",
+   "phrases": [
+    {
+     "text": "Mình không dám hứa mọi cố gắng",
+     "start": 47.743,
+     "end": 49.743
+    },
+    {
+     "text": "rồi sẽ được đền đáp.",
+     "start": 49.743,
+     "end": 51.076
+    }
+   ]
+  },
+  {
+   "text": "Nhưng một đêm bạn chưa thấy gì, chưa chắc là một đêm không có gì đang đến.",
+   "scene": "lamp",
+   "start": 51.576,
+   "end": 56.247,
+   "score": 1.0,
+   "heard": "Nhưng một đêm bạn chưa thấy gì, chưa chắc là một đêm không có gì đang đến.",
+   "phrases": [
+    {
+     "text": "Nhưng một đêm bạn chưa thấy gì,",
+     "start": 51.576,
+     "end": 53.587
+    },
+    {
+     "text": "chưa chắc là một đêm không có",
+     "start": 53.587,
+     "end": 55.468
+    },
+    {
+     "text": "gì đang đến.",
+     "start": 55.468,
+     "end": 56.247
+    }
+   ]
+  },
+  {
+   "text": "Khi trời đủ tối, bạn mới thấy những vì sao.",
+   "scene": "end",
+   "start": 57.147,
+   "end": 60.184,
+   "score": 1.0,
+   "heard": "Khi trời đủ tối, bạn mới thấy những vì sao.",
+   "phrases": [
+    {
+     "text": "Khi trời đủ tối,",
+     "start": 57.147,
+     "end": 58.304
+    },
+    {
+     "text": "bạn mới thấy những vì sao.",
+     "start": 58.304,
+     "end": 60.184
+    }
+   ]
+  }
+ ]
+}

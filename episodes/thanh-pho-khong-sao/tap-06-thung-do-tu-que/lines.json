@@ -1,0 +1,36 @@
+{
+ "lines": [
+  {
+   "text": "Gọi về định nói thật,|thì nghe má đang khoe với hàng xóm,|con má làm công ty lớn trên thành phố.",
+   "scene": "b1-ma-khoe"
+  },
+  {
+   "text": "Sáng thứ bảy gọi lại như đã hứa,|câu định nói thật thì đã tập từ tối qua tới giờ.",
+   "scene": "b2-goi-lai"
+  },
+  {
+   "text": "Má bắt máy mà còn quay ra sân nói với bà Năm,|thôi bà khỏi cho vay,|thằng Hai nó nói để nó lo.",
+   "scene": "b3-ma-quay-lung"
+  },
+  {
+   "text": "Rồi má quay lại hỏi con lo được hông.|Trong tài khoản chưa tới bốn triệu,|mà nghe má khoe xong,|miệng cứ nói dạ được.",
+   "scene": "b4-ma-hoi"
+  },
+  {
+   "text": "Nghe vậy má cười,|ho khẽ một tiếng,|rồi nói vậy là má yên tâm rồi.",
+   "scene": "b5-ma-cuoi"
+  },
+  {
+   "text": "Cúp máy rồi ngồi tính,|cuối tháng phải có mười hai triệu cho em.|Xin việc văn phòng thì cũng phải hơn một tháng mới có lương.",
+   "scene": "b6-tinh-tien"
+  },
+  {
+   "text": "Tối đó tải ứng dụng giao hàng,|điền số xe với chụp bằng lái.",
+   "scene": "c7-tai-ung-dung"
+  },
+  {
+   "text": "Cả xóm của má giờ tin mình còn làm công ty lớn.|Sáng mai mặc áo giao hàng ra đường,|chỉ mong đừng gặp ai quen.",
+   "scene": "c8-san-thuong"
+  }
+ ]
+}

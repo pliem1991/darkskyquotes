@@ -1,0 +1,497 @@
+{
+ "_note": "Tập 5. Tọa độ ảnh theo khung 896x896. Theo quy trình ../quy-trinh-dung-video.md.",
+ "hide_subs": [],
+ "hook": {
+  "sweep": [
+   0,
+   0
+  ],
+  "rows": []
+ },
+ "chords": [
+  "Am",
+  "F",
+  "Dm",
+  "Am"
+ ],
+ "final_arpeggio": false,
+ "theme": {
+  "notes": [
+   88,
+   86,
+   84,
+   86,
+   83
+  ],
+  "gap": 1.3,
+  "vel": 0.45,
+  "count": 5
+ },
+ "music_end": [
+  "we",
+  [
+   8,
+   "vẫn chưa biết"
+  ]
+ ],
+ "music_busy": [
+  "we",
+  [
+   8,
+   "vẫn chưa biết"
+  ]
+ ],
+ "music_lufs": -19,
+ "music_highpass": 140,
+ "music_fade": 1.8,
+ "music_sparse": 0.7,
+ "music_low": false,
+ "strings_gain": 7,
+ "sfx_lufs": -30,
+ "emphasis": {},
+ "digits": {
+  "chín giờ": "9 giờ",
+  "bốn triệu": "4 triệu",
+  "bốn phút mười hai giây": "4 phút 12 giây"
+ },
+ "card": {
+  "main": "THÀNH PHỐ KHÔNG SAO",
+  "sub": "TẬP 5",
+  "y": 200,
+  "gap": 98,
+  "size": 68,
+  "sub_size": 40,
+  "hold": 0.3
+ },
+ "overlays": [
+  {
+   "scene": "c2-dien-thoai-reo",
+   "type": "counter",
+   "label": "Ngày 7 · Còn lại:",
+   "value": 3890000,
+   "instant": true,
+   "start": [
+    1,
+    0.0
+   ],
+   "y": 1250,
+   "size": 96
+  },
+  {
+   "scene": "c2-dien-thoai-reo",
+   "type": "call",
+   "text": "Má đang gọi video",
+   "size": 40,
+   "at": [
+    "center",
+    330
+   ],
+   "show": [
+    "w",
+    [
+     1,
+     "máy reo"
+    ]
+   ],
+   "hide": [
+    "we",
+    [
+     1,
+     "bắt máy"
+    ]
+   ],
+   "hold": 0.6
+  },
+  {
+   "scene": "c4-ma-tinh-vay",
+   "type": "message",
+   "text": "Học phí của em má lo, con khỏi gửi.",
+   "at": [
+    "center",
+    330
+   ],
+   "size": 32,
+   "show": [
+    "w",
+    [
+     3,
+     "học phí của em"
+    ]
+   ],
+   "hide": [
+    "we",
+    [
+     3,
+     "con khỏi gửi"
+    ]
+   ],
+   "hold": 0.8
+  },
+  {
+   "scene": "c7-ma-ho",
+   "type": "message",
+   "text": "Má hông sao, tại gió.",
+   "at": [
+    "center",
+    330
+   ],
+   "size": 32,
+   "show": [
+    "w",
+    [
+     6,
+     "má hông sao"
+    ]
+   ],
+   "hide": [
+    "we",
+    [
+     6,
+     "tại gió"
+    ]
+   ],
+   "hold": 0.8
+  },
+  {
+   "scene": "c9-san-thuong",
+   "type": "notice",
+   "text": "Cuộc gọi video · 4:12",
+   "at": [
+    "center",
+    330
+   ],
+   "size": 32,
+   "show": [
+    "w",
+    [
+     8,
+     "màn hình còn hiện"
+    ]
+   ],
+   "hide": [
+    "we",
+    [
+     8,
+     "bốn phút mười hai giây"
+    ]
+   ],
+   "hold": 0.6
+  },
+  {
+   "scene": "c9-san-thuong",
+   "type": "end",
+   "text": "Mai gọi lại, Minh nên nói thật|với má hay giấu tiếp?",
+   "start": [
+    "we",
+    [
+     8,
+     "vẫn chưa biết"
+    ]
+   ],
+   "delay": 2.0,
+   "y": 290,
+   "size": 54,
+   "fade": 0.8
+  }
+ ],
+ "quiet": [
+  [
+   [
+    "w",
+    [
+     6,
+     "thì má ho"
+    ]
+   ],
+   [
+    7,
+    0.0
+   ]
+  ],
+  [
+   [
+    "w",
+    [
+     7,
+     "con không sao đâu má"
+    ]
+   ],
+   [
+    8,
+    0.0
+   ]
+  ]
+ ],
+ "music": [
+  [
+   0,
+   0.0,
+   0.6
+  ],
+  [
+   1,
+   0.0,
+   0.6
+  ],
+  [
+   2,
+   0.0,
+   0.6
+  ],
+  [
+   3,
+   0.0,
+   0.6
+  ],
+  [
+   4,
+   0.0,
+   0.6
+  ],
+  [
+   5,
+   0.0,
+   0.5
+  ],
+  [
+   6,
+   0.0,
+   0.5
+  ],
+  [
+   7,
+   0.0,
+   0.45
+  ],
+  [
+   8,
+   0.0,
+   0.4
+  ],
+  [
+   "we",
+   [
+    8,
+    "vẫn chưa biết"
+   ],
+   0.4
+  ],
+  [
+   8,
+   1.0,
+   0.95
+  ]
+ ],
+ "sfx": [
+  {
+   "type": "ring",
+   "at": [
+    "we",
+    [
+     1,
+     "máy reo"
+    ]
+   ],
+   "delay": 0.05,
+   "count": 1,
+   "gain": 2.0
+  },
+  {
+   "type": "wind",
+   "at": [
+    8,
+    0.0
+   ],
+   "delay": -0.5,
+   "gain": 0.8
+  },
+  {
+   "type": "traffic",
+   "at": [
+    8,
+    0.0
+   ],
+   "delay": -0.5,
+   "gain": 0.45
+  }
+ ],
+ "scenes": {
+  "c1-ma-noi-vay": {
+   "lead": 0.3,
+   "ease": true,
+   "drift": 0,
+   "push": 0.1,
+   "focus": [
+    470,
+    470
+   ],
+   "pan": [
+    0,
+    0,
+    -18,
+    0
+   ]
+  },
+  "c2-dien-thoai-reo": {
+   "lead": 0.3,
+   "ease": true,
+   "drift": 0,
+   "push": 0.08,
+   "focus": [
+    450,
+    470
+   ],
+   "pan": [
+    0,
+    0,
+    -18,
+    0
+   ],
+   "in": "blur",
+   "blur": 12,
+   "in_dur": 1.0
+  },
+  "c3-dong-dua": {
+   "lead": 0.3,
+   "ease": true,
+   "drift": 0,
+   "push": 0.07,
+   "focus": [
+    450,
+    430
+   ],
+   "pan": [
+    0,
+    0,
+    -18,
+    0
+   ],
+   "in": "blur",
+   "blur": 26,
+   "in_dur": 1.4
+  },
+  "c4-ma-tinh-vay": {
+   "lead": 0.3,
+   "ease": true,
+   "drift": 0,
+   "push": 0.07,
+   "focus": [
+    450,
+    420
+   ],
+   "pan": [
+    0,
+    0,
+    -18,
+    0
+   ],
+   "in": "blur",
+   "blur": 12,
+   "in_dur": 1.0
+  },
+  "c5-siet-dien-thoai": {
+   "lead": 0.3,
+   "ease": true,
+   "drift": 0,
+   "push": 0.07,
+   "focus": [
+    450,
+    470
+   ],
+   "pan": [
+    0,
+    0,
+    -18,
+    0
+   ],
+   "in": "blur",
+   "blur": 26,
+   "in_dur": 1.4
+  },
+  "c6-tinh-tien": {
+   "lead": 0.3,
+   "ease": true,
+   "drift": 0,
+   "push": 0.06,
+   "focus": [
+    450,
+    500
+   ],
+   "pan": [
+    0,
+    0,
+    -18,
+    0
+   ],
+   "in": "blur",
+   "blur": 12,
+   "in_dur": 1.0
+  },
+  "c7-ma-ho": {
+   "lead": 0.3,
+   "ease": true,
+   "drift": 0,
+   "push": 0.07,
+   "focus": [
+    450,
+    430
+   ],
+   "pan": [
+    0,
+    0,
+    -18,
+    0
+   ],
+   "in": "fade",
+   "in_dur": 0.001
+  },
+  "c8-de-mai": {
+   "lead": 0.3,
+   "ease": true,
+   "drift": 0,
+   "push": 0.07,
+   "focus": [
+    450,
+    430
+   ],
+   "pan": [
+    0,
+    0,
+    -18,
+    0
+   ],
+   "in": "blur",
+   "blur": 26,
+   "in_dur": 1.4
+  },
+  "c9-san-thuong": {
+   "lead": 0.3,
+   "ease": true,
+   "drift": 0,
+   "push": -0.07,
+   "focus": [
+    520,
+    700
+   ],
+   "pan": [
+    0,
+    30,
+    0,
+    0
+   ],
+   "zoom0": 0.1,
+   "in": "blur",
+   "blur": 12,
+   "in_dur": 1.2
+  }
+ },
+ "watermark": {
+  "text": "@dark.sky.quotes",
+  "size": 30,
+  "x": 60,
+  "y": 1395,
+  "opacity": 0.45
+ },
+ "music_v2": true,
+ "music_step": 0.8
+}

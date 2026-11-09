@@ -1,0 +1,100 @@
+{
+ "voices": {
+  "minh": {
+   "preset": "Thiền Tâm Đức",
+   "pitch": 1.0,
+   "tempo": 1.12,
+   "af": "highpass=f=110,equalizer=f=300:t=q:w=1:g=-1.5,equalizer=f=3500:t=q:w=1.2:g=2,equalizer=f=6500:t=q:w=1:g=2,acompressor=threshold=-22dB:ratio=2:attack=15:release=200:makeup=2,loudnorm=I=-15:TP=-1.5:LRA=9"
+  }
+ },
+ "lead_in": 0.15,
+ "lines": [
+  {
+   "file": "b1_minh",
+   "voice": "minh",
+   "text": "Gọi về định nói thật, thì nghe má đang khoe với hàng xóm, con má làm công ty lớn trên thành phố.",
+   "tempo": 1.0,
+   "scene": "b1-ma-khoe",
+   "pause": 0.7,
+   "inner_pauses": []
+  },
+  {
+   "file": "b2_minh",
+   "voice": "minh",
+   "text": "Sáng thứ bảy gọi lại như đã hứa, câu định nói thật thì đã tập từ tối qua tới giờ.",
+   "tempo": 1.0,
+   "scene": "b2-goi-lai",
+   "pause": 0.7,
+   "inner_pauses": []
+  },
+  {
+   "file": "b3_minh",
+   "voice": "minh",
+   "text": "Má bắt máy mà còn quay ra sân nói với bà Năm, thôi bà khỏi cho vay, thằng Hai nó nói để nó lo.",
+   "tempo": 1.0,
+   "scene": "b3-ma-quay-lung",
+   "pause": 0.7,
+   "inner_pauses": []
+  },
+  {
+   "file": "b4_minh",
+   "voice": "minh",
+   "text": "Rồi má quay lại hỏi con lo được hông. Trong tài khoản chưa tới bốn triệu, mà nghe má khoe xong, miệng cứ nói dạ được.",
+   "tempo": 1.0,
+   "scene": "b4-ma-hoi",
+   "pause": 1.5,
+   "inner_pauses": [
+    {
+     "after_part": 0,
+     "sec": 0.4
+    }
+   ]
+  },
+  {
+   "file": "b5_minh",
+   "voice": "minh",
+   "text": "Nghe vậy má cười, ho khẽ một tiếng, rồi nói vậy là má yên tâm rồi.",
+   "tempo": 1.0,
+   "scene": "b5-ma-cuoi",
+   "pause": 0.7,
+   "inner_pauses": []
+  },
+  {
+   "file": "b6_minh",
+   "voice": "minh",
+   "text": "Cúp máy rồi ngồi tính, cuối tháng phải có mười hai triệu cho em. Xin việc văn phòng thì cũng phải hơn một tháng mới có lương.",
+   "tempo": 1.0,
+   "scene": "b6-tinh-tien",
+   "pause": 0.8,
+   "inner_pauses": [
+    {
+     "after_part": 1,
+     "sec": 0.4
+    }
+   ]
+  },
+  {
+   "file": "b7_minh",
+   "voice": "minh",
+   "text": "Tối đó tải ứng dụng giao hàng, điền số xe với chụp bằng lái.",
+   "tempo": 1.0,
+   "scene": "c7-tai-ung-dung",
+   "pause": 0.8,
+   "inner_pauses": []
+  },
+  {
+   "file": "b8_minh",
+   "voice": "minh",
+   "text": "Cả xóm của má giờ tin mình còn làm công ty lớn. Sáng mai mặc áo giao hàng ra đường, chỉ mong đừng gặp ai quen.",
+   "tempo": 1.0,
+   "scene": "c8-san-thuong",
+   "pause": 6.2,
+   "inner_pauses": [
+    {
+     "after_part": 0,
+     "sec": 0.4
+    }
+   ]
+  }
+ ]
+}

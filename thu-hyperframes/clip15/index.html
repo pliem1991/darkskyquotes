@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1080, height=1920" />
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"></script>
+    <style>
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body { width: 1080px; height: 1920px; overflow: hidden; background: #050608; }
+      #root { position: relative; width: 1080px; height: 1920px; font-family: "Inter", sans-serif; }
+      #gl { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; z-index: 0; }
+      .sub {
+        position: absolute; left: 60px; width: 870px; top: 1030px; z-index: 5;
+        text-align: center; color: #f6f0e4; font-weight: 600; font-size: 56px; line-height: 1.34;
+        -webkit-text-stroke: 7px rgba(8, 8, 10, 0.88); paint-order: stroke fill;
+        text-shadow: 0 4px 26px rgba(0, 0, 0, 0.85);
+      }
+      .sub span { display: block; opacity: 0; }
+      .bubble {
+        position: absolute; left: 515px; top: 330px; z-index: 6; transform: translateX(-50%);
+        white-space: nowrap; padding: 22px 34px; border-radius: 34px; font-size: 34px; font-weight: 500;
+        color: #1c2026; background: rgba(236, 238, 241, 0.96); box-shadow: 0 10px 40px rgba(0, 0, 0, 0.45);
+      }
+      .bubble span { display: block; opacity: 0; }
+      #card { position: absolute; left: 60px; width: 870px; top: 190px; z-index: 7; text-align: center; }
+      #card .main {
+        font-weight: 700; font-size: 104px; line-height: 1.22; color: #f6f0e4; letter-spacing: 2px;
+        text-shadow: 0 6px 36px rgba(0, 0, 0, 0.8), 0 0 40px rgba(120, 84, 44, 0.5);
+        background: linear-gradient(100deg, #f6f0e4 0%, #f6f0e4 38%, #fff6d6 50%, #f6f0e4 62%, #f6f0e4 100%);
+        background-size: 300% 100%; background-position: 100% 0;
+        -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;
+        filter: drop-shadow(0 6px 30px rgba(0, 0, 0, 0.8));
+      }
+      #card .tap { margin-top: 18px; font-weight: 600; font-size: 58px; color: #f6f0e4; letter-spacing: 8px; text-shadow: 0 4px 26px rgba(0, 0, 0, 0.85); }
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="main" data-start="0" data-duration="15" data-width="1080" data-height="1920">
+      <canvas id="gl" class="clip" data-start="0" data-duration="15" data-track-index="0" width="1080" height="1920"></canvas>
+
+      <div id="card" class="clip" data-start="0" data-duration="5.2" data-track-index="1">
+        <div class="main" id="cardMain">THÀNH PHỐ<br />KHÔNG SAO</div>
+        <div class="tap" id="cardTap">TẬP 1</div>
+      </div>
+
+      <div id="b1" class="bubble clip" data-start="7.6" data-duration="2.7" data-track-index="2"><span>Em lên phòng họp nhỏ chút nha.</span></div>
+
+      <div id="s1" class="sub clip" data-start="0.15" data-duration="1.1" data-track-index="3"><span>8 năm đi làm</span></div>
+      <div id="s2" class="sub clip" data-start="1.3" data-duration="2.6" data-track-index="3"><span>rồi kết thúc bằng một<br />chữ ký của chính mình.</span></div>
+      <div id="s3" class="sub clip" data-start="5.95" data-duration="1.6" data-track-index="3"><span>Chuyện bắt đầu<br />2 tuần trước</span></div>
+      <div id="s4" class="sub clip" data-start="7.66" data-duration="2.6" data-track-index="3"><span>khi chị nhân sự nhắn<br />lên phòng họp nhỏ.</span></div>
+      <div id="s5" class="sub clip" data-start="11.08" data-duration="1.8" data-track-index="3"><span>Chị nói công ty<br />tái cơ cấu</span></div>
+      <div id="s6" class="sub clip" data-start="12.78" data-duration="1.5" data-track-index="3"><span>mong em thông cảm</span></div>
+      <div id="s7" class="sub clip" data-start="14.5" data-duration="0.5" data-track-index="3"><span>rồi đẩy qua tờ</span></div>
+
+      <audio id="narr" data-start="0" data-duration="15" data-track-index="9" data-volume="1" src="assets/narration15.wav"></audio>
+    </div>
+
+    <script>
+      // ---- WebGL: ảnh vuông 1260px đặt như bản Python, dịch pixel theo bản đồ chiều sâu ----
+      const canvas = document.getElementById("gl");
+      const gl = canvas.getContext("webgl", { preserveDrawingBuffer: true, antialias: false });
+      const VS = "attribute vec2 p; void main(){ gl_Position = vec4(p, 0.0, 1.0); }";
+      const FS = `
+        precision highp float;
+        uniform sampler2D uImgA, uDepA, uImgB, uDepB;
+        uniform float uMix, uZA, uZB, uShA, uShB;
+        const vec2 RES = vec2(1080.0, 1920.0);
+        const float SIDE = 1260.0;
+        vec3 scene(sampler2D im, sampler2D dp, float z, float sh, vec2 px) {
+          vec2 centre = vec2(515.0, 150.0 + SIDE * 0.5);
+          vec2 q = (px - centre) / (SIDE * z) + 0.5;
+          float d = texture2D(dp, clamp(q, 0.0, 1.0)).r;
+          q += vec2((d - 0.5) * sh, (d - 0.5) * sh * 0.25);
+          float edge = min(min(q.x, 1.0 - q.x), min(q.y, 1.0 - q.y)) / (110.0 / SIDE);
+          float f = clamp(edge, 0.0, 1.0);
+          vec3 fg = texture2D(im, clamp(q, 0.0, 1.0)).rgb * 0.92;
+          // nền: ảnh phủ kín, làm mờ bằng vài mẫu rộng, tối dần về đáy
+          vec2 cu = vec2(0.5 + (px.x - 540.0) / 1920.0, px.y / 1920.0);
+          vec3 bg = vec3(0.0);
+          for (int i = 0; i < 8; i++) {
+            float a = float(i) * 0.785398;
+            bg += texture2D(im, cu + vec2(cos(a), sin(a)) * 0.18).rgb;
+          }
+          bg = bg / 8.0 * 0.3 * clamp(1.0 - (px.y - 1380.0) / 420.0, 0.12, 1.0);
+          return mix(bg, fg, f * f);
+        }
+        void main() {
+          vec2 px = vec2(gl_FragCoord.x, RES.y - gl_FragCoord.y);
+          vec3 a = scene(uImgA, uDepA, uZA, uShA, px);
+          vec3 b = scene(uImgB, uDepB, uZB, uShB, px);
+          gl_FragColor = vec4(mix(a, b, uMix), 1.0);
+        }`;
+      function sh(type, src) { const s = gl.createShader(type); gl.shaderSource(s, src); gl.compileShader(s); if (!gl.getShaderParameter(s, gl.COMPILE_STATUS)) throw new Error(gl.getShaderInfoLog(s)); return s; }
+      const prog = gl.createProgram();
+      gl.attachShader(prog, sh(gl.VERTEX_SHADER, VS));
+      gl.attachShader(prog, sh(gl.FRAGMENT_SHADER, FS));
+      gl.linkProgram(prog);
+      gl.useProgram(prog);
+      const buf = gl.createBuffer();
+      gl.bindBuffer(gl.ARRAY_BUFFER, buf);
+      gl.bufferData(gl.ARRAY_BUFFER, new Float32Array([-1, -1, 1, -1, -1, 1, 1, 1]), gl.STATIC_DRAW);
+      const loc = gl.getAttribLocation(prog, "p");
+      gl.enableVertexAttribArray(loc);
+      gl.vertexAttribPointer(loc, 2, gl.FLOAT, false, 0, 0);
+      const U = (n) => gl.getUniformLocation(prog, n);
+
+      function load(url, unit) {
+        return new Promise((res, rej) => {
+          const img = new Image();
+          img.onload = () => {
+            const tex = gl.createTexture();
+            gl.activeTexture(gl.TEXTURE0 + unit);
+            gl.bindTexture(gl.TEXTURE_2D, tex);
+            gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGBA, gl.RGBA, gl.UNSIGNED_BYTE, img);
+            gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MIN_FILTER, gl.LINEAR);
+            gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MAG_FILTER, gl.LINEAR);
+            gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_S, gl.CLAMP_TO_EDGE);
+            gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_T, gl.CLAMP_TO_EDGE);
+            res();
+          };
+          img.onerror = rej;
+          img.src = url;
+        });
+      }
+      ["uImgA", "uDepA", "uImgB", "uDepB"].forEach((n, i) => gl.uniform1i(U(n), i));
+      const ready = Promise.all([
+        load("assets/c1-ky-giay.png", 0), load("assets/c1-ky-giay.depth.png", 1),
+        load("assets/c2-phong-hop.png", 2), load("assets/c2-phong-hop.depth.png", 3),
+      ]);
+      window.__hf = window.__hf || {};
+      window.__hf.buildReady = window.__hf.buildReady || {};
+      window.__hf.buildReady.textures = ready;
+
+      const clamp01 = (x) => Math.min(Math.max(x, 0), 1);
+      const smooth = (x) => { x = clamp01(x); return x * x * (3 - 2 * x); };
+      function renderAt(t) {
+        const mix = smooth((t - 5.55) / 0.9);
+        const pA = clamp01(t / 6.4), pB = clamp01((t - 5.55) / 12);
+        gl.viewport(0, 0, 1080, 1920);
+        gl.uniform1f(U("uMix"), mix);
+        gl.uniform1f(U("uZA"), 1 + 0.08 * pA);
+        gl.uniform1f(U("uZB"), 1 + 0.07 * pB);
+        gl.uniform1f(U("uShA"), 0.03 * (pA - 0.5));
+        gl.uniform1f(U("uShB"), 0.03 * (pB - 0.5));
+        gl.drawArrays(gl.TRIANGLE_STRIP, 0, 4);
+      }
+      window.addEventListener("hf-seek", (e) => {
+        e.detail.waitUntil && e.detail.waitUntil(ready.then(() => renderAt(e.detail.time)));
+        ready.then(() => renderAt(e.detail.time));
+      });
+      ready.then(() => renderAt(0));
+
+      // ---- Chữ: thẻ tên series, bong bóng, phụ đề ----
+      const tl = gsap.timeline({ paused: true });
+      // vệt sáng lướt qua tên series rồi mờ đi sau câu đầu
+      tl.fromTo("#cardMain", { backgroundPosition: "100% 0" }, { backgroundPosition: "0% 0", duration: 1.8, ease: "power2.inOut" }, 0.15);
+      tl.fromTo("#cardTap", { opacity: 0.0 }, { opacity: 1, duration: 0.5, ease: "power2.out" }, 0.0);
+      tl.fromTo("#cardMain", { opacity: 1 }, { opacity: 0, duration: 0.9, ease: "power1.inOut" }, 4.2);
+      tl.fromTo("#cardTap", { opacity: 1 }, { opacity: 0, duration: 0.9, ease: "power1.inOut" }, 4.2);
+      const subs = [["s1", 0.15, 1.25], ["s2", 1.3, 3.9], ["s3", 5.95, 7.55], ["s4", 7.66, 10.2], ["s5", 11.08, 12.8], ["s6", 12.78, 14.25], ["s7", 14.5, 15]];
+      subs.forEach(([id, a, b]) => {
+        tl.fromTo(`#${id} span`, { opacity: 0, y: 10 }, { opacity: 1, y: 0, duration: 0.3, ease: "power2.out" }, a);
+        tl.fromTo(`#${id} span`, { opacity: 1 }, { opacity: 0, duration: 0.25, ease: "power1.in" }, Math.min(b, 14.7) - 0.25);
+      });
+      tl.fromTo("#b1 span", { opacity: 0, y: -18 }, { opacity: 1, y: 0, duration: 0.45, ease: "power2.out" }, 7.6);
+      tl.fromTo("#b1 span", { opacity: 1 }, { opacity: 0, duration: 0.4, ease: "power1.in" }, 9.9);
+      window.__timelines = window.__timelines || {};
+      window.__timelines["main"] = tl;
+      tl.seek(0);
+    </script>
+  </body>
+</html>

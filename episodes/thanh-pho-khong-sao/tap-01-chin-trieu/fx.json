@@ -1,0 +1,911 @@
+{
+ "_note": "Tọa độ ảnh theo khung 896x896. Mốc [câu, tỉ lệ] hoặc [[câu, vế], tỉ lệ]. Dựng bằng tools/render_series.py. Không nhạc nền.",
+ "emphasis": {
+  "còn đúng 9 triệu.": 64,
+  "Mà mình còn có 9.": 64,
+  "Con không sao đâu má.": 60,
+  "sáng tới mức không thấy được ngôi sao nào.": 58,
+  "8 năm đi làm": 60
+ },
+ "digits": {
+  "Tám năm": "8 năm",
+  "tám năm": "8 năm",
+  "tám tuổi": "8 tuổi",
+  "hai tuần": "2 tuần",
+  "chín triệu": "9 triệu",
+  "mười hai triệu": "12 triệu",
+  "có chín": "có 9"
+ },
+ "hide_subs": [
+  [
+   6,
+   2
+  ],
+  [
+   6,
+   3
+  ]
+ ],
+ "hook": {
+  "sweep": [
+   0,
+   0
+  ],
+  "rows": []
+ },
+ "card": {
+  "main": "THÀNH PHỐ|KHÔNG SAO",
+  "sub": "TẬP 1",
+  "y": 190,
+  "gap": 290,
+  "size": 104,
+  "sub_size": 58,
+  "hold": 0.3
+ },
+ "overlays": [
+  {
+   "scene": "c2-phong-hop",
+   "type": "message",
+   "text": "Em lên phòng họp nhỏ chút nha.",
+   "at": [
+    "center",
+    262
+   ],
+   "show": [
+    "w",
+    [
+     1,
+     "khi chị nhân sự"
+    ]
+   ],
+   "hide": [
+    "w",
+    [
+     1,
+     "mong em thông cảm"
+    ]
+   ]
+  },
+  {
+   "scene": "c4-tra-the",
+   "type": "notice",
+   "text": "Bạn đã bị xóa khỏi nhóm Phòng XNK",
+   "at": [
+    "center",
+    224
+   ],
+   "size": 30,
+   "show": [
+    "w",
+    [
+     3,
+     "điện thoại báo"
+    ]
+   ],
+   "hide": [
+    "we",
+    [
+     3,
+     "của phòng"
+    ]
+   ],
+   "hold": 1.0
+  },
+  {
+   "scene": "c6-phong-tro",
+   "type": "counter",
+   "label": "Ngày 1 · Tài khoản",
+   "value": 9000000,
+   "instant": true,
+   "start": [
+    "w",
+    [
+     5,
+     "chín triệu"
+    ]
+   ],
+   "y": 1215,
+   "size": 96
+  },
+  {
+   "scene": "c7-cuoc-goi",
+   "type": "call",
+   "text": "Con ăn cơm chưa con?|Bữa nay đi làm có mệt hông?",
+   "size": 32,
+   "at": [
+    "center",
+    548
+   ],
+   "show": [
+    "w",
+    [
+     6,
+     "con ăn cơm chưa con"
+    ]
+   ],
+   "hide": [
+    "we",
+    [
+     6,
+     "mệt hông"
+    ]
+   ],
+   "hold": 0.3
+  },
+  {
+   "scene": "c8-tin-nhan",
+   "type": "phone",
+   "quad": [
+    [
+     170,
+     562
+    ],
+    [
+     297,
+     538
+    ],
+    [
+     340,
+     636
+    ],
+    [
+     200,
+     664
+    ]
+   ],
+   "tex": [
+    270,
+    200
+   ],
+   "size": 30,
+   "top": 6,
+   "row": 38,
+   "lines": [
+    {
+     "text": "Anh Hai ơi,",
+     "at": [
+      "we",
+      [
+       7,
+       "nhắn tin"
+      ]
+     ]
+    },
+    {
+     "text": "học phí kỳ này",
+     "at": [
+      "w",
+      [
+       7,
+       "học phí kỳ này"
+      ]
+     ]
+    },
+    {
+     "text": "12 triệu,",
+     "at": [
+      "w",
+      [
+       7,
+       "mười hai triệu"
+      ]
+     ]
+    },
+    {
+     "text": "hạn cuối tháng",
+     "at": [
+      "w",
+      [
+       7,
+       "hạn cuối tháng"
+      ]
+     ]
+    },
+    {
+     "text": "nha anh.",
+     "at": [
+      "we",
+      [
+       7,
+       "hạn cuối tháng"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "scene": "c9-san-thuong",
+   "type": "end",
+   "text": "Bạn đã từng nói|“con không sao”|khi đang không ổn chưa?",
+   "start": [
+    "we",
+    [
+     8,
+     "ngôi sao nào"
+    ]
+   ],
+   "delay": 2.0,
+   "y": 290,
+   "size": 56,
+   "fade": 0.8
+  }
+ ],
+ "scenes": {
+  "c1-ky-giay": {
+   "push": 0.12,
+   "focus": [
+    480,
+    500
+   ],
+   "pan": [
+    0,
+    0,
+    -18,
+    -10
+   ],
+   "glows": [
+    {
+     "at": [
+      800,
+      70
+     ],
+     "sigma": 130,
+     "gain": 0.15,
+     "tint": [
+      50,
+      34,
+      14
+     ],
+     "flicker": 0.05
+    }
+   ],
+   "motes": [
+    {
+     "box": [
+      560,
+      0,
+      896,
+      330
+     ],
+     "n": 14,
+     "gain": 60,
+     "color": [
+      255,
+      225,
+      170
+     ]
+    }
+   ],
+   "ease": true
+  },
+  "c2-phong-hop": {
+   "in": "blur",
+   "in_dur": 1.4,
+   "lead": 0.3,
+   "push": -0.08,
+   "focus": [
+    450,
+    520
+   ],
+   "pan": [
+    0,
+    0,
+    -18,
+    0
+   ],
+   "glows": [
+    {
+     "at": [
+      450,
+      40
+     ],
+     "sigma": 200,
+     "gain": 0.15,
+     "tint": [
+      20,
+      26,
+      34
+     ]
+    }
+   ],
+   "ease": true,
+   "zoom0": 0.1
+  },
+  "c3-ban-giao": {
+   "in": "fade",
+   "in_dur": 0.001,
+   "lead": 1.631,
+   "push": 0.1,
+   "focus": [
+    520,
+    470
+   ],
+   "pan": [
+    30,
+    0,
+    -20,
+    0
+   ],
+   "glows": [
+    {
+     "at": [
+      800,
+      60
+     ],
+     "sigma": 150,
+     "gain": 0.25,
+     "tint": [
+      50,
+      34,
+      14
+     ],
+     "flicker": 0.04
+    }
+   ],
+   "motes": [
+    {
+     "box": [
+      560,
+      0,
+      896,
+      400
+     ],
+     "n": 12,
+     "gain": 50,
+     "color": [
+      255,
+      225,
+      170
+     ]
+    }
+   ],
+   "ease": true
+  },
+  "c4-tra-the": {
+   "in": "blur",
+   "in_dur": 1.0,
+   "lead": 0.3,
+   "push": 0.1,
+   "focus": [
+    440,
+    480
+   ],
+   "pan": [
+    0,
+    80,
+    0,
+    80
+   ],
+   "glows": [
+    {
+     "at": [
+      450,
+      60
+     ],
+     "sigma": 220,
+     "gain": 0.15,
+     "tint": [
+      40,
+      30,
+      14
+     ],
+     "flicker": 0.03
+    }
+   ],
+   "ease": true,
+   "blur": 12
+  },
+  "c5-duong-ve": {
+   "in": "dip",
+   "in_dur": 1.5,
+   "lead": 0.3,
+   "push": 0.06,
+   "focus": [
+    448,
+    420
+   ],
+   "pan": [
+    50,
+    0,
+    -50,
+    0
+   ],
+   "rain": {
+    "box": [
+     0,
+     0,
+     896,
+     896
+    ],
+    "gain": 22
+   },
+   "shimmer": {
+    "from_y": 600,
+    "amp": 4
+   },
+   "ease": true
+  },
+  "c6-phong-tro": {
+   "in": "blur",
+   "in_dur": 1.2,
+   "lead": 0.3,
+   "push": 0.12,
+   "focus": [
+    260,
+    520
+   ],
+   "pan": [
+    0,
+    0,
+    8,
+    0
+   ],
+   "glows": [
+    {
+     "at": [
+      453,
+      70
+     ],
+     "sigma": 150,
+     "gain": 0.55,
+     "tint": [
+      70,
+      48,
+      18
+     ],
+     "flicker": 0.12
+    }
+   ],
+   "motes": [
+    {
+     "box": [
+      330,
+      60,
+      620,
+      520
+     ],
+     "n": 10,
+     "gain": 50,
+     "color": [
+      255,
+      215,
+      160
+     ]
+    }
+   ],
+   "ease": true,
+   "blur": 12
+  },
+  "c7-cuoc-goi": {
+   "in": "blur",
+   "in_dur": 1.3,
+   "lead": 0.3,
+   "push": 0.06,
+   "focus": [
+    448,
+    440
+   ],
+   "drift": 0,
+   "parallax": 0.02,
+   "sub_y": 1215,
+   "ease": true
+  },
+  "c8-tin-nhan": {
+   "in": "fade",
+   "in_dur": 0.001,
+   "lead": 0.316,
+   "zoom0": 0.9,
+   "push": 0.3,
+   "focus": [
+    219,
+    525
+   ],
+   "pan": [
+    140,
+    -30,
+    121,
+    -26
+   ],
+   "drift": 0,
+   "parallax": 0,
+   "glows": [
+    {
+     "at": [
+      219,
+      525
+     ],
+     "sigma": 90,
+     "gain": 0.3,
+     "tint": [
+      40,
+      70,
+      70
+     ],
+     "flicker": 0.03
+    }
+   ],
+   "beats": false
+  },
+  "c9-san-thuong": {
+   "in": "dip",
+   "in_dur": 2.2,
+   "lead": 0.3,
+   "push": -0.07,
+   "focus": [
+    450,
+    620
+   ],
+   "drift": 0,
+   "glows": [
+    {
+     "at": [
+      450,
+      560
+     ],
+     "sigma": 220,
+     "gain": 0.2,
+     "tint": [
+      50,
+      30,
+      10
+     ]
+    }
+   ],
+   "ease": true,
+   "zoom0": 0.1,
+   "pan": [
+    0,
+    30,
+    0,
+    0
+   ]
+  }
+ },
+ "chords": [
+  "Am",
+  "F",
+  "Dm",
+  "Am"
+ ],
+ "final_arpeggio": false,
+ "theme": {
+  "notes": [
+   76,
+   74,
+   72,
+   74,
+   71
+  ],
+  "gap": 1.0,
+  "vel": 0.55,
+  "count": 5
+ },
+ "music_end": [
+  "we",
+  [
+   8,
+   "ngôi sao nào"
+  ]
+ ],
+ "music_busy": [
+  "w",
+  [
+   5,
+   "còn đúng"
+  ]
+ ],
+ "music_lufs": -24,
+ "music_highpass": 140,
+ "music_fade": 1.8,
+ "quiet": [
+  [
+   [
+    "we",
+    [
+     5,
+     "chín triệu"
+    ]
+   ],
+   [
+    6,
+    0.0
+   ]
+  ],
+  [
+   [
+    "we",
+    [
+     6,
+     "ăn rồi má"
+    ]
+   ],
+   [
+    8,
+    0.0
+   ]
+  ]
+ ],
+ "notes": [
+  {
+   "at": [
+    "we",
+    [
+     7,
+     "còn có chín"
+    ]
+   ],
+   "delay": 0.3,
+   "m": 45,
+   "vel": 0.7
+  }
+ ],
+ "music": [
+  [
+   0,
+   0.0,
+   0.6
+  ],
+  [
+   "w",
+   [
+    5,
+    "còn đúng"
+   ],
+   0.6
+  ],
+  [
+   "we",
+   [
+    5,
+    "chín triệu"
+   ],
+   0.95
+  ],
+  [
+   6,
+   0.0,
+   0.45
+  ],
+  [
+   "we",
+   [
+    6,
+    "ăn rồi má"
+   ],
+   0.45
+  ],
+  [
+   "w",
+   [
+    6,
+    "không sao đâu má"
+   ],
+   0.05
+  ],
+  [
+   "we",
+   [
+    7,
+    "còn có chín"
+   ],
+   0.05
+  ],
+  [
+   7,
+   1.0,
+   0.9
+  ],
+  [
+   8,
+   0.0,
+   0.3
+  ],
+  [
+   "we",
+   [
+    8,
+    "ngôi sao nào"
+   ],
+   0.3
+  ],
+  [
+   8,
+   1.0,
+   0.95
+  ]
+ ],
+ "sfx_lufs": -30,
+ "sfx": [
+  {
+   "type": "pen",
+   "at": [
+    0,
+    1.0
+   ],
+   "end": [
+    0,
+    1.0
+   ],
+   "gain": 1.2,
+   "delay": 0.35,
+   "end_delay": 1.05
+  },
+  {
+   "type": "whoosh",
+   "at": [
+    1,
+    0.0
+   ],
+   "delay": -0.9,
+   "dur": 1.2,
+   "gain": 1.05,
+   "lo": 300,
+   "hi": 2500
+  },
+  {
+   "type": "whoosh",
+   "at": [
+    "we",
+    [
+     1,
+     "phòng họp nhỏ"
+    ]
+   ],
+   "delay": 0.0,
+   "dur": 0.8,
+   "gain": 0.6,
+   "lo": 2000,
+   "hi": 7000
+  },
+  {
+   "type": "typing",
+   "at": [
+    2,
+    0.0
+   ],
+   "end": [
+    2,
+    1.0
+   ],
+   "gain": 1.5
+  },
+  {
+   "type": "chime",
+   "at": [
+    "we",
+    [
+     3,
+     "thang máy"
+    ]
+   ],
+   "delay": 0.05,
+   "gain": 3.0
+  },
+  {
+   "type": "buzz",
+   "at": [
+    "w",
+    [
+     3,
+     "điện thoại báo"
+    ]
+   ],
+   "delay": 0.05,
+   "gain": 4.0
+  },
+  {
+   "type": "rain",
+   "at": [
+    4,
+    0.0
+   ],
+   "delay": -0.8,
+   "end": [
+    4,
+    1.0
+   ],
+   "end_delay": 3.0,
+   "gain": 1.0
+  },
+  {
+   "type": "traffic",
+   "at": [
+    4,
+    0.0
+   ],
+   "delay": -0.8,
+   "end": [
+    4,
+    1.0
+   ],
+   "end_delay": 3.0,
+   "gain": 0.9
+  },
+  {
+   "type": "rain",
+   "at": [
+    5,
+    0.0
+   ],
+   "delay": -0.5,
+   "end": [
+    6,
+    0.0
+   ],
+   "end_delay": -0.4,
+   "gain": 0.35
+  },
+  {
+   "type": "hum",
+   "at": [
+    5,
+    0.0
+   ],
+   "delay": -0.5,
+   "end": [
+    6,
+    0.0
+   ],
+   "end_delay": -0.4,
+   "gain": 0.12
+  },
+  {
+   "type": "ring",
+   "at": [
+    6,
+    0.0
+   ],
+   "delay": -2.3,
+   "count": 2,
+   "gain": 2.0
+  },
+  {
+   "type": "click",
+   "at": [
+    6,
+    0.0
+   ],
+   "delay": -0.35,
+   "gain": 2.0
+  },
+  {
+   "type": "pop",
+   "at": [
+    "we",
+    [
+     7,
+     "nhắn tin"
+    ]
+   ],
+   "delay": 0.15,
+   "gain": 3.0
+  },
+  {
+   "type": "wind",
+   "at": [
+    8,
+    0.0
+   ],
+   "delay": -1.2,
+   "gain": 0.8
+  },
+  {
+   "type": "traffic",
+   "at": [
+    8,
+    0.0
+   ],
+   "delay": -1.2,
+   "gain": 0.45
+  },
+  {
+   "type": "thud",
+   "at": [
+    8,
+    0.0
+   ],
+   "delay": -1.6,
+   "gain": 2.0
+  }
+ ]
+}

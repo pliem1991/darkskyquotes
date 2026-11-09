@@ -1,0 +1,155 @@
+{
+ "voices": {
+  "minh": {
+   "preset": "Thiền Tâm Đức",
+   "pitch": 1.0,
+   "tempo": 1.12,
+   "af": "highpass=f=110,equalizer=f=300:t=q:w=1:g=-1.5,equalizer=f=3500:t=q:w=1.2:g=2,equalizer=f=6500:t=q:w=1:g=2,acompressor=threshold=-22dB:ratio=2:attack=15:release=200:makeup=2,loudnorm=I=-15:TP=-1.5:LRA=9"
+  }
+ },
+ "lead_in": 1.6,
+ "lines": [
+  {
+   "file": "c1_minh",
+   "voice": "minh",
+   "text": "Mười giờ sáng, cô Sáu chủ trọ gõ cửa, nhìn vô rồi hỏi bữa nay sao hông đi làm.",
+   "tempo": 1.0,
+   "scene": "c1-go-cua",
+   "pause": 1.2,
+   "inner_pauses": [
+    {
+     "after_part": 1,
+     "sec": 0.4
+    }
+   ]
+  },
+  {
+   "file": "c2_minh",
+   "voice": "minh",
+   "text": "Nói thật thì sợ cô lo tiền phòng, nên nói dạ con xin nghỉ phép mấy bữa. Cô gật đầu, mà trước khi đi vẫn dặn, tiền phòng mùng năm nha con, đừng để cô lên hỏi.",
+   "tempo": 1.0,
+   "scene": "c2-co-sau",
+   "pause": 1.2,
+   "inner_pauses": [
+    {
+     "after_part": 1,
+     "sec": 0.6
+    },
+    {
+     "after_part": 3,
+     "sec": 0.4
+    },
+    {
+     "after_part": 4,
+     "sec": 0.3
+    }
+   ]
+  },
+  {
+   "file": "c3_minh",
+   "voice": "minh",
+   "text": "Cô đi rồi, nhét cái balo của công ty xuống gầm giường. Nó nằm giữa phòng từ tối qua, ai nhìn vô cũng thấy.",
+   "tempo": 1.0,
+   "scene": "c3-gam-giuong",
+   "pause": 1.2,
+   "inner_pauses": [
+    {
+     "after_part": 1,
+     "sec": 0.6
+    }
+   ]
+  },
+  {
+   "file": "c4_minh",
+   "voice": "minh",
+   "text": "Lấy cuốn sổ đem về từ công ty ra tính. Mấy trang đầu còn ghi lịch giao hàng, lật qua trang trắng, ghi tiền phòng ba triệu rưỡi, tiền góp điện thoại một triệu hai.",
+   "tempo": 1.0,
+   "scene": "c4-cuon-so",
+   "pause": 1.2,
+   "inner_pauses": [
+    {
+     "after_part": 0,
+     "sec": 0.5
+    },
+    {
+     "after_part": 2,
+     "sec": 0.8
+    }
+   ]
+  },
+  {
+   "file": "c5_minh",
+   "voice": "minh",
+   "text": "Chín triệu trừ ra còn bốn triệu ba, để ăn với đổ xăng tới hồi có việc. Học phí của em thì chưa biết lấy đâu ra.",
+   "tempo": 1.0,
+   "scene": "c5-mep-giuong",
+   "pause": 1.0,
+   "inner_pauses": [
+    {
+     "after_part": 1,
+     "sec": 0.5
+    }
+   ]
+  },
+  {
+   "file": "c6_minh",
+   "voice": "minh",
+   "text": "Trưa gọi lên công ty hỏi chừng nào chốt sổ bảo hiểm. Chị nhân sự nói kế toán đang làm, tuần sau em gọi lại nha.",
+   "tempo": 1.0,
+   "scene": "c6-goi-cong-ty",
+   "pause": 1.5,
+   "inner_pauses": [
+    {
+     "after_part": 0,
+     "sec": 0.6
+    }
+   ]
+  },
+  {
+   "file": "c7_minh",
+   "voice": "minh",
+   "text": "Mở ứng dụng bảo hiểm ra coi, mấy tháng gần đây vẫn chưa thấy công ty đóng. Sổ chưa chốt thì chưa nộp được hồ sơ thất nghiệp.",
+   "tempo": 1.0,
+   "scene": "c7-nam-dat",
+   "pause": 3.0,
+   "inner_pauses": [
+    {
+     "after_part": 1,
+     "sec": 0.5
+    }
+   ]
+  },
+  {
+   "file": "c8_minh",
+   "voice": "minh",
+   "text": "Chiều ra đầu hẻm, đứng coi bảng giá một hồi rồi kêu ổ bánh mì ốp la, mười ngàn.",
+   "tempo": 1.0,
+   "scene": "c8-banh-mi",
+   "pause": 1.6,
+   "inner_pauses": [
+    {
+     "after_part": 1,
+     "sec": 0.4
+    }
+   ]
+  },
+  {
+   "file": "c9_minh",
+   "voice": "minh",
+   "text": "Tối lên sân thượng ngồi, cả ngày đếm tiền rồi, giờ đếm đèn nhà người ta. Đèn nhiều vậy mà không có cái nào là sao.",
+   "tempo": 1.0,
+   "scene": "c9-san-thuong",
+   "pause": 6.5,
+   "inner_pauses": [
+    {
+     "after_part": 0,
+     "sec": 0.3
+    },
+    {
+     "after_part": 2,
+     "sec": 0.7
+    }
+   ]
+  }
+ ]
+}

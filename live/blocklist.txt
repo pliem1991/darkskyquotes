@@ -1,0 +1,26 @@
+# Từ cấm trong tên và bình luận, mỗi dòng một từ. Khớp theo nguyên từ, không phân biệt hoa thường.
+địt
+đụ
+lồn
+cặc
+buồi
+đéo
+đĩ
+điếm
+chó đẻ
+mẹ mày
+bố mày
+đm
+dm
+dcm
+đcm
+đmm
+vcl
+vkl
+clm
+cc
+loz
+cl
+ngu
+óc chó
+súc vật

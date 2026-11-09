@@ -1,0 +1,35 @@
+# Công cụ và mô hình cài trên máy: máy khác tự cài theo SETUP.md
+.tools/
+node_modules/
+live/.cache/
+__pycache__/
+*.pyc
+
+# File nặng: video, ảnh, âm thanh, mô hình
+*.mp4
+*.mov
+*.webm
+*.wav
+*.mp3
+*.m4a
+*.flac
+*.jpg
+*.jpeg
+*.png
+*.webp
+*.gif
+*.safetensors
+*.ckpt
+*.bin
+*.onnx
+*.zip
+
+# File phụ khi dựng
+*.log
+*.err
+*.bak*
+tools/tam/
+thu-hyperframes/clip15/.hyperframes/
+
+# Ngoại lệ: mặt nạ nhỏ mà tools/xoa_dau_gemini.py cần
+!tools/gemini_alpha_1024.png

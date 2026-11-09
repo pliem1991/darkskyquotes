@@ -1,0 +1,36 @@
+{
+ "lines": [
+  {
+   "text": "Đơn giao hàng đầu tiên trong đời,|chạy lòng vòng trong hẻm mười lăm phút,|chưa tìm ra nhà thì khách hủy.",
+   "scene": "c1-khach-huy"
+  },
+  {
+   "text": "Hồ sơ được duyệt lúc năm giờ sáng chủ nhật,|tới bảy giờ thì ứng dụng báo có đơn.",
+   "scene": "c2-nam-gio-sang"
+  },
+  {
+   "text": "Chạy chiếc xe tám năm chở mình đi làm,|áo mưa trùm kín cái áo giao hàng mua tối qua,|không ai nhận ra mình.",
+   "scene": "c3-chay-mua"
+  },
+  {
+   "text": "Hai ly cà phê sữa đó coi như của mình.|Ngồi dưới mái hiên tiệm thuốc tây chờ đơn,|uống hết một ly,|ly kia treo lại trên xe.",
+   "scene": "c4-mai-hien"
+  },
+  {
+   "text": "Tới trưa thì tạnh mưa,|cởi áo mưa ra,|chạy ngang đầu hẻm thì chú Tư nhìn cái áo một hồi.|Rồi chú nói,|giờ con cũng mặc cái áo giành khách của chú rồi đó.",
+   "scene": "c5-chu-tu"
+  },
+  {
+   "text": "Mình đưa chú ly cà phê còn lại.|Đá tan hết rồi mà chú vẫn uống một hơi,|xong dặn,|số nhà có dấu xẹt thì đừng tin bản đồ,|cứ hỏi xe ôm đầu hẻm.",
+   "scene": "c6-ly-ca-phe"
+  },
+  {
+   "text": "Buổi chiều lạc hai lần,|lần nào cũng ghé hỏi xe ôm đầu hẻm,|chạy thêm mười đơn,|tới chín giờ tối mới về.",
+   "scene": "c7-hoi-duong"
+  },
+  {
+   "text": "Cả ngày được một trăm tám mươi ngàn,|chưa trừ tiền xăng.|Muốn đủ mười hai triệu cho em,|ngày nào cũng phải kiếm hơn gấp đôi vậy.",
+   "scene": "c8-san-thuong"
+  }
+ ]
+}

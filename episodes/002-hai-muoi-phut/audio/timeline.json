@@ -1,0 +1,240 @@
+{
+ "duration": 61.022,
+ "lines": [
+  {
+   "text": "Vừa mất việc, nhìn đâu cũng thấy tối om.",
+   "scene": "toi-om",
+   "start": 0.1,
+   "end": 2.921,
+   "parts": [
+    {
+     "text": "Vừa mất việc, nhìn đâu cũng thấy tối om.",
+     "start": 0.1,
+     "end": 2.921,
+     "score": 0.889,
+     "heard": "vừa mất việc nhìn đâu cũng thấy tối âm."
+    }
+   ]
+  },
+  {
+   "text": "Sáng nay chuông vẫn reo,|bạn vội bật dậy,|rồi mới sực nhớ,|mình đâu còn chỗ để đi.",
+   "scene": "chuong-reo",
+   "start": 3.821,
+   "end": 10.99,
+   "parts": [
+    {
+     "text": "Sáng nay chuông vẫn reo,",
+     "start": 3.821,
+     "end": 5.385,
+     "score": 0.8,
+     "heard": "Sáng nay chung vẫn reo."
+    },
+    {
+     "text": "bạn vội bật dậy,",
+     "start": 5.785,
+     "end": 7.125,
+     "score": 0.75,
+     "heard": "đẳng vội bật dậy."
+    },
+    {
+     "text": "rồi mới sực nhớ,",
+     "start": 7.475,
+     "end": 8.801,
+     "score": 1.0,
+     "heard": "Rồi mới sực nhớ!"
+    },
+    {
+     "text": "mình đâu còn chỗ để đi.",
+     "start": 9.301,
+     "end": 10.99,
+     "score": 1.0,
+     "heard": "Mình đâu còn chỗ để đi."
+    }
+   ]
+  },
+  {
+   "text": "Tối mở điện thoại,|đồng nghiệp cũ đang liên hoan,",
+   "scene": "dien-thoai",
+   "start": 12.19,
+   "end": 15.526,
+   "parts": [
+    {
+     "text": "Tối mở điện thoại,",
+     "start": 12.19,
+     "end": 13.326,
+     "score": 1.0,
+     "heard": "Tối mở điện thoại."
+    },
+    {
+     "text": "đồng nghiệp cũ đang liên hoan,",
+     "start": 13.726,
+     "end": 15.526,
+     "score": 1.0,
+     "heard": "Đồng nghiệp cũ đang liên hoan."
+    }
+   ]
+  },
+  {
+   "text": "ở đúng cái bàn bạn hay ngồi.",
+   "scene": "lien-hoan",
+   "start": 15.776,
+   "end": 17.646,
+   "parts": [
+    {
+     "text": "ở đúng cái bàn bạn hay ngồi.",
+     "start": 15.776,
+     "end": 17.646,
+     "score": 0.857,
+     "heard": "ở đúng cái bàn bàn hay ngồi."
+    }
+   ]
+  },
+  {
+   "text": "Từ trong nhà sáng đèn bước ra ngoài, ngước lên,|chẳng thấy ngôi sao nào.",
+   "scene": "ra-ngoai",
+   "start": 18.846,
+   "end": 23.641,
+   "parts": [
+    {
+     "text": "Từ trong nhà sáng đèn bước ra ngoài, ngước lên,",
+     "start": 18.846,
+     "end": 21.832,
+     "score": 1.0,
+     "heard": "Từ trong nhà sáng đèn bước ra ngoài, ngước lên."
+    },
+    {
+     "text": "chẳng thấy ngôi sao nào.",
+     "start": 22.282,
+     "end": 23.641,
+     "score": 1.0,
+     "heard": "Chẳng thấy ngôi sao nào?"
+    }
+   ]
+  },
+  {
+   "text": "Mắt người cần khoảng hai mươi đến ba mươi phút,|mới quen được với bóng tối.",
+   "scene": "con-mat",
+   "start": 24.941,
+   "end": 30.255,
+   "parts": [
+    {
+     "text": "Mắt người cần khoảng hai mươi đến ba mươi phút,",
+     "start": 24.941,
+     "end": 27.896,
+     "score": 0.5,
+     "heard": "Mắc người cần khoảng 20-30 phút."
+    },
+    {
+     "text": "mới quen được với bóng tối.",
+     "start": 28.346,
+     "end": 30.255,
+     "score": 1.0,
+     "heard": "mới quen được với bóng tối."
+    }
+   ]
+  },
+  {
+   "text": "Mà chỉ cần nhìn vào đèn sáng một lúc,|là mắt phải quen lại.",
+   "scene": "den-xe",
+   "start": 31.455,
+   "end": 35.617,
+   "parts": [
+    {
+     "text": "Mà chỉ cần nhìn vào đèn sáng một lúc,",
+     "start": 31.455,
+     "end": 33.825,
+     "score": 1.0,
+     "heard": "mà chỉ cần nhìn vào đèn sáng một lúc."
+    },
+    {
+     "text": "là mắt phải quen lại.",
+     "start": 34.275,
+     "end": 35.617,
+     "score": 0.8,
+     "heard": "là mắt phải quên lại."
+    }
+   ]
+  },
+  {
+   "text": "Mỗi lần mở lại tấm ảnh đó,|là một lần bật đèn vào mắt mình.",
+   "scene": "bat-den",
+   "start": 36.817,
+   "end": 41.525,
+   "parts": [
+    {
+     "text": "Mỗi lần mở lại tấm ảnh đó,",
+     "start": 36.817,
+     "end": 38.764,
+     "score": 1.0,
+     "heard": "Mỗi lần mở lại tấm ảnh đó."
+    },
+    {
+     "text": "là một lần bật đèn vào mắt mình.",
+     "start": 39.264,
+     "end": 41.525,
+     "score": 1.0,
+     "heard": "là một lần bật đèn vào mắt mình."
+    }
+   ]
+  },
+  {
+   "text": "Tuần sau có khi vẫn chưa ai gọi lại.",
+   "scene": "im-lang",
+   "start": 42.825,
+   "end": 45.426,
+   "parts": [
+    {
+     "text": "Tuần sau có khi vẫn chưa ai gọi lại.",
+     "start": 42.825,
+     "end": 45.426,
+     "score": 1.0,
+     "heard": "tuần sau có khi vẫn chưa ai gọi lại."
+    }
+   ]
+  },
+  {
+   "text": "Đêm nay, tắt tấm ảnh đó đi,|rồi ngồi thêm một lúc.",
+   "scene": "ngoi-them",
+   "start": 47.026,
+   "end": 51.018,
+   "parts": [
+    {
+     "text": "Đêm nay, tắt tấm ảnh đó đi,",
+     "start": 47.026,
+     "end": 49.107,
+     "score": 1.0,
+     "heard": "Đêm nay, tắt tấm ảnh đó đi."
+    },
+    {
+     "text": "rồi ngồi thêm một lúc.",
+     "start": 49.607,
+     "end": 51.018,
+     "score": 1.0,
+     "heard": "rồi ngồi thêm một lúc."
+    }
+   ]
+  },
+  {
+   "text": "Khi trời đủ tối,|bạn mới thấy những vì sao.",
+   "scene": "them-sao",
+   "start": 52.318,
+   "end": 55.822,
+   "parts": [
+    {
+     "text": "Khi trời đủ tối,",
+     "start": 52.318,
+     "end": 53.453,
+     "score": 1.0,
+     "heard": "Khi trời đủ tối."
+    },
+    {
+     "text": "bạn mới thấy những vì sao.",
+     "start": 54.253,
+     "end": 55.822,
+     "score": 1.0,
+     "heard": "bạn mới thấy những vì sao."
+    }
+   ]
+  }
+ ]
+}

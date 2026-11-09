@@ -1,0 +1,520 @@
+=====================================================================
+  KÊNH DARKSKY QUOTES (@dark.sky.quotes) – TỔNG HỢP PLAN
+  Series: THÀNH PHỐ KHÔNG SAO
+  Cập nhật: 02/11/2026
+=====================================================================
+
+MỤC LỤC
+  1. Định hướng kênh
+  2. Sáu ý tưởng đột phá và đánh giá theo công cụ
+  3. Bộ công cụ và quy trình sản xuất
+  4. Series "Thành Phố Không Sao" – tổng quan
+  5. Nhân vật
+  6. Lịch đăng và lịch sản xuất
+  7. Dàn ý Mùa 1 (20 tập + clip bên lề)
+  8. Kịch bản đầy đủ Tập 1
+  9. Lưu ý quan trọng
+
+
+=====================================================================
+1. ĐỊNH HƯỚNG KÊNH
+=====================================================================
+
+- Giữ tên kênh: DarkSky Quotes, giữ handle @dark.sky.quotes.
+- Kênh đa chủ đề, không chỉ Phật pháp.
+- Sợi chỉ xuyên suốt là câu bio:
+  "Khi trời đủ tối, bạn mới có thể nhìn thấy những vì sao."
+    + "Trời tối" = những giai đoạn khó: mất việc, hết tiền, thất bại,
+      cô đơn.
+    + Mỗi video là một "vì sao": một góc nhìn giúp người ta đi tiếp.
+- Nội dung gắn với thực tại cuộc sống (thất nghiệp, khó khăn tiền bạc,
+  áp lực gia đình, xa quê...).
+- Bỏ hẳn: câu quote đặt trên ảnh đẹp (quá nhiều người làm), câu nói bịa
+  gán cho người nổi tiếng, lời khuyên chung chung.
+- Nguyên tắc đột phá: cái gì dễ làm thì nhiều người làm. Phải làm thứ
+  khó sao chép: nhân vật, câu chuyện nhiều tập, thế giới riêng của kênh.
+- Mục tiêu chính: tăng follow nhanh.
+
+
+=====================================================================
+2. SÁU Ý TƯỞNG ĐỘT PHÁ VÀ ĐÁNH GIÁ THEO CÔNG CỤ
+=====================================================================
+
+1) Phim ngắn nhiều tập về một người đang chạm đáy, người xem bình chọn
+   hướng đi  --> ĐÃ CHỌN, thành series "Thành Phố Không Sao".
+2) "Đêm nay ai đang thức": 5–6 người lạ cùng thức lúc 2 giờ sáng, mỗi
+   người một câu suy nghĩ. Dễ làm, hợp tên kênh nhất.
+3) Nhân vật bà ngoại trả lời vấn đề hiện đại. Làm được bằng ảnh tĩnh có
+   chuyển động nhẹ + giọng lồng, không cần khớp miệng.
+4) "Đời bạn trong 60 giây" theo năm sinh, theo vùng. Dễ làm, kéo follow
+   và chia sẻ mạnh. Chi tiết từng thời kỳ phải đúng.
+5) Đồ vật kể chuyện chủ nhân (xe máy shipper, nồi cơm phòng trọ, áo vest
+   đi phỏng vấn...). Dễ làm, lạ, khó copy.
+6) "Đằng sau một thứ bình thường" (ly cà phê, đơn hàng, mớ rau...). Cần
+   số liệu thật, mình tra và kiểm tra khi làm.
+
+Có thể dùng các ý tưởng 2, 3, 4, 5, 6 làm clip bên lề hoặc series sau.
+
+Cách thử ý tưởng mới: làm mỗi ý tưởng 3 video trong 2 tuần, so sánh số
+follow mới trên 1.000 view. Dạng nào thắng thì dồn sức.
+
+
+=====================================================================
+3. BỘ CÔNG CỤ VÀ QUY TRÌNH SẢN XUẤT
+=====================================================================
+
+BỘ CÔNG CỤ: Opus + Google Flow + VieNeu (trên máy bạn)
+
+Opus làm:
+  - Ý tưởng, kịch bản, lời thoại, chữ trên màn hình
+  - Phân cảnh: mỗi cảnh hình gì, chữ gì, dài mấy giây
+  - Prompt ảnh cho Google Flow (giữ cùng phong cách)
+  - Kiểm tra sự thật, số liệu, chi tiết thực tế
+  - Caption, hashtag, đọc số liệu kênh mỗi tuần
+  - Dựng video hoàn chỉnh 9:16: chuyển động máy quay chậm trên ảnh,
+    chuyển cảnh, phụ đề tiếng Việt khớp giọng, khung tin nhắn, hiệu ứng
+
+Google Flow làm: ảnh nhân vật, bối cảnh, từng cảnh.
+VieNeu làm: giọng đọc (chọn giọng miền Nam).
+Nhạc nền: thêm trực tiếp trong TikTok lúc đăng (không lo bản quyền).
+
+QUY TRÌNH MỖI TẬP
+  1. Opus viết kịch bản chia theo từng cảnh + prompt ảnh.
+  2. Bạn tạo ảnh trong Flow (đính kèm ảnh tham chiếu nhân vật).
+  3. Bạn dùng VieNeu xuất MỖI ĐOẠN LỜI MỘT FILE RIÊNG,
+     đặt tên theo cảnh và người nói, ví dụ: c7_ma.wav, c7_minh.wav
+  4. Tải ảnh + file âm thanh lên chat, Opus dựng thành file MP4.
+  5. Bạn đăng TikTok, thêm nhạc, bật nhãn nội dung AI.
+
+KỊCH BẢN VIẾT CHO MÁY ĐỌC
+  - Số viết bằng chữ ("chín triệu", không viết "9tr")
+  - Câu ngắn, dấu câu đúng chỗ để máy ngắt nghỉ tự nhiên
+  - Tránh viết tắt, tiếng lóng kiểu mạng, từ tiếng Anh
+  - Có ghi chú tông giọng từng cảnh
+
+Gợi ý sau này: nếu kết nối máy tính qua ứng dụng Claude trên desktop,
+Opus có thể chạy VieNeu trực tiếp trên máy bạn.
+
+
+=====================================================================
+4. SERIES "THÀNH PHỐ KHÔNG SAO" – TỔNG QUAN
+=====================================================================
+
+TÊN: Thành Phố Không Sao
+  Hai nghĩa: thành phố sáng đèn không thấy ngôi sao nào, và câu
+  "con không sao đâu má" Minh luôn nói dối.
+
+CÂU CHUYỆN
+  Minh, 32 tuổi, quê Bến Tre, nhân viên điều phối xuất nhập khẩu ở một
+  công ty logistics tại Sài Gòn, làm 8 năm thì bị cắt giảm. Công ty không
+  sa thải đúng luật: ép ký đơn "thỏa thuận chấm dứt hợp đồng" kèm một
+  tháng lương hỗ trợ, và còn nợ tiền bảo hiểm xã hội nên chưa chốt sổ
+  được, Minh chưa nộp được hồ sơ trợ cấp thất nghiệp. Tiền tiết kiệm mỏng
+  vì Minh luôn gánh gia đình (gửi tiền về má, đóng học cho em, trả góp
+  điện thoại). Trong tài khoản còn đúng 9 triệu.
+
+THÔNG ĐIỆP MÙA 1
+  Khi trời đủ tối, Minh mới thấy những "vì sao" trước đây không thấy:
+  tình thân, người lạ tử tế, và sức bền của chính mình.
+
+DẤU ẤN LẶP LẠI
+  - Thẻ mở: "Thành Phố Không Sao · Tập X"
+    rồi "Ngày X · Tài khoản: Y đồng"
+  - Kết mỗi tập: Minh trên sân thượng nhà trọ, thành phố sáng rực đèn,
+    không có ngôi sao nào. (Tập 20: trời đầy sao.)
+  - Câu xuyên suốt: "Con không sao đâu má."
+    Tập 1 là lời nói dối, tập 20 là lời thật.
+  - Ảnh bìa: nền trời đêm Sài Gòn không sao + tên series + số tập.
+    Tập cuối đổi sang trời đầy sao.
+  - Hashtag riêng: #ThanhPhoKhongSao
+  - Mạch truyện phụ: Minh đòi công ty chốt sổ bảo hiểm, kết thúc ở
+    tập 19 khi nhận tháng trợ cấp thất nghiệp đầu tiên.
+  - Bình chọn vào thứ 6 (tập 5, 10, 15, 20). Người xem có cả cuối tuần
+    để chọn, clip chủ nhật công bố kết quả. Mạch chính cố định, lựa chọn
+    thay đổi chi tiết và cảm xúc tập sau. Chuẩn bị sẵn cả hai nhánh.
+
+LỜI THOẠI VÀ GIỌNG
+  - Giọng miền Tây: "má", "dìa", "hông", "con ăn cơm chưa con"
+  - Minh xưng "tui"; Linh gọi Minh là "anh Hai"
+  - Lời thoại vẫn nói "Bến Tre", "Sài Gòn" như thói quen của người ta
+
+THÔNG SỐ MỖI TẬP
+  - Dài 60–75 giây, khoảng 8–10 cảnh
+  - Phong cách hình: tranh minh họa kiểu điện ảnh, gần thật nhưng không
+    phải ảnh chụp, tông đêm ấm của hẻm Sài Gòn
+  - Caption: "Phim hư cấu, tạo bằng AI", số tập, câu hỏi bình chọn
+
+
+=====================================================================
+5. NHÂN VẬT
+=====================================================================
+
+MINH, 32 tuổi
+  Nhân vật chính, người kể chuyện ngôi thứ nhất. Hiền, sĩ diện, quen
+  gánh một mình. Quê Bến Tre. Ba mất đã lâu, Minh là chỗ dựa cả nhà.
+  Đi làm bằng xe máy.
+
+MÁ, 58 tuổi
+  Ở Bến Tre, bán dừa, làm kẹo dừa. Xuất hiện qua cuộc gọi video.
+  Câu quen thuộc: "Con ăn cơm chưa con?"
+
+LINH, 20 tuổi
+  Em gái, sinh viên năm 3. Nguồn áp lực tiền bạc, về sau là người làm
+  Minh thay đổi. Gọi anh là "anh Hai".
+
+CHÚ TƯ, khoảng 60 tuổi
+  Xe ôm truyền thống đầu hẻm, đang mất khách vào tay xe công nghệ.
+  Ít nói. Từng là kỹ sư, từng mất hết. Người dẫn đường của Minh.
+
+CÔ SÁU
+  Chủ trọ, hay càu nhàu nhưng tốt bụng. Con trai ở nước ngoài nhiều năm
+  không gọi về.
+
+KHOA
+  Bạn đại học, có vẻ thành đạt. Đại diện áp lực so sánh và "cơ hội"
+  đáng ngờ.
+
+CHỊ NHÂN SỰ (tập 1)
+  Lịch sự nhưng xa cách.
+
+
+=====================================================================
+6. LỊCH ĐĂNG VÀ LỊCH SẢN XUẤT
+=====================================================================
+
+NHỊP ĐĂNG: mỗi ngày, lúc khoảng 20h
+  - Thứ 2 đến thứ 6: tập phim chính
+  - Thứ 7, chủ nhật: clip ngắn bên lề (nhẹ hơn nhiều để làm)
+
+LỊCH
+  02/11 – 08/11  Tạo bảng nhân vật, bối cảnh cố định (phòng trọ, hẻm,
+                 sân thượng, văn phòng cũ), chọn 3 giọng trong VieNeu,
+                 làm mẫu ảnh bìa
+  09/11 – 15/11  Sản xuất sẵn tập 1–7 làm dự trữ
+  16/11 – 13/12  Phát sóng Mùa 1
+                 (Tập 1: thứ 2, 16/11 · Tập 20: thứ 6, 11/12)
+  Từ 14/12       Nghỉ giữa mùa khoảng 3 tuần, vẫn đăng clip bên lề
+                 (hỏi đáp, hậu trường, "chú Tư nói")
+  Đầu tháng 1/2027  Mùa 2 "về quê ăn Tết", khoảng 5 tuần,
+                    kết đúng dịp Tết (6/2/2027)
+
+LUÔN GIỮ 5–7 TẬP DỰ TRỮ để không đứt chuỗi.
+
+
+=====================================================================
+7. DÀN Ý MÙA 1 (20 TẬP + CLIP BÊN LỀ)
+=====================================================================
+
+---------------------------------------------------------------------
+TUẦN 1 · MẤT VIỆC
+---------------------------------------------------------------------
+
+Tập 1 · Chín triệu (T2)
+  Bị ép ký đơn thỏa thuận, bàn giao, trả laptop và thẻ, bị xóa khỏi
+  nhóm của phòng, chạy xe máy về trong mưa. Má gọi video: "Con không sao
+  đâu má." Tin nhắn Linh: học phí mười hai triệu.
+  Kết: sân thượng, thành phố không sao.
+  (Kịch bản đầy đủ ở mục 8.)
+
+Tập 2 · Phòng trọ mười hai mét vuông (T3)
+  Minh giấu balo đồ công ty dưới gầm giường. Cô Sáu ghé nhắc tiền phòng.
+  Minh tính lại từng khoản chi.
+  Kết: gọi lên công ty hỏi chuyện chốt sổ bảo hiểm, bị hẹn "tuần sau".
+  (Mở mạch truyện phụ.)
+
+Tập 3 · Ba mươi bộ hồ sơ (T4)
+  Rải CV trên các trang tuyển dụng và nhóm Facebook tuyển dụng. Gặp tin
+  đăng "ưu tiên dưới 30 tuổi". Chú Tư dưới hẻm liếc qua: "Mất việc hả?
+  Nhìn cái dáng là biết."
+  Kết: số lạ gọi đến, hẹn phỏng vấn.
+
+Tập 4 · Người phỏng vấn trẻ hơn tôi (T5)
+  Vòng đầu phỏng vấn online trong phòng trọ, Minh chỉ mặc áo sơ mi ở nửa
+  trên. Câu hỏi: "Ba mươi hai tuổi sao chưa lên quản lý?"
+  Kết: email từ chối.
+
+Tập 5 · Cuộc gọi lúc chín giờ tối (T6) – BÌNH CHỌN 1
+  Má gọi, giọng mệt: dừa rớt giá, má tính vay thêm để gửi tiền cho Linh.
+  Bình chọn: nói thật với má hay tiếp tục giấu?
+
+  Clip T7: Hồi tưởng Bến Tre năm Minh 10 tuổi: rặng dừa, xuồng, ba chở
+           Minh qua bến đò.
+  Clip CN: Tóm tắt tuần 1 trong 30 giây + kết quả bình chọn.
+
+---------------------------------------------------------------------
+TUẦN 2 · LÀM BẤT CỨ VIỆC GÌ
+---------------------------------------------------------------------
+
+Tập 6 · Thùng đồ từ quê
+  Nhánh NÓI THẬT: má im lặng, rồi gửi lên thùng kẹo dừa, hai triệu và
+  mẩu giấy: "Con dìa lúc nào cũng được."
+  Nhánh GIẤU: Minh nghe má khoe với hàng xóm rằng con trai làm lớn.
+  Kết: Minh quyết định việc gì cũng làm.
+
+Tập 7 · Ngày đầu giao hàng
+  Chạy giao hàng bằng chính chiếc xe máy của mình. Trời mưa, khách hủy
+  đơn, chú Tư chỉ mẹo.
+  Kết: cả ngày kiếm được một trăm tám mươi nghìn.
+
+Tập 8 · Đơn hàng về công ty cũ
+  Shipper không được lên lầu, đứng chờ ở sảnh gọi khách xuống. Đồng
+  nghiệp cũ xuống nhận và nhận ra Minh. Vừa xấu hổ, vừa một sự tử tế
+  bất ngờ.
+  Kết: Minh ngồi trong bãi xe rất lâu.
+
+Tập 9 · Hủ tiếu lúc hai giờ sáng
+  Lần đầu nói chuyện thật với chú Tư: "Đừng đếm ngày. Đếm việc."
+  Kết: hóa ra chú Tư sống một mình.
+
+Tập 10 · Cơ hội của Khoa (T6) – BÌNH CHỌN 2
+  Khoa khoe xe, giới thiệu "việc online, nạp trước, lãi nhanh" (kiểu
+  lừa "làm nhiệm vụ, chốt đơn ảo").
+  Bình chọn: Minh có nhận lời không?
+
+  Clip T7: "Chú Tư nói": một câu của chú trên nền hẻm đêm.
+  Clip CN: Kết quả bình chọn + dấu hiệu nhận biết việc làm lừa đảo
+           (chỉ nêu dấu hiệu, không mô tả cách lừa).
+
+---------------------------------------------------------------------
+TUẦN 3 · CHẠM ĐÁY
+---------------------------------------------------------------------
+
+Tập 11 · Tiền cọc
+  Nhánh NHẬN: mất khoản nạp trước, nhận ra bị lừa.
+  Nhánh TỪ CHỐI: Khoa giận; Minh đọc được chuyện một người mất tiền vì
+  đúng chiêu đó.
+  Kết: tài khoản tiếp tục tụt.
+
+Tập 12 · Sốt
+  Minh ốm một mình. Cô Sáu đặt tô cháo trước cửa rồi đi.
+  Kết: Minh khóc lần đầu kể từ ngày mất việc.
+
+Tập 13 · Chuyện của cô Sáu
+  Con trai cô ở nước ngoài, nhiều năm không gọi về. Cô cho Minh khất tiền
+  phòng một tuần.
+  Kết: "Ai cũng có một cái sân thượng của riêng mình."
+
+Tập 14 · Tấm hình của ba
+  Đêm ngồi tính tiền lần cuối, Minh mở tấm hình ba ở bến đò. Hồi tưởng
+  lời ba dặn.
+  Kết: tài khoản chạm mức thấp nhất cả mùa.
+
+Tập 15 · Học phí hay tiền phòng (T6) – BÌNH CHỌN 3
+  Hạn học phí và hạn tiền phòng trùng nhau, tiền chỉ đủ một.
+  Bình chọn: đóng học cho em hay trả tiền phòng?
+
+  Clip T7: "Lá thư Minh viết mà không gửi cho má" (giọng đọc trên nền ảnh).
+  Clip CN: Tóm tắt + kết quả bình chọn.
+
+---------------------------------------------------------------------
+TUẦN 4 · NHỮNG VÌ SAO
+---------------------------------------------------------------------
+
+Tập 16 · Em biết rồi
+  Linh phát hiện anh mất việc. Em đã đi làm thêm từ tháng trước mà giấu
+  anh.
+  Kết: hai anh em đều giấu nhau vì thương nhau.
+
+Tập 17 · Hai gói mì
+  Gọi video, hai anh em ăn mì gói cùng lúc qua màn hình, cùng tính
+  chuyện gánh với nhau. Tập ấm áp nhất mùa.
+
+Tập 18 · Chuyện của chú Tư
+  Chú từng là kỹ sư, từng mất hết. Chú giới thiệu Minh vào làm kho, lương
+  thấp hơn trước gần một nửa.
+  Kết: Minh không trả lời ngay.
+
+Tập 19 · Ngày đi làm lại
+  Minh tự quyết định nhận việc. Từ bàn giấy xuống kho hàng. Đồng nghiệp
+  trẻ gọi "anh Minh" rất lễ phép. Trưa ăn cơm hộp. Công ty cũ cuối cùng
+  cũng chốt sổ, Minh nhận tháng trợ cấp thất nghiệp đầu tiên.
+  Kết: thông báo tối mai khu trọ bị cắt điện theo lịch.
+
+Tập 20 · Đêm mất điện (T6) – TẬP CUỐI MÙA – BÌNH CHỌN 4
+  Khu trọ bị cắt điện, trời vừa mưa xong nên trong. Trên sân thượng, lần
+  đầu Minh thấy trời đầy sao. Má gọi, và "Con không sao đâu má" lần này
+  là thật.
+  Kết: má hỏi "Tết này con dìa hông?"
+  Bình chọn: Minh có về quê ăn Tết không? --> mở sang Mùa 2.
+
+  Clip T7: So sánh bầu trời tập 1 và tập 20.
+  Clip CN: Tổng kết 4 lần bình chọn + teaser Mùa 2.
+
+
+=====================================================================
+8. KỊCH BẢN ĐẦY ĐỦ TẬP 1 · "CHÍN TRIỆU"
+=====================================================================
+
+Thời lượng: khoảng 70 giây · 9 cảnh · Giọng: Minh (người kể), Má, Linh
+
+---------------------------------------------------------------------
+PHẦN A. ẢNH THAM CHIẾU NHÂN VẬT (làm trước trong Flow, dùng cả mùa)
+---------------------------------------------------------------------
+
+Mỗi nhân vật tạo 3 góc (chính diện, nghiêng, toàn thân), chọn bản ưng
+nhất và lưu lại. Mỗi cảnh có nhân vật đó đều đính kèm ảnh tham chiếu.
+
+PHONG CÁCH CHUNG (dán ở đầu mọi prompt của series):
+Cinematic semi-realistic digital illustration, Vietnamese setting, soft film grain, muted teal and warm amber color palette, gentle natural lighting, vertical 9:16, no text, no logos
+
+MINH:
+Character reference sheet: Vietnamese man, 32 years old, slim build, short slightly messy black hair, tired but kind eyes, light stubble, light blue long-sleeve office shirt, dark grey trousers, black backpack. Front view, side view, full body, neutral background.
+
+MÁ:
+Character reference sheet: Vietnamese woman, 58 years old, from the Mekong Delta, sun-tanned skin, hair tied back with grey streaks, faded floral áo bà ba, gentle tired smile, laugh lines. Front view, side view, full body, neutral background.
+
+CHỊ NHÂN SỰ:
+Vietnamese woman, 35 years old, neat bob haircut, white blouse, staff lanyard, polite but distant expression.
+
+LƯU Ý: Không yêu cầu Flow vẽ chữ hay giao diện ứng dụng. Toàn bộ chữ,
+tin nhắn, khung gọi video do Opus dựng khi ghép video (khung chat kiểu
+chung chung, không dùng logo Zalo).
+
+---------------------------------------------------------------------
+PHẦN B. KỊCH BẢN TỪNG CẢNH
+---------------------------------------------------------------------
+
+[CẢNH 1 · MỞ ĐẦU · 0–6 giây]
+Hình: bàn họp, tờ giấy A4 và cây bút, bàn tay Minh đang ký.
+Prompt:
+Close-up of a man's hand signing an A4 document on a small meeting room table, pen, cup of tea, soft window light, tense quiet mood
+Chữ trên màn hình: THÀNH PHỐ KHÔNG SAO · TẬP 1
+Lời Minh (chậm, trầm) – file: c1_minh
+Tám năm đi làm. Kết thúc bằng một tờ giấy, và một chữ ký.
+
+[CẢNH 2 · PHÒNG HỌP NHỎ · 6–16 giây]
+Hình: chị nhân sự ngồi đối diện, đẩy tờ đơn về phía Minh.
+Prompt:
+Small office meeting room, HR woman sliding a document across the table toward Minh, Minh sitting stiffly, glass wall, cool fluorescent light, awkward silence
+Chữ trên màn hình (bong bóng tin nhắn đầu cảnh): "Em lên phòng họp nhỏ chút nha."
+Lời Minh – file: c2_minh
+Hai tuần trước, chị nhân sự nhắn tui lên phòng họp nhỏ. Chị nói, công ty đang tái cơ cấu, mong em thông cảm. Đơn đã in sẵn. Tui ký. Tui không hỏi gì hết.
+
+[CẢNH 3 · BÀN GIAO · 16–24 giây]
+Hình: Minh chỉ màn hình máy tính cho một bạn trẻ đeo kính.
+Prompt:
+Open-plan Vietnamese logistics office, Minh pointing at a computer screen explaining to a younger man with glasses, shipping documents on desk, afternoon light, quiet resignation
+Lời Minh – file: c3_minh
+Mấy ngày sau, tui ngồi chỉ việc cho người thay tui. Em nó nhỏ hơn tui tám tuổi. Lương chắc cũng nhỏ hơn.
+
+[CẢNH 4 · NGÀY CUỐI · 24–32 giây]
+Hình: Minh đặt laptop và thẻ nhân viên lên quầy.
+Prompt:
+Minh placing a laptop and an employee ID card on an office counter, empty hallway, elevator doors in background, late afternoon
+Chữ trên màn hình (thông báo nhỏ): "Bạn đã bị xóa khỏi nhóm Phòng XNK"
+Lời Minh – file: c4_minh
+Chiều nay, tui trả lại laptop, trả thẻ ra vào. Vừa bước vô thang máy, điện thoại báo: tui đã bị xóa khỏi nhóm của phòng.
+
+[CẢNH 5 · ĐƯỜNG VỀ · 32–40 giây]
+Hình: Minh chạy xe máy trong mưa giờ tan tầm, đeo balo.
+Prompt:
+Minh riding a motorbike in heavy Saigon rush-hour traffic, light rain, raincoat, black backpack, blurred headlights and shop signs, melancholic evening
+Lời Minh – file: c5_minh
+Đồ đạc của tám năm, gom lại vừa đúng một cái balo. Một cái ly. Một cây sạc. Một cuốn sổ.
+
+[CẢNH 6 · PHÒNG TRỌ · 40–45 giây]
+Hình: phòng trọ nhỏ, áo mưa ướt treo trên móc, Minh ngồi bệt dưới sàn.
+Prompt:
+Tiny rented room in Saigon, about 12 square meters, wet raincoat hanging on a hook, Minh sitting on the floor against the wall, single warm bulb, small window
+Chữ trên màn hình (đếm số lên từ từ): Ngày 1 · Tài khoản: 9.000.000đ
+Lời Minh – file: c6_minh
+Trong tài khoản, còn chín triệu.
+
+[CẢNH 7 · MÁ GỌI · 45–56 giây]
+Hình: chia đôi màn hình. Trên: má trong gian bếp quê, sau lưng có buồng
+dừa. Dưới: Minh ráng cười.
+Prompt ảnh 1:
+Má in a rustic Mekong Delta kitchen at evening, coconuts in the background, holding a phone at arm's length, warm smile
+Prompt ảnh 2:
+Minh in the rented room holding his phone, forcing a smile, eyes tired
+Lời Má (giọng nữ miền Tây, ấm, hơi lo) – file: c7_ma
+Con ăn cơm chưa con? Bữa nay đi làm có mệt hông?
+Lời Minh (cười gượng, nhẹ) – file: c7_minh
+Dạ con ăn rồi má. Con không sao đâu má.
+
+[CẢNH 8 · TIN NHẮN · 56–63 giây]
+Hình: cận cảnh màn hình điện thoại sáng trong tay Minh, phòng tối.
+Prompt:
+Close-up of a glowing phone screen in a man's hand, dark room, face partly lit from below, worried expression
+Chữ trên màn hình (tin nhắn hiện từng dòng):
+"Anh Hai ơi, học phí kỳ này 12 triệu, hạn cuối tháng nha anh."
+Lời Linh (giọng nữ trẻ, đọc nhỏ) – file: c8_linh
+Anh Hai ơi, học phí kỳ này mười hai triệu, hạn cuối tháng nha anh.
+
+[CẢNH 9 · SÂN THƯỢNG · 63–72 giây]
+Hình: Minh ngồi trên sân thượng nhà trọ, nhìn ra Sài Gòn sáng rực đèn.
+Trời màu cam xám, không có ngôi sao nào.
+Prompt:
+Minh sitting alone on a rooftop of a Saigon boarding house at night, back view, city skyline full of lights, hazy orange-grey sky with no stars, laundry lines, water tank, quiet and vast
+Lời Minh (chậm nhất cả tập) – file: c9_minh
+Thành phố này sáng quá. Sáng tới mức, không thấy được ngôi sao nào.
+Chữ kết: "Bạn đã từng nói 'con không sao' khi đang không ổn chưa?"
+
+---------------------------------------------------------------------
+PHẦN C. ĐĂNG BÀI
+---------------------------------------------------------------------
+
+Ảnh bìa: hình cảnh 9 + "THÀNH PHỐ KHÔNG SAO" + "TẬP 1 · CHÍN TRIỆU"
+
+Caption:
+Thành Phố Không Sao · Tập 1: Chín triệu
+Tám năm đi làm, kết thúc bằng một chữ ký.
+Bạn đã từng nói "con không sao" khi đang không ổn chưa?
+Phim hư cấu, tạo bằng AI. Tập 2 lên sóng lúc 20h ngày mai.
+#ThanhPhoKhongSao #phimngan #thatnghiep #nguoixaque #BenTre
+
+Nhớ bật nhãn nội dung AI khi đăng.
+
+---------------------------------------------------------------------
+PHẦN D. GHI CHÚ GIỌNG (VieNeu)
+---------------------------------------------------------------------
+
+- Mỗi đoạn lời xuất một file riêng, đặt tên đúng như trên
+  (c1_minh, c2_minh, ..., c7_ma, c7_minh, c8_linh, c9_minh).
+- Ba giọng khác nhau rõ:
+    Minh: nam miền Nam
+    Má:   nữ miền Nam, lớn tuổi
+    Linh: nữ trẻ
+- Dùng cố định cùng một giọng cho mỗi nhân vật suốt cả series.
+- Nếu nhân bản giọng: chỉ dùng giọng của chính bạn hoặc người đã đồng ý.
+
+
+=====================================================================
+9. LƯU Ý QUAN TRỌNG
+=====================================================================
+
+NHÃN AI TRÊN TIKTOK
+  - Luôn bật nhãn "nội dung do AI tạo" khi đăng. Giọng AI cũng tính là
+    nội dung AI.
+  - TikTok tự phát hiện ảnh, video AI qua dữ liệu đính kèm của công cụ.
+    Không gắn nhãn có thể bị giảm tiếp cận hoặc gỡ; tự gắn nhãn thì theo
+    TikTok không làm giảm phân phối.
+  - Caption luôn ghi "Phim hư cấu, tạo bằng AI". Không bao giờ giới thiệu
+    là chuyện có thật.
+  - Không dùng mặt hay giọng người thật.
+
+ĐÚNG THỰC TẾ (để người xem đi làm văn phòng tin được)
+  - Theo luật, người bị cắt giảm do tái cơ cấu được trợ cấp mất việc ít
+    nhất 2 tháng lương; trợ cấp thất nghiệp hằng tháng bằng 60% lương
+    bình quân đóng bảo hiểm thất nghiệp 6 tháng gần nhất (Luật Việc làm
+    2025, hiệu lực từ 01/01/2026). Vì vậy truyện giải thích việc Minh chỉ
+    còn 9 triệu bằng chuyện công ty ép ký đơn thỏa thuận và nợ bảo hiểm.
+  - Trước khi viết tập có nhắc quyền lợi người lao động, kiểm tra lại
+    quy định một lần nữa. Đây là chi tiết cho phim, không phải tư vấn
+    pháp lý.
+  - Tập 10–11 (lừa đảo): chỉ nêu dấu hiệu nhận biết, không mô tả cách
+    lừa.
+
+ĐỪNG ĐỂ ĐỨT CHUỖI
+  - Luôn giữ 5–7 tập dự trữ.
+  - Đọc số liệu mỗi chủ nhật: tỷ lệ xem hết, lượt lưu, follow mới trên
+    1.000 view.
+
+VIỆC TIẾP THEO
+  1. Tạo ảnh tham chiếu Minh, Má, chị nhân sự trong Flow.
+  2. Tạo 9 cảnh tập 1 + các file giọng.
+  3. Gửi lên chat để Opus dựng video mẫu, duyệt chất lượng trước khi
+     làm hàng loạt.
+  4. Opus viết tiếp kịch bản tập 2–7.
+
+=====================================================================

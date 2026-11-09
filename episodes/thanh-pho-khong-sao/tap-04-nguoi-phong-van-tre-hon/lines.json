@@ -1,0 +1,40 @@
+{
+ "lines": [
+  {
+   "text": "Ba mươi hai tuổi rồi,|sao anh chưa lên quản lý? Người hỏi câu đó sáng nay nhỏ hơn mình cỡ năm sáu tuổi.",
+   "scene": "c1-cau-hoi"
+  },
+  {
+   "text": "Bảy giờ sáng rút ba triệu rưỡi đem qua đóng tiền phòng cho cô Sáu,|để lát đang phỏng vấn cô khỏi lên hỏi.",
+   "scene": "c2-dong-tien-phong"
+  },
+  {
+   "text": "Lấy cái áo sơ mi hồi đi làm ra ủi lại rồi cài đủ nút,|bên dưới vẫn quần đùi vì camera chỉ thấy tới ngực.|Sóng trong phòng chập chờn nên kê bàn xếp sát cửa sổ,|canh mạng từ tám giờ.",
+   "scene": "c3-ao-so-mi"
+  },
+  {
+   "text": "Tới chín giờ thì một cậu cỡ hai mươi sáu vô cuộc gọi,|kêu mình bằng anh,|nói chị bên nhân sự bận nên em phỏng vấn thay.",
+   "scene": "c4-nguoi-phong-van"
+  },
+  {
+   "text": "Hỏi tới kinh nghiệm thì nói trơn tru,|tám năm điều phối hàng xuất nhập khẩu,|mấy vụ tàu trễ với hàng kẹt ở cảng kể không cần nghĩ.",
+   "scene": "c5-tra-loi"
+  },
+  {
+   "text": "Tới lúc cậu hỏi câu ba mươi hai tuổi xong thì mạng giật,|hình cậu đơ lại với cái miệng đang mở.|Lúc chạy lại mới nói được chữ dạ,|rồi nói gì sau đó cũng không nhớ rõ.",
+   "scene": "c6-dung-hinh"
+  },
+  {
+   "text": "Cậu nói cảm ơn anh,|bên em sẽ phản hồi trong tuần.|Gập máy xong thì cởi áo sơ mi treo lên móc cho khỏi nhăn,|lỡ còn chỗ khác gọi.",
+   "scene": "c7-treo-ao"
+  },
+  {
+   "text": "Hẹn trong tuần mà bốn giờ chiều đã có thư.|Thấy chữ rất tiếc là úp điện thoại xuống,|phần sau khỏi đọc cũng biết.",
+   "scene": "c8-thu-tu-choi"
+  },
+  {
+   "text": "Tối lên sân thượng ngồi.|Dưới phòng cái áo sơ mi vẫn treo thẳng nếp trên móc,|chưa biết lần tới mặc đi đâu.",
+   "scene": "c9-san-thuong"
+  }
+ ]
+}

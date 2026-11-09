@@ -1,0 +1,458 @@
+{
+ "duration": 128.491,
+ "lines": [
+  {
+   "text": "Nếu đêm nay bạn thấy mình vô dụng,|ở lại với mình một chút.",
+   "scene": "hook",
+   "start": 0.1,
+   "end": 4.661,
+   "parts": [
+    {
+     "text": "Nếu đêm nay bạn thấy mình vô dụng,",
+     "start": 0.1,
+     "end": 2.569,
+     "score": 1.0,
+     "heard": "nếu đêm nay bạn thấy mình vô dụng."
+    },
+    {
+     "text": "ở lại với mình một chút.",
+     "start": 3.169,
+     "end": 4.661,
+     "score": 1.0,
+     "heard": "Ở lại với mình một chút."
+    }
+   ]
+  },
+  {
+   "text": "Có những đêm bạn ngồi trên giường,|điện thoại sáng trong tay,|chẳng biết mình đang đợi gì.",
+   "scene": "phong-toi",
+   "start": 5.661,
+   "end": 11.827,
+   "parts": [
+    {
+     "text": "Có những đêm bạn ngồi trên giường,",
+     "start": 5.661,
+     "end": 7.531,
+     "score": 0.857,
+     "heard": "có những đêm bạn ngồi trên dường."
+    },
+    {
+     "text": "điện thoại sáng trong tay,",
+     "start": 8.131,
+     "end": 9.654,
+     "score": 1.0,
+     "heard": "Điện thoại sáng trong tay."
+    },
+    {
+     "text": "chẳng biết mình đang đợi gì.",
+     "start": 10.154,
+     "end": 11.827,
+     "score": 1.0,
+     "heard": "Chẳng biết mình đang đợi gì."
+    }
+   ]
+  },
+  {
+   "text": "Bạn vừa xem số dư,|rồi tắt thật nhanh,|như thể không nhìn thì tiền nhà sẽ tự đủ.",
+   "scene": "hoa-don",
+   "start": 13.227,
+   "end": 20.123,
+   "parts": [
+    {
+     "text": "Bạn vừa xem số dư,",
+     "start": 13.227,
+     "end": 14.719,
+     "score": 1.0,
+     "heard": "bạn vừa xem số dư."
+    },
+    {
+     "text": "rồi tắt thật nhanh,",
+     "start": 15.269,
+     "end": 16.596,
+     "score": 1.0,
+     "heard": "Rồi tắt thật nhanh."
+    },
+    {
+     "text": "như thể không nhìn thì tiền nhà sẽ tự đủ.",
+     "start": 17.196,
+     "end": 20.123,
+     "score": 1.0,
+     "heard": "Như thể không nhìn thì tiền nhà sẽ tự đủ."
+    }
+   ]
+  },
+  {
+   "text": "Ở công ty, ai hỏi dạo này sao,|bạn lại bảo ổn.",
+   "scene": "van-phong",
+   "start": 21.423,
+   "end": 25.514,
+   "parts": [
+    {
+     "text": "Ở công ty, ai hỏi dạo này sao,",
+     "start": 21.423,
+     "end": 23.718,
+     "score": 1.0,
+     "heard": "Ở công ty, ai hỏi dạo này sao?"
+    },
+    {
+     "text": "bạn lại bảo ổn.",
+     "start": 24.318,
+     "end": 25.514,
+     "score": 1.0,
+     "heard": "Bạn lại bảo ổn."
+    }
+   ]
+  },
+  {
+   "text": "Tối về, cửa vừa đóng,|bạn đứng đó một lúc,|giày còn chưa tháo.",
+   "scene": "cua-dong",
+   "start": 26.914,
+   "end": 33.175,
+   "parts": [
+    {
+     "text": "Tối về, cửa vừa đóng,",
+     "start": 26.914,
+     "end": 28.517,
+     "score": 1.0,
+     "heard": "Tối về, cửa vừa đóng."
+    },
+    {
+     "text": "bạn đứng đó một lúc,",
+     "start": 29.817,
+     "end": 31.125,
+     "score": 1.0,
+     "heard": "bạn đứng đó một lúc."
+    },
+    {
+     "text": "giày còn chưa tháo.",
+     "start": 31.725,
+     "end": 33.175,
+     "score": 0.75,
+     "heard": "Vậy còn chưa tháo?"
+    }
+   ]
+  },
+  {
+   "text": "Nếu chưa ngủ được,|thì ra ban công một lát,|ngước lên trời đi.",
+   "scene": "ban-cong",
+   "start": 34.875,
+   "end": 39.738,
+   "parts": [
+    {
+     "text": "Nếu chưa ngủ được,",
+     "start": 34.875,
+     "end": 35.954,
+     "score": 1.0,
+     "heard": "nếu chưa ngủ được."
+    },
+    {
+     "text": "thì ra ban công một lát,",
+     "start": 36.454,
+     "end": 37.93,
+     "score": 0.667,
+     "heard": "thì ra ban công mục lắc."
+    },
+    {
+     "text": "ngước lên trời đi.",
+     "start": 38.53,
+     "end": 39.738,
+     "score": 1.0,
+     "heard": "Ngước lên trời đi."
+    }
+   ]
+  },
+  {
+   "text": "Có một ngôi sao tên là Chức Nữ.|Ánh sáng từ đó phải đi mất khoảng hai mươi lăm năm,|mới tới được Trái Đất.",
+   "scene": "vega",
+   "start": 41.338,
+   "end": 49.871,
+   "parts": [
+    {
+     "text": "Có một ngôi sao tên là Chức Nữ.",
+     "start": 41.338,
+     "end": 43.843,
+     "score": 1.0,
+     "heard": "có một ngôi sao tên là Chức Nữ."
+    },
+    {
+     "text": "Ánh sáng từ đó phải đi mất khoảng hai mươi lăm năm,",
+     "start": 44.643,
+     "end": 48.061,
+     "score": 0.818,
+     "heard": "ánh sáng từ đó phải đi mất khoảng 25 năm."
+    },
+    {
+     "text": "mới tới được Trái Đất.",
+     "start": 48.561,
+     "end": 49.871,
+     "score": 1.0,
+     "heard": "mới tới được trái đất."
+    }
+   ]
+  },
+  {
+   "text": "Thứ ánh sáng tới đêm nay,|có khi đã lên đường từ lúc bạn chưa biết đi.",
+   "scene": "streak",
+   "start": 51.271,
+   "end": 56.581,
+   "parts": [
+    {
+     "text": "Thứ ánh sáng tới đêm nay,",
+     "start": 51.271,
+     "end": 52.92,
+     "score": 0.833,
+     "heard": "Thứ ảnh sáng tới đêm nay."
+    },
+    {
+     "text": "có khi đã lên đường từ lúc bạn chưa biết đi.",
+     "start": 53.62,
+     "end": 56.581,
+     "score": 1.0,
+     "heard": "có khi đã lên đường từ lúc bạn chưa biết đi."
+    }
+   ]
+  },
+  {
+   "text": "Suốt đường đi,|không ai thấy nó,|cũng chẳng ai biết nó đang tới.",
+   "scene": "streak",
+   "start": 57.881,
+   "end": 63.665,
+   "parts": [
+    {
+     "text": "Suốt đường đi,",
+     "start": 57.881,
+     "end": 58.776,
+     "score": 0.667,
+     "heard": "xuất đường đi."
+    },
+    {
+     "text": "không ai thấy nó,",
+     "start": 59.576,
+     "end": 60.718,
+     "score": 1.0,
+     "heard": "Không ai thấy nó."
+    },
+    {
+     "text": "cũng chẳng ai biết nó đang tới.",
+     "start": 61.518,
+     "end": 63.665,
+     "score": 1.0,
+     "heard": "cũng chẳng ai biết nó đang tới."
+    }
+   ]
+  },
+  {
+   "text": "Vậy mà nó vẫn tới.",
+   "scene": "streak",
+   "start": 65.165,
+   "end": 66.681,
+   "parts": [
+    {
+     "text": "Vậy mà nó vẫn tới.",
+     "start": 65.165,
+     "end": 66.681,
+     "score": 1.0,
+     "heard": "Vậy mà nó vẫn tới."
+    }
+   ]
+  },
+  {
+   "text": "Hồi bé, có đêm bạn sốt,|có người ngồi quạt cho bạn tới sáng.|Bạn ngủ mất, nên chẳng nhớ gì.",
+   "scene": "tre-ngu",
+   "start": 68.781,
+   "end": 76.294,
+   "parts": [
+    {
+     "text": "Hồi bé, có đêm bạn sốt,",
+     "start": 68.781,
+     "end": 70.646,
+     "score": 1.0,
+     "heard": "Hồi bé có đêm bạn sốt."
+    },
+    {
+     "text": "có người ngồi quạt cho bạn tới sáng.",
+     "start": 71.146,
+     "end": 73.448,
+     "score": 1.0,
+     "heard": "có người ngồi quạt cho bạn tới sáng."
+    },
+    {
+     "text": "Bạn ngủ mất, nên chẳng nhớ gì.",
+     "start": 74.248,
+     "end": 76.294,
+     "score": 1.0,
+     "heard": "bạn ngủ mất nên chẳng nhớ gì."
+    }
+   ]
+  },
+  {
+   "text": "Có khi là mẹ, ngồi lại dưới đèn khi cả nhà đã ngủ.",
+   "scene": "nguoi-me",
+   "start": 77.594,
+   "end": 81.222,
+   "parts": [
+    {
+     "text": "Có khi là mẹ, ngồi lại dưới đèn khi cả nhà đã ngủ.",
+     "start": 77.594,
+     "end": 81.222,
+     "score": 1.0,
+     "heard": "Có khi là mẹ ngồi lại dưới đèn khi cả nhà đã ngủ."
+    }
+   ]
+  },
+  {
+   "text": "Có khi là cha,|dắt xe ra khỏi nhà lúc trời chưa sáng,|về nhà cũng chẳng kể gì.",
+   "scene": "nguoi-cha",
+   "start": 82.222,
+   "end": 88.952,
+   "parts": [
+    {
+     "text": "Có khi là cha,",
+     "start": 82.222,
+     "end": 83.319,
+     "score": 1.0,
+     "heard": "có khi là cha"
+    },
+    {
+     "text": "dắt xe ra khỏi nhà lúc trời chưa sáng,",
+     "start": 84.019,
+     "end": 86.592,
+     "score": 1.0,
+     "heard": "dắt xe ra khỏi nhà lúc trời chưa sáng."
+    },
+    {
+     "text": "về nhà cũng chẳng kể gì.",
+     "start": 87.192,
+     "end": 88.952,
+     "score": 1.0,
+     "heard": "Về nhà cũng chẳng kể gì."
+    }
+   ]
+  },
+  {
+   "text": "Giờ tới lượt bạn đi đoạn đường đó.",
+   "scene": "di-bo",
+   "start": 90.652,
+   "end": 92.854,
+   "parts": [
+    {
+     "text": "Giờ tới lượt bạn đi đoạn đường đó.",
+     "start": 90.652,
+     "end": 92.854,
+     "score": 1.0,
+     "heard": "Giờ tới lượt bạn đi đoạn đường đó."
+    }
+   ]
+  },
+  {
+   "text": "Những đêm thấy mình vô dụng,|bạn không nhìn ra được đã đi bao xa,|vì trời tối quá.",
+   "scene": "cau-thang",
+   "start": 94.254,
+   "end": 101.144,
+   "parts": [
+    {
+     "text": "Những đêm thấy mình vô dụng,",
+     "start": 94.254,
+     "end": 96.161,
+     "score": 1.0,
+     "heard": "những đêm thấy mình vô dụng."
+    },
+    {
+     "text": "bạn không nhìn ra được đã đi bao xa,",
+     "start": 96.961,
+     "end": 99.459,
+     "score": 1.0,
+     "heard": "bạn không nhìn ra được đã đi bao xa."
+    },
+    {
+     "text": "vì trời tối quá.",
+     "start": 99.959,
+     "end": 101.144,
+     "score": 1.0,
+     "heard": "Vì trời tối quá."
+    }
+   ]
+  },
+  {
+   "text": "Mình không biết đoạn này của bạn còn dài bao lâu.",
+   "scene": "lamp",
+   "start": 102.944,
+   "end": 105.925,
+   "parts": [
+    {
+     "text": "Mình không biết đoạn này của bạn còn dài bao lâu.",
+     "start": 102.944,
+     "end": 105.925,
+     "score": 1.0,
+     "heard": "Mình không biết đoạn này của bạn còn dài bao lâu."
+    }
+   ]
+  },
+  {
+   "text": "Ngày mai có khi vẫn vậy,|tiền nhà vẫn chưa đủ,|sáng ra bạn vẫn đi làm.",
+   "scene": "lamp",
+   "start": 107.225,
+   "end": 113.673,
+   "parts": [
+    {
+     "text": "Ngày mai có khi vẫn vậy,",
+     "start": 107.225,
+     "end": 109.117,
+     "score": 1.0,
+     "heard": "Ngày mai có khi vẫn vậy."
+    },
+    {
+     "text": "tiền nhà vẫn chưa đủ,",
+     "start": 109.717,
+     "end": 111.224,
+     "score": 1.0,
+     "heard": "Tiền nhà vẫn chưa đủ."
+    },
+    {
+     "text": "sáng ra bạn vẫn đi làm.",
+     "start": 111.824,
+     "end": 113.673,
+     "score": 1.0,
+     "heard": "Sáng ra bạn vẫn đi làm."
+    }
+   ]
+  },
+  {
+   "text": "Thôi, đêm nay ngủ đi đã.",
+   "scene": "lamp",
+   "start": 115.173,
+   "end": 117.246,
+   "parts": [
+    {
+     "text": "Thôi, đêm nay ngủ đi đã.",
+     "start": 115.173,
+     "end": 117.246,
+     "score": 1.0,
+     "heard": "Thôi, đêm nay ngủ đi đã."
+    }
+   ]
+  },
+  {
+   "text": "Khi trời đủ tối,|bạn mới thấy những vì sao.",
+   "scene": "end",
+   "start": 119.446,
+   "end": 123.291,
+   "parts": [
+    {
+     "text": "Khi trời đủ tối,",
+     "start": 119.446,
+     "end": 120.659,
+     "score": 1.0,
+     "heard": "Khi trời đủ tối."
+    },
+    {
+     "text": "bạn mới thấy những vì sao.",
+     "start": 121.559,
+     "end": 123.291,
+     "score": 1.0,
+     "heard": "bạn mới thấy những vì sao."
+    }
+   ]
+  }
+ ]
+}

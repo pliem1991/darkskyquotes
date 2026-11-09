@@ -1,0 +1,40 @@
+{
+ "lines": [
+  {
+   "text": "Mười giờ sáng,|cô Sáu chủ trọ gõ cửa,|nhìn vô rồi hỏi bữa nay sao hông đi làm.",
+   "scene": "c1-go-cua"
+  },
+  {
+   "text": "Nói thật thì sợ cô lo tiền phòng,|nên nói dạ con xin nghỉ phép mấy bữa.|Cô gật đầu,|mà trước khi đi vẫn dặn,|tiền phòng mùng năm nha con,|đừng để cô lên hỏi.",
+   "scene": "c2-co-sau"
+  },
+  {
+   "text": "Cô đi rồi,|nhét cái balo của công ty xuống gầm giường.|Nó nằm giữa phòng từ tối qua,|ai nhìn vô cũng thấy.",
+   "scene": "c3-gam-giuong"
+  },
+  {
+   "text": "Lấy cuốn sổ đem về từ công ty ra tính.|Mấy trang đầu còn ghi lịch giao hàng,|lật qua trang trắng,|ghi tiền phòng ba triệu rưỡi,|tiền góp điện thoại một triệu hai.",
+   "scene": "c4-cuon-so"
+  },
+  {
+   "text": "Chín triệu trừ ra còn bốn triệu ba,|để ăn với đổ xăng tới hồi có việc.|Học phí của em thì chưa biết lấy đâu ra.",
+   "scene": "c5-mep-giuong"
+  },
+  {
+   "text": "Trưa gọi lên công ty hỏi chừng nào chốt sổ bảo hiểm.|Chị nhân sự nói kế toán đang làm,|tuần sau em gọi lại nha.",
+   "scene": "c6-goi-cong-ty"
+  },
+  {
+   "text": "Mở ứng dụng bảo hiểm ra coi,|mấy tháng gần đây vẫn chưa thấy công ty đóng.|Sổ chưa chốt thì chưa nộp được hồ sơ thất nghiệp.",
+   "scene": "c7-nam-dat"
+  },
+  {
+   "text": "Chiều ra đầu hẻm,|đứng coi bảng giá một hồi rồi kêu ổ bánh mì ốp la,|mười ngàn.",
+   "scene": "c8-banh-mi"
+  },
+  {
+   "text": "Tối lên sân thượng ngồi,|cả ngày đếm tiền rồi,|giờ đếm đèn nhà người ta.|Đèn nhiều vậy mà không có cái nào là sao.",
+   "scene": "c9-san-thuong"
+  }
+ ]
+}

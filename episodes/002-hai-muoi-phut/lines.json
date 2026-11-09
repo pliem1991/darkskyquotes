@@ -1,0 +1,90 @@
+{
+ "lines": [
+  {
+   "text": "Vừa mất việc, nhìn đâu cũng thấy tối om.",
+   "scene": "toi-om",
+   "gaps": [],
+   "pause": 0.9,
+   "lead": 0.1,
+   "subs": []
+  },
+  {
+   "text": "Sáng nay chuông vẫn reo,|bạn vội bật dậy,|rồi mới sực nhớ,|mình đâu còn chỗ để đi.",
+   "scene": "chuong-reo",
+   "gaps": [
+    0.4,
+    0.35,
+    0.5
+   ],
+   "pause": 1.2
+  },
+  {
+   "text": "Tối mở điện thoại,|đồng nghiệp cũ đang liên hoan,",
+   "scene": "dien-thoai",
+   "gaps": [
+    0.4
+   ],
+   "pause": 0.25
+  },
+  {
+   "text": "ở đúng cái bàn bạn hay ngồi.",
+   "scene": "lien-hoan",
+   "gaps": [],
+   "pause": 1.2
+  },
+  {
+   "text": "Từ trong nhà sáng đèn bước ra ngoài, ngước lên,|chẳng thấy ngôi sao nào.",
+   "scene": "ra-ngoai",
+   "gaps": [
+    0.45
+   ],
+   "pause": 1.3
+  },
+  {
+   "text": "Mắt người cần khoảng hai mươi đến ba mươi phút,|mới quen được với bóng tối.",
+   "scene": "con-mat",
+   "gaps": [
+    0.45
+   ],
+   "pause": 1.2
+  },
+  {
+   "text": "Mà chỉ cần nhìn vào đèn sáng một lúc,|là mắt phải quen lại.",
+   "scene": "den-xe",
+   "gaps": [
+    0.45
+   ],
+   "pause": 1.2
+  },
+  {
+   "text": "Mỗi lần mở lại tấm ảnh đó,|là một lần bật đèn vào mắt mình.",
+   "scene": "bat-den",
+   "gaps": [
+    0.5
+   ],
+   "pause": 1.3
+  },
+  {
+   "text": "Tuần sau có khi vẫn chưa ai gọi lại.",
+   "scene": "im-lang",
+   "gaps": [],
+   "pause": 1.6
+  },
+  {
+   "text": "Đêm nay, tắt tấm ảnh đó đi,|rồi ngồi thêm một lúc.",
+   "scene": "ngoi-them",
+   "gaps": [
+    0.5
+   ],
+   "pause": 1.3
+  },
+  {
+   "text": "Khi trời đủ tối,|bạn mới thấy những vì sao.",
+   "scene": "them-sao",
+   "gaps": [
+    0.8
+   ],
+   "pause": 5.2
+  }
+ ]
+}

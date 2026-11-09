@@ -1,0 +1,200 @@
+=====================================================================
+  THÀNH PHỐ KHÔNG SAO – TỔNG HỢP THAY ĐỔI SO VỚI KẾ HOẠCH GỐC
+  Kèm kịch bản tập 1 bản kể chuyện để review
+  Cập nhật: 02/11/2026
+=====================================================================
+
+Kế hoạch gốc: ke-hoach-tong-hop.txt (cùng thư mục).
+
+TÌNH TRẠNG
+  - Ảnh tập 1: đủ 10 ảnh cảnh, 3 ảnh nhân vật, đã xóa dấu Gemini.
+  - Lời kể: ĐÃ CÓ BẢN SAU MỤC 2. Bản đã duyệt nằm trong
+    tap-01-chin-trieu/script.md: bỏ "tui", cảnh 2 thêm lý do ký.
+  - Video: đã có một bản theo lời cũ, không dùng. Đang thử giọng trước
+    khi đọc lại.
+  - Chưa đăng gì.
+
+
+=====================================================================
+1. CÁC THAY ĐỔI
+=====================================================================
+
+ĐÃ ĐỔI
+
+Mục                Kế hoạch gốc                 Hiện tại
+-----------------  ---------------------------  -----------------------------
+Phong cách hình    Minh họa điện ảnh gần thật,  Sơn dầu nắng gió sông nước:
+                   teal và amber                nét cọ dày, nâu phù sa, xanh
+                                                dừa, ánh vàng. Cảnh đêm Sài
+                                                Gòn nền xanh đậm, ánh vàng
+Khổ ảnh            Dọc 9:16                     Vuông 1:1, đặt trong vùng an
+                                                toàn của TikTok
+Giọng đọc          3 giọng: Minh, Má, Linh      1 giọng kể cả series
+Tên giọng          Giọng miền Nam               Thiền Tâm Đức, giọng của kênh,
+                                                tốc độ 1,0, cao độ 1,0.
+                                                Danh mục ghi là nam miền Bắc
+Dạng kể            Phim có lời thoại            Truyện kể: Minh kể ngôi thứ
+                                                nhất, lời người khác do Minh
+                                                kể lại, lời gốc hiện bằng chữ
+File giọng         Bạn xuất từng file           Phiên dựng đọc trên máy
+Người ghép video   Opus                         Phiên dsq - Build dựng, phiên
+                                                dsq - Marketing review
+Lời tập 1          Từng câu theo cảnh           Viết lại thành một mạch kể
+                                                (mục 2)
+Quê quán           Quê Bến Tre                  Không chỉ định rõ, lời kể chỉ
+                                                nói "má ở quê"
+
+GIỮ NGUYÊN
+  - Tên series, câu chuyện, thông điệp, nhân vật, dàn ý 20 tập.
+  - Lịch: tập 1 thứ 2, 16/11/2026, 20h.
+  - Tạo ảnh bằng Google Flow, dùng ảnh tham chiếu nhân vật.
+  - Dấu ấn: thẻ mở, sân thượng cuối tập, câu "Con không sao đâu má".
+  - Nhạc thêm trong TikTok lúc đăng, bật nhãn AI, ghi "Phim hư cấu".
+
+ĐÃ THỬ VÀ BỎ
+  - Tạo ảnh trên máy bằng DreamShaper 8: không giữ được cùng một nhân vật.
+  - Phong cách phấn màu.
+  - Giọng Thiện Minh và 3 giọng riêng.
+
+ẢNH HƯỞNG TỚI CÁC TẬP SAU
+  - Lời chú Tư, cô Sáu, Khoa, Linh đều do Minh kể lại, nên kịch bản tập 2
+    trở đi cần viết theo mạch kể ngay từ đầu.
+  - Phần "Kịch bản viết cho máy đọc" và "Ghi chú giọng" của kế hoạch gốc
+    cần áp dụng theo một giọng.
+  - Nỗi đau mất việc trùng tập 002 của kênh. Giữ có chủ đích, đã ghi lý
+    do trong sổ nội dung.
+
+CÒN PHẢI QUYẾT
+  - Giọng miền Bắc đọc lời miền Tây ("tui", "má", "hông") có chấp nhận
+    được không. Chỉ quyết được bằng tai.
+
+
+=====================================================================
+2. KỊCH BẢN TẬP 1 "CHÍN TRIỆU" – BẢN KỂ CHUYỆN (ĐÃ THAY BẰNG script.md)
+=====================================================================
+
+Dài ước tính: lời khoảng 70 giây, cộng khoảng lặng 4–5 giây, gần chạm trần
+75 giây. Đo lại sau khi đọc. Nếu vượt, cắt "có cái ly, cục sạc, với cuốn
+sổ" ở cảnh 5 trước.
+
+---------------------------------------------------------------------
+[CẢNH 1] Ảnh: c1-ky-giay
+Lời: Tám năm đi làm, rồi kết thúc bằng một chữ ký của chính tui.
+Chữ: THÀNH PHỐ KHÔNG SAO · TẬP 1
+
+Lời cũ: Tám năm đi làm. Kết thúc bằng một tờ giấy, và một chữ ký.
+
+---------------------------------------------------------------------
+[CẢNH 2] Ảnh: c2-phong-hop
+Lời: Chuyện bắt đầu hai tuần trước, khi chị nhân sự nhắn tui lên phòng
+họp nhỏ. Chị nói công ty tái cơ cấu, mong em thông cảm, rồi đẩy qua tờ đơn
+in sẵn. Tui ký luôn, không hỏi gì.
+Chữ: bong bóng tin nhắn "Em lên phòng họp nhỏ chút nha."
+
+Lời cũ: Hai tuần trước, chị nhân sự nhắn tui lên phòng họp nhỏ. Chị nói
+công ty đang tái cơ cấu, mong em thông cảm. Đơn đã in sẵn, tui ký luôn,
+không hỏi gì hết.
+
+---------------------------------------------------------------------
+[CẢNH 3] Ảnh: c3-ban-giao
+Lời: Mấy ngày sau, tui ngồi chỉ việc cho người sẽ thay tui. Em nhỏ hơn tui
+tám tuổi, lương chắc cũng nhỏ hơn.
+
+Lời cũ: Mấy ngày sau, tui ngồi chỉ việc cho người thay tui. Em nó nhỏ hơn
+tui tám tuổi. Lương chắc cũng nhỏ hơn.
+
+---------------------------------------------------------------------
+[CẢNH 4] Ảnh: c4-tra-the
+Lời: Hôm nay là ngày cuối. Tui trả máy tính, trả thẻ, vừa bước vô thang máy
+thì điện thoại báo tui bị xóa khỏi nhóm của phòng.
+Chữ: thông báo nhỏ "Bạn đã bị xóa khỏi nhóm Phòng XNK"
+
+Lời cũ: Chiều nay tui trả lại máy tính, trả luôn thẻ ra vào. Vừa bước vô
+thang máy, điện thoại báo tui bị xóa khỏi nhóm của phòng.
+
+---------------------------------------------------------------------
+[CẢNH 5] Ảnh: c5-duong-ve
+Lời: Tui chạy xe về trong mưa, đồ đạc của tám năm gom lại vừa một cái balo,
+có cái ly, cục sạc, với cuốn sổ.
+
+Lời cũ: Đồ đạc của tám năm, gom lại vừa đúng một cái balo, có cái ly, cây
+sạc, với cuốn sổ.
+
+---------------------------------------------------------------------
+[CẢNH 6] Ảnh: c6-phong-tro
+Lời: Về tới phòng, tui mở tài khoản ngân hàng ra coi, còn đúng chín triệu.
+Chữ: Ngày 1 · Tài khoản: 9.000.000đ (số đếm lên từ từ)
+Sau lời: khoảng lặng ngắn.
+
+Lời cũ: Trong tài khoản còn chín triệu.
+
+---------------------------------------------------------------------
+[CẢNH 7] Ảnh: c7a-ma (trên), c7b-minh-cuoi (dưới), khung gọi video
+Lời: Rồi má ở quê gọi lên. Câu đầu tiên vẫn là con ăn cơm chưa con, bữa
+nay đi làm có mệt hông. Tui ráng cười, dạ con ăn rồi má. Con không sao đâu
+má.
+Chữ: trong khung gọi "Con ăn cơm chưa con? Bữa nay đi làm có mệt hông?"
+
+Lời cũ: Tối nay má gọi. Câu đầu tiên vẫn là, con ăn cơm chưa con, bữa nay
+đi làm có mệt hông. Tui nói dạ con ăn rồi má. Con không sao đâu má.
+
+---------------------------------------------------------------------
+[CẢNH 8] Ảnh: c8-tin-nhan
+Lời: Má vừa cúp máy thì em gái tui nhắn tin. Học phí kỳ này mười hai triệu,
+hạn cuối tháng. Mà tui còn có chín.
+Chữ: tin nhắn hiện từng dòng trên điện thoại "Anh Hai ơi, học phí kỳ này
+12 triệu, hạn cuối tháng nha anh."
+
+Lời cũ: Má vừa cúp máy thì con Linh nhắn tin, học phí kỳ này mười hai
+triệu, hạn cuối tháng.
+
+---------------------------------------------------------------------
+[CẢNH 9] Ảnh: c9-san-thuong
+Lời: Tối nay tui lên sân thượng ngồi. Thành phố này sáng quá, sáng tới mức
+không thấy được ngôi sao nào.
+Chữ kết: Bạn đã từng nói "con không sao" khi đang không ổn chưa?
+Sau lời: khoảng lặng dài hơn cảnh 6, chữ kết hiện lúc này.
+
+Lời cũ: Thành phố này sáng quá. Sáng tới mức không thấy được ngôi sao nào.
+
+
+LỜI KỂ LIỀN MẠCH ĐỂ ĐỌC THỬ
+
+Tám năm đi làm, rồi kết thúc bằng một chữ ký của chính tui.
+
+Chuyện bắt đầu hai tuần trước, khi chị nhân sự nhắn tui lên phòng họp nhỏ.
+Chị nói công ty tái cơ cấu, mong em thông cảm, rồi đẩy qua tờ đơn in sẵn.
+Tui ký luôn, không hỏi gì.
+
+Mấy ngày sau, tui ngồi chỉ việc cho người sẽ thay tui. Em nhỏ hơn tui tám
+tuổi, lương chắc cũng nhỏ hơn.
+
+Hôm nay là ngày cuối. Tui trả máy tính, trả thẻ, vừa bước vô thang máy thì
+điện thoại báo tui bị xóa khỏi nhóm của phòng.
+
+Tui chạy xe về trong mưa, đồ đạc của tám năm gom lại vừa một cái balo, có
+cái ly, cục sạc, với cuốn sổ.
+
+Về tới phòng, tui mở tài khoản ngân hàng ra coi, còn đúng chín triệu.
+
+Rồi má ở quê gọi lên. Câu đầu tiên vẫn là con ăn cơm chưa con, bữa nay
+đi làm có mệt hông. Tui ráng cười, dạ con ăn rồi má. Con không sao đâu má.
+
+Má vừa cúp máy thì em gái tui nhắn tin. Học phí kỳ này mười hai triệu, hạn
+cuối tháng. Mà tui còn có chín.
+
+Tối nay tui lên sân thượng ngồi. Thành phố này sáng quá, sáng tới mức không
+thấy được ngôi sao nào.
+
+
+LÝ DO SỬA
+
+  - Thêm mốc thời gian: "Chuyện bắt đầu hai tuần trước", "Hôm nay là ngày
+    cuối", "Về tới phòng", "Tối nay", để người nghe biết đang ở đâu trong
+    câu chuyện.
+  - Nói rõ má ở quê và người nhắn tin là em gái.
+  - Thêm "Mà tui còn có chín" để nối chín triệu với mười hai triệu.
+  - Câu đáng nhớ của tập vẫn là câu cuối về thành phố không sao.
+
+CẦN NGHE KỸ KHI ĐỌC THỬ
+  - "tái cơ cấu", "balo", "hông", "má", "tui", "cúp máy".

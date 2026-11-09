@@ -1,0 +1,16 @@
+{
+  "name": "darkskyquotes-live",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Bầu trời đêm tương tác cho TikTok LIVE của @dark.sky.quotes",
+  "scripts": {
+    "sim": "node server.js",
+    "live": "node server.js --user dark.sky.quotes",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "tiktok-live-connector": "2.5.0",
+    "ws": "8.22.0"
+  }
+}

@@ -1,0 +1,151 @@
+{
+ "voices": {
+  "minh": {
+   "preset": "Thiền Tâm Đức",
+   "pitch": 1.0,
+   "tempo": 1.12,
+   "af": "highpass=f=110,equalizer=f=300:t=q:w=1:g=-1.5,equalizer=f=3500:t=q:w=1.2:g=2,equalizer=f=6500:t=q:w=1:g=2,acompressor=threshold=-22dB:ratio=2:attack=15:release=200:makeup=2,loudnorm=I=-15:TP=-1.5:LRA=9"
+  }
+ },
+ "lead_in": 1.6,
+ "lines": [
+  {
+   "file": "c1_minh",
+   "voice": "minh",
+   "text": "Mở trang tuyển dụng ra, tin đầu tiên đã ghi ưu tiên ứng viên dưới ba mươi tuổi, mà năm nay mình ba mươi hai.",
+   "tempo": 1.0,
+   "scene": "c1-tin-tuyen-dung",
+   "pause": 1.2,
+   "inner_pauses": [
+    {
+     "after_part": 1,
+     "sec": 0.4
+    }
+   ]
+  },
+  {
+   "file": "c2_minh",
+   "voice": "minh",
+   "text": "Mở máy tính ra sửa lại hồ sơ. Tấm hình trong đó chụp hồi mới vô làm, định chụp tấm mới, bật camera lên nhìn mặt mình một hồi rồi thôi.",
+   "tempo": 1.0,
+   "scene": "c2-sua-ho-so",
+   "pause": 1.2,
+   "inner_pauses": [
+    {
+     "after_part": 0,
+     "sec": 0.5
+    },
+    {
+     "after_part": 2,
+     "sec": 0.4
+    }
+   ]
+  },
+  {
+   "file": "c3_minh",
+   "voice": "minh",
+   "text": "Ba ngày liền, thấy tin nào có chữ xuất nhập khẩu là gửi, kể cả mấy tin ghi dưới ba mươi tuổi, vì nghĩ người ta sẽ coi tám năm kinh nghiệm trước.",
+   "tempo": 1.0,
+   "scene": "c3-gui-ho-so",
+   "pause": 1.2,
+   "inner_pauses": [
+    {
+     "after_part": 2,
+     "sec": 0.5
+    }
+   ]
+  },
+  {
+   "file": "c4_minh",
+   "voice": "minh",
+   "text": "Tới trưa nay là đủ ba mươi bộ. Có mấy chỗ nhắn hỏi thêm, tin nhắn hiện đã xem rồi nằm đó luôn.",
+   "tempo": 1.0,
+   "scene": "c4-da-xem",
+   "pause": 2.2,
+   "inner_pauses": [
+    {
+     "after_part": 0,
+     "sec": 0.5
+    },
+    {
+     "after_part": 1,
+     "sec": 0.4
+    }
+   ]
+  },
+  {
+   "file": "c5_minh",
+   "voice": "minh",
+   "text": "Chiều mạng với sóng trong phòng chập chờn, bộ thứ ba mươi mốt gửi hoài không đi, nên xuống quán cóc đầu hẻm kêu ly trà đá, ngồi xài ké mạng của quán.",
+   "tempo": 1.0,
+   "scene": "c5-quan-coc",
+   "pause": 1.2,
+   "inner_pauses": [
+    {
+     "after_part": 1,
+     "sec": 0.5
+    }
+   ]
+  },
+  {
+   "file": "c6_minh",
+   "voice": "minh",
+   "text": "Chú Tư chạy xe ôm ngồi bàn bên, liếc qua cái điện thoại rồi hỏi, con mất việc rồi hả, nhìn cái dáng là biết.",
+   "tempo": 1.0,
+   "scene": "c6-chu-tu",
+   "pause": 1.5,
+   "inner_pauses": [
+    {
+     "after_part": 2,
+     "sec": 0.5
+    }
+   ]
+  },
+  {
+   "file": "c7_minh",
+   "voice": "minh",
+   "text": "Mấy bữa nay giấu cô Sáu với má, vậy mà người chưa nói chuyện với mình lần nào lại biết trước. Định nói dạ đâu có, thì chú đã quay ra ngoài đường rồi.",
+   "tempo": 1.0,
+   "scene": "c7-bi-nhin-thau",
+   "pause": 3.0,
+   "inner_pauses": [
+    {
+     "after_part": 0,
+     "sec": 0.5
+    }
+   ]
+  },
+  {
+   "file": "c8_minh",
+   "voice": "minh",
+   "text": "Tối lên sân thượng cho có sóng, thì có số lạ gọi tới. Một chị bên công ty giao nhận hẹn sáng thứ năm phỏng vấn qua mạng. Chị chưa hỏi hết câu đã dạ được.",
+   "tempo": 1.0,
+   "scene": "c8-so-la",
+   "pause": 1.5,
+   "inner_pauses": [
+    {
+     "after_part": 0,
+     "sec": 0.5
+    },
+    {
+     "after_part": 1,
+     "sec": 0.4
+    }
+   ]
+  },
+  {
+   "file": "c9_minh",
+   "voice": "minh",
+   "text": "Cúp máy rồi mà còn cầm điện thoại thêm một hồi, sợ để xuống thì nó hóa ra không có thật.",
+   "tempo": 1.0,
+   "scene": "c9-san-thuong",
+   "pause": 6.5,
+   "inner_pauses": [
+    {
+     "after_part": 0,
+     "sec": 0.3
+    }
+   ]
+  }
+ ]
+}

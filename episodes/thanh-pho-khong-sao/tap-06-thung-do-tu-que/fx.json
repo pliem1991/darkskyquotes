@@ -1,0 +1,416 @@
+{
+ "_note": "Tập 6 nhánh B. Tọa độ ảnh theo khung 896x896. Mở đầu và nhịp mới từ tập 6.",
+ "hide_subs": [],
+ "hook": {
+  "sweep": [
+   0,
+   0
+  ],
+  "rows": [
+   {
+    "text": "Má khoe con má",
+    "size": 92,
+    "y": 330,
+    "instant": true,
+    "leave": [
+     "we",
+     [
+      0,
+      "công ty lớn"
+     ]
+    ]
+   },
+   {
+    "text": "làm công ty lớn.",
+    "size": 92,
+    "y": 470,
+    "instant": true,
+    "leave": [
+     "we",
+     [
+      0,
+      "công ty lớn"
+     ]
+    ]
+   }
+  ]
+ },
+ "chords": [
+  "Am",
+  "F",
+  "Dm",
+  "Am"
+ ],
+ "final_arpeggio": false,
+ "theme": {
+  "notes": [
+   88,
+   86,
+   84,
+   86,
+   83
+  ],
+  "gap": 1.3,
+  "vel": 0.45,
+  "count": 5
+ },
+ "music_end": [
+  "we",
+  [
+   7,
+   "gặp ai quen"
+  ]
+ ],
+ "music_busy": [
+  "we",
+  [
+   7,
+   "gặp ai quen"
+  ]
+ ],
+ "music_lufs": -19,
+ "music_highpass": 140,
+ "music_fade": 1.8,
+ "music_sparse": 0.7,
+ "music_low": false,
+ "strings_gain": 7,
+ "sfx_lufs": -30,
+ "emphasis": {},
+ "digits": {
+  "bốn triệu": "4 triệu",
+  "mười hai triệu": "12 triệu"
+ },
+ "card": {
+  "main": "THÀNH PHỐ KHÔNG SAO",
+  "sub": "TẬP 6",
+  "show": 3.2,
+  "dur": 1.5,
+  "y": 230,
+  "size": 34
+ },
+ "overlays": [
+  {
+   "scene": "b2-goi-lai",
+   "type": "counter",
+   "label": "Ngày 8 · Còn lại:",
+   "value": 3810000,
+   "instant": true,
+   "start": [
+    1,
+    0.0
+   ],
+   "y": 1250,
+   "size": 96
+  },
+  {
+   "scene": "b3-ma-quay-lung",
+   "type": "message",
+   "text": "Thằng Hai nó nói để nó lo.",
+   "at": [
+    "center",
+    330
+   ],
+   "size": 32,
+   "show": [
+    "w",
+    [
+     2,
+     "thằng Hai"
+    ]
+   ],
+   "hide": [
+    "we",
+    [
+     2,
+     "để nó lo"
+    ]
+   ],
+   "hold": 0.8
+  },
+  {
+   "scene": "c8-san-thuong",
+   "type": "end",
+   "text": "Bạn đã từng nói dạ được|dù biết mình không lo được chưa?",
+   "start": [
+    "we",
+    [
+     7,
+     "gặp ai quen"
+    ]
+   ],
+   "delay": 3.0,
+   "y": 290,
+   "size": 54,
+   "fade": 0.8
+  }
+ ],
+ "quiet": [
+  [
+   [
+    "w",
+    [
+     3,
+     "mà nghe má khoe xong"
+    ]
+   ],
+   [
+    4,
+    0.0
+   ]
+  ]
+ ],
+ "music": [
+  [
+   0,
+   0.0,
+   0.6
+  ],
+  [
+   1,
+   0.0,
+   0.6
+  ],
+  [
+   2,
+   0.0,
+   0.6
+  ],
+  [
+   3,
+   0.0,
+   0.6
+  ],
+  [
+   4,
+   0.0,
+   0.55
+  ],
+  [
+   5,
+   0.0,
+   0.5
+  ],
+  [
+   6,
+   0.0,
+   0.45
+  ],
+  [
+   7,
+   0.0,
+   0.4
+  ],
+  [
+   "we",
+   [
+    7,
+    "gặp ai quen"
+   ],
+   0.4
+  ],
+  [
+   7,
+   1.0,
+   0.95
+  ]
+ ],
+ "sfx": [
+  {
+   "type": "ring",
+   "at": [
+    "we",
+    [
+     1,
+     "như đã hứa"
+    ]
+   ],
+   "delay": 0.1,
+   "count": 1,
+   "gain": 2.0
+  },
+  {
+   "type": "wind",
+   "at": [
+    7,
+    0.0
+   ],
+   "delay": -0.5,
+   "gain": 0.8
+  },
+  {
+   "type": "traffic",
+   "at": [
+    7,
+    0.0
+   ],
+   "delay": -0.5,
+   "gain": 0.45
+  }
+ ],
+ "scenes": {
+  "b1-ma-khoe": {
+   "lead": 0.3,
+   "ease": true,
+   "drift": 0,
+   "push": 0.06,
+   "focus": [
+    640,
+    520
+   ],
+   "pan": [
+    0,
+    0,
+    -18,
+    0
+   ],
+   "intro_push": {
+    "amount": 0.07,
+    "fast": 0.3,
+    "settle": 0.3
+   }
+  },
+  "b2-goi-lai": {
+   "lead": 0.3,
+   "ease": true,
+   "drift": 0,
+   "push": 0.07,
+   "focus": [
+    450,
+    450
+   ],
+   "pan": [
+    0,
+    0,
+    -18,
+    0
+   ],
+   "in": "blur",
+   "blur": 12,
+   "in_dur": 0.5
+  },
+  "b3-ma-quay-lung": {
+   "lead": 0.3,
+   "ease": true,
+   "drift": 0,
+   "push": 0.07,
+   "focus": [
+    380,
+    450
+   ],
+   "pan": [
+    20,
+    0,
+    -20,
+    0
+   ],
+   "in": "blur",
+   "blur": 12,
+   "in_dur": 0.3
+  },
+  "b4-ma-hoi": {
+   "lead": 0.3,
+   "ease": true,
+   "drift": 0,
+   "push": 0.06,
+   "focus": [
+    450,
+    330
+   ],
+   "pan": [
+    0,
+    0,
+    -18,
+    0
+   ],
+   "in": "blur",
+   "blur": 12,
+   "in_dur": 0.3
+  },
+  "b5-ma-cuoi": {
+   "lead": 0.3,
+   "ease": true,
+   "drift": 0,
+   "push": 0.06,
+   "focus": [
+    430,
+    330
+   ],
+   "pan": [
+    0,
+    0,
+    -18,
+    0
+   ],
+   "in": "fade",
+   "in_dur": 0.001
+  },
+  "b6-tinh-tien": {
+   "lead": 0.3,
+   "ease": true,
+   "drift": 0,
+   "push": 0.07,
+   "focus": [
+    520,
+    400
+   ],
+   "pan": [
+    0,
+    0,
+    -18,
+    0
+   ],
+   "in": "blur",
+   "blur": 12,
+   "in_dur": 0.3
+  },
+  "c7-tai-ung-dung": {
+   "lead": 0.3,
+   "ease": true,
+   "drift": 0,
+   "push": 0.07,
+   "focus": [
+    450,
+    440
+   ],
+   "pan": [
+    0,
+    0,
+    -18,
+    0
+   ],
+   "in": "blur",
+   "blur": 26,
+   "in_dur": 0.6
+  },
+  "c8-san-thuong": {
+   "lead": 0.3,
+   "ease": true,
+   "drift": 0,
+   "push": -0.07,
+   "focus": [
+    450,
+    640
+   ],
+   "pan": [
+    0,
+    30,
+    0,
+    0
+   ],
+   "in": "blur",
+   "blur": 12,
+   "in_dur": 0.6,
+   "zoom0": 0.1
+  }
+ },
+ "watermark": {
+  "text": "@dark.sky.quotes",
+  "size": 30,
+  "x": 60,
+  "y": 1395,
+  "opacity": 0.45
+ },
+ "music_v2": true,
+ "music_step": 0.8,
+ "master_lufs": -14
+}

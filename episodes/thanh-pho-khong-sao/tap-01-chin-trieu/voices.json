@@ -1,0 +1,158 @@
+{
+ "voices": {
+  "minh": {
+   "preset": "Thiền Tâm Đức",
+   "pitch": 1.0,
+   "tempo": 1.05,
+   "af": "highpass=f=110,equalizer=f=300:t=q:w=1:g=-1.5,equalizer=f=3500:t=q:w=1.2:g=2,equalizer=f=6500:t=q:w=1:g=2,acompressor=threshold=-22dB:ratio=2:attack=15:release=200:makeup=2,loudnorm=I=-15:TP=-1.5:LRA=9"
+  }
+ },
+ "lines": [
+  {
+   "file": "c1_minh",
+   "voice": "minh",
+   "text": "Tám năm đi làm, rồi kết thúc bằng một chữ ký của chính mình.",
+   "tempo": 1.0,
+   "scene": "c1-ky-giay",
+   "pause": 2.0
+  },
+  {
+   "file": "c2_minh",
+   "voice": "minh",
+   "text": "Chuyện bắt đầu hai tuần trước, khi chị nhân sự nhắn lên phòng họp nhỏ. Chị nói công ty tái cơ cấu, mong em thông cảm, rồi đẩy qua tờ thỏa thuận nghỉ việc in sẵn. Muốn hỏi lắm, mà sợ giọng mình run, nên ký cho xong.",
+   "tempo": 1.0,
+   "scene": "c2-phong-hop",
+   "pause": 2.0,
+   "inner_pauses": [
+    {
+     "after_part": 1,
+     "sec": 0.6
+    },
+    {
+     "after_part": 4,
+     "sec": 0.6
+    }
+   ]
+  },
+  {
+   "file": "c3_minh",
+   "voice": "minh",
+   "text": "Mấy ngày sau, ngồi chỉ việc cho người sẽ thay mình. Em đó nhỏ hơn tám tuổi, lương chắc cũng nhỏ hơn.",
+   "tempo": 1.0,
+   "scene": "c3-ban-giao",
+   "pause": 2.0,
+   "inner_pauses": [
+    {
+     "after_part": 1,
+     "sec": 0.5
+    }
+   ]
+  },
+  {
+   "file": "c4_minh",
+   "voice": "minh",
+   "text": "Hôm nay là ngày cuối. Trả máy tính, trả thẻ, vừa bước vô thang máy thì điện thoại báo đã bị xóa khỏi nhóm của phòng.",
+   "tempo": 1.0,
+   "scene": "c4-tra-the",
+   "pause": 2.0,
+   "parts": [
+    "Hôm nay là ngày cuối.",
+    "Trả máy tính,",
+    "trả thẻ,",
+    "vừa bước vô thang máy",
+    "thì điện thoại báo",
+    "đã bị xóa khỏi nhóm của phòng."
+   ],
+   "inner_pauses": [
+    {
+     "after_part": 0,
+     "sec": 0.5
+    }
+   ]
+  },
+  {
+   "file": "c5_minh",
+   "voice": "minh",
+   "text": "Chạy xe về trong mưa, đồ đạc của tám năm gom lại vừa một cái balo, có cái ly, cục sạc, với cuốn sổ.",
+   "tempo": 1.0,
+   "scene": "c5-duong-ve",
+   "pause": 2.0,
+   "inner_pauses": [
+    {
+     "after_part": 1,
+     "sec": 0.4
+    }
+   ]
+  },
+  {
+   "file": "c6_minh",
+   "voice": "minh",
+   "text": "Về tới phòng, mở tài khoản ngân hàng ra coi, còn đúng chín triệu.",
+   "tempo": 1.0,
+   "scene": "c6-phong-tro",
+   "pause": 3.0
+  },
+  {
+   "file": "c7_minh",
+   "voice": "minh",
+   "text": "Rồi má ở quê gọi lên. Câu đầu tiên vẫn là con ăn cơm chưa con, bữa nay đi làm có mệt hông. Ráng cười nói dạ con ăn rồi má. Con không sao đâu má.",
+   "tempo": 1.0,
+   "scene": "c7-cuoc-goi",
+   "pause": 3.0,
+   "inner_pauses": [
+    {
+     "after_part": 0,
+     "sec": 0.5
+    },
+    {
+     "after_part": 3,
+     "sec": 0.4
+    },
+    {
+     "after_part": 4,
+     "sec": 0.45
+    }
+   ],
+   "parts": [
+    "Rồi má ở quê gọi lên.",
+    "Câu đầu tiên vẫn là",
+    "con ăn cơm chưa con,",
+    "bữa nay đi làm có mệt hông.",
+    "Ráng cười nói dạ con ăn rồi má.",
+    "Con không sao đâu má."
+   ]
+  },
+  {
+   "file": "c8_minh",
+   "voice": "minh",
+   "text": "Má vừa cúp máy thì em gái nhắn tin. Học phí kỳ này mười hai triệu, hạn cuối tháng. Mà mình còn có chín.",
+   "tempo": 1.0,
+   "scene": "c8-tin-nhan",
+   "pause": 3.0,
+   "inner_pauses": [
+    {
+     "after_part": 0,
+     "sec": 0.5
+    },
+    {
+     "after_part": 2,
+     "sec": 0.5
+    }
+   ]
+  },
+  {
+   "file": "c9_minh",
+   "voice": "minh",
+   "text": "Tối nay lên sân thượng ngồi. Thành phố này sáng quá, sáng tới mức không thấy được ngôi sao nào.",
+   "tempo": 1.0,
+   "scene": "c9-san-thuong",
+   "pause": 6.5,
+   "inner_pauses": [
+    {
+     "after_part": 0,
+     "sec": 0.6
+    }
+   ]
+  }
+ ]
+}

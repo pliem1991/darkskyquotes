@@ -1,0 +1,547 @@
+{
+ "_note": "Tọa độ ảnh theo khung 896x896. Mốc [câu, tỉ lệ] hoặc [[câu, vế], tỉ lệ]. Dựng bằng tools/render_series.py. Theo quy trình dựng ở ../quy-trinh-dung-video.md.",
+ "emphasis": {
+  "Sổ chưa chốt thì chưa nộp được hồ sơ thất nghiệp.": 58,
+  "Đèn nhiều vậy mà không có cái nào là sao.": 58,
+  "9 triệu trừ ra còn 4 triệu 3,": 60
+ },
+ "digits": {
+  "mùng năm": "mùng 5",
+  "bốn triệu ba": "4 triệu 3",
+  "Chín triệu": "9 triệu",
+  "chín triệu": "9 triệu",
+  "ba triệu rưỡi": "3 triệu rưỡi",
+  "một triệu hai": "1 triệu 2",
+  "mười ngàn": "10 ngàn",
+  "Mười giờ": "10 giờ"
+ },
+ "hide_subs": [],
+ "hook": {
+  "sweep": [
+   0,
+   0
+  ],
+  "rows": []
+ },
+ "card": {
+  "main": "THÀNH PHỐ KHÔNG SAO",
+  "sub": "TẬP 2",
+  "y": 200,
+  "gap": 98,
+  "size": 68,
+  "sub_size": 40,
+  "hold": 0.3
+ },
+ "overlays": [
+  {
+   "scene": "c4-cuon-so",
+   "type": "phone",
+   "color": [
+    28,
+    34,
+    52
+   ],
+   "quad": [
+    [
+     520,
+     300
+    ],
+    [
+     815,
+     290
+    ],
+    [
+     825,
+     590
+    ],
+    [
+     528,
+     600
+    ]
+   ],
+   "tex": [
+    360,
+    300
+   ],
+   "size": 27,
+   "top": 8,
+   "row": 50,
+   "lines": [
+    {
+     "text": "Tiền phòng −3.500.000đ",
+     "at": [
+      "w",
+      [
+       3,
+       "tiền phòng ba"
+      ]
+     ]
+    },
+    {
+     "text": "Góp điện thoại −1.200.000đ",
+     "at": [
+      "w",
+      [
+       3,
+       "tiền góp điện thoại"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "scene": "c5-mep-giuong",
+   "type": "counter",
+   "label": "Ngày 2 · Còn lại:",
+   "value": 4300000,
+   "instant": true,
+   "start": [
+    "w",
+    [
+     4,
+     "bốn triệu ba"
+    ]
+   ],
+   "y": 1215,
+   "size": 96
+  },
+  {
+   "scene": "c9-san-thuong",
+   "type": "end",
+   "text": "Bạn đã từng giấu ai|chuyện mình mất việc chưa?",
+   "start": [
+    "we",
+    [
+     8,
+     "nào là sao"
+    ]
+   ],
+   "delay": 2.0,
+   "y": 290,
+   "size": 56,
+   "fade": 0.8
+  }
+ ],
+ "chords": [
+  "Am",
+  "F",
+  "Dm",
+  "Am"
+ ],
+ "final_arpeggio": false,
+ "theme": {
+  "notes": [
+   76,
+   74,
+   72,
+   74,
+   71
+  ],
+  "gap": 1.3,
+  "vel": 0.5,
+  "count": 5
+ },
+ "music_end": [
+  "we",
+  [
+   8,
+   "nào là sao"
+  ]
+ ],
+ "music_busy": [
+  "we",
+  [
+   8,
+   "nào là sao"
+  ]
+ ],
+ "music_lufs": -22,
+ "music_highpass": 140,
+ "music_fade": 1.8,
+ "music_sparse": 0.45,
+ "music_low": false,
+ "strings_gain": 0.5,
+ "quiet": [
+  [
+   [
+    "w",
+    [
+     1,
+     "tiền phòng mùng năm"
+    ]
+   ],
+   [
+    2,
+    0.0
+   ]
+  ],
+  [
+   [
+    "w",
+    [
+     6,
+     "sổ chưa chốt"
+    ]
+   ],
+   [
+    7,
+    0.0
+   ]
+  ]
+ ],
+ "music": [
+  [
+   0,
+   0.0,
+   0.6
+  ],
+  [
+   "w",
+   [
+    1,
+    "mà trước khi đi"
+   ],
+   0.6
+  ],
+  [
+   "w",
+   [
+    1,
+    "tiền phòng mùng năm"
+   ],
+   0.2
+  ],
+  [
+   "we",
+   [
+    1,
+    "đừng để cô lên hỏi"
+   ],
+   0.2
+  ],
+  [
+   2,
+   0.0,
+   0.6
+  ],
+  [
+   "we",
+   [
+    6,
+    "công ty đóng"
+   ],
+   0.55
+  ],
+  [
+   "w",
+   [
+    6,
+    "sổ chưa chốt"
+   ],
+   0.05
+  ],
+  [
+   "we",
+   [
+    6,
+    "hồ sơ thất nghiệp"
+   ],
+   0.05
+  ],
+  [
+   7,
+   0.0,
+   0.05
+  ],
+  [
+   7,
+   1.0,
+   0.6
+  ],
+  [
+   8,
+   0.0,
+   0.3
+  ],
+  [
+   "we",
+   [
+    8,
+    "nào là sao"
+   ],
+   0.3
+  ],
+  [
+   8,
+   1.0,
+   0.95
+  ]
+ ],
+ "sfx_lufs": -30,
+ "sfx": [
+  {
+   "type": "knock",
+   "at": [
+    0,
+    0.0
+   ],
+   "delay": -1.45,
+   "gain": 4.0
+  },
+  {
+   "type": "keys",
+   "at": [
+    "we",
+    [
+     1,
+     "lên hỏi"
+    ]
+   ],
+   "delay": 0.35,
+   "count": 9,
+   "gain": 3.0
+  },
+  {
+   "type": "pen",
+   "at": [
+    "we",
+    [
+     3,
+     "lật qua trang trắng"
+    ]
+   ],
+   "delay": 0.12,
+   "end": [
+    "we",
+    [
+     3,
+     "lật qua trang trắng"
+    ]
+   ],
+   "end_delay": 0.65,
+   "gain": 1.5
+  },
+  {
+   "type": "ring",
+   "at": [
+    5,
+    0.0
+   ],
+   "delay": -1.5,
+   "count": 1,
+   "gain": 2.0
+  },
+  {
+   "type": "moto",
+   "at": [
+    7,
+    0.0
+   ],
+   "delay": -0.4,
+   "dur": 3.5,
+   "pan": -0.5,
+   "gain": 2.5
+  },
+  {
+   "type": "moto",
+   "at": [
+    "we",
+    [
+     7,
+     "mười ngàn"
+    ]
+   ],
+   "delay": 0.3,
+   "dur": 4.0,
+   "pan": 0.5,
+   "gain": 3.5
+  },
+  {
+   "type": "wind",
+   "at": [
+    8,
+    0.0
+   ],
+   "delay": -1.2,
+   "gain": 0.8
+  },
+  {
+   "type": "traffic",
+   "at": [
+    8,
+    0.0
+   ],
+   "delay": -1.2,
+   "gain": 0.45
+  }
+ ],
+ "scenes": {
+  "c1-go-cua": {
+   "push": 0.12,
+   "focus": [
+    370,
+    420
+   ],
+   "pan": [
+    0,
+    0,
+    -18,
+    -10
+   ],
+   "ease": true,
+   "drift": 0
+  },
+  "c2-co-sau": {
+   "in": "blur",
+   "in_dur": 1.0,
+   "blur": 12,
+   "lead": 0.3,
+   "push": -0.08,
+   "zoom0": 0.1,
+   "focus": [
+    450,
+    470
+   ],
+   "pan": [
+    0,
+    0,
+    -18,
+    0
+   ],
+   "ease": true,
+   "drift": 0
+  },
+  "c3-gam-giuong": {
+   "in": "blur",
+   "in_dur": 1.0,
+   "blur": 12,
+   "lead": 0.3,
+   "push": 0.1,
+   "focus": [
+    520,
+    500
+   ],
+   "pan": [
+    20,
+    0,
+    -20,
+    0
+   ],
+   "ease": true,
+   "drift": 0
+  },
+  "c4-cuon-so": {
+   "in": "blur",
+   "in_dur": 1.4,
+   "blur": 26,
+   "lead": 0.3,
+   "push": 0.07,
+   "focus": [
+    470,
+    430
+   ],
+   "pan": [
+    0,
+    0,
+    -20,
+    0
+   ],
+   "ease": true,
+   "drift": 0
+  },
+  "c5-mep-giuong": {
+   "in": "blur",
+   "in_dur": 1.0,
+   "blur": 12,
+   "lead": 0.3,
+   "push": 0.08,
+   "focus": [
+    520,
+    480
+   ],
+   "pan": [
+    0,
+    0,
+    -30,
+    0
+   ],
+   "ease": true,
+   "drift": 0
+  },
+  "c6-goi-cong-ty": {
+   "in": "blur",
+   "in_dur": 1.4,
+   "blur": 26,
+   "lead": 0.3,
+   "push": 0.08,
+   "focus": [
+    470,
+    420
+   ],
+   "pan": [
+    0,
+    0,
+    -20,
+    0
+   ],
+   "ease": true,
+   "drift": 0
+  },
+  "c7-nam-dat": {
+   "in": "fade",
+   "in_dur": 0.001,
+   "lead": 0.3,
+   "push": 0.06,
+   "focus": [
+    400,
+    480
+   ],
+   "pan": [
+    0,
+    0,
+    0,
+    -20
+   ],
+   "ease": true,
+   "drift": 0
+  },
+  "c8-banh-mi": {
+   "in": "blur",
+   "in_dur": 1.3,
+   "blur": 26,
+   "lead": 0.3,
+   "push": 0.1,
+   "focus": [
+    470,
+    480
+   ],
+   "pan": [
+    20,
+    0,
+    -20,
+    0
+   ],
+   "ease": true,
+   "drift": 0
+  },
+  "c9-san-thuong": {
+   "in": "dip",
+   "in_dur": 2.2,
+   "lead": 0.3,
+   "push": -0.07,
+   "zoom0": 0.1,
+   "focus": [
+    450,
+    620
+   ],
+   "pan": [
+    0,
+    30,
+    0,
+    0
+   ],
+   "ease": true,
+   "drift": 0
+  }
+ }
+}
