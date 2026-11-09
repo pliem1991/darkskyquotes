@@ -17,7 +17,7 @@ Máy đang dùng: Windows 11, không có GPU rời. Code giả định chạy tr
 `tools/make_voice.py`, `make_voice_lines.py`, `make_timeline_lines.py`, `render_series.py` chạy bằng Python 3.13 hệ thống, không dùng `.tools/visual`.
 
 ```bash
-python -m pip install vieneu faster-whisper soundfile numpy opencv-python pillow
+python -m pip install -r requirements.txt
 ```
 
 - **Giọng đọc: VieNeu-TTS** (`vieneu` 3.8), https://github.com/pnnbao97/VieNeu-TTS. Giọng đã chốt là Thiền Tâm Đức, cấu hình nằm ở `voices/voice_config.json`. Lần đầu chạy, VieNeu tự tải mô hình về.
@@ -47,7 +47,25 @@ npm run sim
 
 Xem thêm `live/README.md`. Giọng chào người xem dùng `live/tts_worker.py`, cần VieNeu ở bước 2.
 
-## 5. Những thứ không có trong repo
+## 5. Bộ nhớ của Claude
+
+Claude Code lưu bộ nhớ của từng project ở `%USERPROFILE%\.claude\projects\<đường dẫn project>\memory\`. Tên thư mục lấy từ đường dẫn project, thay `:` và `\` bằng `-`. Ví dụ project ở `D:\AI\Tiktok\darkskyquotes` thì tên là `D--AI-Tiktok-darkskyquotes`. Trên máy mới, chép bản trong repo vào đó:
+
+```powershell
+$mem = "$env:USERPROFILE\.claude\projects\D--AI-Tiktok-darkskyquotes\memory"
+New-Item -ItemType Directory -Force $mem | Out-Null
+Copy-Item docs\claude-memory\*.md $mem
+```
+
+Nếu project nằm ở đường dẫn khác, đổi tên thư mục cho khớp. Không chép được thì Claude vẫn đọc `docs/claude-memory/` theo dòng ghi trong `CLAUDE.md`.
+
+Những thứ gắn với tài khoản claude.ai đi theo tài khoản, không cần chép: dashboard "Lịch đăng kênh" (link ghi trong `CLAUDE.md`) và kết nối Claude in Chrome. Chrome trên máy mới phải đăng nhập TikTok, Google Flow, rồi sửa bảng profile trong `CLAUDE.md` nếu tên profile khác.
+
+## 6. Hyperframes (chỉ cho thư mục thử `thu-hyperframes/`)
+
+Không dùng trong pipeline chính. Muốn mở lại bản thử thì cài CLI Hyperframes qua npm theo hướng dẫn của Hyperframes.
+
+## 7. Những thứ không có trong repo
 
 - Ảnh nhân vật (`episodes/thanh-pho-khong-sao/nhan-vat/*.jpg`) và ảnh cảnh của từng tập (`images/`): làm lại trên Flow theo `prompts.md`, hoặc chép từ máy cũ sang.
 - Lời đọc đã tạo (`audio/*.wav`) và video xuất ra (`*.mp4`): chạy lại `make_voice.py` rồi đến bước dựng.

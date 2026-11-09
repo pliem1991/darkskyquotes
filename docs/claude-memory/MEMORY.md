@@ -1,0 +1,19 @@
+- [Kênh dark.sky.quotes](darkskyquotes-channel.md) — định hướng làm lại bằng AI, vị trí video và công cụ cũ
+- [Tông nội dung](content-tone.md) — đánh sâu cảm xúc, hiệu ứng lắng, nhiều ảnh, không nặng máy
+- [Bố cục video TikTok](tiktok-video-layout.md) — vùng an toàn cho chủ thể, chữ và yêu cầu hook mở đầu
+- [Rule chống AI hóa](anti-ai-rules.md) — mọi kịch bản phải soát theo rules/chong-ai-hoa.md trước khi đọc giọng
+- [Chia việc giữa các phiên](session-roles.md) — phiên chính lo ý tưởng và review, phiên Sonnet lo dựng video
+- [Lỗi dựng video hay gặp](video-build-pitfalls.md) — ảnh AI, sao lưu, RAM SDXL, UTF-8, fx.json, phụ đề không dấu phẩy
+- [Metricool](metricool-scheduler.md) — đã kết nối kênh, có đủ tùy chọn, chưa chạy bài thật
+- [Cách đăng TikTok](tiktok-upload-method.md) — đăng tay từ 2026-11-01, không tự động đăng nhập, nhiều tập mới bàn lại
+- [Không trùng nội dung](no-duplicate-content.md) — đối chiếu episodes/so-noi-dung.md trước khi lên ý tưởng, xong tập thì cập nhật
+- [Thử tạo ảnh trên máy](local-image-gen-trial.md) — DreamShaper 8 đạt: 62 giây một ảnh, khoảng 4 GB RAM; SDXL trên sd.cpp hết RAM
+- [Series Thành Phố Không Sao](series-thanh-pho-khong-sao.md) — phim ngắn mới, tạo ảnh qua Flow, phong cách sơn dầu miền Tây, dự kiến phát 16/11/2026
+- [Tắt tiếng tab Chrome](chrome-tab-mute.md) — tab Claude mở trong Chrome phải tắt tiếng, kể cả sau khi chuyển trang
+- [Báo các lựa chọn](feedback-offer-options.md) — có nhiều cách làm thì nói người dùng biết để họ chọn
+- [Tự tạo ảnh trên Flow](flow-auto-gen.md) — Chrome nào trên máy này, gắn tham chiếu bằng ô tìm, tải gốc bằng đuôi =s0
+- [Runbook dựng series](series-video-runbook.md) — tập 1 đã đăng 2026-11-03, cách dựng ghi ở episodes/thanh-pho-khong-sao/quy-trinh-dung-video.md
+- [Số liệu TikTok 08/11](tiktok-analytics-baseline.md) — khoảng 110 view mỗi video, bỏ xem ở giây 2; số Browser đổi, phải đối chiếu kênh trước khi đăng
+- [Đưa video lớn lên TikTok](tiktok-upload-big-file.md) — file trên 10 MB: cắt đôi, ghép lại trong trang, hẹn giờ bằng bộ chọn phút
+- [Tự hẹn giờ khi Marketing gửi](feedback-auto-schedule-from-marketing.md) — từ 09/11 không cần hỏi lại người dùng, vẫn đối chiếu kênh và làm đúng post.md
+- [Watermark mọi video](feedback-watermark-all-videos.md) — luôn gắn @dark.sky.quotes nhỏ mờ góc trái dưới, khóa watermark trong fx.json

@@ -28,7 +28,7 @@ __pycache__/
 *.log
 *.err
 *.bak*
-tools/tam/
+tam/
 thu-hyperframes/clip15/.hyperframes/
 
 # Ngoại lệ: mặt nạ nhỏ mà tools/xoa_dau_gemini.py cần

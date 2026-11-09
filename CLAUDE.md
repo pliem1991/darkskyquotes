@@ -1,3 +1,7 @@
+## Máy mới
+
+Nếu bộ nhớ Claude của project này đang trống (máy mới lấy repo về), đọc `docs/claude-memory/MEMORY.md` và các file nó trỏ tới trước khi làm việc. Cài công cụ theo `SETUP.md`.
+
 ## Kênh và Chrome profile của project này
 
 Bảng này là nguồn tra chính để biết mỗi kênh nằm ở Chrome profile nào. **Trước khi mở Chrome làm việc với một kênh, đọc bảng này và mở thẳng đúng profile**, không đi thử từng profile.
