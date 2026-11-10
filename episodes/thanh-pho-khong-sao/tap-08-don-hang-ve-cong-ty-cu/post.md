@@ -3,8 +3,8 @@
 - **Kênh:** https://www.tiktok.com/@dark.sky.quotes
 - **Video:** `output-nhe_dep.mp4` (67,7 giây, 1080x1920, 16,1 MB, -15,1 LUFS, có watermark @dark.sky.quotes). Bản dựng v3 (chữ hook 2 dòng, cảnh 1 dời ảnh xuống để chữ không chạm nón)
 - **Ảnh bìa:** chọn khung đầu clip, lúc chữ "Đơn trưa nay giao về công ty cũ." hiện rõ trên ảnh Minh ngồi xe trước tòa nhà kính. Không thêm chữ lên bìa.
-- **Lịch đăng đề xuất:** 21:00 thứ 5, 12/11/2026 (ngay sau tập 7 ngày 11/11). Người dùng đã duyệt video ngày 10/11/2026.
-- **Trạng thái:** người dùng duyệt video ngày 10/11/2026 (giữ SFX xe cộ, thang máy, chuông đơn). Chưa hẹn giờ trên TikTok.
+- **Lịch đăng:** 21:00 thứ 5, 12/11/2026 (ngay sau tập 7 ngày 11/11). Người dùng đã duyệt video ngày 10/11/2026.
+- **Trạng thái:** người dùng duyệt video ngày 10/11/2026 (giữ SFX xe cộ, thang máy, chuông đơn). Agent TT hẹn giờ ngày 10/11/2026 trên TikTok Studio (Chrome deviceId b8298d08, kênh @dark.sky.quotes): hiện "Nov 12, 9:00 PM (GMT+7)", Everyone, bình luận bật, nhãn AI bật, không nhạc TikTok. Ảnh bìa để mặc định khung đầu có chữ hook. Không có mục danh sách phát nên không thêm.
 
 ## Mô tả (dán nguyên văn)
 
