@@ -515,7 +515,8 @@
    "text": "Một tiếng trước",
    "dur": 1.5,
    "y": 230,
-   "size": 34
+   "size": 34,
+   "halo": true
   }
  ]
 }

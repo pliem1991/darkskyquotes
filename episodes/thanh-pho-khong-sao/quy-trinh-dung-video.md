@@ -104,3 +104,10 @@ Vệt cọ sơn dầu quét ngang: cảnh mới hiện ra theo một vệt cọ 
 - Khai trong `scenes.<cảnh sau>`: `"in": "brush", "in_dur": 0.7` (0,6 đến 0,8 giây), tùy chọn `"dir"` (1 là trái sang phải, -1 là phải sang trái), `"angle"` (độ nghiêng vệt, mặc định -7), `"seed"` (đổi để vệt khác nhau, mặc định 7).
 - Mã ở `brush_mask()` trong `tools/render_series.py`. Cảnh mới hiện theo ease, nên cảnh sau bắt đầu từ mốc `start` của cảnh (đã trừ `lead`).
 - Muốn giữ hình cảnh trước sau khi hết lời, tăng `pause` của dòng cuối cảnh đó trong `voices.json` rồi chạy lại `make_timeline_lines.py` (tập 9: c1 pause 2,1 giây để giữ hình khoảng 2 giây).
+- Lớp phủ cho `brush` (từ v3 tập 9): thêm `"canvas": true` vào cảnh thì trong lúc vệt cọ chạy có vân vải canvas thoáng qua vùng chuyển và một dải sơn ướt bóng nhẹ dọc mép vệt, tan hẳn khi chuyển xong (không lóe sáng, không âm). Vân vải tạo bằng code, cố định. Tùy chọn `"sheen"` (mặc định 1,0) chỉnh độ bóng của dải sơn; bỏ `canvas` thì như bản đầu.
+
+## Thẻ thời gian `timecards` (từ tập 9)
+Dùng khi cảnh sau quay về thời điểm sớm hơn cảnh trước (ví dụ cảnh 1 là hai giờ sáng, cảnh 2 là lúc Minh còn nằm trong phòng). fx.json thêm `"timecards": [{"scene": "c2-dem-nguoc", "text": "Một tiếng trước", "dur": 1.5, "y": 230, "size": 34, "halo": true}]`.
+- Thẻ một dòng như thẻ series, hiện ngay khi chuyển cảnh vào `scene` chạy xong (`start` của cảnh cộng `in_dur`, tùy chọn `delay`), giữ `dur` giây rồi tan.
+- Thẻ ngày, bộ đếm và bong bóng của cảnh đó nên bắt đầu sau khi thẻ thời gian bắt đầu tan (tập 9: counter `start` [1, 0.08]) để không hiện chồng lên lúc vệt cọ đang chạy.
+- Muốn có thời gian cho thẻ trước khi giọng vào: tăng `lead` của cảnh sau và cộng thêm đúng chừng đó vào `pause` của dòng cuối cảnh trước (tập 9: lead c2 1,3 giây, pause c1 3,1 giây), rồi chạy lại `make_timeline_lines.py`.

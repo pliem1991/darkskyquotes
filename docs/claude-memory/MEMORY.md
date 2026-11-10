@@ -20,3 +20,4 @@
 - [Môi trường máy E:\Tiktok](may-e-tiktok-env.md) — Python 3.14, ghim av<19, console cp932 cần PYTHONUTF8, Chrome ở x86
 - [Phản biện trước khi gửi kịch bản](feedback-review-before-sending-script.md) — luôn soát AI hóa + 2 agent Sonnet, Haiku phản biện rồi mới gửi người dùng
 - [Flow mỗi lần 1 ảnh](feedback-flow-one-image.md) — chỉnh x4 về x1 trước khi tạo, tránh hết lượt trong ngày
+- [Nhịp hook và chuyển cảnh](feedback-dung-hook-chuyen-canh.md) — giữ hook ~2 giây, thẻ 'Một tiếng trước', vệt cọ + vân vải, thẻ không hiện giữa chuyển cảnh

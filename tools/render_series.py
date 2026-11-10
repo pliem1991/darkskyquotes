@@ -676,6 +676,7 @@ elif "card" in FX:
     card_main = Caption(FX["card"]["main"], FX["card"].get("size", 66), halo=True)
     card_sub = Caption(FX["card"]["sub"], FX["card"].get("sub_size", 46), color=CREAM, halo=True) if FX["card"].get("sub") else None
 TITLE_Y = 400
+timecards = [(tc, Caption(tc["text"], tc.get("size", 34), halo=tc.get("halo", False))) for tc in FX.get("timecards", [])]
 
 stills = {}
 for i, s in enumerate(spans):
@@ -835,9 +836,31 @@ def brush_mask(w, seed=7, angle=-7.0, direction=1):
     edge = 0.035
     margin = mx + edge
     s = w * (1 + 2 * margin) - margin
-    m = np.clip((s - u + off) / edge + 0.5, 0, 1)
+    d = s - u + off
+    m = np.clip(d / edge + 0.5, 0, 1)
     m = cv2.resize(m, (W, H), interpolation=cv2.INTER_CUBIC)
-    return np.clip(cv2.GaussianBlur(m, (0, 0), 1.5), 0, 1)[..., None]
+    m = np.clip(cv2.GaussianBlur(m, (0, 0), 1.5), 0, 1)[..., None]
+    # Dải sơn ướt: nằm sát mép vệt, phía cảnh mới, thoang thoảng theo sợi cọ.
+    band = np.exp(-(((d - 0.05) / 0.055) ** 2)) * (0.75 + 0.25 * np.sin(off * 140))
+    band = cv2.resize(band.astype(np.float32), (W, H), interpolation=cv2.INTER_LINEAR)[..., None]
+    return m, band
+
+
+_canvas_tex = []
+
+
+def canvas_texture():
+    """Vân vải canvas (sợi dọc, sợi ngang, hạt), tạo bằng code, cố định, giá trị quanh 0 trong khoảng -1 đến 1."""
+    if not _canvas_tex:
+        g = np.random.default_rng(5)
+        yy, xx = np.mgrid[0:H, 0:W].astype(np.float32)
+        jit = cv2.GaussianBlur(g.normal(0, 1, (H // 4, W // 4)).astype(np.float32), (0, 0), 3)
+        jit = cv2.resize(jit, (W, H), interpolation=cv2.INTER_LINEAR) * 0.9
+        weave = (np.sin(2 * np.pi * xx / 6.5 + jit) + np.sin(2 * np.pi * yy / 6.5 + jit * 0.8)) * 0.5
+        grain_ = cv2.GaussianBlur(g.normal(0, 1, (H, W)).astype(np.float32), (0, 0), 0.8)
+        grain_ /= grain_.std() * 3
+        _canvas_tex.append(np.clip(weave * 0.7 + grain_, -1, 1)[..., None])
+    return _canvas_tex[0]
 
 
 def compose(sec, index=0):
@@ -867,8 +890,14 @@ def compose(sec, index=0):
             sig = fx.get("blur", 26)
             frame, before = defocus(frame, sig * (1 - w)), defocus(before, sig * w)
         elif mode == "brush":
-            m = brush_mask(w, fx.get("seed", 7), fx.get("angle", -7.0), fx.get("dir", 1))
+            m, band = brush_mask(w, fx.get("seed", 7), fx.get("angle", -7.0), fx.get("dir", 1))
             frame = frame * m + before * (1 - m)
+            if fx.get("canvas"):
+                # Vân vải canvas thoáng qua vùng chuyển và sơn ướt bóng nhẹ dọc mép vệt, tan hẳn khi chuyển xong.
+                live = float(np.sin(np.pi * w))
+                zone = np.clip(band * 1.4 + 4 * m * (1 - m), 0, 1)
+                frame = frame * (1 + canvas_texture() * 0.12 * live * (0.35 + 0.65 * zone))
+                frame = frame + band * live * np.array([36, 31, 24], np.float32) * fx.get("sheen", 1.0)
         elif mode == "wipe":
             m = smooth_arr(np.clip((w * 1.7 - WIPE_EDGE) / 0.6, 0, 1))[..., None]
             frame = frame * m + before * (1 - m)
@@ -915,6 +944,16 @@ def compose(sec, index=0):
             if cap.halo is not None:
                 region += cap.halo * band * 4.0 * (1 - away)
             region += cap.halo * pulse * 0.5 * (1 - away) if cap.halo is not None else 0
+    for tc, cap in timecards:
+        # Thẻ thời gian (ví dụ "Một tiếng trước"): hiện ngay khi chuyển cảnh vào cảnh "scene" chạy xong, tan sau "dur" giây.
+        sp = next((x for x in spans if x["scene"] == tc["scene"]), None)
+        if sp is None:
+            continue
+        t0 = sp["start"] + SCENE_FX.get(tc["scene"], {}).get("in_dur", DISSOLVE) + tc.get("delay", 0.0)
+        t1 = t0 + tc.get("dur", 1.5)
+        op = min(max((sec - t0) / 0.3, 0.0), max((t1 - sec) / 0.4, 0.0), 1.0)
+        if op > 0:
+            cap.draw(frame, tc.get("y", 230), smooth(op))
     if "title" in FX:
         # Tên kênh hiện lên sau lời đọc, giữ một lúc rồi mờ dần.
         t0, t1 = (DURATION - v for v in FX["title"]["show_fade"])
