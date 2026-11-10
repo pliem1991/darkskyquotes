@@ -14,5 +14,7 @@ Từ 2026-11-01, ảnh của từng tập do người dùng tạo bằng Google 
 
 Việc đăng TikTok thuộc phiên `dsq - TT` dùng Haiku; phiên chính soạn nội dung, ảnh bìa trong `post.md` của từng tập rồi gửi sang. Chỉ đăng khi người dùng xác nhận.
 
+Cập nhật 2026-11-10 (máy E:\Tiktok): người dùng dặn "các video sau thì tạo thêm 1 agent Sonnet (model Sonnet) để tạo image trên flow và dựng video nha. Session Opus này để lên kịch bản, review,.. thôi". Phiên chính spawn subagent `model: sonnet` cho việc tạo ảnh trên Flow và dựng video, không tự bấm Flow nữa; phiên chính chỉ viết kịch bản, prompt, review ảnh và video agent trả về.
+
 **Why:** Người dùng muốn tiết kiệm bằng cách dùng model rẻ hơn cho phần thực thi; đề xuất ngày 2026-10-31 và đã chọn mở phiên mới.
 **How to apply:** Giao việc dựng bằng phiên riêng kèm brief rõ, rồi tự kiểm tra kết quả (đọc ảnh, trích khung, đo âm) thay vì tin báo cáo. Tạo ảnh SDXL cần khoảng 12 GB RAM trống, nên đo trước khi chạy và không tắt chương trình của người dùng. Luôn sao lưu trước khi xóa ảnh. Liên quan: [[darkskyquotes-channel]], [[content-tone]].
