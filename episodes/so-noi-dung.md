@@ -31,6 +31,10 @@ Câu đã dùng ở 001, không dùng lại: "Vậy mà nó vẫn tới", "Giờ
 
 TPKS 1 là series riêng, nỗi đau mất việc trùng 002 có chủ đích. Câu đặc trưng được lặp trong series, kênh không dùng cho tập khác: "Con không sao đâu má", "Thành phố này sáng quá, sáng tới mức không thấy được ngôi sao nào". Cảnh sân thượng cuối tập và má gọi là dấu ấn của series.
 
+## Đang viết, chờ duyệt lời
+
+- Thành Phố Không Sao, tập 8 Đơn hàng về công ty cũ (bản 1, viết 10/11/2026, thư mục `tap-08-don-hang-ve-cong-ty-cu`): trưa thứ ba ngày 11, đơn bảy ly trà sữa giao lên tầng mười hai đúng phòng XNK cũ, tính hủy mà một ngày chỉ chừng chục đơn, chú bảo vệ từng chào bằng tên giờ chỉ ra tấm bảng chờ ở sảnh, thang máy mọi sáng quẹt thẻ, chị Thảo bàn kế bên thấy tên tài xế nên tự xuống nhận, ôm theo chậu trầu bà để lại trên bàn cũ, bãi xe trả năm ngàn như khách lạ, ba lần không bấm nhận đơn, sân thượng thấy đất trong chậu còn ẩm. Hook: đơn giao lên đúng phòng cũ của mình (kiểu trùng hợp trên ứng dụng). Câu đặc trưng: "chậu này không ai tưới, em đem về đi". Kết: đất còn ẩm, để người xem tự hiểu chị vẫn tưới. Chữ kết: "Bạn từng gặp lại người quen cũ đúng lúc mình chật vật nhất chưa?" Nhân vật mới: chị Thảo.
+
 ## Đã duyệt lời, chưa đăng
 
 - Thành Phố Không Sao, tập 7 Ngày đầu giao hàng (duyệt lời và video 08/11/2026, video 73 giây, phiên TT đã hẹn giờ 21:00 ngày 11/11/2026): hồ sơ duyệt năm giờ sáng chủ nhật, đơn đầu lạc trong hẻm khách hủy, áo mưa trùm áo giao hàng nên không ai nhận ra, hai ly cà phê sữa dưới mái hiên tiệm thuốc tây, trưa chú Tư nhận ra cái áo, đưa chú ly cà phê đá tan, mẹo số nhà có dấu xẹt thì hỏi xe ôm đầu hẻm, mười một đơn, một trăm tám mươi ngàn chưa trừ xăng, sân thượng. Hook: đơn đầu tiên lạc hẻm, chưa tìm ra nhà thì khách hủy. Câu đặc trưng: "giờ con cũng mặc cái áo giành khách của chú rồi đó". Chữ kết: "Ngày đầu làm nghề mới, bạn kiếm được bao nhiêu?"
