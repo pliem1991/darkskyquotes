@@ -1,7 +1,7 @@
 # Gói đăng TikTok: Thành Phố Không Sao, tập 9
 
 - **Kênh:** https://www.tiktok.com/@dark.sky.quotes
-- **Video:** `output-nhe_dep.mp4` (70,9 giây, 1080x1920, 16,9 MB, -15,2 LUFS, có watermark @dark.sky.quotes)
+- **Video:** `output-nhe_dep.mp4` (72,4 giây, 1080x1920, 17,0 MB, -15,3 LUFS, có watermark @dark.sky.quotes). Bản v2: giữ cảnh hook thêm khoảng 2 giây, chuyển cảnh vệt cọ ở 3 chỗ đổi nơi chốn
 - **Ảnh bìa:** chọn khung đầu clip, lúc chữ "Hai giờ sáng, chú xe ôm vẫn chưa về." hiện rõ trên ảnh chú Tư ngồi một mình cạnh xe hủ tiếu. Không thêm chữ lên bìa.
 - **Lịch đăng đề xuất:** 21:00 thứ 6, 13/11/2026 (ngay sau tập 8 ngày 12/11). Chờ người dùng duyệt video rồi mới chốt.
 - **Trạng thái:** video đã dựng, Claude đã soát khung hình; **chờ người dùng xem và nghe duyệt**. Chưa hẹn giờ.
