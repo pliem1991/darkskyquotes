@@ -1,6 +1,6 @@
 # Thành Phố Không Sao, tập 8: Đơn hàng về công ty cũ
 
-- **Trạng thái:** bản 3, viết 10/11/2026, đã soát chống AI hóa và sửa theo phản biện của Sonnet và Haiku, rồi sửa cảnh 6 "thấy tên" thành "thấy hình" theo người dùng (cũng qua phản biện của hai agent). **Chờ người dùng duyệt lời.** Chưa có prompt ảnh, chưa có ảnh, chưa đọc giọng
+- **Trạng thái:** bản 3, viết 10/11/2026, đã soát chống AI hóa và sửa theo phản biện của Sonnet và Haiku, rồi sửa cảnh 6 "thấy tên" thành "thấy hình" theo người dùng (cũng qua phản biện của hai agent). **Người dùng duyệt lời ngày 10/11/2026.** Prompt ảnh ở `prompts.md` (viết 10/11/2026, có ảnh nhân vật mới `chi-thao`). Chưa có ảnh, chưa đọc giọng
 - **Độ dài:** đích 60 đến 75 giây. Khoảng 211 âm tiết, ước 73 đến 75 giây (tập 7: khoảng 205 âm tiết, 73 giây). Sát trần, nếu dựng ra dài quá thì bỏ vế "rất lâu" ở cảnh 7 trước
 - **Người xem đang cảm thấy:** đang làm một việc thấp hơn việc cũ, rồi bị đẩy về đúng chỗ cũ trong bộ dạng mới: chỗ mình từng có tên, có thẻ, có bàn, giờ mình là người ngoài
 - **Nối từ tập 7:** chủ nhật ngày 9 là ngày đầu giao hàng, được một trăm tám mươi ngàn chưa trừ xăng. Chú Tư dặn số nhà có dấu xẹt thì hỏi xe ôm đầu hẻm. Học phí của em mười hai triệu, hạn cuối tháng
