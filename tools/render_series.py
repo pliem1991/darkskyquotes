@@ -798,6 +798,48 @@ def scene_frame(span, sec):
     return frame
 
 
+
+_brush_cache = {}
+
+
+def brush_mask(w, seed=7, angle=-7.0, direction=1):
+    """Chuyển cảnh vệt cọ sơn dầu: cảnh mới hiện theo một vệt cọ dày quét ngang, mép là sợi lông cọ (nhiễu cố định theo seed).
+    w từ 0 đến 1 (đã ease). direction 1 là trái sang phải, -1 là phải sang trái. angle là độ nghiêng của vệt (độ).
+    Tính ở độ phân giải thấp (270x480) rồi phóng lên."""
+    key = (seed, angle, direction)
+    if key not in _brush_cache:
+        LW, LH = 270, 480
+        g = np.random.default_rng(seed)
+        yy, xx = np.mgrid[0:LH, 0:LW].astype(np.float32)
+        xx, yy = xx / LW - 0.5, (yy / LH - 0.5) * (LH / LW)
+        a = np.deg2rad(angle)
+        u = xx * np.cos(a) + yy * np.sin(a)
+        v = -xx * np.sin(a) + yy * np.cos(a)
+        u = (u - u.min()) / (u.max() - u.min())
+        if direction < 0:
+            u = 1 - u
+        vn = (v - v.min()) / (v.max() - v.min())
+
+        def line_noise(knots, amp):
+            vals = g.normal(0, 1, knots + 3).astype(np.float32)
+            xk = np.linspace(0, 1, knots + 3)
+            return np.interp(vn, xk, vals) * amp
+
+        # Sợi lông cọ chạy dọc hướng quét: mỗi sợi đi trước hoặc sau một đoạn khác nhau.
+        off = line_noise(7, 0.07) + line_noise(36, 0.05) + line_noise(150, 0.035)
+        blob = cv2.GaussianBlur(g.normal(0, 1, (LH, LW)).astype(np.float32), (0, 0), 9)
+        off += blob / (blob.std() + 1e-6) * 0.03
+        off -= off.mean()
+        _brush_cache[key] = (u, off.astype(np.float32), float(np.abs(off).max()))
+    u, off, mx = _brush_cache[key]
+    edge = 0.035
+    margin = mx + edge
+    s = w * (1 + 2 * margin) - margin
+    m = np.clip((s - u + off) / edge + 0.5, 0, 1)
+    m = cv2.resize(m, (W, H), interpolation=cv2.INTER_CUBIC)
+    return np.clip(cv2.GaussianBlur(m, (0, 0), 1.5), 0, 1)[..., None]
+
+
 def compose(sec, index=0):
     cur = next((s for s in spans if s["start"] <= sec < s["end"]), spans[-1])
     frame = scene_frame(cur, sec).copy()
@@ -824,6 +866,9 @@ def compose(sec, index=0):
             # Mất nét rồi lấy nét lại, như đang nhớ lại.
             sig = fx.get("blur", 26)
             frame, before = defocus(frame, sig * (1 - w)), defocus(before, sig * w)
+        elif mode == "brush":
+            m = brush_mask(w, fx.get("seed", 7), fx.get("angle", -7.0), fx.get("dir", 1))
+            frame = frame * m + before * (1 - m)
         elif mode == "wipe":
             m = smooth_arr(np.clip((w * 1.7 - WIPE_EDGE) / 0.6, 0, 1))[..., None]
             frame = frame * m + before * (1 - m)
@@ -831,7 +876,7 @@ def compose(sec, index=0):
             # Tối hẳn một nhịp rồi sáng lên, để cảnh trước kịp lắng.
             a, b = smooth(min(w * 2, 1)), smooth(max(w * 2 - 1, 0))
             frame = before * (1 - a) + frame * b
-        if mode not in ("wipe", "dip"):
+        if mode not in ("wipe", "dip", "brush"):
             frame = frame * w + before * (1 - w)
         if fx.get("leak"):
             # Vệt sáng ấm lướt ngang lúc đổi cảnh, như ánh đèn qua ống kính.
