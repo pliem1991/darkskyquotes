@@ -3,8 +3,8 @@
 - **Kênh:** https://www.tiktok.com/@dark.sky.quotes
 - **Video:** `output-nhe_dep.mp4` (73,4 giây, 1080x1920, 17,3 MB, -15,3 LUFS, có watermark @dark.sky.quotes). Bản v3: giữ cảnh hook khoảng 2 giây, thẻ "Một tiếng trước" đầu cảnh 2, chuyển cảnh vệt cọ có vân vải canvas ở 3 chỗ đổi nơi chốn
 - **Ảnh bìa:** chọn khung đầu clip, lúc chữ "Hai giờ sáng, chú xe ôm vẫn chưa về." hiện rõ trên ảnh chú Tư ngồi một mình cạnh xe hủ tiếu. Không thêm chữ lên bìa.
-- **Lịch đăng đề xuất:** 21:00 thứ 6, 13/11/2026 (ngay sau tập 8 ngày 12/11). Chờ người dùng duyệt video rồi mới chốt.
-- **Trạng thái:** video đã dựng, Claude đã soát khung hình; **chờ người dùng xem và nghe duyệt**. Chưa hẹn giờ.
+- **Lịch đăng:** 21:00 thứ 6, 13/11/2026 (ngay sau tập 8 ngày 12/11). Người dùng đã duyệt video ngày 10/11/2026.
+- **Trạng thái:** người dùng duyệt video v3 ngày 10/11/2026. Đang giao agent hẹn giờ.
 
 ## Mô tả (dán nguyên văn)
 
