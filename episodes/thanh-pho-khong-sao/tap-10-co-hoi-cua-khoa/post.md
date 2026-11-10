@@ -4,7 +4,7 @@
 - **Video:** `output-nhe_dep.mp4` (74,0 giây, 1080x1920, 20,0 MB, -15,2 LUFS, có watermark @dark.sky.quotes). Bản v1: hook 2 dòng giữ khoảng 2 giây, vệt cọ có vân vải canvas ở c1→c2, c2→c3, c7→c8, thẻ "Số dư: 38.450.000đ", "+2.000.000đ" và câu của Khoa hiện dạng hộp tin nhắn phía trên hai người
 - **Ảnh bìa:** chọn khung đầu clip, lúc chữ "Bạn rủ nạp trước 4 triệu, mỗi ngày lời 500 ngàn." hiện rõ trên ảnh Khoa chìa điện thoại. Không thêm chữ lên bìa.
 - **Lịch đăng:** 21:00 thứ 7, 14/11/2026 (sau tập 9 ngày 13/11). Người dùng đã duyệt video ngày 10/11/2026.
-- **Trạng thái:** người dùng duyệt video ngày 10/11/2026. Đang giao agent hẹn giờ.
+- **Trạng thái:** người dùng duyệt video ngày 10/11/2026. Agent TT hẹn giờ ngày 10/11/2026 trên TikTok Studio (Chrome deviceId b8298d08, kênh @dark.sky.quotes): hiện "Nov 14, 9:00 PM (GMT+7)", Everyone, bình luận bật, nhãn AI bật, không nhạc TikTok, ảnh bìa để mặc định khung đầu, không có mục danh sách phát nên không thêm. Mô tả dán đúng nguyên văn. Kiểm tra nội dung (Content check lite) không thấy vấn đề. Không thấy nhãn dán bình chọn trong lúc hẹn giờ nên mô tả giữ cách bình luận 1 và 2. Video được chia đôi để tải lên rồi ghép lại trong trang, đã xóa bản cắt.
 
 ## Mô tả (dán nguyên văn)
 
