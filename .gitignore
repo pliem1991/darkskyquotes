@@ -33,3 +33,4 @@ thu-hyperframes/clip15/.hyperframes/
 
 # Ngoại lệ: mặt nạ nhỏ mà tools/xoa_dau_gemini.py cần
 !tools/gemini_alpha_1024.png
+*.stackdump
