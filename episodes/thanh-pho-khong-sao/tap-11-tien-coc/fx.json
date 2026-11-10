@@ -1,0 +1,550 @@
+{
+ "hide_subs": [],
+ "chords": [
+  "Am",
+  "F",
+  "Dm",
+  "Am"
+ ],
+ "final_arpeggio": false,
+ "theme": {
+  "notes": [
+   88,
+   86,
+   84,
+   86,
+   83
+  ],
+  "gap": 1.3,
+  "vel": 0.45,
+  "count": 5
+ },
+ "music_lufs": -19,
+ "music_highpass": 140,
+ "music_fade": 1.8,
+ "music_sparse": 0.7,
+ "music_low": false,
+ "strings_gain": 7,
+ "sfx_lufs": -30,
+ "emphasis": {},
+ "watermark": {
+  "text": "@dark.sky.quotes",
+  "size": 30,
+  "x": 60,
+  "y": 1395,
+  "opacity": 0.45
+ },
+ "music_v2": true,
+ "music_step": 0.8,
+ "master_lufs": -14,
+ "_note": "Tập 11 nhánh B. Tọa độ ảnh theo khung 896x896.",
+ "hook": {
+  "sweep": [
+   0,
+   0
+  ],
+  "rows": [
+   {
+    "text": "Không nạp 4 triệu,",
+    "size": 78,
+    "y": 222,
+    "instant": true,
+    "leave": 2.7
+   },
+   {
+    "text": "10 phút sau bị bạn chặn.",
+    "size": 78,
+    "y": 292,
+    "instant": true,
+    "leave": 2.7
+   }
+  ]
+ },
+ "digits": {
+  "bốn triệu": "4 triệu",
+  "mười phút": "10 phút",
+  "ba mươi triệu": "30 triệu",
+  "hai lần": "2 lần"
+ },
+ "card": {
+  "main": "THÀNH PHỐ KHÔNG SAO",
+  "sub": "TẬP 11",
+  "show": 3.0,
+  "dur": 1.5,
+  "y": 230,
+  "size": 34
+ },
+ "music_end": [
+  "we",
+  [
+   7,
+   "tới khuya"
+  ]
+ ],
+ "music_busy": [
+  "we",
+  [
+   7,
+   "tới khuya"
+  ]
+ ],
+ "overlays": [
+  {
+   "scene": "b4-cau-cuoi",
+   "type": "message",
+   "text": "Tao rủ vì thương mày. Mày nghĩ tao lừa mày hả?",
+   "at": [
+    "center",
+    330
+   ],
+   "size": 32,
+   "show": [
+    "w",
+    [
+     3,
+     "tao rủ vì thương mày"
+    ]
+   ],
+   "hide": [
+    "we",
+    [
+     3,
+     "lừa mày hả"
+    ]
+   ],
+   "hold": 0.0
+  },
+  {
+   "scene": "b5-nhom-tai-xe",
+   "type": "counter",
+   "label": "Ngày 13 · Còn lại:",
+   "value": 4040000,
+   "instant": true,
+   "start": [
+    4,
+    0.08
+   ],
+   "y": 1250,
+   "size": 96
+  },
+  {
+   "scene": "b5-nhom-tai-xe",
+   "type": "message",
+   "text": "Mất 30 triệu vì việc chốt đơn online",
+   "at": [
+    "center",
+    330
+   ],
+   "size": 34,
+   "show": [
+    "w",
+    [
+     4,
+     "một chị bán xôi"
+    ]
+   ],
+   "hide": [
+    "we",
+    [
+     4,
+     "mất ba mươi triệu"
+    ]
+   ],
+   "hold": 1.2
+  },
+  {
+   "scene": "b8-mua",
+   "type": "end",
+   "text": "Bạn từng phải từ chối|một người bạn chưa?",
+   "start": [
+    "we",
+    [
+     7,
+     "tới khuya"
+    ]
+   ],
+   "delay": 2.0,
+   "y": 290,
+   "size": 54,
+   "fade": 0.8
+  }
+ ],
+ "quiet": [
+  [
+   [
+    "we",
+    [
+     5,
+     "có tiền thưởng"
+    ]
+   ],
+   [
+    6,
+    0.0
+   ]
+  ]
+ ],
+ "music": [
+  [
+   0,
+   0.0,
+   0.6
+  ],
+  [
+   1,
+   0.0,
+   0.6
+  ],
+  [
+   2,
+   0.0,
+   0.55
+  ],
+  [
+   3,
+   0.0,
+   0.5
+  ],
+  [
+   4,
+   0.0,
+   0.5
+  ],
+  [
+   5,
+   0.0,
+   0.45
+  ],
+  [
+   6,
+   0.0,
+   0.4
+  ],
+  [
+   7,
+   0.0,
+   0.4
+  ],
+  [
+   7,
+   1.0,
+   0.95
+  ]
+ ],
+ "sfx": [
+  {
+   "type": "wind",
+   "at": [
+    0,
+    0.0
+   ],
+   "delay": -0.3,
+   "end": [
+    "we",
+    [
+     2,
+     "nên nhắn thôi"
+    ]
+   ],
+   "end_delay": 0.5,
+   "gain": 0.5
+  },
+  {
+   "type": "moto",
+   "at": [
+    3,
+    0.0
+   ],
+   "delay": -0.4,
+   "dur": 3.5,
+   "pan": 0.6,
+   "gain": 0.35
+  },
+  {
+   "type": "keys",
+   "at": [
+    3,
+    0.0
+   ],
+   "delay": -0.1,
+   "count": 5,
+   "gain": 0.28
+  },
+  {
+   "type": "traffic",
+   "at": [
+    4,
+    0.0
+   ],
+   "delay": -0.4,
+   "end": [
+    "we",
+    [
+     6,
+     "bị chặn rồi"
+    ]
+   ],
+   "gain": 0.3
+  },
+  {
+   "type": "wind",
+   "at": [
+    "w",
+    [
+     6,
+     "mới nhớ"
+    ]
+   ],
+   "delay": -0.3,
+   "end": [
+    "we",
+    [
+     6,
+     "chặn rồi"
+    ]
+   ],
+   "end_delay": 0.4,
+   "gain": 0.8
+  },
+  {
+   "type": "thud",
+   "at": [
+    "we",
+    [
+     6,
+     "bị chặn rồi"
+    ]
+   ],
+   "delay": 0.0,
+   "gain": 0.35
+  },
+  {
+   "type": "rain",
+   "at": [
+    7,
+    0.0
+   ],
+   "delay": -0.7,
+   "gain": 0.45
+  },
+  {
+   "type": "keys",
+   "at": [
+    7,
+    0.3
+   ],
+   "count": 1,
+   "gain": 0.18
+  },
+  {
+   "type": "keys",
+   "at": [
+    7,
+    0.45
+   ],
+   "count": 1,
+   "gain": 0.18
+  },
+  {
+   "type": "keys",
+   "at": [
+    7,
+    0.6
+   ],
+   "count": 1,
+   "gain": 0.18
+  },
+  {
+   "type": "keys",
+   "at": [
+    7,
+    0.75
+   ],
+   "count": 1,
+   "gain": 0.18
+  },
+  {
+   "type": "keys",
+   "at": [
+    7,
+    0.9
+   ],
+   "count": 1,
+   "gain": 0.18
+  }
+ ],
+ "scenes": {
+  "b1-chan": {
+   "lead": 0.3,
+   "ease": true,
+   "drift": 0,
+   "push": 0.06,
+   "focus": [
+    540,
+    500
+   ],
+   "pan": [
+    0,
+    0,
+    -18,
+    0
+   ],
+   "intro_push": {
+    "amount": 0.05,
+    "fast": 0.3,
+    "settle": 0.3
+   }
+  },
+  "b2-hoi-thu": {
+   "lead": 0.7,
+   "ease": true,
+   "drift": 0,
+   "push": 0.05,
+   "focus": [
+    540,
+    330
+   ],
+   "pan": [
+    0,
+    0,
+    -18,
+    0
+   ],
+   "in": "brush",
+   "blur": 12,
+   "in_dur": 0.7,
+   "seed": 7,
+   "angle": -7,
+   "dir": 1,
+   "canvas": true
+  },
+  "b3-nhan-thoi": {
+   "lead": 0.3,
+   "ease": true,
+   "drift": 0,
+   "push": 0.07,
+   "focus": [
+    610,
+    480
+   ],
+   "pan": [
+    0,
+    0,
+    -18,
+    0
+   ],
+   "in": "blur",
+   "blur": 12,
+   "in_dur": 0.3
+  },
+  "b4-cau-cuoi": {
+   "lead": 0.7,
+   "ease": true,
+   "drift": 0,
+   "push": 0.07,
+   "focus": [
+    425,
+    450
+   ],
+   "pan": [
+    0,
+    0,
+    -18,
+    0
+   ],
+   "in": "brush",
+   "blur": 12,
+   "in_dur": 0.7,
+   "seed": 11,
+   "angle": 6,
+   "dir": -1,
+   "canvas": true
+  },
+  "b5-nhom-tai-xe": {
+   "lead": 0.5,
+   "ease": true,
+   "drift": 0,
+   "push": 0.07,
+   "focus": [
+    540,
+    400
+   ],
+   "pan": [
+    0,
+    0,
+    -18,
+    0
+   ],
+   "in": "brush",
+   "blur": 12,
+   "in_dur": 0.7,
+   "seed": 23,
+   "angle": -5,
+   "dir": 1,
+   "canvas": true,
+   "sub_y": 950
+  },
+  "b6-em-ho": {
+   "lead": 0.3,
+   "ease": true,
+   "drift": 0,
+   "push": 0.07,
+   "focus": [
+    555,
+    515
+   ],
+   "pan": [
+    0,
+    0,
+    -18,
+    0
+   ],
+   "in": "blur",
+   "blur": 12,
+   "in_dur": 0.3
+  },
+  "b7-bi-chan": {
+   "lead": 0.3,
+   "ease": true,
+   "drift": 0,
+   "push": 0.08,
+   "focus": [
+    540,
+    420
+   ],
+   "pan": [
+    0,
+    0,
+    -18,
+    0
+   ],
+   "in": "blur",
+   "blur": 12,
+   "in_dur": 0.3
+  },
+  "b8-mua": {
+   "lead": 0.7,
+   "ease": true,
+   "drift": 0,
+   "push": -0.07,
+   "focus": [
+    400,
+    490
+   ],
+   "pan": [
+    0,
+    30,
+    0,
+    0
+   ],
+   "zoom0": 0.1,
+   "in": "brush",
+   "blur": 12,
+   "in_dur": 0.8,
+   "seed": 5,
+   "angle": -6,
+   "dir": -1,
+   "canvas": true
+  }
+ }
+}

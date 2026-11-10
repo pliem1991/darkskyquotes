@@ -1,0 +1,190 @@
+{
+ "voices": {
+  "minh": {
+   "preset": "Thiền Tâm Đức",
+   "pitch": 1.0,
+   "tempo": 1.12,
+   "af": "highpass=f=110,equalizer=f=300:t=q:w=1:g=-1.5,equalizer=f=3500:t=q:w=1.2:g=2,equalizer=f=6500:t=q:w=1:g=2,acompressor=threshold=-22dB:ratio=2:attack=15:release=200:makeup=2,loudnorm=I=-15:TP=-1.5:LRA=9"
+  }
+ },
+ "lead_in": 0.15,
+ "lines": [
+  {
+   "file": "b1_minh",
+   "voice": "minh",
+   "text": "Nhắn thằng bạn đại học là thôi không nạp bốn triệu, mười phút sau nó chặn mình luôn.",
+   "parts": [
+    "Nhắn thằng bạn đại học là thôi không nạp bốn triệu,",
+    "mười phút sau nó chặn mình luôn."
+   ],
+   "tempo": 1.0,
+   "scene": "b1-chan",
+   "pause": 2.7,
+   "inner_pauses": [
+    {
+     "after_part": 0,
+     "sec": 0.2
+    }
+   ]
+  },
+  {
+   "file": "b2_minh",
+   "voice": "minh",
+   "text": "Trước đó có hỏi làm thử một ngày không nạp được không. Khoa bảo không nạp thì không có đơn để bấm.",
+   "parts": [
+    "Trước đó có hỏi làm thử một ngày không nạp được không.",
+    "Khoa bảo không nạp thì không có đơn để bấm."
+   ],
+   "tempo": 1.0,
+   "scene": "b2-hoi-thu",
+   "pause": 0.4,
+   "inner_pauses": [
+    {
+     "after_part": 0,
+     "sec": 0.4
+    }
+   ]
+  },
+  {
+   "file": "b3_minh",
+   "voice": "minh",
+   "text": "Nghĩ hoài không ra, cửa hàng nào lại bắt người bấm đơn giùm phải ứng tiền trước, nên nhắn thôi.",
+   "parts": [
+    "Nghĩ hoài không ra,",
+    "cửa hàng nào lại bắt người bấm đơn giùm phải ứng tiền trước,",
+    "nên nhắn thôi."
+   ],
+   "tempo": 1.0,
+   "scene": "b3-nhan-thoi",
+   "pause": 0.7,
+   "inner_pauses": [
+    {
+     "after_part": 0,
+     "sec": 0.2
+    },
+    {
+     "after_part": 1,
+     "sec": 0.15
+    }
+   ]
+  },
+  {
+   "file": "b4_minh",
+   "voice": "minh",
+   "text": "Trước khi chặn, Khoa gửi một câu cuối: tao rủ vì thương mày, mày nghĩ tao lừa mày hả.",
+   "parts": [
+    "Trước khi chặn,",
+    "Khoa gửi một câu cuối:",
+    "tao rủ vì thương mày,",
+    "mày nghĩ tao lừa mày hả."
+   ],
+   "tempo": 1.0,
+   "scene": "b4-cau-cuoi",
+   "pause": 0.5,
+   "inner_pauses": [
+    {
+     "after_part": 1,
+     "sec": 0.3
+    },
+    {
+     "after_part": 2,
+     "sec": 0.15
+    }
+   ]
+  },
+  {
+   "file": "b5_minh",
+   "voice": "minh",
+   "text": "Trưa hôm sau trong nhóm tài xế có người đăng chuyện một chị bán xôi mất ba mươi triệu. Cũng bấm chốt đơn, ngày đầu cũng rút về được thật.",
+   "parts": [
+    "Trưa hôm sau trong nhóm tài xế có người đăng chuyện một chị bán xôi mất ba mươi triệu.",
+    "Cũng bấm chốt đơn,",
+    "ngày đầu cũng rút về được thật."
+   ],
+   "tempo": 1.0,
+   "scene": "b5-nhom-tai-xe",
+   "pause": 0.4,
+   "inner_pauses": [
+    {
+     "after_part": 0,
+     "sec": 0.5
+    },
+    {
+     "after_part": 1,
+     "sec": 0.15
+    }
+   ]
+  },
+  {
+   "file": "b6_minh",
+   "voice": "minh",
+   "text": "Chị nạp thêm hai lần để mở khóa tài khoản. Người rủ chị là đứa em họ, rủ được một người là có tiền thưởng.",
+   "parts": [
+    "Chị nạp thêm hai lần để mở khóa tài khoản.",
+    "Người rủ chị là đứa em họ,",
+    "rủ được một người là có tiền thưởng."
+   ],
+   "tempo": 1.0,
+   "scene": "b6-em-ho",
+   "pause": 1.5,
+   "inner_pauses": [
+    {
+     "after_part": 0,
+     "sec": 0.5
+    },
+    {
+     "after_part": 1,
+     "sec": 0.15
+    }
+   ]
+  },
+  {
+   "file": "b7_minh",
+   "voice": "minh",
+   "text": "Mở tin nhắn định gửi bài đó cho Khoa, mới nhớ là bị chặn rồi.",
+   "parts": [
+    "Mở tin nhắn định gửi bài đó cho Khoa,",
+    "mới nhớ là bị chặn rồi."
+   ],
+   "tempo": 1.0,
+   "scene": "b7-bi-chan",
+   "pause": 0.7,
+   "inner_pauses": [
+    {
+     "after_part": 0,
+     "sec": 0.2
+    }
+   ]
+  },
+  {
+   "file": "b8_minh",
+   "voice": "minh",
+   "text": "Chiều đó trời mưa to, xe chết máy giữa đường ngập, sửa hết hai trăm rưỡi. Tối về, tiền trong ngân hàng còn ba triệu tám trăm rưỡi, cái áo khoác ướt nhỏ nước tới khuya.",
+   "parts": [
+    "Chiều đó trời mưa to,",
+    "xe chết máy giữa đường ngập,",
+    "sửa hết hai trăm rưỡi.",
+    "Tối về,",
+    "tiền trong ngân hàng còn ba triệu tám trăm rưỡi,",
+    "cái áo khoác ướt nhỏ nước tới khuya."
+   ],
+   "tempo": 1.0,
+   "scene": "b8-mua",
+   "pause": 5.5,
+   "inner_pauses": [
+    {
+     "after_part": 2,
+     "sec": 0.5
+    },
+    {
+     "after_part": 3,
+     "sec": 0.15
+    },
+    {
+     "after_part": 4,
+     "sec": 0.15
+    }
+   ]
+  }
+ ]
+}
