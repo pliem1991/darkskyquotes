@@ -10,7 +10,7 @@ Bảng này là nguồn tra chính để biết mỗi kênh nằm ở Chrome pro
 |---|---|---|---|---|
 | TikTok | dark.sky.quotes | `Default` | pliem1991@gmail.com | https://www.tiktok.com/@dark.sky.quotes |
 
-- **Chrome profile** phải là **tên thư mục** của profile (`Default`, `Profile 1`, `Profile 12`…), không phải tên hiển thị hay email. Mở bằng: `"C:\Program Files\Google\Chrome\Application\chrome.exe" --profile-directory="Profile 12" <link kênh>`. Nếu dùng Claude in Chrome thì chọn đúng cửa sổ của profile đó.
+- **Chrome profile** phải là **tên thư mục** của profile (`Default`, `Profile 1`, `Profile 12`…), không phải tên hiển thị hay email. Mở bằng: `"C:\Program Files\Google\Chrome\Application\chrome.exe" --profile-directory="Profile 12" <link kênh>` (máy `E:\Tiktok` cài Chrome ở `C:\Program Files (x86)\Google\Chrome\Application\chrome.exe`). Nếu dùng Claude in Chrome thì chọn đúng cửa sổ của profile đó.
 - **Link kênh**: YouTube ghi link Studio có mã kênh `https://studio.youtube.com/channel/UC…` (một tài khoản Google có thể có nhiều kênh, nên phải có mã UC); Facebook ghi link Page; TikTok ghi `https://www.tiktok.com/@handle`. Mở xong, nhìn tên kênh trên trang một lần để chắc đúng.
 - **Nếu bảng chưa có kênh đó**: đọc file `%LOCALAPPDATA%\Google\Chrome\User Data\Local State` (JSON, mục `profile.info_cache`: mỗi khóa là tên thư mục, `user_name` là email đăng nhập, `name` là tên hiển thị) để tìm profile có email của kênh. Chỉ khi vẫn không ra mới thử từng profile. Tìm được rồi thì **ghi ngay vào bảng này** để lần sau khỏi tìm.
 - Mỗi lần biết thêm hoặc thấy sai thông tin ở bảng (đổi profile, đổi email, kênh mới), sửa bảng ngay.

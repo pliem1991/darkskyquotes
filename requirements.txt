@@ -6,3 +6,5 @@ soundfile==0.14.0
 numpy==2.4.6
 opencv-python==5.0.0.93
 pillow==12.2.0
+# av 19 bỏ tham số metadata_errors làm faster-whisper 1.2.1 lỗi khi đọc file
+av<19
