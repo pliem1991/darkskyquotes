@@ -1,6 +1,6 @@
 # Thành Phố Không Sao, tập 8: Đơn hàng về công ty cũ
 
-- **Trạng thái:** bản 2, viết 10/11/2026, đã soát chống AI hóa và sửa theo phản biện của Sonnet và Haiku. **Chờ người dùng duyệt lời.** Chưa có prompt ảnh, chưa có ảnh, chưa đọc giọng
+- **Trạng thái:** bản 3, viết 10/11/2026, đã soát chống AI hóa và sửa theo phản biện của Sonnet và Haiku, rồi sửa cảnh 6 "thấy tên" thành "thấy hình" theo người dùng (cũng qua phản biện của hai agent). **Chờ người dùng duyệt lời.** Chưa có prompt ảnh, chưa có ảnh, chưa đọc giọng
 - **Độ dài:** đích 60 đến 75 giây. Khoảng 211 âm tiết, ước 73 đến 75 giây (tập 7: khoảng 205 âm tiết, 73 giây). Sát trần, nếu dựng ra dài quá thì bỏ vế "rất lâu" ở cảnh 7 trước
 - **Người xem đang cảm thấy:** đang làm một việc thấp hơn việc cũ, rồi bị đẩy về đúng chỗ cũ trong bộ dạng mới: chỗ mình từng có tên, có thẻ, có bàn, giờ mình là người ngoài
 - **Nối từ tập 7:** chủ nhật ngày 9 là ngày đầu giao hàng, được một trăm tám mươi ngàn chưa trừ xăng. Chú Tư dặn số nhà có dấu xẹt thì hỏi xe ôm đầu hẻm. Học phí của em mười hai triệu, hạn cuối tháng
@@ -16,7 +16,7 @@
 | 3 | `c3-bao-ve` | `c3_minh` | Chú bảo vệ tám năm nay vẫn chào mình bằng tên, bữa nay chỉ tay ra chỗ người giao hàng đứng chờ. | |
 | 4 | `c4-thang-may` | `c4_minh` | Đứng cạnh cái thang máy mọi sáng mình quẹt thẻ, tay cứ kéo vạt áo giao hàng cho khuất. Gọi khách thì nghe giọng quen quen, bảo em chờ chị xuống liền. | |
 | 5 | `c5-chi-thao` | `c5_minh` | Cửa thang mở ra là chị Thảo ngồi bàn kế bên, trên tay ôm chậu trầu bà bỏ quên trên bàn cũ. | |
-| 6 | `c6-cai-chau` | `c6_minh` | Chị kể thấy tên tài xế là biết, nên xuống trước, rồi đặt cái chậu vô tay mình, dặn chậu này không ai tưới, em đem về đi. Định cảm ơn mà chỉ nói được tiếng dạ. | Lặng 1,5 giây sau lời, chỗ lặng dài duy nhất |
+| 6 | `c6-cai-chau` | `c6_minh` | Chị kể thấy hình tài xế là biết, nên xuống trước, rồi đặt cái chậu vô tay mình, dặn chậu này không ai tưới, em đem về đi. Định cảm ơn mà chỉ nói được tiếng dạ. | Lặng 1,5 giây sau lời, chỗ lặng dài duy nhất |
 | 7 | `c7-bai-xe` | `c7_minh` | Xuống bãi xe ngồi trên yên rất lâu, ứng dụng báo đơn mới ba lần mà ngón cái chưa bấm. Lúc ra cổng, trả năm ngàn tiền gửi như khách lạ. | |
 | 8 | `c8-san-thuong` | `c8_minh` | Tối đặt chậu lên lan can sân thượng, mới thấy đất trong chậu còn ướt, như có ai vừa tưới sáng nay. | Giữ hình 3 giây rồi hiện chữ kết |
 
@@ -54,7 +54,7 @@ Kiểu hook: một sự trùng hợp trên màn hình ứng dụng. Tập 7 mở
   - Người giao hàng phải chờ ở sảnh vì nhiều tòa nhà văn phòng không cho lên lầu. Tấm bảng chỉ là overlay chữ, không nêu tên tòa nhà.
   - Kéo vạt áo cho khuất vì sợ người quen thấy áo giao hàng ở đúng chỗ mình từng mặc sơ mi.
   - Nghe giọng "quen quen" vì ngồi cạnh tám năm thì phải nhận ra giọng, nhưng điện thoại làm giọng khác đi, nên tới cảnh 5 mới chắc là ai.
-  - Chị Thảo biết trước vì ứng dụng hiện tên tài xế cho người đặt. "Nên xuống trước" là xuống trước khi ai khác trong phòng kịp xuống. Không nói thẳng là để giữ mặt mũi cho Minh, người xem tự hiểu.
+  - Chị Thảo biết trước vì ứng dụng hiện ảnh chân dung tài xế cho người đặt, ngồi cạnh tám năm thì nhìn mặt là nhận ra. Không dựa vào tên, vì tên trùng nhiều người (người dùng góp ý 10/11). Khi dựng, ảnh tài xế trên điện thoại của chị phải thấy rõ mặt Minh, không cần hiện tên. "Nên xuống trước" là xuống trước khi ai khác trong phòng kịp xuống. Không nói thẳng là để giữ mặt mũi cho Minh, người xem tự hiểu.
   - Chậu trầu bà bị bỏ quên vì hôm cuối đồ đạc chỉ gom vừa một cái balo (tập 1: cái ly, cục sạc, cuốn sổ). Chọn trầu bà vì là cây văn phòng phải tưới thường, nên đất còn ướt mới có nghĩa.
   - Chỉ nói được tiếng "dạ" vì đang đứng ở sảnh, mặc áo giao hàng, tay ôm chậu, không biết nói gì cho đủ.
   - Ở bãi xe ngón cái chưa bấm nhận đơn vì chưa đủ sức chạy tiếp, chứ không phải bỏ việc. Lúc ra cổng mới trả năm ngàn, rồi về luôn. Cái chậu cả buổi đó nằm kẹp giữa hai chân trên xe nên tối mới để ý đất.
@@ -67,7 +67,7 @@ Kiểu hook: một sự trùng hợp trên màn hình ứng dụng. Tập 7 mở
 - **Bối cảnh nên khớp tập 1:** sảnh, thang máy và tòa nhà dùng ảnh tập 1 (`c4-tra-the`) làm tham chiếu khi tạo ảnh.
 - **Không nêu tên ứng dụng thật, tên công ty, tên tòa nhà.** Không nêu tên quê.
 - **Chưa đụng tới chú Tư** để tập 9 "Hủ tiếu lúc hai giờ sáng" là lần đầu nói chuyện thật với chú.
-- **Từ cần nghe kỹ khi đọc giọng:** "trà sữa", "tầng mười hai", "trầu bà" (dễ đọc lệch thành "trầu bạ"), "quẹt thẻ", "vạt áo", "quen quen", "tiếng dạ", "lan can", "còn ướt", "năm ngàn".
+- **Từ cần nghe kỹ khi đọc giọng:** "trà sữa", "tầng mười hai", "trầu bà" (dễ đọc lệch thành "trầu bạ"), "quẹt thẻ", "vạt áo", "quen quen", "thấy hình" (dễ dính thành "thấy ình"), "tiếng dạ", "lan can", "còn ướt", "năm ngàn".
 
 ## Soát chống AI hóa
 
@@ -106,6 +106,15 @@ Sonnet và Haiku đọc riêng, không chạy vòng phản biện chéo. Chỗ k
   - Đặt cái chậu lên ghế sảnh (Sonnet). Giữ "đặt cái chậu vô tay mình": Minh đã giao bảy ly cho chị nên tay trống, và đưa tận tay gần hơn.
   - Haiku đề nghị bỏ "bữa nay" ở cảnh 3 để bớt âm tiết. Giữ, vì "bữa nay" tạo đối lập với "tám năm nay vẫn chào". Bớt âm tiết ở chỗ khác.
   - Haiku gợi ý nối lại lời nói dối "con làm công ty lớn" của tập 6B. Ý hay nhưng không đủ chỗ trong 75 giây. Để dành cho tập 16 khi Linh biết chuyện.
+
+## Sửa cảnh 6 theo người dùng (10/11/2026)
+
+Người dùng chỉ ra "thấy tên tài xế là biết" không đứng được, vì tên trùng nhiều người. Claude đưa hai phương án cho Sonnet và Haiku phản biện riêng:
+
+- A. "Chị kể thấy hình tài xế là biết", độ dài không đổi.
+- B. "Chị kể hình tài xế là tấm hình thẻ công ty", ý là Minh dùng lại ảnh thẻ nhân viên cũ khi đăng ký, phải bỏ "rất lâu" ở cảnh 7 để bù độ dài.
+
+Cả hai chọn **A**, Claude đồng ý. Lý do: ứng dụng hiện ảnh tài xế cho người đặt, ngồi cạnh tám năm thì nhìn mặt là nhận ra, người xem hiểu ngay. B chưa được gieo ở tập trước, giải thích thêm một bước khi cảnh 6 đang đi nhanh, và trái với tính cách Minh đang cố giấu chuyện công ty cũ (Sonnet). Giữ "rất lâu" ở cảnh 7.
 
 ## Mô tả đăng (nháp)
 
