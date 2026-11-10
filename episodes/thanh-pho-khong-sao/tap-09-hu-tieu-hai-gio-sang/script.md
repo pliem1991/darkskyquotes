@@ -1,6 +1,6 @@
 # Thành Phố Không Sao, tập 9: Hủ tiếu lúc hai giờ sáng
 
-- **Trạng thái:** bản 3 (sửa cảnh 6 và 7 theo người dùng, qua phản biện Sonnet và Haiku), viết 10/11/2026, đã soát chống AI hóa và sửa theo phản biện của Sonnet và Haiku. **Chờ người dùng duyệt lời.** Chưa có prompt ảnh, chưa có ảnh, chưa đọc giọng
+- **Trạng thái:** bản 3 (sửa cảnh 6 và 7 theo người dùng, qua phản biện Sonnet và Haiku), viết 10/11/2026, đã soát chống AI hóa và sửa theo phản biện của Sonnet và Haiku. **Người dùng duyệt lời ngày 10/11/2026.** Prompt ảnh ở `prompts.md` (viết 10/11/2026). Tạo ảnh và dựng giao agent Sonnet
 - **Độ dài:** đích 60 đến 75 giây. Khoảng 209 âm tiết, ước 67 đến 71 giây (tập 8: khoảng 211 âm tiết, 67,7 giây)
 - **Người xem đang cảm thấy:** hai giờ sáng không ngủ được, cứ mở điện thoại ra đếm còn bao nhiêu ngày tới hạn tiền, càng đếm càng thấy ngộp
 - **Nối từ tập 8:** trưa thứ ba ngày 11, giao đơn về công ty cũ, ngồi trong bãi xe ba lần không bấm nhận đơn, tối đặt chậu trầu bà lên lan can sân thượng. Học phí của em mười hai triệu, hạn cuối tháng
