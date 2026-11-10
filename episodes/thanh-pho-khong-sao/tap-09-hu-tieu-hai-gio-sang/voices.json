@@ -1,0 +1,169 @@
+{
+ "voices": {
+  "minh": {
+   "preset": "Thiền Tâm Đức",
+   "pitch": 1.0,
+   "tempo": 1.12,
+   "af": "highpass=f=110,equalizer=f=300:t=q:w=1:g=-1.5,equalizer=f=3500:t=q:w=1.2:g=2,equalizer=f=6500:t=q:w=1:g=2,acompressor=threshold=-22dB:ratio=2:attack=15:release=200:makeup=2,loudnorm=I=-15:TP=-1.5:LRA=9"
+  }
+ },
+ "lead_in": 0.15,
+ "lines": [
+  {
+   "file": "c1_minh",
+   "voice": "minh",
+   "text": "Hai giờ sáng rồi mà chú Tư xe ôm vẫn còn ngồi ở xe hủ tiếu đầu hẻm, chưa chịu về nhà.",
+   "parts": [
+    "Hai giờ sáng rồi mà chú Tư xe ôm vẫn còn ngồi ở xe hủ tiếu đầu hẻm,",
+    "chưa chịu về nhà."
+   ],
+   "tempo": 1.0,
+   "scene": "c1-chua-ve",
+   "pause": 0.6,
+   "inner_pauses": []
+  },
+  {
+   "file": "c2_minh",
+   "voice": "minh",
+   "text": "Nằm hoài không ngủ được, cứ mở cái đếm ngược tới hạn học phí của em ra coi, rồi lại tắt đi.",
+   "parts": [
+    "Nằm hoài không ngủ được,",
+    "cứ mở cái đếm ngược tới hạn học phí của em ra coi,",
+    "rồi lại tắt đi."
+   ],
+   "tempo": 1.0,
+   "scene": "c2-dem-nguoc",
+   "pause": 0.6,
+   "inner_pauses": [
+    {
+     "after_part": 0,
+     "sec": 0.3
+    }
+   ]
+  },
+  {
+   "file": "c3_minh",
+   "voice": "minh",
+   "text": "Bụng đói cồn cào vì tối nay bỏ bữa cho đỡ tốn, đành xuống hẻm kêu một tô hủ tiếu gõ.",
+   "parts": [
+    "Bụng đói cồn cào vì tối nay bỏ bữa cho đỡ tốn,",
+    "đành xuống hẻm kêu một tô hủ tiếu gõ."
+   ],
+   "tempo": 1.0,
+   "scene": "c3-xuong-hem",
+   "pause": 0.6,
+   "inner_pauses": []
+  },
+  {
+   "file": "c4_minh",
+   "voice": "minh",
+   "text": "Chú than ban ngày khách đặt xe trên điện thoại hết, khuya mới còn mấy người quen gọi.",
+   "parts": [
+    "Chú than ban ngày khách đặt xe trên điện thoại hết,",
+    "khuya mới còn mấy người quen gọi."
+   ],
+   "tempo": 1.0,
+   "scene": "c4-chu-tu",
+   "pause": 0.6,
+   "inner_pauses": []
+  },
+  {
+   "file": "c5_minh",
+   "voice": "minh",
+   "text": "Mình kể chú nghe, nghỉ việc mười một ngày rồi, cái đếm ngược còn mười tám ngày nữa.",
+   "parts": [
+    "Mình kể chú nghe,",
+    "nghỉ việc mười một ngày rồi,",
+    "cái đếm ngược còn mười tám ngày nữa."
+   ],
+   "tempo": 1.0,
+   "scene": "c5-ke-chu-nghe",
+   "pause": 0.6,
+   "inner_pauses": [
+    {
+     "after_part": 0,
+     "sec": 0.3
+    }
+   ]
+  },
+  {
+   "file": "c6_minh",
+   "voice": "minh",
+   "text": "Chú thổi tô hủ tiếu, bảo đừng đếm ngày, đếm việc. Rồi hỏi hôm qua con chạy được mấy đơn.",
+   "parts": [
+    "Chú thổi tô hủ tiếu,",
+    "bảo đừng đếm ngày, đếm việc.",
+    "Rồi hỏi hôm qua con chạy được mấy đơn."
+   ],
+   "tempo": 1.0,
+   "scene": "c6-dem-viec",
+   "pause": 0.6,
+   "inner_pauses": [
+    {
+     "after_part": 0,
+     "sec": 0.3
+    },
+    {
+     "after_part": 1,
+     "sec": 0.5
+    }
+   ]
+  },
+  {
+   "file": "c7_minh",
+   "voice": "minh",
+   "text": "Hôm qua được sáu đơn, còn ba đơn báo tới, ngồi trong bãi xe không dám nhận. Chú nghe xong gật đầu, dặn mai có đơn tới thì cứ bấm nhận.",
+   "parts": [
+    "Hôm qua được sáu đơn,",
+    "còn ba đơn báo tới,",
+    "ngồi trong bãi xe không dám nhận.",
+    "Chú nghe xong gật đầu,",
+    "dặn mai có đơn tới thì cứ bấm nhận."
+   ],
+   "tempo": 1.0,
+   "scene": "c7-tra-loi",
+   "pause": 1.5,
+   "inner_pauses": [
+    {
+     "after_part": 2,
+     "sec": 0.5
+    }
+   ]
+  },
+  {
+   "file": "c8_minh",
+   "voice": "minh",
+   "text": "Hai chú cháu đi bộ về, chú tắt máy dắt xe cho khỏi ồn cả hẻm. Tới cửa nhà chú, ổ khóa vẫn khóa ở ngoài, trước cửa chỉ có một đôi dép.",
+   "parts": [
+    "Hai chú cháu đi bộ về,",
+    "chú tắt máy dắt xe cho khỏi ồn cả hẻm.",
+    "Tới cửa nhà chú,",
+    "ổ khóa vẫn khóa ở ngoài,",
+    "trước cửa chỉ có một đôi dép."
+   ],
+   "tempo": 1.0,
+   "scene": "c8-o-khoa",
+   "pause": 0.6,
+   "inner_pauses": [
+    {
+     "after_part": 1,
+     "sec": 0.5
+    }
+   ]
+  },
+  {
+   "file": "c9_minh",
+   "voice": "minh",
+   "text": "Về phòng lên sân thượng, mở điện thoại định xóa cái đếm ngược, rồi thôi, chỉ đặt thêm báo thức năm giờ sáng.",
+   "parts": [
+    "Về phòng lên sân thượng,",
+    "mở điện thoại định xóa cái đếm ngược,",
+    "rồi thôi, chỉ đặt thêm báo thức năm giờ sáng."
+   ],
+   "tempo": 1.0,
+   "scene": "c9-san-thuong",
+   "pause": 6.0,
+   "inner_pauses": []
+  }
+ ]
+}

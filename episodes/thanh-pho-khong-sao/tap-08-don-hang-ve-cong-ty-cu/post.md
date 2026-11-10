@@ -3,8 +3,8 @@
 - **Kênh:** https://www.tiktok.com/@dark.sky.quotes
 - **Video:** `output-nhe_dep.mp4` (67,7 giây, 1080x1920, 16,1 MB, -15,1 LUFS, có watermark @dark.sky.quotes). Bản dựng v3 (chữ hook 2 dòng, cảnh 1 dời ảnh xuống để chữ không chạm nón)
 - **Ảnh bìa:** chọn khung đầu clip, lúc chữ "Đơn trưa nay giao về công ty cũ." hiện rõ trên ảnh Minh ngồi xe trước tòa nhà kính. Không thêm chữ lên bìa.
-- **Lịch đăng đề xuất:** 21:00 thứ 5, 12/11/2026 (ngay sau tập 7 ngày 11/11). Chờ người dùng duyệt video rồi mới chốt.
-- **Trạng thái:** video đã dựng, Claude đã soát khung hình; **chờ người dùng xem và nghe duyệt**. Chưa hẹn giờ.
+- **Lịch đăng đề xuất:** 21:00 thứ 5, 12/11/2026 (ngay sau tập 7 ngày 11/11). Người dùng đã duyệt video ngày 10/11/2026.
+- **Trạng thái:** người dùng duyệt video ngày 10/11/2026 (giữ SFX xe cộ, thang máy, chuông đơn). Chưa hẹn giờ trên TikTok.
 
 ## Mô tả (dán nguyên văn)
 
