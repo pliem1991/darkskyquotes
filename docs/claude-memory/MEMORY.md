@@ -17,3 +17,5 @@
 - [Đưa video lớn lên TikTok](tiktok-upload-big-file.md) — file trên 10 MB: cắt đôi, ghép lại trong trang, hẹn giờ bằng bộ chọn phút
 - [Tự hẹn giờ khi Marketing gửi](feedback-auto-schedule-from-marketing.md) — từ 09/11 không cần hỏi lại người dùng, vẫn đối chiếu kênh và làm đúng post.md
 - [Watermark mọi video](feedback-watermark-all-videos.md) — luôn gắn @dark.sky.quotes nhỏ mờ góc trái dưới, khóa watermark trong fx.json
+- [Môi trường máy E:\Tiktok](may-e-tiktok-env.md) — Python 3.14, ghim av<19, console cp932 cần PYTHONUTF8, Chrome ở x86
+- [Phản biện trước khi gửi kịch bản](feedback-review-before-sending-script.md) — luôn soát AI hóa + 2 agent Sonnet, Haiku phản biện rồi mới gửi người dùng
