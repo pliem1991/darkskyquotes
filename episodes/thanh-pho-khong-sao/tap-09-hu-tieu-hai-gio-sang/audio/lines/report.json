@@ -1,65 +1,23 @@
 [
  {
-  "file": "c1_minh",
-  "voice": "Thiền Tâm Đức",
-  "score": 0.955,
-  "heard": "Hai giờ sáng rồi mà chú Tư xe ơm vẫn còn ngồi ở xe hủ tiếu đầu hẻm, chưa chịu về nhà.",
-  "seconds": 6.17
- },
- {
-  "file": "c2_minh",
-  "voice": "Thiền Tâm Đức",
-  "score": 1.0,
-  "heard": "Nằm hoài không ngủ được, cứ mở cái đếm ngược tới hạn học phí của em ra coi, rồi lại tắt đi.",
-  "seconds": 5.71
- },
- {
-  "file": "c3_minh",
-  "voice": "Thiền Tâm Đức",
-  "score": 0.905,
-  "heard": "Bùng đói cồn cào vì tối nay bỏ bữa cho đỡ túng, đành xuống hẻm kêu một tô hủ tiếu gõ.",
-  "seconds": 5.79
- },
- {
   "file": "c4_minh",
   "voice": "Thiền Tâm Đức",
   "score": 0.944,
-  "heard": "Chú Than Bang ngày khách đặt xe trên điện thoại hết, khuya mới còn mấy người quen gọi.",
-  "seconds": 4.8
+  "heard": "Chú Thanh ban ngày khách đặt xe trên điện thoại hết, khuya mới còn mấy người quen gọi.",
+  "seconds": 5.03
  },
  {
   "file": "c5_minh",
   "voice": "Thiền Tâm Đức",
-  "score": 0.833,
-  "heard": "Mình kể chú nghe, nghĩ việc mười một ngày rồi, cái đêm ngược còn mười tắm ngày nữa.",
-  "seconds": 4.58
+  "score": 0.889,
+  "heard": "Mình kể chú nghe, nghĩ việc mười một ngày rồi, cái đêm ngược còn mười tám ngày nữa.",
+  "seconds": 4.7
  },
  {
   "file": "c6_minh",
   "voice": "Thiền Tâm Đức",
-  "score": 0.95,
-  "heard": "Chú Thội Tô hủ tiếu, bảo đừng đếm ngày, đếm việc, rồi hỏi hôm qua con chạy được mấy đơn.",
-  "seconds": 5.72
- },
- {
-  "file": "c7_minh",
-  "voice": "Thiền Tâm Đức",
-  "score": 0.935,
-  "heard": "Hôm qua được 6 đơn, còn 3 đơn báo tới, ngồi trong bãi xe không dám nhận.  Chú nghe xong gật đầu, dặn mai có đơn tới, thì cứ bấm nhận.",
-  "seconds": 8.5
- },
- {
-  "file": "c8_minh",
-  "voice": "Thiền Tâm Đức",
-  "score": 0.939,
-  "heard": "Hai chú cháu đi bộ về, chú tắt máy giắc xe cho khỏi ồn cả hẻm.  Tới cửa nhà chú, ổ khóa vẫn khóa ở ngoài, trước cửa chỉ có một đôi giép.",
-  "seconds": 8.7
- },
- {
-  "file": "c9_minh",
-  "voice": "Thiền Tâm Đức",
-  "score": 0.957,
-  "heard": "Về phòng lên sân thượng, mở điện thoại định xóa cái đếm ngược rồi thôi,  chỉ đặt thêm báo thức 5 giờ sáng.",
-  "seconds": 6.23
+  "score": 1.0,
+  "heard": "Chú thổi tô hủ tiếu, bảo đừng đếm ngày, đếm việc.  Rồi hỏi hôm qua con chạy được mấy đơn.",
+  "seconds": 5.83
  }
 ]
