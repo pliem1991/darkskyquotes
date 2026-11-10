@@ -1,6 +1,6 @@
 # Thành Phố Không Sao, tập 10: Cơ hội của Khoa (bình chọn 2)
 
-- **Trạng thái:** bản 3 (sửa lý do nạp trước ở cảnh 7 theo người dùng, qua phản biện Sonnet và Haiku), viết 10/11/2026, đã soát chống AI hóa và sửa theo phản biện của Sonnet và Haiku. **Người dùng duyệt lời ngày 10/11/2026.** Prompt ảnh ở `prompts.md` (viết 10/11/2026, có ảnh nhân vật mới `khoa`). Tạo ảnh và dựng giao agent Sonnet
+- **Trạng thái:** bản 3 (sửa lý do nạp trước ở cảnh 7 theo người dùng, qua phản biện Sonnet và Haiku), viết 10/11/2026, đã soát chống AI hóa và sửa theo phản biện của Sonnet và Haiku. **Người dùng duyệt lời ngày 10/11/2026.** Prompt ảnh ở `prompts.md` (viết 10/11/2026, có ảnh nhân vật mới `khoa`). Tạo ảnh và dựng giao agent Sonnet (9 ảnh trên Flow project "DSQ - TPKS tập 10", video `output-nhe_dep.mp4` 74,0 giây, 20 MB, -15,2 LUFS). **Người dùng duyệt video ngày 10/11/2026.**
 - **Độ dài:** đích 60 đến 75 giây. Khoảng 214 âm tiết, ước 70 đến 74 giây
 - **Người xem đang cảm thấy:** đang kẹt tiền, có người quen đưa ra một cách kiếm tiền nhanh nghe rất hợp lý, có cả bằng chứng, nửa muốn tin nửa thấy sai sai, và hạn trả tiền thì sát nút
 - **Nối từ tập 9:** hai giờ sáng ngày 12, chú Tư dặn mai có đơn tới thì cứ bấm nhận; Minh đặt báo thức năm giờ sáng. Học phí của em mười hai triệu, hạn cuối tháng, còn khoảng mười tám ngày

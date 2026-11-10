@@ -3,8 +3,8 @@
 - **Kênh:** https://www.tiktok.com/@dark.sky.quotes
 - **Video:** `output-nhe_dep.mp4` (74,0 giây, 1080x1920, 20,0 MB, -15,2 LUFS, có watermark @dark.sky.quotes). Bản v1: hook 2 dòng giữ khoảng 2 giây, vệt cọ có vân vải canvas ở c1→c2, c2→c3, c7→c8, thẻ "Số dư: 38.450.000đ", "+2.000.000đ" và câu của Khoa hiện dạng hộp tin nhắn phía trên hai người
 - **Ảnh bìa:** chọn khung đầu clip, lúc chữ "Bạn rủ nạp trước 4 triệu, mỗi ngày lời 500 ngàn." hiện rõ trên ảnh Khoa chìa điện thoại. Không thêm chữ lên bìa.
-- **Lịch đăng đề xuất:** 21:00 thứ 7, 14/11/2026 (sau tập 9 ngày 13/11). Chờ người dùng duyệt video rồi mới chốt.
-- **Trạng thái:** video đã dựng, Claude đã soát khung hình; **chờ người dùng xem và nghe duyệt** (nghe kỹ "mười sáu ngày" ở c6, Whisper có lúc nghe thành "56"). Chưa hẹn giờ.
+- **Lịch đăng:** 21:00 thứ 7, 14/11/2026 (sau tập 9 ngày 13/11). Người dùng đã duyệt video ngày 10/11/2026.
+- **Trạng thái:** người dùng duyệt video ngày 10/11/2026. Đang giao agent hẹn giờ.
 
 ## Mô tả (dán nguyên văn)
 
