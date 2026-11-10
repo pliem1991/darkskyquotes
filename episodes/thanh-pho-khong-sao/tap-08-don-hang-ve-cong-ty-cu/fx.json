@@ -1,0 +1,508 @@
+{
+ "_note": "Tập 8. Tọa độ ảnh theo khung 896x896. Hook tắt giây 2.3 để nhường thẻ series giây 3.",
+ "hide_subs": [],
+ "hook": {
+  "sweep": [
+   0,
+   0
+  ],
+  "rows": [
+   {
+    "text": "Đơn trưa nay giao về",
+    "size": 78,
+    "y": 222,
+    "instant": true,
+    "leave": 2.3
+   },
+   {
+    "text": "công ty cũ.",
+    "size": 78,
+    "y": 292,
+    "instant": true,
+    "leave": 2.3
+   }
+  ]
+ },
+ "chords": [
+  "Am",
+  "F",
+  "Dm",
+  "Am"
+ ],
+ "final_arpeggio": false,
+ "theme": {
+  "notes": [
+   88,
+   86,
+   84,
+   86,
+   83
+  ],
+  "gap": 1.3,
+  "vel": 0.45,
+  "count": 5
+ },
+ "music_end": [
+  "we",
+  [
+   7,
+   "tưới sáng nay"
+  ]
+ ],
+ "music_busy": [
+  "we",
+  [
+   7,
+   "tưới sáng nay"
+  ]
+ ],
+ "music_lufs": -19,
+ "music_highpass": 140,
+ "music_fade": 1.8,
+ "music_sparse": 0.7,
+ "music_low": false,
+ "strings_gain": 7,
+ "sfx_lufs": -30,
+ "emphasis": {},
+ "digits": {
+  "tầng mười hai": "tầng 12",
+  "tám năm": "8 năm",
+  "năm ngàn": "5 ngàn"
+ },
+ "card": {
+  "main": "THÀNH PHỐ KHÔNG SAO",
+  "sub": "TẬP 8",
+  "show": 3.0,
+  "dur": 1.5,
+  "y": 230,
+  "size": 34
+ },
+ "overlays": [
+  {
+   "scene": "c2-muon-huy",
+   "type": "counter",
+   "label": "Ngày 11 · Còn lại:",
+   "value": 3910000,
+   "instant": true,
+   "start": [
+    1,
+    0.0
+   ],
+   "y": 1250,
+   "size": 96
+  },
+  {
+   "scene": "c2-muon-huy",
+   "type": "notice",
+   "text": "7 ly trà sữa · Tầng 12",
+   "at": [
+    "center",
+    235
+   ],
+   "size": 34,
+   "show": [
+    1,
+    0.15
+   ],
+   "hide": [
+    "we",
+    [
+     1,
+     "chừng chục đơn"
+    ]
+   ],
+   "hold": 0.6
+  },
+  {
+   "scene": "c3-bao-ve",
+   "type": "message",
+   "text": "Shipper vui lòng chờ tại sảnh",
+   "at": [
+    565,
+    440
+   ],
+   "size": 26,
+   "show": [
+    "w",
+    [
+     2,
+     "chỉ tay"
+    ]
+   ],
+   "hide": [
+    "we",
+    [
+     2,
+     "đứng chờ"
+    ]
+   ],
+   "hold": 1.0
+  },
+  {
+   "scene": "c6-cai-chau",
+   "type": "message",
+   "text": "Chậu này không ai tưới, em đem về đi.",
+   "at": [
+    "center",
+    260
+   ],
+   "size": 32,
+   "show": [
+    "w",
+    [
+     5,
+     "dặn chậu này"
+    ]
+   ],
+   "hide": [
+    "we",
+    [
+     5,
+     "em đem về đi"
+    ]
+   ],
+   "hold": 0.8
+  },
+  {
+   "scene": "c8-san-thuong",
+   "type": "end",
+   "text": "Bạn còn giữ món đồ nào|của chỗ làm cũ không?",
+   "start": [
+    "we",
+    [
+     7,
+     "tưới sáng nay"
+    ]
+   ],
+   "delay": 3.0,
+   "y": 290,
+   "size": 54,
+   "fade": 0.8
+  }
+ ],
+ "quiet": [
+  [
+   [
+    "we",
+    [
+     5,
+     "tiếng dạ"
+    ]
+   ],
+   [
+    6,
+    0.0
+   ]
+  ]
+ ],
+ "music": [
+  [
+   0,
+   0.0,
+   0.6
+  ],
+  [
+   1,
+   0.0,
+   0.6
+  ],
+  [
+   2,
+   0.0,
+   0.55
+  ],
+  [
+   3,
+   0.0,
+   0.55
+  ],
+  [
+   4,
+   0.0,
+   0.5
+  ],
+  [
+   5,
+   0.0,
+   0.45
+  ],
+  [
+   6,
+   0.0,
+   0.45
+  ],
+  [
+   7,
+   0.0,
+   0.4
+  ],
+  [
+   "we",
+   [
+    7,
+    "tưới sáng nay"
+   ],
+   0.4
+  ],
+  [
+   7,
+   1.0,
+   0.95
+  ]
+ ],
+ "sfx": [
+  {
+   "type": "traffic",
+   "at": [
+    0,
+    0.0
+   ],
+   "delay": -0.3,
+   "end": [
+    "we",
+    [
+     1,
+     "người quen"
+    ]
+   ],
+   "gain": 0.5
+  },
+  {
+   "type": "hum",
+   "at": [
+    3,
+    0.0
+   ],
+   "delay": -0.3,
+   "end": [
+    "we",
+    [
+     4,
+     "bàn cũ"
+    ]
+   ],
+   "gain": 0.35
+  },
+  {
+   "type": "chime",
+   "at": [
+    "we",
+    [
+     6,
+     "ba lần"
+    ]
+   ],
+   "delay": 0.15,
+   "gain": 1.0
+  },
+  {
+   "type": "chime",
+   "at": [
+    "we",
+    [
+     6,
+     "ba lần"
+    ]
+   ],
+   "delay": 0.75,
+   "gain": 1.0
+  },
+  {
+   "type": "chime",
+   "at": [
+    "we",
+    [
+     6,
+     "ba lần"
+    ]
+   ],
+   "delay": 1.35,
+   "gain": 1.0
+  },
+  {
+   "type": "wind",
+   "at": [
+    7,
+    0.0
+   ],
+   "delay": -0.5,
+   "gain": 0.8
+  },
+  {
+   "type": "traffic",
+   "at": [
+    7,
+    0.0
+   ],
+   "delay": -0.5,
+   "gain": 0.45
+  }
+ ],
+ "scenes": {
+  "c1-don-hang": {
+   "lead": 0.3,
+   "ease": true,
+   "drift": 0,
+   "push": 0.06,
+   "focus": [
+    500,
+    180
+   ],
+   "pan": [
+    0,
+    70,
+    -18,
+    70
+   ],
+   "intro_push": {
+    "amount": 0.03,
+    "fast": 0.3,
+    "settle": 0.3
+   }
+  },
+  "c2-muon-huy": {
+   "lead": 0.3,
+   "ease": true,
+   "drift": 0,
+   "push": 0.07,
+   "focus": [
+    520,
+    450
+   ],
+   "pan": [
+    0,
+    0,
+    -18,
+    0
+   ],
+   "in": "blur",
+   "blur": 12,
+   "in_dur": 0.5
+  },
+  "c3-bao-ve": {
+   "lead": 0.3,
+   "ease": true,
+   "drift": 0,
+   "push": 0.07,
+   "focus": [
+    450,
+    450
+   ],
+   "pan": [
+    0,
+    0,
+    -18,
+    0
+   ],
+   "in": "blur",
+   "blur": 12,
+   "in_dur": 0.3
+  },
+  "c4-thang-may": {
+   "lead": 0.3,
+   "ease": true,
+   "drift": 0,
+   "push": 0.07,
+   "focus": [
+    430,
+    450
+   ],
+   "pan": [
+    0,
+    0,
+    -18,
+    0
+   ],
+   "in": "blur",
+   "blur": 12,
+   "in_dur": 0.3
+  },
+  "c5-chi-thao": {
+   "lead": 0.3,
+   "ease": true,
+   "drift": 0,
+   "push": 0.06,
+   "focus": [
+    450,
+    430
+   ],
+   "pan": [
+    0,
+    0,
+    -18,
+    0
+   ],
+   "in": "blur",
+   "blur": 12,
+   "in_dur": 0.3
+  },
+  "c6-cai-chau": {
+   "lead": 0.3,
+   "ease": true,
+   "drift": 0,
+   "push": 0.07,
+   "focus": [
+    450,
+    430
+   ],
+   "pan": [
+    0,
+    0,
+    -18,
+    0
+   ],
+   "in": "blur",
+   "blur": 12,
+   "in_dur": 0.3
+  },
+  "c7-bai-xe": {
+   "lead": 0.3,
+   "ease": true,
+   "drift": 0,
+   "push": 0.07,
+   "focus": [
+    450,
+    440
+   ],
+   "pan": [
+    0,
+    0,
+    -18,
+    0
+   ],
+   "in": "blur",
+   "blur": 12,
+   "in_dur": 0.3
+  },
+  "c8-san-thuong": {
+   "lead": 0.3,
+   "ease": true,
+   "drift": 0,
+   "push": -0.07,
+   "focus": [
+    450,
+    640
+   ],
+   "pan": [
+    0,
+    30,
+    0,
+    0
+   ],
+   "in": "blur",
+   "blur": 12,
+   "in_dur": 0.6,
+   "zoom0": 0.1
+  }
+ },
+ "watermark": {
+  "text": "@dark.sky.quotes",
+  "size": 30,
+  "x": 60,
+  "y": 1395,
+  "opacity": 0.45
+ },
+ "music_v2": true,
+ "music_step": 0.8,
+ "master_lufs": -14
+}
