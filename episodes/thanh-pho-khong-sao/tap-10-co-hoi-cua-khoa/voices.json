@@ -1,0 +1,174 @@
+{
+ "voices": {
+  "minh": {
+   "preset": "Thiền Tâm Đức",
+   "pitch": 1.0,
+   "tempo": 1.12,
+   "af": "highpass=f=110,equalizer=f=300:t=q:w=1:g=-1.5,equalizer=f=3500:t=q:w=1.2:g=2,equalizer=f=6500:t=q:w=1:g=2,acompressor=threshold=-22dB:ratio=2:attack=15:release=200:makeup=2,loudnorm=I=-15:TP=-1.5:LRA=9"
+  }
+ },
+ "lead_in": 0.15,
+ "lines": [
+  {
+   "file": "c1_minh",
+   "voice": "minh",
+   "text": "Thằng bạn đại học rủ làm việc online, nạp trước bốn triệu, mỗi ngày lời năm trăm ngàn.",
+   "parts": [
+    "Thằng bạn đại học rủ làm việc online,",
+    "nạp trước bốn triệu,",
+    "mỗi ngày lời năm trăm ngàn."
+   ],
+   "tempo": 1.0,
+   "scene": "c1-nap-truoc",
+   "pause": 3.0,
+   "inner_pauses": []
+  },
+  {
+   "file": "c2_minh",
+   "voice": "minh",
+   "text": "Sáng nay đơn nào tới cũng bấm nhận. Chạy tới chiều được mười đơn thì Khoa nhắn rủ đi cà phê.",
+   "parts": [
+    "Sáng nay đơn nào tới cũng bấm nhận.",
+    "Chạy tới chiều được mười đơn",
+    "thì Khoa nhắn rủ đi cà phê."
+   ],
+   "tempo": 1.0,
+   "scene": "c2-muoi-don",
+   "pause": 1.0,
+   "inner_pauses": [
+    {
+     "after_part": 0,
+     "sec": 0.5
+    }
+   ]
+  },
+  {
+   "file": "c3_minh",
+   "voice": "minh",
+   "text": "Khoa đậu chiếc xe tay ga mới toanh trước quán, còn mình vừa giao xong đơn, cái áo giao hàng vẫn mặc nguyên.",
+   "parts": [
+    "Khoa đậu chiếc xe tay ga mới toanh trước quán,",
+    "còn mình vừa giao xong đơn,",
+    "cái áo giao hàng vẫn mặc nguyên."
+   ],
+   "tempo": 1.0,
+   "scene": "c3-xe-moi",
+   "pause": 0.5,
+   "inner_pauses": [
+    {
+     "after_part": 0,
+     "sec": 0.2
+    }
+   ]
+  },
+  {
+   "file": "c4_minh",
+   "voice": "minh",
+   "text": "Nó nghe bạn chung kể chuyện mình nghỉ việc. Rồi mở điện thoại khoe số dư trong một ứng dụng làm nhiệm vụ, với tin ngân hàng báo tuần trước rút về hai triệu.",
+   "parts": [
+    "Nó nghe bạn chung kể chuyện mình nghỉ việc.",
+    "Rồi mở điện thoại khoe số dư trong một ứng dụng làm nhiệm vụ,",
+    "với tin ngân hàng báo tuần trước rút về hai triệu."
+   ],
+   "tempo": 1.0,
+   "scene": "c4-so-du",
+   "pause": 0.5,
+   "inner_pauses": [
+    {
+     "after_part": 0,
+     "sec": 0.5
+    },
+    {
+     "after_part": 1,
+     "sec": 0.2
+    }
+   ]
+  },
+  {
+   "file": "c5_minh",
+   "voice": "minh",
+   "text": "Việc chỉ là bấm chốt đơn giùm mấy cửa hàng, mỗi ngày đều đặn năm trăm ngàn.",
+   "parts": [
+    "Việc chỉ là bấm chốt đơn giùm mấy cửa hàng,",
+    "mỗi ngày đều đặn năm trăm ngàn."
+   ],
+   "tempo": 1.0,
+   "scene": "c5-chot-don",
+   "pause": 0.5,
+   "inner_pauses": []
+  },
+  {
+   "file": "c6_minh",
+   "voice": "minh",
+   "text": "Một ngày của Khoa bằng gần ba ngày chạy đơn. Làm mười sáu ngày là gom đủ tám triệu còn thiếu, vừa kịp hạn học phí của em.",
+   "parts": [
+    "Một ngày của Khoa bằng gần ba ngày chạy đơn.",
+    "Làm mười sáu ngày là gom đủ tám triệu còn thiếu,",
+    "vừa kịp hạn học phí của em."
+   ],
+   "tempo": 1.0,
+   "scene": "c6-nham-tinh",
+   "pause": 0.5,
+   "inner_pauses": [
+    {
+     "after_part": 0,
+     "sec": 0.5
+    },
+    {
+     "after_part": 1,
+     "sec": 0.2
+    }
+   ]
+  },
+  {
+   "file": "c7_minh",
+   "voice": "minh",
+   "text": "Hỏi lại sao phải nạp trước, Khoa bảo đó là tiền ứng cho cửa hàng, làm xong sẽ trả lại đủ. Nhưng nhóm sắp đủ người, tối mai là đóng danh sách, chậm là hết suất.",
+   "parts": [
+    "Hỏi lại sao phải nạp trước,",
+    "Khoa bảo đó là tiền ứng cho cửa hàng,",
+    "làm xong sẽ trả lại đủ.",
+    "Nhưng nhóm sắp đủ người,",
+    "tối mai là đóng danh sách,",
+    "chậm là hết suất."
+   ],
+   "tempo": 1.0,
+   "scene": "c7-gap",
+   "pause": 1.5,
+   "inner_pauses": [
+    {
+     "after_part": 2,
+     "sec": 0.5
+    },
+    {
+     "after_part": 3,
+     "sec": 0.15
+    }
+   ]
+  },
+  {
+   "file": "c8_minh",
+   "voice": "minh",
+   "text": "Tối lên sân thượng, đường dẫn Khoa gửi vẫn nằm đó chưa bấm. Trong tài khoản vừa hơn bốn triệu, nạp vô là gần như không còn đồng nào.",
+   "parts": [
+    "Tối lên sân thượng,",
+    "đường dẫn Khoa gửi vẫn nằm đó chưa bấm.",
+    "Trong tài khoản vừa hơn bốn triệu,",
+    "nạp vô là gần như không còn đồng nào."
+   ],
+   "tempo": 1.0,
+   "scene": "c8-san-thuong",
+   "pause": 6.0,
+   "inner_pauses": [
+    {
+     "after_part": 1,
+     "sec": 0.5
+    },
+    {
+     "after_part": 2,
+     "sec": 0.15
+    }
+   ]
+  }
+ ]
+}

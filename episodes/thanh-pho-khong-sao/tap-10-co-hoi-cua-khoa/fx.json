@@ -1,0 +1,507 @@
+{
+ "hide_subs": [],
+ "chords": [
+  "Am",
+  "F",
+  "Dm",
+  "Am"
+ ],
+ "final_arpeggio": false,
+ "theme": {
+  "notes": [
+   88,
+   86,
+   84,
+   86,
+   83
+  ],
+  "gap": 1.3,
+  "vel": 0.45,
+  "count": 5
+ },
+ "music_lufs": -19,
+ "music_highpass": 140,
+ "music_fade": 1.8,
+ "music_sparse": 0.7,
+ "music_low": false,
+ "strings_gain": 7,
+ "sfx_lufs": -30,
+ "emphasis": {},
+ "watermark": {
+  "text": "@dark.sky.quotes",
+  "size": 30,
+  "x": 60,
+  "y": 1395,
+  "opacity": 0.45
+ },
+ "music_v2": true,
+ "music_step": 0.8,
+ "master_lufs": -14,
+ "_note": "Tập 10. Tọa độ ảnh theo khung 896x896. Hook tắt giây 2.3 để nhường thẻ series giây 3.",
+ "hook": {
+  "sweep": [
+   0,
+   0
+  ],
+  "rows": [
+   {
+    "text": "Bạn rủ nạp trước 4 triệu,",
+    "size": 78,
+    "y": 222,
+    "instant": true,
+    "leave": 2.3
+   },
+   {
+    "text": "mỗi ngày lời 500 ngàn.",
+    "size": 78,
+    "y": 292,
+    "instant": true,
+    "leave": 2.3
+   }
+  ]
+ },
+ "digits": {
+  "bốn triệu": "4 triệu",
+  "năm trăm ngàn": "500 ngàn",
+  "mười đơn": "10 đơn",
+  "hai triệu": "2 triệu",
+  "tám triệu": "8 triệu",
+  "mười sáu ngày": "16 ngày",
+  "ba ngày": "3 ngày"
+ },
+ "card": {
+  "main": "THÀNH PHỐ KHÔNG SAO",
+  "sub": "TẬP 10",
+  "show": 3.0,
+  "dur": 1.5,
+  "y": 230,
+  "size": 34
+ },
+ "music_end": [
+  "we",
+  [
+   7,
+   "đồng nào"
+  ]
+ ],
+ "music_busy": [
+  "we",
+  [
+   7,
+   "đồng nào"
+  ]
+ ],
+ "overlays": [
+  {
+   "scene": "c2-muoi-don",
+   "type": "counter",
+   "label": "Ngày 12 · Còn lại:",
+   "value": 3925000,
+   "instant": true,
+   "start": [
+    1,
+    0.08
+   ],
+   "y": 1250,
+   "size": 96
+  },
+  {
+   "scene": "c4-so-du",
+   "type": "message",
+   "text": "Số dư: 38.450.000đ",
+   "at": [
+    "center",
+    330
+   ],
+   "size": 40,
+   "show": [
+    "w",
+    [
+     3,
+     "khoe số dư"
+    ]
+   ],
+   "hide": [
+    "we",
+    [
+     3,
+     "nhiệm vụ"
+    ]
+   ],
+   "hold": 0.2
+  },
+  {
+   "scene": "c4-so-du",
+   "type": "notice",
+   "text": "+2.000.000đ",
+   "at": [
+    "center",
+    330
+   ],
+   "size": 36,
+   "show": [
+    "w",
+    [
+     3,
+     "rút về"
+    ]
+   ],
+   "hide": [
+    "we",
+    [
+     3,
+     "hai triệu"
+    ]
+   ],
+   "hold": 1.0
+  },
+  {
+   "scene": "c7-gap",
+   "type": "message",
+   "text": "Nhóm sắp đủ người, tối mai đóng danh sách.",
+   "at": [
+    "center",
+    330
+   ],
+   "size": 32,
+   "show": [
+    "w",
+    [
+     6,
+     "Nhưng nhóm"
+    ]
+   ],
+   "hide": [
+    "we",
+    [
+     6,
+     "danh sách"
+    ]
+   ],
+   "hold": 0.8
+  },
+  {
+   "scene": "c8-san-thuong",
+   "type": "end",
+   "text": "Đường dẫn vẫn chưa bấm.|Minh có nạp 4 triệu không?",
+   "start": [
+    "we",
+    [
+     7,
+     "đồng nào"
+    ]
+   ],
+   "delay": 3.0,
+   "y": 290,
+   "size": 54,
+   "fade": 0.8
+  }
+ ],
+ "quiet": [
+  [
+   [
+    "we",
+    [
+     6,
+     "hết suất"
+    ]
+   ],
+   [
+    7,
+    0.0
+   ]
+  ]
+ ],
+ "music": [
+  [
+   0,
+   0.0,
+   0.6
+  ],
+  [
+   1,
+   0.0,
+   0.6
+  ],
+  [
+   2,
+   0.0,
+   0.55
+  ],
+  [
+   3,
+   0.0,
+   0.55
+  ],
+  [
+   4,
+   0.0,
+   0.5
+  ],
+  [
+   5,
+   0.0,
+   0.45
+  ],
+  [
+   6,
+   0.0,
+   0.45
+  ],
+  [
+   7,
+   0.0,
+   0.4
+  ],
+  [
+   7,
+   1.0,
+   0.95
+  ]
+ ],
+ "sfx": [
+  {
+   "type": "traffic",
+   "at": [
+    0,
+    0.0
+   ],
+   "delay": -0.3,
+   "end": [
+    "we",
+    [
+     6,
+     "hết suất"
+    ]
+   ],
+   "gain": 0.3
+  },
+  {
+   "type": "moto",
+   "at": [
+    1,
+    0.0
+   ],
+   "delay": -0.6,
+   "dur": 3.5,
+   "pan": -0.6,
+   "gain": 0.45
+  },
+  {
+   "type": "keys",
+   "at": [
+    "w",
+    [
+     2,
+     "vừa giao xong đơn"
+    ]
+   ],
+   "delay": 0.0,
+   "count": 2,
+   "gain": 0.35
+  },
+  {
+   "type": "pop",
+   "at": [
+    "w",
+    [
+     3,
+     "rút về"
+    ]
+   ],
+   "delay": 0.1,
+   "gain": 0.35
+  },
+  {
+   "type": "keys",
+   "at": [
+    "w",
+    [
+     4,
+     "Việc chỉ là"
+    ]
+   ],
+   "delay": 0.3,
+   "count": 3,
+   "gain": 0.3
+  },
+  {
+   "type": "wind",
+   "at": [
+    7,
+    0.0
+   ],
+   "delay": -0.5,
+   "gain": 0.7
+  }
+ ],
+ "scenes": {
+  "c1-nap-truoc": {
+   "lead": 0.3,
+   "ease": true,
+   "drift": 0,
+   "push": 0.06,
+   "focus": [
+    430,
+    480
+   ],
+   "pan": [
+    0,
+    0,
+    -18,
+    0
+   ],
+   "intro_push": {
+    "amount": 0.05,
+    "fast": 0.3,
+    "settle": 0.3
+   }
+  },
+  "c2-muoi-don": {
+   "lead": 1.0,
+   "ease": true,
+   "drift": 0,
+   "push": 0.07,
+   "focus": [
+    480,
+    440
+   ],
+   "pan": [
+    0,
+    0,
+    -18,
+    0
+   ],
+   "in": "brush",
+   "blur": 12,
+   "in_dur": 0.7,
+   "seed": 7,
+   "angle": -7,
+   "dir": 1,
+   "canvas": true
+  },
+  "c3-xe-moi": {
+   "lead": 0.7,
+   "ease": true,
+   "drift": 0,
+   "push": 0.07,
+   "focus": [
+    455,
+    490
+   ],
+   "pan": [
+    0,
+    0,
+    -18,
+    0
+   ],
+   "in": "brush",
+   "blur": 12,
+   "in_dur": 0.7,
+   "seed": 11,
+   "angle": 6,
+   "dir": -1,
+   "canvas": true
+  },
+  "c4-so-du": {
+   "lead": 0.3,
+   "ease": true,
+   "drift": 0,
+   "push": 0.1,
+   "focus": [
+    480,
+    500
+   ],
+   "pan": [
+    0,
+    0,
+    -18,
+    0
+   ],
+   "in": "blur",
+   "blur": 12,
+   "in_dur": 0.3
+  },
+  "c5-chot-don": {
+   "lead": 0.3,
+   "ease": true,
+   "drift": 0,
+   "push": 0.06,
+   "focus": [
+    460,
+    470
+   ],
+   "pan": [
+    0,
+    0,
+    -18,
+    0
+   ],
+   "in": "blur",
+   "blur": 12,
+   "in_dur": 0.3
+  },
+  "c6-nham-tinh": {
+   "lead": 0.3,
+   "ease": true,
+   "drift": 0,
+   "push": 0.07,
+   "focus": [
+    520,
+    440
+   ],
+   "pan": [
+    0,
+    0,
+    -18,
+    0
+   ],
+   "in": "blur",
+   "blur": 12,
+   "in_dur": 0.3
+  },
+  "c7-gap": {
+   "lead": 0.3,
+   "ease": true,
+   "drift": 0,
+   "push": 0.07,
+   "focus": [
+    470,
+    450
+   ],
+   "pan": [
+    0,
+    0,
+    -18,
+    0
+   ],
+   "in": "blur",
+   "blur": 12,
+   "in_dur": 0.3
+  },
+  "c8-san-thuong": {
+   "lead": 0.7,
+   "ease": true,
+   "drift": 0,
+   "push": -0.07,
+   "focus": [
+    600,
+    640
+   ],
+   "pan": [
+    0,
+    30,
+    0,
+    0
+   ],
+   "zoom0": 0.1,
+   "in": "brush",
+   "blur": 12,
+   "in_dur": 0.8,
+   "seed": 23,
+   "angle": -5,
+   "dir": 1,
+   "canvas": true
+  }
+ }
+}
