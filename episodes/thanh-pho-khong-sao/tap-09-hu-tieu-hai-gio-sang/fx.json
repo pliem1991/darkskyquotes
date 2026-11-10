@@ -348,9 +348,12 @@
     -18,
     0
    ],
-   "in": "blur",
+   "in": "brush",
    "blur": 12,
-   "in_dur": 0.5
+   "in_dur": 0.7,
+   "seed": 7,
+   "angle": -7,
+   "dir": 1
   },
   "c3-xuong-hem": {
    "lead": 0.3,
@@ -367,9 +370,12 @@
     -18,
     0
    ],
-   "in": "blur",
+   "in": "brush",
    "blur": 12,
-   "in_dur": 0.3
+   "in_dur": 0.7,
+   "seed": 11,
+   "angle": 6,
+   "dir": -1
   },
   "c4-chu-tu": {
    "lead": 0.3,
@@ -482,9 +488,12 @@
     0
    ],
    "zoom0": 0.1,
-   "in": "blur",
+   "in": "brush",
    "blur": 12,
-   "in_dur": 0.6
+   "in_dur": 0.8,
+   "seed": 23,
+   "angle": -5,
+   "dir": 1
   }
  },
  "watermark": {

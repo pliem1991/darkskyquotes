@@ -98,3 +98,9 @@ fx.json thêm `"music_v2": true` để dùng nhạc mới trong `render_series.p
 - `scenes.c1-*.intro_push`: `{"amount": 0.07, "fast": 0.3, "settle": 0.3}` là cú đẩy vào nhanh rồi chậm dần ở đầu cảnh.
 - `master_lufs` (ví dụ -14), `master_tp`, `master_lra`: chuẩn hóa tổng bằng loudnorm sau khi trộn. Thử trên mix tập 5: đích -14 ra khoảng -15,3 LUFS, đỉnh -1,4 dBFS (nới `master_tp` lên -1 thì -15,0 nhưng đỉnh -0,8 sau AAC). Muốn sát -14 hơn thì phải nâng giọng, không nên nới đỉnh.
 - Chạy bằng python hệ thống (3.13), không dùng `.tools/visual` (Python cũ, lỗi f-string).
+
+## Chuyển cảnh `brush` (từ tập 9)
+Vệt cọ sơn dầu quét ngang: cảnh mới hiện ra theo một vệt cọ dày, mép là sợi lông cọ (nhiễu tạo bằng code, cố định theo `seed`, không dùng file ngoài, không lóe sáng, không âm nhấn). Tính mask ở độ phân giải thấp rồi phóng lên nên không nặng máy. Dùng khi đổi nơi chốn (ví dụ hẻm sang phòng trọ, cửa nhà sang sân thượng); chuyển cảnh trong cùng một nơi vẫn dùng `blur`.
+- Khai trong `scenes.<cảnh sau>`: `"in": "brush", "in_dur": 0.7` (0,6 đến 0,8 giây), tùy chọn `"dir"` (1 là trái sang phải, -1 là phải sang trái), `"angle"` (độ nghiêng vệt, mặc định -7), `"seed"` (đổi để vệt khác nhau, mặc định 7).
+- Mã ở `brush_mask()` trong `tools/render_series.py`. Cảnh mới hiện theo ease, nên cảnh sau bắt đầu từ mốc `start` của cảnh (đã trừ `lead`).
+- Muốn giữ hình cảnh trước sau khi hết lời, tăng `pause` của dòng cuối cảnh đó trong `voices.json` rồi chạy lại `make_timeline_lines.py` (tập 9: c1 pause 2,1 giây để giữ hình khoảng 2 giây).
