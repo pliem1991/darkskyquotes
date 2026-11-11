@@ -2,7 +2,7 @@
 
 Phong cách: **sơn dầu nắng gió sông nước**, giống các tập trước. Khổ vuông 1:1, Nano Banana 2.1, **mỗi lần tạo x1**.
 
-Tổng cộng 8 ảnh cảnh, không có nhân vật mới. Nhánh A chưa làm, chờ bình chọn.
+Tổng cộng 9 ảnh cảnh, không có nhân vật mới (thêm `b8a-duong-ngap` ngày 11/11/2026 vì câu cuối kể cả lúc mưa ngoài đường lẫn lúc tối trên sân thượng). Nhánh A chưa làm, chờ bình chọn.
 
 Thời gian: đêm ngày 12 trên sân thượng (b1 đến b3), đêm ở một góc phố (b4), trưa ngày 13 dưới gốc cây chỗ tài xế nghỉ (b5, b7), buổi sáng sớm ở xe xôi (b6, cảnh minh họa chuyện người khác), đêm ngày 13 trên sân thượng sau mưa (b8).
 
@@ -37,7 +37,8 @@ Phần ghép lúc dựng, không vẽ vào ảnh: chữ hook, thẻ series, th�
 | `b5-nhom-tai-xe` | `minh`, xe c2 tập 10 | Trưa hôm sau trong nhóm tài xế (...) rút về được thật |
 | `b6-em-ho` | không | Chị nạp thêm hai lần (...) có tiền thưởng |
 | `b7-bi-chan` | `minh`, `b5-nhom-tai-xe` | Mở tin nhắn định gửi bài đó cho Khoa (...) |
-| `b8-mua` | `minh`, sân thượng tập 10 | Chiều đó trời mưa to (...) nhỏ nước tới khuya |
+| `b8a-duong-ngap` | `minh`, `b5-nhom-tai-xe` | Chiều đó trời mưa to, xe chết máy giữa đường ngập, sửa hết hai trăm rưỡi |
+| `b8-mua` | `minh`, sân thượng tập 10 | Tối về, tiền trong ngân hàng (...) nhỏ nước tới khuya |
 
 ## Prompt
 
@@ -81,6 +82,12 @@ Vietnamese oil painting, thick visible brush strokes, soft grey early morning li
 
 ```text
 Vietnamese oil painting, thick visible brush strokes, the same tamarind tree sidewalk from the reference, but the noon light is fading and heavy dark storm clouds gather over the street, wind starting to shake the leaves. Close view of the same man in the dark windbreaker on his red-and-black motorbike, holding his phone, thumb frozen above the blank glowing screen, looking at it with a small helpless half-smile that is not really a smile. The other riders are pulling on raincoats behind him, blurred. Stuck, too-late mood. Face and phone centered. Natural hand anatomy. No text, no letters, no logo, no license plate numbers, no watermark. Square 1:1.
+```
+
+### b8a-duong-ngap (thêm 11/11/2026, nửa đầu câu cuối)
+
+```text
+Vietnamese oil painting, thick visible brush strokes, heavy grey-blue afternoon downpour on a flooded Saigon street, rain streaks slanting, muddy water up to the wheel hubs, rippling around everything. The same 32-year-old man from the reference, plain dark windbreaker with one thin reflective strip soaked dark and clinging, plain helmet, wades through the water pushing his old red-and-black motorbike by the handlebars, engine dead, leaning his whole weight forward, face squinting against the rain. Other riders in plastic raincoats pass blurred behind, shop shutters half down, warm lights from a small roadside repair shop ahead. Exhausted, stubborn mood. Subject centered with generous space around. Natural hand anatomy. No text, no letters, no logo, no license plate numbers, no watermark. Square 1:1.
 ```
 
 ### b8-mua (khung kết, giữ hình 2 giây)

@@ -912,10 +912,10 @@
    ]
   },
   {
-   "text": "Chiều đó trời mưa to, xe chết máy giữa đường ngập, sửa hết hai trăm rưỡi. Tối về, tiền trong ngân hàng còn ba triệu tám trăm rưỡi, cái áo khoác ướt nhỏ nước tới khuya.",
-   "scene": "b8-mua",
+   "text": "Chiều đó trời mưa to, xe chết máy giữa đường ngập, sửa hết hai trăm rưỡi.",
+   "scene": "b8a-duong-ngap",
    "start": 51.099,
-   "end": 62.041,
+   "end": 55.502,
    "parts": [
     {
      "text": "Chiều đó trời mưa to,",
@@ -931,21 +931,6 @@
      "text": "sửa hết hai trăm rưỡi.",
      "start": 53.862,
      "end": 55.502
-    },
-    {
-     "text": "Tối về,",
-     "start": 56.342,
-     "end": 56.962
-    },
-    {
-     "text": "tiền trong ngân hàng còn ba triệu tám trăm rưỡi,",
-     "start": 57.332,
-     "end": 59.953
-    },
-    {
-     "text": "cái áo khoác ướt nhỏ nước tới khuya.",
-     "start": 60.102,
-     "end": 62.002
     }
    ],
    "syl": [
@@ -1028,7 +1013,32 @@
      "w": "rưỡi",
      "s": 54.922,
      "e": 55.382
+    }
+   ]
+  },
+  {
+   "text": "Tối về, tiền trong ngân hàng còn ba triệu tám trăm rưỡi, cái áo khoác ướt nhỏ nước tới khuya.",
+   "scene": "b8-mua",
+   "start": 56.342,
+   "end": 62.002,
+   "parts": [
+    {
+     "text": "Tối về,",
+     "start": 56.342,
+     "end": 56.962
     },
+    {
+     "text": "tiền trong ngân hàng còn ba triệu tám trăm rưỡi,",
+     "start": 57.332,
+     "end": 59.953
+    },
+    {
+     "text": "cái áo khoác ướt nhỏ nước tới khuya.",
+     "start": 60.102,
+     "end": 62.002
+    }
+   ],
+   "syl": [
     {
      "w": "Tối",
      "s": 56.342,

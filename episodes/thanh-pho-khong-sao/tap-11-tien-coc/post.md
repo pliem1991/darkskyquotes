@@ -1,7 +1,7 @@
 # Gói đăng TikTok: Thành Phố Không Sao, tập 11 nhánh B (không nạp)
 
 - **Kênh:** https://www.tiktok.com/@dark.sky.quotes
-- **Video:** `output-nhe_dep.mp4` (67,5 giây, 1080x1920, -15,2 LUFS, có watermark @dark.sky.quotes). Hook giữ khoảng 2 giây, vệt cọ có vân vải canvas ở 4 chỗ đổi nơi chốn, phụ đề cảnh 5 nâng lên để không đè thẻ ngày
+- **Video:** `output-nhe_dep.mp4` (67,5 giây, 1080x1920, 17,4 MB, -15,2 LUFS, có watermark @dark.sky.quotes). Hook giữ khoảng 2 giây, vệt cọ có vân vải canvas ở 4 chỗ đổi nơi chốn, phụ đề cảnh 5 nâng lên để không đè thẻ ngày, thêm ảnh Minh dắt xe chết máy qua đường ngập cho nửa đầu câu cuối
 - **Ảnh bìa:** chọn khung đầu clip, lúc chữ "Không nạp 4 triệu, 10 phút sau bị bạn chặn." hiện rõ trên ảnh Minh ngồi sân thượng nhìn điện thoại. Không thêm chữ lên bìa.
 - **Điều kiện đăng:** chỉ đăng nhánh B nếu bình chọn của tập 10 (đăng 21:00 ngày 14/11/2026) nghiêng về "2 / không nạp". Nếu "nạp" thắng thì làm nhánh A, video này để dự phòng.
 - **Lịch đăng đề xuất:** 21:00 thứ 2, 16/11/2026, sau khi đếm bình luận tập 10 khoảng 1,5 ngày.

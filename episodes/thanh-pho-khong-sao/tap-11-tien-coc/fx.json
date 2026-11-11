@@ -77,14 +77,14 @@
  "music_end": [
   "we",
   [
-   7,
+   8,
    "tới khuya"
   ]
  ],
  "music_busy": [
   "we",
   [
-   7,
+   8,
    "tới khuya"
   ]
  ],
@@ -159,7 +159,7 @@
    "start": [
     "we",
     [
-     7,
+     8,
      "tới khuya"
     ]
    ],
@@ -226,7 +226,12 @@
    0.4
   ],
   [
-   7,
+   8,
+   0.0,
+   0.65
+  ],
+  [
+   8,
    1.0,
    0.95
   ]
@@ -325,13 +330,47 @@
     0.0
    ],
    "delay": -0.7,
-   "gain": 0.45
+   "gain": 0.7,
+   "end": [
+    "we",
+    [
+     7,
+     "hai trăm rưỡi"
+    ]
+   ],
+   "end_delay": 0.6
+  },
+  {
+   "type": "traffic",
+   "at": [
+    7,
+    0.0
+   ],
+   "delay": -0.5,
+   "end": [
+    "we",
+    [
+     7,
+     "hai trăm rưỡi"
+    ]
+   ],
+   "end_delay": 0.5,
+   "gain": 0.2
+  },
+  {
+   "type": "rain",
+   "at": [
+    8,
+    0.0
+   ],
+   "delay": -0.7,
+   "gain": 0.35
   },
   {
    "type": "keys",
    "at": [
-    7,
-    0.3
+    8,
+    0.03
    ],
    "count": 1,
    "gain": 0.18
@@ -339,7 +378,16 @@
   {
    "type": "keys",
    "at": [
-    7,
+    8,
+    0.24
+   ],
+   "count": 1,
+   "gain": 0.18
+  },
+  {
+   "type": "keys",
+   "at": [
+    8,
     0.45
    ],
    "count": 1,
@@ -348,8 +396,8 @@
   {
    "type": "keys",
    "at": [
-    7,
-    0.6
+    8,
+    0.66
    ],
    "count": 1,
    "gain": 0.18
@@ -357,17 +405,8 @@
   {
    "type": "keys",
    "at": [
-    7,
-    0.75
-   ],
-   "count": 1,
-   "gain": 0.18
-  },
-  {
-   "type": "keys",
-   "at": [
-    7,
-    0.9
+    8,
+    0.88
    ],
    "count": 1,
    "gain": 0.18
@@ -540,8 +579,31 @@
    "zoom0": 0.1,
    "in": "brush",
    "blur": 12,
-   "in_dur": 0.8,
+   "in_dur": 0.7,
    "seed": 5,
+   "angle": 5,
+   "dir": 1,
+   "canvas": true
+  },
+  "b8a-duong-ngap": {
+   "lead": 0.7,
+   "ease": true,
+   "drift": 0,
+   "push": 0.07,
+   "focus": [
+    540,
+    500
+   ],
+   "pan": [
+    0,
+    0,
+    -18,
+    0
+   ],
+   "in": "brush",
+   "blur": 12,
+   "in_dur": 0.7,
+   "seed": 17,
    "angle": -6,
    "dir": -1,
    "canvas": true
