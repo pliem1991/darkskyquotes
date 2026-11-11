@@ -5,7 +5,7 @@
 - **Ảnh bìa:** chọn khung đầu clip, lúc chữ "Không nạp 4 triệu, 10 phút sau bị bạn chặn." hiện rõ trên ảnh Minh ngồi sân thượng nhìn điện thoại. Không thêm chữ lên bìa.
 - **Điều kiện đăng:** chỉ đăng nhánh B nếu bình chọn của tập 10 (đăng 21:00 ngày 14/11/2026) nghiêng về "2 / không nạp". Nếu "nạp" thắng thì làm nhánh A, video này để dự phòng.
 - **Lịch đăng đề xuất:** 21:00 thứ 2, 16/11/2026, sau khi đếm bình luận tập 10 khoảng 1,5 ngày.
-- **Trạng thái:** video đã dựng, Claude đã soát khung hình; **chờ người dùng xem và nghe duyệt**, chờ kết quả bình chọn. Chưa hẹn giờ.
+- **Trạng thái:** video đã dựng, Claude đã soát khung hình, **người dùng duyệt video ngày 11/11/2026**, chờ kết quả bình chọn. Chưa hẹn giờ.
 
 ## Mô tả (dán nguyên văn)
 
