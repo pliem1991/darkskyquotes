@@ -50,7 +50,7 @@ Số là giả sử: thành phố lương 12 triệu, tiền phòng, ăn uống,
 | 3 | Ghé tiệm bánh mì, trong ví còn đúng mười ngàn, ổ bánh mì giờ hai mươi lăm. | Mã QR dán trên xe bánh mì, tờ mười ngàn |
 | 4 | Tới công ty mới biết phòng họp đổi giờ, thông báo nằm trong nhóm Zalo. | Thẻ "8:30", phòng họp trống |
 | 5 | Trưa mượn máy đồng nghiệp gọi về nhà, mới thấy mình không thuộc số của ai, kể cả số của má. | Thẻ "12:00", tay cầm máy người khác, ngập ngừng |
-| 6 | Ba giờ chiều thì chịu thua, tay cứ tự sờ vô túi quần mười mấy lần. | Thẻ "15:00" |
+| 6 | Ba giờ chiều thì chịu thua, tay cứ tự sờ vô túi xách mười mấy lần. | Thẻ "15:00" |
 | 7 | Tối về mở máy, ba chục tin nhắn, tin nào cũng hỏi có chuyện gì không. | Thẻ "20:00", màn hình đầy thông báo |
 
 Chữ kết: "Bạn thuộc lòng số điện thoại của mấy người?" Khoảng 116 âm tiết lời đọc.
@@ -84,3 +84,9 @@ Chữ kết: "Bạn thuộc lòng số điện thoại của mấy người?" Kh
 **Không nhận:**
 - Thêm chuyện mã OTP ngân hàng ở clip 3 (Haiku): clip đã đủ bảy mốc, thêm thì quá 45 giây.
 - Chữ kết clip 3 thêm "mấy người thuộc số bạn" (Sonnet): câu dài, giữ câu đếm được ngay.
+
+## Đổi cách làm (12/11/2026)
+
+- Người dùng bỏ ảnh Flow, chuyển sang hoạt hình 2D vẽ bằng code (SVG, chuyển động bằng code). Nhân vật chốt: cô gái văn phòng dễ thương (tóc nâu dài, lọn tóc dựng, kẹp hoa vàng, sơ mi hồng, váy xanh, túi xách chéo), bản gốc `nhan-vat/co-gai-van-phong.html`, xem thử tại https://claude.ai/artifact/Cb3Spqtniycmoxm6fJrgmE
+- Giọng đổi sang giọng nữ VieNeu "Mỹ Duyên".
+- Clip 3 cảnh 6 đổi "túi quần" thành "túi xách" vì nhân vật mặc váy; Sonnet và Haiku soát đạt, các câu khác không cần đổi.
