@@ -19,7 +19,7 @@
   function curExp(t, list) { let e = list[0][1]; for (const [tt, n] of list) if (t >= tt) e = n; return e; }
   function popScale(t, t0, d) { return t < t0 ? 0.001 : Math.max(0.001, backOut((t - t0) / (d || 0.35))); }
 
-  const bed = (id, blanket) => `<g id="${id}">
+  const bed = (id, blanket, dy) => `<g id="${id}" transform="translate(0 ${dy || 0})">
 <rect x="40" y="1040" width="640" height="270" rx="30" fill="#c98b4e"/>
 <rect x="60" y="985" width="600" height="200" rx="40" fill="#ffffff"/>
 <ellipse cx="140" cy="1030" rx="90" ry="40" fill="#ffd6e2"/>
@@ -29,16 +29,16 @@
 
   const officeBack = (id) => `<defs><linearGradient id="${id}g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#eaf4ff"/><stop offset="1" stop-color="#d4e6f7"/></linearGradient></defs>
 <rect width="1080" height="1920" fill="url(#${id}g)"/>
-<rect y="1290" width="1080" height="630" fill="#e8d6bd"/>
-<path d="M0 1380 H1080 M0 1480 H1080 M0 1600 H1080 M0 1740 H1080" stroke="#dcc7a7" stroke-width="4"/>
-<rect y="1270" width="1080" height="26" fill="#fff8ea"/>`;
+<rect y="1130" width="1080" height="790" fill="#e8d6bd"/>
+<path d="M0 1260 H1080 M0 1400 H1080 M0 1560 H1080 M0 1740 H1080" stroke="#dcc7a7" stroke-width="4"/>
+<rect y="1110" width="1080" height="26" fill="#fff8ea"/>`;
 
-  const deskFront = (id) => `<g id="${id}"><rect x="-10" y="1150" width="1100" height="40" rx="10" fill="#d9a066"/>
-<rect x="-10" y="1190" width="1100" height="300" fill="#b9803f"/><rect x="-10" y="1490" width="1100" height="14" fill="#8f5f2c"/>
-<rect x="40" y="1220" width="470" height="240" rx="14" fill="#a8702f"/><rect x="570" y="1220" width="470" height="240" rx="14" fill="#a8702f"/>
-<rect x="250" y="1300" width="60" height="14" rx="7" fill="#f3d27a"/><rect x="780" y="1300" width="60" height="14" rx="7" fill="#f3d27a"/></g>`;
+  const deskFront = (id) => `<g id="${id}"><rect x="-10" y="1090" width="1100" height="40" rx="10" fill="#d9a066"/>
+<rect x="-10" y="1130" width="1100" height="112" fill="#b9803f"/><rect x="-10" y="1242" width="1100" height="10" fill="#8f5f2c"/>
+<rect x="40" y="1142" width="470" height="84" rx="12" fill="#a8702f"/><rect x="570" y="1142" width="470" height="84" rx="12" fill="#a8702f"/>
+<rect x="250" y="1176" width="60" height="14" rx="7" fill="#f3d27a"/><rect x="780" y="1176" width="60" height="14" rx="7" fill="#f3d27a"/></g>`;
 
-  const scenes = [];
+const scenes = [];
 
   /* ---------- Cảnh 1: phòng trọ ---------- */
   scenes.push({
@@ -46,15 +46,15 @@
       el.innerHTML = SVG0 + `<defs><linearGradient id="s1g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff0d6"/><stop offset="1" stop-color="#ffdcae"/></linearGradient>
 <radialGradient id="s1glow"><stop offset="0" stop-color="#ff8fc0" stop-opacity=".55"/><stop offset="1" stop-color="#ff8fc0" stop-opacity="0"/></radialGradient></defs>
 <rect width="1080" height="1920" fill="url(#s1g)"/>
-<rect y="1260" width="1080" height="660" fill="#efc08a"/><rect y="1240" width="1080" height="30" fill="#fff6e6"/>
-<path d="M0 1340 H1080 M0 1430 H1080 M0 1540 H1080 M0 1670 H1080 M0 1820 H1080" stroke="#e3ae75" stroke-width="5"/>
+<rect y="1160" width="1080" height="760" fill="#efc08a"/><rect y="1140" width="1080" height="30" fill="#fff6e6"/>
+<path d="M0 1260 H1080 M0 1370 H1080 M0 1500 H1080 M0 1650 H1080 M0 1820 H1080" stroke="#e3ae75" stroke-width="5"/>
 <g><rect x="80" y="640" width="270" height="330" rx="8" fill="#ffffff"/><rect x="96" y="656" width="238" height="298" fill="#bfe3ff"/><circle cx="270" cy="730" r="30" fill="#ffe28a"/>
 <ellipse cx="170" cy="800" rx="55" ry="22" fill="#fff"/><ellipse cx="205" cy="790" rx="40" ry="20" fill="#fff"/><path d="M96 805 H334 M215 656 V954" stroke="#fff" stroke-width="10"/>
 <path d="M70 630 C110 700 100 860 66 980 L40 980 L40 630 Z" fill="#ff9fb6"/><path d="M360 630 C320 700 330 860 364 980 L390 980 L390 630 Z" fill="#ff9fb6"/></g>
 <g><rect x="420" y="700" width="230" height="170" rx="10" fill="#fff"/><rect x="434" y="714" width="202" height="142" fill="#bfe9d6"/><circle cx="560" cy="765" r="26" fill="#ffd35c"/><path d="M434 856 L500 780 L550 830 L590 790 L636 856 Z" fill="#7cc8a0"/></g>
-<g id="s1door"><rect x="800" y="560" width="210" height="710" fill="#fffbe2"/><rect x="800" y="560" width="210" height="710" fill="#ffe9a8" opacity=".5"/>
-<g id="s1leaf"><rect x="800" y="560" width="200" height="710" rx="6" fill="#c98b4e"/><rect x="824" y="590" width="152" height="270" rx="8" fill="#b57a3f"/><rect x="824" y="890" width="152" height="340" rx="8" fill="#b57a3f"/><circle cx="946" cy="930" r="12" fill="#f3d27a"/></g></g>
-` + bed("s1bed", "#9ad0f5") + `
+<g id="s1door"><rect x="800" y="540" width="210" height="640" fill="#fffbe2"/><rect x="800" y="540" width="210" height="640" fill="#ffe9a8" opacity=".5"/>
+<g id="s1leaf"><rect x="800" y="540" width="200" height="640" rx="6" fill="#c98b4e"/><rect x="824" y="570" width="152" height="250" rx="8" fill="#b57a3f"/><rect x="824" y="850" width="152" height="300" rx="8" fill="#b57a3f"/><circle cx="946" cy="880" r="12" fill="#f3d27a"/></g></g>
+` + bed("s1bed", "#9ad0f5", -105) + `
 <g id="s1ph"><ellipse cx="0" cy="40" rx="240" ry="190" fill="url(#s1glow)" id="s1pg"/>
 <g id="s1arcs" fill="none" stroke="#ff6f9c" stroke-width="10" stroke-linecap="round"><path d="M-95 -40 q-26 40 0 80"/><path d="M-125 -60 q-40 60 0 120"/><path d="M95 -40 q26 40 0 80"/><path d="M125 -60 q40 60 0 120"/></g>
 <g id="s1pb"><rect x="-52" y="-92" width="104" height="184" rx="18" fill="#2a2433"/><rect x="-43" y="-82" width="86" height="164" rx="10" fill="#ffd9ec"/>
@@ -64,23 +64,20 @@
       this.C = Ch.bind("c1_");
     },
     update(t) {
-      const lt = t - L[0].s, ph = 0.35;
-      // cửa mở lúc cô chạy tới
-      const dk = 1 - 0.78 * easeOut((lt - 0.9) / 0.5);
+      const lt = t - L[0].s, ph = 0.3;
+      const dk = 1 - 0.78 * easeOut((lt - 0.7) / 0.5);
       tf("s1leaf", `translate(1000 0) scale(${dk.toFixed(3)} 1) translate(-1000 0)`);
-      // chạy ra cửa
-      const run = clamp((lt - ph) / 1.45, 0, 1);
-      const x = lerp(640, 930, easeIn(run) * 0.55 + run * 0.45);
-      const out = clamp((lt - 1.55) / 0.4, 0, 1);
-      const sc = 1.75 * (1 - 0.25 * out);
-      Ch.place(this.C, x, 1300 - 20 * out, sc, 1);
-      show("c1_ch", lt < 2.1);
-      op("c1_ch", 1 - out);
-      Ch.pose(this.C, { t: lt, exp: "binh-thuong", pose: lt > ph && lt < 2.0 ? "run" : "", talk: -1 });
+      const run = clamp((lt - ph) / 1.7, 0, 1);
+      const x = lerp(520, 1420, run * run * 0.6 + run * 0.4);
+      const running = lt > ph && x < 1400;
+      const pre = lt <= ph ? Math.sin(lt * 9) * 2 : 0;
+      Ch.place(this.C, x, 1285, 1.85, 1, running ? 6 : pre, 150, 340);
+      show("c1_ch", x < 1420);
+      Ch.pose(this.C, { t: lt, exp: lt > 0.5 ? "ngac-nhien" : "binh-thuong", pose: running ? "run" : "", talk: -1, gaze: lt < ph ? [-6, 4] : [4, 0] });
       // điện thoại rung
       const buzz = [0.2, 0.9, 1.6, 2.3, 3.0, 3.7].some((b) => lt >= b && lt < b + 0.45);
       const j = buzz ? Math.sin(lt * 70) * 5 : 0;
-      tf("s1ph", `translate(${(400 + j).toFixed(1)} 1015) rotate(${-9 + (buzz ? Math.sin(lt * 55) * 2 : 0)})`);
+      tf("s1ph", `translate(${(400 + j).toFixed(1)} 905) rotate(${-9 + (buzz ? Math.sin(lt * 55) * 2 : 0)})`);
       op("s1arcs", buzz ? 1 : 0.0);
       op("s1pg", buzz ? 0.95 : 0.35);
     },
@@ -97,9 +94,9 @@
 <circle cx="860" cy="520" r="96" fill="#ffe28a"/><circle cx="860" cy="520" r="130" fill="#ffe28a" opacity=".3"/>
 <g id="s2cl"><g fill="#fff"><ellipse cx="200" cy="470" rx="110" ry="42"/><ellipse cx="270" cy="445" rx="70" ry="40"/><ellipse cx="640" cy="640" rx="100" ry="36"/><ellipse cx="700" cy="618" rx="60" ry="34"/></g></g>
 <g id="s2far"><g id="s2fa">${farBand()}</g><g id="s2fb" transform="translate(1080 0)">${farBand()}</g></g>
-<rect y="1160" width="1080" height="70" fill="#e8d7c3"/>
+<rect y="1070" width="1080" height="70" fill="#e8d7c3"/>
 <g id="s2near"><g id="s2na">${nearBand()}</g><g id="s2nb" transform="translate(1080 0)">${nearBand()}</g></g>
-<rect y="1230" width="1080" height="700" fill="#8f94ad"/><rect y="1230" width="1080" height="12" fill="#767b96"/>
+<rect y="1140" width="1080" height="780" fill="#8f94ad"/><rect y="1140" width="1080" height="12" fill="#767b96"/>
 <g id="s2dash" fill="#fff"></g>
 <g id="s2sp" stroke="#ffffff" stroke-width="10" stroke-linecap="round" opacity=".0"><path d="M60 1020 H300 M20 1120 H380 M80 1230 H340 M30 1300 H260"/></g>
 <g id="s2rig"><g id="s2back"><g transform="translate(-170 -55)">${wheel("s2rw")}</g><g transform="translate(170 -55)">${wheel("s2fw")}</g>
@@ -111,10 +108,13 @@
 <path d="M100 -100 C105 -200 125 -290 140 -332 L180 -326 C172 -270 168 -180 166 -95 Z" fill="#ffffff" stroke="#d9d3e6" stroke-width="5"/>
 <rect x="116" y="-362" width="92" height="22" rx="11" fill="#3a3347"/><circle cx="200" cy="-318" r="20" fill="#fff3b0" stroke="#d9d3e6" stroke-width="4"/>
 <path d="M112 -72 A62 62 0 0 1 232 -72 L222 -72 A52 52 0 0 0 122 -72 Z" fill="#ffffff" stroke="#d9d3e6" stroke-width="4"/>
-<rect x="-272" y="-182" width="14" height="30" rx="6" fill="#ff6f6f"/></g></g>
+<rect x="-272" y="-182" width="14" height="30" rx="6" fill="#ff6f6f"/>
+<path d="M-115 -232 L-52 -196 L-30 -114" stroke="#f6cfb0" stroke-width="22" stroke-linecap="round" stroke-linejoin="round" fill="none"/><ellipse cx="-22" cy="-100" rx="22" ry="11" fill="#fff" stroke="#e3d6e8" stroke-width="3"/>
+<path d="M-140 -232 L-86 -190 L-72 -112" stroke="#eebc98" stroke-width="22" stroke-linecap="round" stroke-linejoin="round" fill="none"/><ellipse cx="-64" cy="-98" rx="22" ry="11" fill="#fff" stroke="#e3d6e8" stroke-width="3"/></g></g>
+<g id="s2ex" opacity="0"><g fill="#ff4f6f"><rect x="-6" y="-60" width="12" height="38" rx="6"/><circle cx="0" cy="-8" r="7"/><rect x="54" y="-80" width="12" height="38" rx="6" transform="rotate(14 60 -60)"/><circle cx="68" cy="-28" r="7"/><rect x="-66" y="-76" width="12" height="38" rx="6" transform="rotate(-14 -60 -56)"/><circle cx="-62" cy="-24" r="7"/></g></g>
 <div></div></svg>`.replace("<div></div>", "");
       this.C = Ch.bind("c2_");
-      const d = $("s2dash"); let s = ""; for (let i = 0; i < 9; i++) s += `<rect x="${i * 160}" y="1560" width="90" height="16" rx="8"/>`; d.innerHTML = s;
+      const d = $("s2dash"); let s = ""; for (let i = 0; i < 9; i++) s += `<rect x="${i * 160}" y="1480" width="90" height="16" rx="8"/>`; d.innerHTML = s;
       this.dash = s;
     },
     update(t) {
@@ -138,12 +138,16 @@
       const brake = t >= tE ? Math.exp(-(t - tE) * 6) * Math.sin((t - tE) * 16) : 0;
       const pitch = (t >= tS && t < tE ? 1.6 : 0) + brake * 3 - (t > td ? Math.min(1, (t - td) / Ta) * 3 : 0);
       const bob = v > 0 ? Math.sin(t0 * 30) * 1.6 : 0;
-      const X = 540 + dep * 0.9;
-      tf("s2rig", `translate(${X.toFixed(1)} ${(1368 + bob).toFixed(1)}) rotate(${pitch.toFixed(2)} -170 -55) scale(1.5)`);
-      Ch.place(this.C, -130, -158, 1.2, 1);
+      const X = 520 + dep * 0.9;
+      tf("s2rig", `translate(${X.toFixed(1)} ${(1235 + bob).toFixed(1)}) rotate(${pitch.toFixed(2)} -170 -55) scale(1.45)`);
       const exp = curExp(t, [[0, "binh-thuong"], [M(1, 7), "ngac-nhien"], [M(1, 10), "que"], [M(1, 14), "met"]]);
       const ps = t >= tE + 0.05 && t < M(1, 10) ? "bag" : "";
-      Ch.pose(this.C, { t: t0, exp, pose: ps, talk: talkAt(t), bagHz: 3, sweat: exp === "que" || exp === "met" });
+      const sway = t >= tE ? Math.sin(t0 * 7) * 2.5 : 0;
+      Ch.place(this.C, -130, -158, 1.2, 1, sway, 150, 340);
+      Ch.pose(this.C, { t: t0, exp, pose: ps, talk: talkAt(t), bagHz: 3.5, sweat: exp === "ngac-nhien" || exp === "que" || exp === "met", hideLegs: true, headRot: t >= tE && t < M(1, 10) ? Math.sin(t0 * 5) * 4 : 0 });
+      const exk = t >= tE + 0.1 && t < M(1, 10) ? popScale(t, tE + 0.1, 0.3) : 0;
+      op("s2ex", exk > 0.05 ? 1 : 0);
+      tf("s2ex", `translate(520 440) scale(${(exk * 1.1).toFixed(3)})`);
     },
   });
 
@@ -158,9 +162,9 @@
 <rect width="1080" height="1920" fill="url(#s3g)"/>
 <g fill="#fff6e8"><rect x="660" y="300" width="160" height="200" rx="8"/><rect x="860" y="300" width="160" height="200" rx="8"/><rect x="660" y="600" width="160" height="200" rx="8"/><rect x="860" y="600" width="160" height="200" rx="8"/></g>
 <g fill="#bfe3ff"><rect x="672" y="312" width="136" height="176" rx="4"/><rect x="872" y="312" width="136" height="176" rx="4"/><rect x="672" y="612" width="136" height="176" rx="4"/><rect x="872" y="612" width="136" height="176" rx="4"/></g>
-<rect y="1330" width="1080" height="590" fill="#cfc7d6"/><rect y="1330" width="1080" height="24" fill="#e8d7c3"/>
-<path d="M0 1500 H1080 M0 1650 H1080 M0 1800 H1080" stroke="#b9b0c4" stroke-width="5"/>
-<g id="s3cart"><path d="M80 560 H660 V770 H80 Z" fill="none"/>${stripes}<rect x="60" y="745" width="620" height="22" rx="11" fill="#ff7a7a"/>
+<rect y="1130" width="1080" height="790" fill="#cfc7d6"/><rect y="1130" width="1080" height="24" fill="#e8d7c3"/>
+<path d="M0 1330 H1080 M0 1500 H1080 M0 1650 H1080 M0 1800 H1080" stroke="#b9b0c4" stroke-width="5"/>
+<g id="s3cart" transform="translate(0 -160)"><path d="M80 560 H660 V770 H80 Z" fill="none"/>${stripes}<rect x="60" y="745" width="620" height="22" rx="11" fill="#ff7a7a"/>
 <rect x="70" y="760" width="14" height="570" fill="#a8743f"/><rect x="650" y="760" width="14" height="570" fill="#a8743f"/>
 <rect x="100" y="780" width="540" height="380" rx="14" fill="#e8f6ff" fill-opacity=".85" stroke="#8fb8d6" stroke-width="8"/>
 <path d="M104 970 H636" stroke="#8fb8d6" stroke-width="8"/>${loaves}
@@ -176,16 +180,16 @@
     },
     update(t) {
       const s0 = L[2].s, t0 = t - s0, tArr = M(2, 2), tW = M(2, 4), tN = M(2, 8), tP = M(2, 13.6);
-      const x = lerp(1250, 800, easeOut((t - s0 + 0.2) / (tArr - s0 + 0.2)));
+      const x = lerp(1280, 815, easeOut((t - s0 + 0.2) / (tArr - s0 + 0.2)));
       const walking = t < tArr;
       const wiggle = t > tN ? 0 : 0;
       const exp = curExp(t, [[0, "binh-thuong"], [M(2, 6), "que"]]);
       const reach = clamp((t - tW) / 0.3, 0, 1);
-      Ch.place(this.C, x, 1352, 2.0, 1);
-      Ch.pose(this.C, { t: t0, exp, pose: walking ? "walk" : "", talk: talkAt(t), aR: 44 * easeOut(reach), aL: -22 * easeOut(reach), sweat: t >= tP, headRot: 0 });
+      Ch.place(this.C, x, 1250, 2.2, 1, walking ? 0 : -3 * easeOut(reach) + Math.sin(t0 * 1.4) * 1.5, 150, 340);
+      Ch.pose(this.C, { t: t0, exp, pose: walking ? "walk" : "", talk: talkAt(t), aR: 44 * easeOut(reach) + (reach >= 1 ? Math.sin(t0 * 2) * 2 : 0), aL: -22 * easeOut(reach), sweat: t >= tP, headRot: walking ? 0 : -5 * easeOut(reach) + Math.sin(t0 * 1.2) * 2, gaze: [walking ? -3 : -8, 0] });
       // khung gợi ý ví và tiền
       const co = popScale(t, tW, 0.4) * (t < tP + 0.05 ? 1 : 1);
-      tf("s3co", `translate(360 930) scale(${co.toFixed(3)})`);
+      tf("s3co", `translate(360 800) scale(${co.toFixed(3)})`);
       const swap = clamp((t - tP) / 0.18, 0, 1);
       show("s3w", t < tP + 0.1); show("s3n", t >= tN && t < tP + 0.1);
       const ns = popScale(t, tN, 0.35);
@@ -212,11 +216,11 @@
     },
     update(t) {
       const s0 = L[3].s, t0 = t - s0;
-      const x = lerp(-200, 300, easeOut(t0 / 0.8));
+      const x = lerp(-250, 310, easeOut(t0 / 0.9));
       const exp = curExp(t, [[0, "binh-thuong"], [M(3, 5), "ngac-nhien"], [M(3, 9), "que"]]);
       const gz = t >= M(3, 6) ? [10, 0] : [0, 0];
-      Ch.place(this.C, x, 1352, 2.0, 1);
-      Ch.pose(this.C, { t: t0, exp, pose: t0 < 0.8 ? "walk" : "", talk: talkAt(t), gaze: exp === "ngac-nhien" ? gz : [0, 0], blinkOff: 0.5 });
+      Ch.place(this.C, x, 1250, 2.25, 1, t0 < 0.9 ? 0 : Math.sin(t0 * 1.1) * 2.5, 150, 340);
+      Ch.pose(this.C, { t: t0, exp, pose: t0 < 0.9 ? "walk" : "", talk: talkAt(t), gaze: t0 < 0.9 ? [0, 0] : [Math.sin(t0 * 1.3) * 9, 0], headRot: Math.sin(t0 * 1.1 + 1) * 3, blinkOff: 0.5 });
       for (let i = 1; i <= 4; i++) { const n = Math.sin(t * 2.5 + i * 1.3) * 3; tf("s4p" + i, `translate(${[90, 190, 290, 380][i - 1]} ${n.toFixed(1)})`); }
       const pz = popScale(t, M(3, 12), 0.4);
       tf("s4z", `translate(770 330) rotate(${(-4 + Math.sin(t * 6) * 2).toFixed(1)}) scale(${pz.toFixed(3)})`);
@@ -227,14 +231,15 @@
   scenes.push({
     build(el) {
       el.innerHTML = SVG0 + officeBack("s5") + `<g><rect x="90" y="470" width="430" height="360" rx="10" fill="#fff"/><rect x="106" y="486" width="398" height="328" fill="#bfe3ff"/><path d="M106 650 L170 590 L220 640 L290 560 L360 650 L420 600 L504 680 V814 H106 Z" fill="#9fd1ee"/><path d="M305 486 V814 M106 650 H504" stroke="#fff" stroke-width="10"/></g>
-<g id="s5pl"><rect x="880" y="1090" width="54" height="60" rx="8" fill="#ff9f6e"/><path d="M907 1090 C860 1030 870 990 907 960 C945 990 955 1030 907 1090 Z" fill="#7bc88a"/></g>
+<g id="s5pl" transform="translate(0 -60)"><rect x="880" y="1090" width="54" height="60" rx="8" fill="#ff9f6e"/><path d="M907 1090 C860 1030 870 990 907 960 C945 990 955 1030 907 1090 Z" fill="#7bc88a"/></g>
+<rect x="280" y="760" width="250" height="360" rx="60" fill="#6cc5b0"/>
 <g id="s5ch">${Ch.markup("c5_", { phoneBody: "#2f6fe0", phoneScreen: "#cfe6ff" })}</g>
 <g id="s5th"><circle cx="520" cy="660" r="14" fill="#fff" stroke="#2a2033" stroke-width="4"/><circle cx="560" cy="610" r="22" fill="#fff" stroke="#2a2033" stroke-width="4"/>
 <g id="s5cloud"><path d="M600 560 C590 480 700 450 740 500 C780 440 890 470 880 550 C940 580 920 680 850 680 H650 C580 690 560 600 600 560 Z" fill="#fff" stroke="#2a2033" stroke-width="6"/>
 <text id="s5q" x="740" y="620" text-anchor="middle" font-size="96" font-weight="800" fill="#e0588a" font-family="Segoe UI,Arial">? ? ?</text></g></g>
 ${deskFront("s5d")}
-<g><rect x="720" y="960" width="260" height="160" rx="12" fill="#2a2033"/><rect x="734" y="974" width="232" height="132" rx="6" fill="#7aa0ff"/><rect x="835" y="1120" width="30" height="30" fill="#2a2033"/></g>
-<rect x="530" y="1128" width="90" height="26" rx="8" fill="#e8e0f0"/></svg>`;
+<g transform="translate(0 -60)"><rect x="720" y="960" width="260" height="160" rx="12" fill="#2a2033"/><rect x="734" y="974" width="232" height="132" rx="6" fill="#7aa0ff"/><rect x="835" y="1120" width="30" height="30" fill="#2a2033"/></g>
+<rect x="560" y="1066" width="90" height="26" rx="8" fill="#e8e0f0"/></svg>`;
       this.C = Ch.bind("c5_");
     },
     update(t) {
@@ -242,8 +247,8 @@ ${deskFront("s5d")}
       const exp = curExp(t, [[0, "binh-thuong"], [M(4, 8), "que"], [M(4, 16), "met"]]);
       const up = clamp((t - M(4, 8)) / 0.4, 0, 1) * (t < M(4, 16) ? 1 : 0.3);
       const hold = clamp((t - M(4, 1)) / 0.4, 0, 1);
-      Ch.place(this.C, 400, 1320, 2.0, 1);
-      Ch.pose(this.C, { t: t0, exp, pose: "", holdPhone: true, aR: 44 * easeOut(hold), aL: -30 * easeOut(hold), talk: talkAt(t), gaze: [-4 * up, -7 * up], headRot: -5 * up, sweat: exp === "que" });
+      Ch.place(this.C, 405 + Math.sin(t0 * 0.8) * 8, 1262, 2.3, 1, Math.sin(t0 * 0.9) * 2.5 - 2 * up, 150, 340);
+      Ch.pose(this.C, { t: t0, exp, pose: "", holdPhone: true, aR: 44 * easeOut(hold) + Math.sin(t0 * 2.4) * 2, aL: -30 * easeOut(hold), talk: talkAt(t), gaze: [-4 * up + Math.sin(t0 * 1.5) * 3, -7 * up], headRot: -7 * up + Math.sin(t0 * 1.7) * 2, sweat: exp === "que" });
       const pc = popScale(t, M(4, 9), 0.45);
       tf("s5th", `translate(0 ${(Math.sin(t * 2) * 4).toFixed(1)})`);
       show("s5th", t >= M(4, 9) - 0.05);
@@ -262,19 +267,20 @@ ${deskFront("s5d")}
 <g stroke="#2a2033" stroke-width="6" stroke-linecap="round"><path d="M800 500 v18 M900 600 h-18 M800 700 v-18 M700 600 h18"/></g>
 <path d="M800 600 V520" stroke="#2a2033" stroke-width="9" stroke-linecap="round"/><path id="s6h" d="M800 600 H870" stroke="#e0588a" stroke-width="12" stroke-linecap="round"/><circle cx="800" cy="600" r="10" fill="#2a2033"/></g>
 <g transform="translate(130 480) rotate(-4)"><rect width="300" height="230" rx="10" fill="#ffe28a"/>${ticks}</g>
-<g id="s6chair"><rect x="330" y="760" width="300" height="470" rx="60" fill="#6cc5b0"/><rect x="480" y="1180" width="22" height="200" fill="#8c8aa0"/><path d="M360 1380 H620" stroke="#8c8aa0" stroke-width="14" stroke-linecap="round"/></g>
+<g id="s6chair"><rect x="400" y="700" width="290" height="440" rx="64" fill="#6cc5b0"/></g>
 <g id="s6ch">${Ch.markup("c6_")}</g>
 ${deskFront("s6d")}
-<g><rect x="720" y="960" width="260" height="160" rx="12" fill="#2a2033"/><rect x="734" y="974" width="232" height="132" rx="6" fill="#5a4a7a"/><rect x="835" y="1120" width="30" height="30" fill="#2a2033"/></g></svg>`;
+<g transform="translate(0 -60)"><rect x="720" y="960" width="260" height="160" rx="12" fill="#2a2033"/><rect x="734" y="974" width="232" height="132" rx="6" fill="#5a4a7a"/><rect x="835" y="1120" width="30" height="30" fill="#2a2033"/></g></svg>`;
       this.C = Ch.bind("c6_");
     },
     update(t) {
       const s0 = L[5].s, t0 = t - s0, tb = M(5, 6);
       const exp = curExp(t, [[0, "binh-thuong"], [M(5, 3), "met"]]);
       const lean = clamp((t - M(5, 3)) / 0.6, 0, 1);
-      Ch.place(this.C, 540, 1320, 2.0, 1, -7 * easeOut(lean), 150, 340);
+      const rock = Math.sin(t0 * 1.6) * 1.5 * lean;
+      Ch.place(this.C, 545, 1262 + 34 * easeOut(lean), 2.3, 1, -6 * easeOut(lean) + rock, 150, 340);
       const tapping = t >= tb;
-      Ch.pose(this.C, { t: t0, exp, pose: tapping ? "bag" : "", talk: talkAt(t), headRot: 5 * lean, bagHz: 2.4, sweat: false });
+      Ch.pose(this.C, { t: t0, exp, pose: tapping ? "bag" : "", talk: talkAt(t), headRot: -11 * easeOut(lean) + Math.sin(t0 * 1.1) * 2, gaze: [0, -6 * easeOut(lean)], bagHz: 2.4, sweat: false });
       const n = tapping ? clamp(Math.floor((t - tb) / (E(5) + 0.4 - tb) * 12) + 1, 0, 12) : 0;
       for (let i = 0; i < 12; i++) op("s6t" + i, i < n ? 1 : 0);
     },
@@ -288,32 +294,32 @@ ${deskFront("s6d")}
       let bub = ""; const cols = ["#ff8fab", "#7cc8ff", "#ffd35c", "#9be0a0", "#b79cff", "#ff9f6e"];
       for (let i = 0; i < NB; i++) bub += `<g id="s7b${i}" opacity="0"><rect x="-130" y="-42" width="260" height="84" rx="26" fill="#ffffff" stroke="#2a2033" stroke-width="5"/><circle cx="-88" cy="0" r="26" fill="${cols[i % 6]}"/><rect x="-52" y="-18" width="${100 + (i % 3) * 20}" height="12" rx="6" fill="#c9b6d4"/><rect x="-52" y="4" width="${70 + (i % 4) * 14}" height="12" rx="6" fill="#e0d4e8"/><circle cx="100" cy="0" r="14" fill="#e0588a"/><circle cx="100" cy="0" r="5" fill="#fff"/></g>`;
       el.innerHTML = SVG0 + `<defs><linearGradient id="s7g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffe0ec"/><stop offset="1" stop-color="#ffcfa8"/></linearGradient><linearGradient id="s7s" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7a6fd6"/><stop offset="1" stop-color="#ffb08a"/></linearGradient></defs>
-<rect width="1080" height="1920" fill="url(#s7g)"/><rect y="1260" width="1080" height="660" fill="#e8b27a"/><rect y="1240" width="1080" height="30" fill="#fff0e0"/>
-<path d="M0 1340 H1080 M0 1430 H1080 M0 1540 H1080 M0 1670 H1080 M0 1820 H1080" stroke="#d99f62" stroke-width="5"/>
+<rect width="1080" height="1920" fill="url(#s7g)"/><rect y="1160" width="1080" height="760" fill="#e8b27a"/><rect y="1140" width="1080" height="30" fill="#fff0e0"/>
+<path d="M0 1260 H1080 M0 1370 H1080 M0 1500 H1080 M0 1650 H1080 M0 1820 H1080" stroke="#d99f62" stroke-width="5"/>
 <g><rect x="80" y="640" width="270" height="330" rx="8" fill="#fff"/><rect x="96" y="656" width="238" height="298" fill="url(#s7s)"/><circle cx="270" cy="740" r="26" fill="#fff6c8"/>${sx}<path d="M215 656 V954 M96 805 H334" stroke="#fff" stroke-width="10"/></g>
 <path d="M20 240 Q540 340 1060 240" stroke="#a8743f" stroke-width="4" fill="none"/>
 <g fill="#ffe28a"><circle cx="120" cy="268" r="14"/><circle cx="330" cy="297" r="14"/><circle cx="540" cy="305" r="14"/><circle cx="750" cy="297" r="14"/><circle cx="960" cy="268" r="14"/></g>
-` + bed("s7bed", "#b79cff") + `<g><rect x="860" y="1060" width="160" height="200" rx="14" fill="#c98b4e"/><path d="M940 1060 L900 880 H980 Z" fill="#fff6c8"/><rect x="936" y="880" width="8" height="190" fill="#8c8aa0"/></g>
+` + bed("s7bed", "#b79cff", -105) + `<g transform="translate(0 -70)"><rect x="860" y="1060" width="160" height="200" rx="14" fill="#c98b4e"/><path d="M940 1060 L900 880 H980 Z" fill="#fff6c8"/><rect x="936" y="880" width="8" height="190" fill="#8c8aa0"/></g>
 <g id="s7c">${Ch.markup("c7_")}</g>${bub}</svg>`;
       this.C = Ch.bind("c7_");
     },
     update(t) {
       const s0 = L[6].s, t0 = t - s0;
-      const x = lerp(1250, 560, easeOut(t0 / 0.8));
+      const x = lerp(1280, 560, easeOut(t0 / 0.9));
       const exp = curExp(t, [[0, "binh-thuong"], [M(6, 4), "ngac-nhien"], [M(6, 8), "cuoi"]]);
       const hold = clamp((t - M(6, 2) + 0.2) / 0.4, 0, 1);
-      Ch.place(this.C, x, 1300, 2.0, 1);
-      Ch.pose(this.C, { t: t0, exp, pose: t0 < 0.8 ? "walk" : "", holdPhone: true, aR: t0 < 0.8 ? undefined : 44 * easeOut(hold), aL: t0 < 0.8 ? undefined : -30 * easeOut(hold), talk: talkAt(t), sweat: exp === "cuoi" });
-      const px = x + (147.9 - 150) * 2, py = 1300 + (267.8 - 410) * 2;
+      Ch.place(this.C, x, 1250, 2.25, 1, t0 < 0.9 ? 0 : Math.sin(t0 * 1.3) * 2.5, 150, 340);
+      Ch.pose(this.C, { t: t0, exp, headRot: Math.sin(t0 * 1.5) * 3, pose: t0 < 0.9 ? "walk" : "", holdPhone: true, aR: t0 < 0.9 ? undefined : 44 * easeOut(hold), aL: t0 < 0.9 ? undefined : -30 * easeOut(hold), talk: talkAt(t), sweat: exp === "cuoi" });
+      const px = x + (147.9 - 150) * 2.25, py = 1250 + (267.8 - 410) * 2.25;
       const r = rng(23);
       for (let i = 0; i < NB; i++) {
-        const side = r(), ax = side < 0.38 ? 190 + r() * 90 : side < 0.76 ? 760 + r() * 40 : 330 + r() * 360, ay = side < 0.38 || side >= 0.76 ? 330 + r() * 780 : 300 + r() * 120;
-        const tx = clamp(ax, 190, 800), ty = clamp(ay, 360, 1180);
+        const side = r(), ax = side < 0.45 ? 160 + r() * 130 : side < 0.9 ? 790 + r() * 50 : 430 + r() * 220, ay = side < 0.9 ? 380 + r() * 820 : 262 + r() * 36;
+        const tx = ax, ty = ay;
         const ts = D.pings[i], a = t - ts, life = 1.9;
         if (a < 0 || a > life) { op("s7b" + i, 0); continue; }
         const k = easeOut(a / 0.35), out = clamp((a - (life - 0.4)) / 0.4, 0, 1);
         const bx = lerp(px, tx, k), by = lerp(py, ty, k) - Math.sin(k * Math.PI) * 60;
-        const sc = 0.85 * (0.3 + 0.7 * backOut(a / 0.4)) * (1 - 0.4 * out);
+        const sc = 0.72 * (0.3 + 0.7 * backOut(a / 0.4)) * (1 - 0.4 * out);
         tf("s7b" + i, `translate(${bx.toFixed(1)} ${by.toFixed(1)}) rotate(${((i % 5) - 2) * 2.5}) scale(${sc.toFixed(3)})`);
         op("s7b" + i, 1 - out);
       }

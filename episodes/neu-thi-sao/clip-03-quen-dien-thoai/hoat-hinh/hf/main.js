@@ -7,6 +7,7 @@
   S.forEach((sc, i) => {
     const el = $("sc" + i);
     sc.build(el);
+    { const sh = document.createElement("div"); sh.className = "shade"; el.appendChild(sh); }
     if (CARDS[i]) { const d = document.createElement("div"); d.className = "tcard"; d.id = "tc" + i; d.textContent = CARDS[i]; el.appendChild(d); }
   });
   const subEl = $("sub"), hook = $("hook"), wash = $("endwash"), endc = $("endcard");
@@ -16,7 +17,7 @@
       const a = L[i].s - 0.6, b = (i < 6 ? L[i + 1].s + 0.1 : D.dur);
       if (t >= a && t <= b) sc.update(t);
       const tc = $("tc" + i);
-      if (tc) { const k = backOut((t - (L[i].s - 0.1)) / 0.35); tc.style.transform = "scale(" + Math.max(0.001, k).toFixed(3) + ")"; }
+      if (tc) { const k = backOut((t - (L[i].s + 0.1)) / 0.35); tc.style.transform = "scale(" + Math.max(0.001, k).toFixed(3) + ")"; }
     });
     const hk = t < L[0].e + 0.1 ? 1 : clamp(1 - (t - L[0].e - 0.1) / 0.25, 0, 1);
     hook.style.opacity = hk; hook.style.display = hk <= 0 ? "none" : "block";
@@ -39,9 +40,8 @@
   window.__draw = draw;
   const tl = gsap.timeline({ paused: true });
   for (let i = 1; i < S.length; i++) {
-    const t0 = L[i].s - 0.45;
-    tl.fromTo("#sc" + i, { x: 1080 }, { x: 0, duration: 0.35, ease: "power3.out" }, t0);
-    tl.fromTo("#sc" + (i - 1), { x: 0 }, { x: -200, duration: 0.35, ease: "power3.in", immediateRender: false }, t0);
+    const t0 = L[i].s - 0.6;
+    tl.fromTo("#sc" + i, { x: 140, opacity: 0 }, { x: 0, opacity: 1, duration: 0.7, ease: "power2.inOut" }, t0);
   }
   const drv = { _t: 0, get t() { return this._t; }, set t(v) { this._t = v; draw(v); } };
   tl.fromTo(drv, { t: 0 }, { t: D.dur, duration: D.dur, ease: "none" }, 0);

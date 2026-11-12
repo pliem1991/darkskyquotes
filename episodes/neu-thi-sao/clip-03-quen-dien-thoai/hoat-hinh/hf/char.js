@@ -96,6 +96,10 @@
       aL = -8 + 8 * s; hb = true;
       C.hb.setAttribute("cx", (119 + 2 * s).toFixed(1)); C.hb.setAttribute("cy", (289 + 3 * s).toFixed(1));
     }
+    if (!ps && st.aR === undefined) aR += 3 * Math.sin(TAU * t / 3.1);
+    if (!ps && st.aL === undefined) aL -= 3 * Math.sin(TAU * t / 2.7 + 1);
+    C.legL.style.display = st.hideLegs ? "none" : "";
+    C.legR.style.display = st.hideLegs ? "none" : "";
     if (st.aR !== undefined) aR = st.aR;
     if (st.aL !== undefined) aL = st.aL;
     C.hb.style.display = hb ? "" : "none";

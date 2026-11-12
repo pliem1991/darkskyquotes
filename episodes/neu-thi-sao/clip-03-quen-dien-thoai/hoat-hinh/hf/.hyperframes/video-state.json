@@ -1,7 +1,7 @@
 {
   "version": 1,
   "historyId": "3b123cd4-95ce-4f0d-9a03-7e6e8fa200ec",
-  "currentRevision": "3e87e71c-a51c-49e9-8683-c3969e795ac5",
+  "currentRevision": "166816ce-a0e1-4744-a34d-72de1fb7e095",
   "pendingChanges": false,
   "files": {
     "AGENTS.md": {
@@ -13,12 +13,12 @@
       "content": "C:\\Users\\Liem.pt\\.cache\\hyperframes\\history\\3b123cd4-95ce-4f0d-9a03-7e6e8fa200ec\\blobs\\26\\268ff46777938da818baa92a718571785e9acf2cef2d3ffbacbb93483dcba37a"
     },
     "char.js": {
-      "hash": "86965ccf2ce40c723c2c66429bf3604a5e9394760041517f2db34589bfece923",
-      "content": "C:\\Users\\Liem.pt\\.cache\\hyperframes\\history\\3b123cd4-95ce-4f0d-9a03-7e6e8fa200ec\\blobs\\86\\86965ccf2ce40c723c2c66429bf3604a5e9394760041517f2db34589bfece923"
+      "hash": "a278a821a070bdc15d77a45ef09b39ca2d958678df79027420dcc757878452f6",
+      "content": "C:\\Users\\Liem.pt\\.cache\\hyperframes\\history\\3b123cd4-95ce-4f0d-9a03-7e6e8fa200ec\\blobs\\a2\\a278a821a070bdc15d77a45ef09b39ca2d958678df79027420dcc757878452f6"
     },
     "data.js": {
-      "hash": "97e38ab0c244f961f5b32389f0740ab474f03b150e6ad69025ed75fea4d6ec37",
-      "content": "C:\\Users\\Liem.pt\\.cache\\hyperframes\\history\\3b123cd4-95ce-4f0d-9a03-7e6e8fa200ec\\blobs\\97\\97e38ab0c244f961f5b32389f0740ab474f03b150e6ad69025ed75fea4d6ec37"
+      "hash": "0a747c047dfa1e86cdcba34fcda524a7fa4d7fc1cf7a4db44527326731a75cf8",
+      "content": "C:\\Users\\Liem.pt\\.cache\\hyperframes\\history\\3b123cd4-95ce-4f0d-9a03-7e6e8fa200ec\\blobs\\0a\\0a747c047dfa1e86cdcba34fcda524a7fa4d7fc1cf7a4db44527326731a75cf8"
     },
     "gsap.min.js": {
       "hash": "92bb9a96476f983d212a2bc4f54c889039c1696dd4461d40a736860938570fbb",
@@ -29,12 +29,12 @@
       "content": "C:\\Users\\Liem.pt\\.cache\\hyperframes\\history\\3b123cd4-95ce-4f0d-9a03-7e6e8fa200ec\\blobs\\53\\53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50"
     },
     "index.html": {
-      "hash": "2c21695201d2a6932302bceb3df23578d078b107ae7082aed0106214bfb8d8fb",
-      "content": "C:\\Users\\Liem.pt\\.cache\\hyperframes\\history\\3b123cd4-95ce-4f0d-9a03-7e6e8fa200ec\\blobs\\2c\\2c21695201d2a6932302bceb3df23578d078b107ae7082aed0106214bfb8d8fb"
+      "hash": "c57c8010c8496b657de3d3ea20341518181357341dc52933028b2520f1c5b633",
+      "content": "C:\\Users\\Liem.pt\\.cache\\hyperframes\\history\\3b123cd4-95ce-4f0d-9a03-7e6e8fa200ec\\blobs\\c5\\c57c8010c8496b657de3d3ea20341518181357341dc52933028b2520f1c5b633"
     },
     "main.js": {
-      "hash": "4ca4f0d404fc66916d08d82f04858a499eedb0505c72358ae1718bd312f5f133",
-      "content": "C:\\Users\\Liem.pt\\.cache\\hyperframes\\history\\3b123cd4-95ce-4f0d-9a03-7e6e8fa200ec\\blobs\\4c\\4ca4f0d404fc66916d08d82f04858a499eedb0505c72358ae1718bd312f5f133"
+      "hash": "55100f8338ebd3eb416090fcb6512cb4d28579e510ca755499c19cb8ac359b92",
+      "content": "C:\\Users\\Liem.pt\\.cache\\hyperframes\\history\\3b123cd4-95ce-4f0d-9a03-7e6e8fa200ec\\blobs\\55\\55100f8338ebd3eb416090fcb6512cb4d28579e510ca755499c19cb8ac359b92"
     },
     "meta.json": {
       "hash": "2b21c2204eb5ff5c0eec442dc78f3f3d519b0bb720b7bf3c8f0621eacbab2dff",
@@ -45,8 +45,8 @@
       "content": "C:\\Users\\Liem.pt\\.cache\\hyperframes\\history\\3b123cd4-95ce-4f0d-9a03-7e6e8fa200ec\\blobs\\5f\\5fd1ff71bb26b8d6a5134a79d2823e31514dd7989f0ac1aec4c8ee7a6179328f"
     },
     "scenes.js": {
-      "hash": "3a34575600062cd87fb1ab199df507cce982c2ca8a7a9f944906e24dd7b59f0a",
-      "content": "C:\\Users\\Liem.pt\\.cache\\hyperframes\\history\\3b123cd4-95ce-4f0d-9a03-7e6e8fa200ec\\blobs\\3a\\3a34575600062cd87fb1ab199df507cce982c2ca8a7a9f944906e24dd7b59f0a"
+      "hash": "3a9128080a2cd7aeaf84f90681bad9816f883a26c5c850af0493f58db1add616",
+      "content": "C:\\Users\\Liem.pt\\.cache\\hyperframes\\history\\3b123cd4-95ce-4f0d-9a03-7e6e8fa200ec\\blobs\\3a\\3a9128080a2cd7aeaf84f90681bad9816f883a26c5c850af0493f58db1add616"
     }
   },
   "revisions": {
@@ -68,14 +68,97 @@
           "after": "C:\\Users\\Liem.pt\\.cache\\hyperframes\\history\\3b123cd4-95ce-4f0d-9a03-7e6e8fa200ec\\blobs\\3a\\3a34575600062cd87fb1ab199df507cce982c2ca8a7a9f944906e24dd7b59f0a"
         }
       }
+    },
+    "51a5429a-1e07-4f0d-849a-bbf7a715df7b": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1794468652648,
+      "endedAt": 1794468652664,
+      "files": {
+        "index.html": {
+          "before": "C:\\Users\\Liem.pt\\.cache\\hyperframes\\history\\3b123cd4-95ce-4f0d-9a03-7e6e8fa200ec\\blobs\\2c\\2c21695201d2a6932302bceb3df23578d078b107ae7082aed0106214bfb8d8fb",
+          "after": "C:\\Users\\Liem.pt\\.cache\\hyperframes\\history\\3b123cd4-95ce-4f0d-9a03-7e6e8fa200ec\\blobs\\cc\\cc5d79ea9bf10af191991dbdf7e7b52dfd1902fad3b112583dcf94f9f11b5909"
+        },
+        "main.js": {
+          "before": "C:\\Users\\Liem.pt\\.cache\\hyperframes\\history\\3b123cd4-95ce-4f0d-9a03-7e6e8fa200ec\\blobs\\4c\\4ca4f0d404fc66916d08d82f04858a499eedb0505c72358ae1718bd312f5f133",
+          "after": "C:\\Users\\Liem.pt\\.cache\\hyperframes\\history\\3b123cd4-95ce-4f0d-9a03-7e6e8fa200ec\\blobs\\8a\\8ae48a07e803037eea8d0c18df18c72eda80c51dccb028ef47a3b0636141a4df"
+        }
+      }
+    },
+    "166816ce-a0e1-4744-a34d-72de1fb7e095": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1794469029490,
+      "endedAt": 1794469029507,
+      "files": {
+        "char.js": {
+          "before": "C:\\Users\\Liem.pt\\.cache\\hyperframes\\history\\3b123cd4-95ce-4f0d-9a03-7e6e8fa200ec\\blobs\\86\\86965ccf2ce40c723c2c66429bf3604a5e9394760041517f2db34589bfece923",
+          "after": "C:\\Users\\Liem.pt\\.cache\\hyperframes\\history\\3b123cd4-95ce-4f0d-9a03-7e6e8fa200ec\\blobs\\a2\\a278a821a070bdc15d77a45ef09b39ca2d958678df79027420dcc757878452f6"
+        },
+        "data.js": {
+          "before": "C:\\Users\\Liem.pt\\.cache\\hyperframes\\history\\3b123cd4-95ce-4f0d-9a03-7e6e8fa200ec\\blobs\\97\\97e38ab0c244f961f5b32389f0740ab474f03b150e6ad69025ed75fea4d6ec37",
+          "after": "C:\\Users\\Liem.pt\\.cache\\hyperframes\\history\\3b123cd4-95ce-4f0d-9a03-7e6e8fa200ec\\blobs\\0a\\0a747c047dfa1e86cdcba34fcda524a7fa4d7fc1cf7a4db44527326731a75cf8"
+        },
+        "index.html": {
+          "before": "C:\\Users\\Liem.pt\\.cache\\hyperframes\\history\\3b123cd4-95ce-4f0d-9a03-7e6e8fa200ec\\blobs\\cc\\cc5d79ea9bf10af191991dbdf7e7b52dfd1902fad3b112583dcf94f9f11b5909",
+          "after": "C:\\Users\\Liem.pt\\.cache\\hyperframes\\history\\3b123cd4-95ce-4f0d-9a03-7e6e8fa200ec\\blobs\\c5\\c57c8010c8496b657de3d3ea20341518181357341dc52933028b2520f1c5b633"
+        },
+        "main.js": {
+          "before": "C:\\Users\\Liem.pt\\.cache\\hyperframes\\history\\3b123cd4-95ce-4f0d-9a03-7e6e8fa200ec\\blobs\\8a\\8ae48a07e803037eea8d0c18df18c72eda80c51dccb028ef47a3b0636141a4df",
+          "after": "C:\\Users\\Liem.pt\\.cache\\hyperframes\\history\\3b123cd4-95ce-4f0d-9a03-7e6e8fa200ec\\blobs\\55\\55100f8338ebd3eb416090fcb6512cb4d28579e510ca755499c19cb8ac359b92"
+        },
+        "scenes.js": {
+          "before": "C:\\Users\\Liem.pt\\.cache\\hyperframes\\history\\3b123cd4-95ce-4f0d-9a03-7e6e8fa200ec\\blobs\\3a\\3a34575600062cd87fb1ab199df507cce982c2ca8a7a9f944906e24dd7b59f0a",
+          "after": "C:\\Users\\Liem.pt\\.cache\\hyperframes\\history\\3b123cd4-95ce-4f0d-9a03-7e6e8fa200ec\\blobs\\3a\\3a9128080a2cd7aeaf84f90681bad9816f883a26c5c850af0493f58db1add616"
+        }
+      }
     }
   },
   "checks": {
     "latest": {
-      "revision": null,
-      "id": "7532af1d-2f39-4a7e-bada-4923f1443014"
+      "revision": "166816ce-a0e1-4744-a34d-72de1fb7e095",
+      "id": "972266a5-84bb-4efc-86c4-3ebd59922987"
     },
-    "revisions": {},
+    "revisions": {
+      "166816ce-a0e1-4744-a34d-72de1fb7e095": [
+        {
+          "id": "972266a5-84bb-4efc-86c4-3ebd59922987",
+          "scope": "project",
+          "report": "E:\\Tiktok\\darkskyquotes\\episodes\\neu-thi-sao\\clip-03-quen-dien-thoai\\hoat-hinh\\hf\\.hyperframes\\artifacts\\checks\\972266a5-84bb-4efc-86c4-3ebd59922987.json",
+          "metadata": {
+            "ok": true,
+            "browserSkipped": false,
+            "options": {
+              "samples": 9,
+              "atTransitions": false,
+              "maxIssues": 80,
+              "collapseStatic": true,
+              "tolerance": 2,
+              "timeout": 45000,
+              "cache": true,
+              "contrast": true,
+              "craft": true,
+              "strict": false,
+              "snapshots": false,
+              "browserGpuMode": "auto",
+              "includeUnmounted": false
+            }
+          },
+          "createdAt": 1794469043526,
+          "contentHash": "4bd40428fb34d1e85aeb17d38146113a8dccc6ddd5c3ec599ceba4947339a407",
+          "revision": "166816ce-a0e1-4744-a34d-72de1fb7e095",
+          "inputFingerprint": "2b9c5d1abada5593f156049237f99d2cef85ed0ccc48e5c5e79899a1f624d05a",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        }
+      ]
+    },
     "unversioned": [
       {
         "id": "ab0954ee-42c4-4bfc-bb06-3f8fc064267d",
@@ -146,14 +229,15 @@
   },
   "renders": {
     "latest": {
-      "id": "ed59374c-89a1-4c99-92e7-733c27fd9451",
-      "completedAt": 1794467756278,
+      "id": "0dc089ef-e4e0-47b0-afa9-90976c35a950",
+      "completedAt": 1794469160689,
       "output": "E:\\Tiktok\\darkskyquotes\\episodes\\neu-thi-sao\\clip-03-quen-dien-thoai\\hoat-hinh\\video-silent.mp4",
       "status": "completed",
-      "revision": "3e87e71c-a51c-49e9-8683-c3969e795ac5"
+      "revision": "166816ce-a0e1-4744-a34d-72de1fb7e095"
     },
     "retainedRevisions": [
-      "3e87e71c-a51c-49e9-8683-c3969e795ac5"
+      "166816ce-a0e1-4744-a34d-72de1fb7e095",
+      "51a5429a-1e07-4f0d-849a-bbf7a715df7b"
     ]
   },
   "pendingArtifactCleanup": []

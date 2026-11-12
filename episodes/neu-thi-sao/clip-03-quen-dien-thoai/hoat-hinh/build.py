@@ -38,8 +38,8 @@ json.dump({"dur": dur, "endT": endT, "pings": pings, "lines": [(l["s"], l["e"]) 
 B = [l["s"] for l in lines]
 scenes = ""
 for i in range(7):
-    start = 0 if i == 0 else B[i] - 0.45
-    end = dur if i == 6 else B[i + 1] - 0.1
+    start = 0 if i == 0 else B[i] - 0.6
+    end = dur if i == 6 else B[i + 1] + 0.2
     scenes += f'<div id="scene{i}" class="clip" data-start="{start:.3f}" data-duration="{end - start:.3f}" data-track-index="{i + 1}"><div class="sc" id="sc{i}"></div></div>\n'
 html = f'''<!doctype html>
 <html lang="vi" data-resolution="portrait">
@@ -55,14 +55,15 @@ body{{font-family:"Segoe UI",Arial,sans-serif}}
 #root{{position:relative;width:1080px;height:1920px;overflow:hidden;background:#fff0d6}}
 .clip{{position:absolute;left:0;top:0;width:1080px;height:1920px}}
 .sc{{position:absolute;left:0;top:0;width:1080px;height:1920px;overflow:hidden}}
+.shade{{position:absolute;left:0;top:1300px;width:1080px;height:620px;background:linear-gradient(rgba(42,32,51,0),rgba(42,32,51,.16))}}
 .tcard{{position:absolute;left:60px;top:230px;background:#2a2033;color:#fff;font-weight:800;font-size:84px;line-height:1;padding:18px 40px;border-radius:30px;transform-origin:0 0;letter-spacing:2px;box-shadow:0 8px 0 rgba(42,32,51,.18)}}
 #hook{{position:absolute;left:60px;top:215px;width:870px;padding:34px 40px 40px;background:#fff;border:8px solid #2a2033;border-radius:44px;box-shadow:0 12px 0 rgba(42,32,51,.2);color:#2a2033;font-weight:800;font-size:84px;line-height:1.14;text-align:center}}
 #hook b{{color:#e0588a;font-weight:800}}
-#sub{{position:absolute;left:50%;margin-left:-435px;top:1236px;width:870px;text-align:center;font-weight:700;font-size:56px;line-height:1.2;color:#fff;background:rgba(42,32,51,.86);border-radius:30px;padding:16px 28px;display:none;transform-origin:50% 100%}}
+#sub{{position:absolute;left:50%;margin-left:-430px;bottom:524px;width:860px;text-align:center;font-weight:700;font-size:48px;line-height:1.15;color:#fff;background:rgba(42,32,51,.88);border-radius:28px;padding:12px 24px;display:none;transform-origin:50% 100%}}
 #endwash{{position:absolute;left:0;top:0;width:1080px;height:1920px;background:#fff7ec;opacity:0}}
 #endcard{{position:absolute;left:495px;top:760px;width:870px;padding:40px 44px;background:#2a2033;border-radius:48px;color:#fff;font-weight:800;font-size:76px;line-height:1.18;text-align:center;display:none;transform:translate(-50%,-50%) scale(.001)}}
 #endcard b{{color:#ffd35c;font-weight:800}}
-#wm{{position:absolute;left:60px;top:1395px;font-size:30px;font-weight:700;color:#2a2033;opacity:.5;text-shadow:0 0 6px rgba(255,255,255,.8)}}
+#wm{{position:absolute;left:60px;top:1404px;font-size:28px;font-weight:700;color:#2a2033;opacity:.5;text-shadow:0 0 6px rgba(255,255,255,.8)}}
 </style>
 </head>
 <body>

@@ -87,7 +87,7 @@ music = music / (np.abs(music).max() + 1e-9)
 sfx = np.zeros(N)
 
 
-def whoosh(t, d=0.45):
+def whoosh(t, d=0.7):
     n = int(d * SR)
     x = rs.randn(n)
     tt = np.linspace(0, 1, n)
@@ -141,7 +141,7 @@ def engine(t0, t1, f0, f1, gain=0.5):
 lines = meta["lines"]
 syl = meta["syl"]
 for i in range(1, 7):
-    whoosh(lines[i][0] - 0.45)
+    whoosh(lines[i][0] - 0.6)
 # cảnh 1: điện thoại rung
 for b in [0.2, 0.9, 1.6, 2.3, 3.0]:
     buzz(lines[0][0] + b)
@@ -154,7 +154,7 @@ engine(tE, td, 62, 58, 0.22)
 engine(td, td + 1.4, 70, 190, 0.6)
 # thẻ giờ + bong bóng giá
 for i in [1, 3, 4, 5, 6]:
-    pop(lines[i][0] - 0.1, 600, 0.35)
+    pop(lines[i][0] + 0.1, 600, 0.35)
 pop(syl[2][4], 400, 0.45)
 pop(syl[2][8], 700, 0.45)
 pop(syl[2][13] + 0.1, 800, 0.5)
