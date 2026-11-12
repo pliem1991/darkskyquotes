@@ -5,8 +5,8 @@ Bản này thay bản ảnh Flow cũ (`../post.md`, `../output-nhe_dep.mp4`, gi�
 - **Kênh:** https://www.tiktok.com/@dark.sky.quotes
 - **Video:** `episodes/neu-thi-sao/clip-03-quen-dien-thoai/hoat-hinh/output-nhe_dep.mp4` (37,1 giây, 4,5 MB, khoảng -15 LUFS, 1080x1920, có watermark @dark.sky.quotes). Hoạt hình 2D vẽ bằng code (SVG), nhân vật cô gái văn phòng, giọng VieNeu "Mỹ Duyên". Không dùng ảnh AI, không dùng Flow. Không có thẻ series.
 - **Ảnh bìa:** khung đầu clip (chữ hook "Quên điện thoại 1 ngày, bạn trụ tới mấy giờ?" trên cảnh phòng trọ, điện thoại rung trên giường). Không thêm chữ lên bìa.
-- **Lịch đề xuất:** 12:00 trưa thứ bảy 15/11/2026.
-- **Trạng thái:** đã dựng, Claude đã soát khung hình (`kiem-khung/sheet.jpg`), **chờ người dùng xem và nghe duyệt**. Chưa hẹn giờ, chưa đăng.
+- **Lịch đề xuất:** 12:00 trưa chủ nhật 15/11/2026.
+- **Trạng thái:** đã dựng, Claude đã soát khung hình (`kiem-khung/sheet.jpg`), **người dùng duyệt video ngày 12/11/2026, bảo lên lịch**. **Đã hẹn giờ 12:00 chủ nhật 15/11/2026 trên TikTok Studio** (12/11/2026), bật nhãn AI, không gắn nhạc TikTok.
 
 ## Mô tả (dán nguyên văn)
 
