@@ -1,6 +1,6 @@
 # "Nếu... thì sao?" về cuộc sống, đợt 1: ba tình huống giả định đời thường
 
-- **Trạng thái:** bản 2, viết 12/11/2026, đã soát chống AI hóa và sửa theo phản biện Sonnet, Haiku
+- **Trạng thái:** bản 2, viết 12/11/2026, đã soát chống AI hóa và sửa theo phản biện Sonnet, Haiku. **Người dùng duyệt lời clip 3 ngày 12/11/2026, làm clip 3 trước** (thư mục `clip-03-quen-dien-thoai`). Clip 1, 2 chưa duyệt; chữ kết clip 2 đang bàn lại
 - **Hướng:** người dùng chọn "What if" về cuộc sống, kiểu tình huống giả định đời thường, đi qua từng bước thực tế (12/11/2026). Bản về bầu trời để ở `khong-dung-bau-troi.md`
 - **Độ dài:** 105 đến 120 âm tiết, khoảng 40 đến 45 giây
 - **Người xem đang cảm thấy:** người đi làm 22 đến 35 tuổi, lướt lúc tối, gặp câu "Nếu..." đúng điều mình từng nghĩ tới mà chưa dám tính kỹ, muốn coi người ta tính ra sao, rồi bình luận con số hay lựa chọn của mình
