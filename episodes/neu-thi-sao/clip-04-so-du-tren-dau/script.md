@@ -1,10 +1,10 @@
 # "Nếu... thì sao?" clip 4: Nếu trên đầu mỗi người hiện số dư tài khoản
 
-- **Trạng thái:** bản 3, viết 12/11/2026, đã soát chống AI hóa, sửa theo hai lượt phản biện Sonnet, Haiku, **chờ người dùng duyệt lời**
+- **Trạng thái:** bản 5, viết 12/11/2026. Người dùng chê bản 3 chưa thực tế (sếp sao ít tiền, văn phòng đâu có căng tin); đã sửa và qua thêm hai lượt soát Sonnet, Haiku. **Chờ người dùng duyệt lời.**
 - **Dạng:** tiền đề lạ đời, hậu quả đúng đời đi làm (người dùng chọn ý 1 trong 5 ý lạ đời, 12/11/2026)
-- **Hình:** hoạt hình 2D vẽ bằng code, nhân vật cô gái văn phòng (`../nhan-vat/co-gai-van-phong.html`), thêm người phụ: sếp, anh giao hàng, người hẹn hò, má. Con số hiện trong khung nhỏ lơ lửng trên đầu mỗi người
+- **Hình:** hoạt hình 2D vẽ bằng code, nhân vật cô gái văn phòng (`../nhan-vat/co-gai-van-phong.html`), thêm người phụ: sếp, khách quán cơm, người hẹn hò, má. Con số hiện trong khung nhỏ lơ lửng trên đầu mỗi người
 - **Giọng:** VieNeu "Mỹ Duyên", ngôi "bạn"
-- **Độ dài:** khoảng 107 âm tiết lời đọc, khoảng 38 đến 40 giây
+- **Độ dài:** khoảng 110 âm tiết lời đọc, khoảng 38 đến 40 giây
 - **Người xem đang cảm thấy:** người đi làm 22 đến 30 tuổi, cuối tháng, tài khoản còn ít, lướt tối thấy câu hỏi lạ đúng nỗi ngại so tiền với người khác; cười ở giữa, chững lại ở cuối vì nhớ tiền mình gửi về nhà
 
 ## Lời kể
@@ -12,16 +12,15 @@
 | # | Lời kể | Chữ / hình |
 |---|---|---|
 | 1 | Nếu trên đầu mỗi người hiện số dư, bạn sẽ nhìn ai trước? | Chữ hook to; ba bốn người đi đường, khung số to trên đầu, vài bóng mờ phía sau không số |
-| 2 | Bảy giờ trong thang máy, trên đầu sếp hiện hai triệu bốn. | Thẻ "7:00"; sếp đeo cà vạt, khung "2.400.000đ", cô gái liếc lên |
-| 3 | Anh giao hàng bước vô sau, trên đầu hiện tám mươi ba triệu. | Khung "83 triệu", mặt cô gái ngạc nhiên |
-| 4 | Trưa ra căng tin, nửa căng tin đã đội nón giấu số, bạn cũng đội luôn, vì chỉ còn ba trăm mười hai ngàn. | Thẻ "12:00"; ba bốn người đội nón kết, khung số vẫn nổi trên chóp nón (che không được), "312.000đ" trên nón cô gái, mặt quê |
-| 5 | Tối đi hẹn hò, hai người ngước nhìn đầu nhau, rồi cùng nói uống trà đá thôi. | Thẻ "18:30"; quán ăn, hai khung số đều nhỏ, hai ly trà đá |
-| 6 | Cuối tuần về quê, trên đầu má hiện hai mươi hai triệu. | Sân nhà đơn giản, má lặt rau, khung "22.000.000đ"; nghỉ 1 giây |
-| 7 | Đúng bằng số tiền bạn gửi về từ đầu năm. Má chưa xài đồng nào. | Chữ nhỏ "2 triệu × 11 tháng" hiện cạnh khung số của má; cô gái đứng im nhìn má, giữ hình 1,5 giây |
+| 2 | Tám giờ trong thang máy, trên đầu sếp hiện một tỷ hai, vẫn than tháng này công ty khó khăn. | Thẻ "8:00"; sếp đeo cà vạt, khung "1.200.000.000đ", sếp thở dài, cô gái liếc lên |
+| 3 | Trưa cả phòng rủ đi ăn lẩu, thấy trên đầu bạn ba trăm mười hai ngàn, cả nhóm liền đổi qua cơm tấm. | Thẻ "12:00"; nhóm đồng nghiệp đứng trước quán lẩu, cùng ngước nhìn khung "312.000đ" trên đầu cô gái, rồi cả nhóm ngồi quán cơm tấm vỉa hè, mặt cô quê |
+| 4 | Tối đi hẹn hò, hai người liếc lên đầu nhau, rồi cùng nói uống trà đá thôi. | Thẻ "19:00"; quán cà phê, hai khung số đều nhỏ, hai ly trà đá |
+| 5 | Cuối tuần về quê, trên đầu má hiện hai mươi triệu ba trăm ngàn. | Sân nhà đơn giản, má lặt rau, khung "20.300.000đ"; nghỉ 1 giây |
+| 6 | Hai mươi triệu là tiền bạn gửi cho má từ đầu năm, ba trăm ngàn là của má. Má chưa xài đồng nào. | Chữ nhỏ "2 triệu × 10 tháng" hiện cạnh khung số của má; cô gái đứng im nhìn má, giữ hình 1,5 giây |
 
-Chữ kết: "Bạn muốn giấu số dư của mình khỏi ai nhất?" Khoảng 107 âm tiết lời đọc, khoảng 38 giây cộng chỗ nghỉ.
+Chữ kết: "Bạn muốn giấu số dư của mình khỏi ai nhất?" Khoảng 110 âm tiết lời đọc, khoảng 38 giây cộng chỗ nghỉ.
 
-Tiền: gửi về mỗi tháng hai triệu, tháng 1 tới tháng 11 là 22 triệu. Lương văn phòng gửi về hai triệu mà giữa tháng còn ba trăm ngàn là chuyện thường. Các số khác là giả định cho vui, không xếp hạng nghề.
+Tiền: gửi về mỗi tháng hai triệu, mười tháng là 20 triệu (clip đăng giữa tháng 11, tiền tháng 11 chưa gửi). Lương văn phòng gửi về hai triệu mà giữa tháng còn ba trăm ngàn là chuyện thường. Các số khác là giả định cho vui, không xếp hạng nghề.
 
 Nguồn tình huống: chuyện ba má để dành nguyên số tiền con gửi về, không xài, rất nhiều người Việt kể trên mạng xã hội; không lấy chuyện của người cụ thể nào.
 
@@ -62,5 +61,11 @@ Nguồn tình huống: chuyện ba má để dành nguyên số tiền con gửi
 Soát lại bản 2 (Sonnet): "cho đỡ ngượng" chưa nói ra chuyện cùng cháy túi, đổi thành "cùng nói uống trà đá thôi"; "Chiều" lệch thẻ 18:30 nên thành "Tối"; "nửa phòng" dễ lẫn nên thành "nửa căng tin"; "số bạn gửi" thành "số tiền bạn gửi".
 
 Soát lại bản 2 (Haiku): người xem không biết mỗi tháng gửi bao nhiêu, thêm chữ "2 triệu × 11 tháng" trên màn hình ở câu 7; "đội nón" dễ hiểu là che nắng, thêm "giấu số".
+
+Soát bản 4 (Sonnet, Haiku): đội nón bảo hiểm ngồi ăn không ai làm, mà số vẫn nổi thì đội cũng vô ích (cả hai): cảnh trưa đổi thành cả phòng rủ ăn lẩu, nhìn số trên đầu bạn rồi đổi qua cơm tấm. Bảy giờ quá sớm, thành tám giờ (Sonnet). Hẹn hò ở quán ăn mà chỉ gọi trà đá thì vô lý, đổi bối cảnh quán cà phê; "ngước nhìn" thành "liếc lên" (cả hai). Clip đăng giữa tháng 11 nên tiền gửi về tính mười tháng, hai mươi triệu (Sonnet).
+
+Soát bản 5 (Haiku): má có đúng hai mươi triệu, bằng đúng số con gửi, là khó tin vì má phải có tiền riêng. Đổi thành hai mươi triệu ba trăm ngàn: hai mươi triệu là tiền con gửi, má chỉ có ba trăm ngàn của riêng mình, gần bằng ba trăm mười hai ngàn của bạn. Câu trưa thêm "cả nhóm" cho rõ ai đổi (cả hai).
+
+Soát câu cuối (Sonnet, Haiku): thêm "cho má" để rõ ai gửi cho ai, thêm "ba trăm ngàn là của má" để người nghe không tưởng cả hai mươi triệu ba là tiền con gửi.
 
 **Không nhận:** đổi chữ kết thành "khỏi đồng nghiệp nào" (Haiku) hay "má bạn còn giữ không" (Sonnet): giữ câu rộng để người xem tự chọn người, không đẩy cảm giác có lỗi; bỏ cảnh sếp (Haiku): cảnh sếp chỉ 13 âm tiết và là chỗ cười đầu tiên trong 10 giây đầu.
