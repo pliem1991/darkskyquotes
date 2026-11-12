@@ -1,0 +1,159 @@
+{
+ "voices": {
+  "minh": {
+   "preset": "Thiền Tâm Đức",
+   "pitch": 1.0,
+   "tempo": 1.19,
+   "af": "highpass=f=110,equalizer=f=300:t=q:w=1:g=-1.5,equalizer=f=3500:t=q:w=1.2:g=2,equalizer=f=6500:t=q:w=1:g=2,acompressor=threshold=-22dB:ratio=2:attack=15:release=200:makeup=2,loudnorm=I=-15:TP=-1.5:LRA=9"
+  }
+ },
+ "lead_in": 0.05,
+ "lines": [
+  {
+   "file": "c1_minh",
+   "voice": "minh",
+   "text": "Quên điện thoại ở nhà một ngày, bạn trụ được tới mấy giờ?",
+   "parts": [
+    "Quên điện thoại ở nhà một ngày,",
+    "bạn trụ được tới mấy giờ?"
+   ],
+   "tempo": 1.0,
+   "scene": "c1-dien-thoai-tren-giuong",
+   "pause": 0.45,
+   "inner_pauses": [
+    {
+     "after_part": 0,
+     "sec": 0.15
+    }
+   ]
+  },
+  {
+   "file": "c2_minh",
+   "voice": "minh",
+   "text": "Bảy giờ sáng chạy nửa đường mới nhớ quên máy, quay về thì trễ, nên đi làm luôn.",
+   "parts": [
+    "Bảy giờ sáng chạy nửa đường mới nhớ quên máy,",
+    "quay về thì trễ,",
+    "nên đi làm luôn."
+   ],
+   "tempo": 1.0,
+   "scene": "c2-nua-duong",
+   "pause": 0.4,
+   "inner_pauses": [
+    {
+     "after_part": 0,
+     "sec": 0.15
+    },
+    {
+     "after_part": 1,
+     "sec": 0.1
+    }
+   ]
+  },
+  {
+   "file": "c3_minh",
+   "voice": "minh",
+   "text": "Ghé tiệm bánh mì, trong ví còn đúng mười ngàn, ổ bánh mì giờ hai mươi lăm.",
+   "parts": [
+    "Ghé tiệm bánh mì,",
+    "trong ví còn đúng mười ngàn,",
+    "ổ bánh mì giờ hai mươi lăm."
+   ],
+   "tempo": 1.0,
+   "scene": "c3-banh-mi",
+   "pause": 0.4,
+   "inner_pauses": [
+    {
+     "after_part": 0,
+     "sec": 0.15
+    },
+    {
+     "after_part": 1,
+     "sec": 0.2
+    }
+   ]
+  },
+  {
+   "file": "c4_minh",
+   "voice": "minh",
+   "text": "Tới công ty mới biết phòng họp đổi giờ, thông báo nằm trong nhóm Zalo.",
+   "parts": [
+    "Tới công ty mới biết phòng họp đổi giờ,",
+    "thông báo nằm trong nhóm Zalo."
+   ],
+   "tempo": 1.0,
+   "scene": "c4-phong-hop",
+   "pause": 0.4,
+   "inner_pauses": [
+    {
+     "after_part": 0,
+     "sec": 0.15
+    }
+   ]
+  },
+  {
+   "file": "c5_minh",
+   "voice": "minh",
+   "text": "Trưa mượn máy đồng nghiệp gọi về nhà, mới thấy mình không thuộc số của ai, kể cả số của má.",
+   "parts": [
+    "Trưa mượn máy đồng nghiệp gọi về nhà,",
+    "mới thấy mình không thuộc số của ai,",
+    "kể cả số của má."
+   ],
+   "tempo": 1.0,
+   "scene": "c5-muon-may",
+   "pause": 0.5,
+   "inner_pauses": [
+    {
+     "after_part": 0,
+     "sec": 0.15
+    },
+    {
+     "after_part": 1,
+     "sec": 0.2
+    }
+   ]
+  },
+  {
+   "file": "c6_minh",
+   "voice": "minh",
+   "text": "Ba giờ chiều thì chịu thua, tay cứ tự sờ vô túi quần mười mấy lần.",
+   "parts": [
+    "Ba giờ chiều thì chịu thua,",
+    "tay cứ tự sờ vô túi quần mười mấy lần."
+   ],
+   "tempo": 1.0,
+   "scene": "c6-so-tui-quan",
+   "pause": 0.4,
+   "inner_pauses": [
+    {
+     "after_part": 0,
+     "sec": 0.15
+    }
+   ]
+  },
+  {
+   "file": "c7_minh",
+   "voice": "minh",
+   "text": "Tối về mở máy, ba chục tin nhắn, tin nào cũng hỏi có chuyện gì không.",
+   "parts": [
+    "Tối về mở máy,",
+    "ba chục tin nhắn,",
+    "tin nào cũng hỏi có chuyện gì không."
+   ],
+   "tempo": 1.0,
+   "scene": "c7-ba-chuc-tin",
+   "pause": 4.8,
+   "inner_pauses": [
+    {
+     "after_part": 0,
+     "sec": 0.15
+    },
+    {
+     "after_part": 1,
+     "sec": 0.15
+    }
+   ]
+  }
+ ]
+}

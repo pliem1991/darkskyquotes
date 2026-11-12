@@ -1,0 +1,32 @@
+{
+ "lines": [
+  {
+   "text": "Quên điện thoại ở nhà một ngày,|bạn trụ được tới mấy giờ?",
+   "scene": "c1-dien-thoai-tren-giuong"
+  },
+  {
+   "text": "Bảy giờ sáng chạy nửa đường mới nhớ quên máy,|quay về thì trễ,|nên đi làm luôn.",
+   "scene": "c2-nua-duong"
+  },
+  {
+   "text": "Ghé tiệm bánh mì,|trong ví còn đúng mười ngàn,|ổ bánh mì giờ hai mươi lăm.",
+   "scene": "c3-banh-mi"
+  },
+  {
+   "text": "Tới công ty mới biết phòng họp đổi giờ,|thông báo nằm trong nhóm Zalo.",
+   "scene": "c4-phong-hop"
+  },
+  {
+   "text": "Trưa mượn máy đồng nghiệp gọi về nhà,|mới thấy mình không thuộc số của ai,|kể cả số của má.",
+   "scene": "c5-muon-may"
+  },
+  {
+   "text": "Ba giờ chiều thì chịu thua,|tay cứ tự sờ vô túi quần mười mấy lần.",
+   "scene": "c6-so-tui-quan"
+  },
+  {
+   "text": "Tối về mở máy,|ba chục tin nhắn,|tin nào cũng hỏi có chuyện gì không.",
+   "scene": "c7-ba-chuc-tin"
+  }
+ ]
+}
