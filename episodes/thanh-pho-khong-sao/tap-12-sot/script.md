@@ -1,6 +1,6 @@
 # Thành Phố Không Sao, tập 12: Sốt
 
-- **Trạng thái:** bản 2, viết 11/11/2026, đã soát chống AI hóa và sửa theo phản biện của Sonnet và Haiku, **chờ người dùng duyệt lời**
+- **Trạng thái:** bản 2, viết 11/11/2026, đã soát chống AI hóa và sửa theo phản biện của Sonnet và Haiku, **người dùng duyệt lời ngày 12/11/2026**, prompt ảnh ở `prompts.md`
 - **Độ dài:** đích 60 đến 75 giây, khoảng 195 âm tiết (tập 10: 214 âm tiết, 74 giây)
 - **Người xem đang cảm thấy:** đang ở một mình xa nhà, ốm mà không ai biết, nằm tính một ngày nghỉ là mất bao nhiêu tiền; một chút tử tế nhỏ của người dưng làm vỡ hết những gì đã gồng nhiều ngày
 - **Nối từ tập 11:** chiều dầm mưa (nhánh B: tối ngày 13, nhánh A: tối ngày 14), áo khoác ướt nhỏ nước tới khuya. Lời kể chỉ nói "sáng hôm sau trận mưa", không nói thứ, không nói số tiền, để dùng được cho cả hai nhánh. Chỉ thẻ ngày đổi theo nhánh lên sóng
