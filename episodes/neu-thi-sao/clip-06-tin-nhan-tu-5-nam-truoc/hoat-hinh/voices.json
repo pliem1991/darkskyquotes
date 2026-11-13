@@ -1,0 +1,111 @@
+{
+ "voices": {
+  "duyen": {
+   "preset": "Mỹ Duyên",
+   "pitch": 1.0,
+   "tempo": 1.17,
+   "af": "highpass=f=110,equalizer=f=300:t=q:w=1:g=-1.5,equalizer=f=3500:t=q:w=1.2:g=2,equalizer=f=6500:t=q:w=1:g=2,acompressor=threshold=-22dB:ratio=2:attack=15:release=200:makeup=2,loudnorm=I=-15:TP=-1.5:LRA=9"
+  }
+ },
+ "lead_in": 0.05,
+ "lines": [
+  {
+   "file": "c1_duyen",
+   "voice": "duyen",
+   "text": "Nếu bạn nhận được tin nhắn từ chính mình năm năm trước?",
+   "parts": [
+    "Nếu bạn nhận được tin nhắn",
+    "từ chính mình năm năm trước?"
+   ],
+   "tempo": 1.0,
+   "scene": "c1",
+   "pause": 0.35,
+   "inner_pauses": [
+    { "after_part": 0, "sec": 0.08 }
+   ]
+  },
+  {
+   "file": "c2_duyen",
+   "voice": "duyen",
+   "text": "Dòng đầu ghi, ba mươi tuổi sẽ dọn khỏi phòng trọ. Bạn vừa ký gia hạn hợp đồng thêm sáu tháng nữa.",
+   "parts": [
+    "Dòng đầu ghi,",
+    "ba mươi tuổi sẽ dọn khỏi phòng trọ.",
+    "Bạn vừa ký gia hạn hợp đồng thêm sáu tháng nữa."
+   ],
+   "tempo": 1.0,
+   "scene": "c2",
+   "pause": 0.3,
+   "inner_pauses": [
+    { "after_part": 0, "sec": 0.06 },
+    { "after_part": 1, "sec": 0.45 }
+   ]
+  },
+  {
+   "file": "c3_duyen",
+   "voice": "duyen",
+   "text": "Sẽ bỏ việc nếu không còn vui. Sáng nào bạn cũng tắt báo thức ba lần mới chịu dậy.",
+   "parts": [
+    "Sẽ bỏ việc nếu không còn vui.",
+    "Sáng nào bạn cũng tắt báo thức ba lần mới chịu dậy."
+   ],
+   "tempo": 1.0,
+   "scene": "c3",
+   "pause": 0.3,
+   "inner_pauses": [
+    { "after_part": 0, "sec": 0.4 }
+   ]
+  },
+  {
+   "file": "c4_duyen",
+   "voice": "duyen",
+   "text": "Mỗi tuần sẽ gọi cho má một lần. Bạn mở lịch sử cuộc gọi, cuộc cuối cách hai tháng mười ngày.",
+   "parts": [
+    "Mỗi tuần sẽ gọi cho má một lần.",
+    "Bạn mở lịch sử cuộc gọi,",
+    "cuộc cuối cách hai tháng mười ngày."
+   ],
+   "tempo": 1.0,
+   "scene": "c4",
+   "pause": 0.35,
+   "inner_pauses": [
+    { "after_part": 0, "sec": 0.4 },
+    { "after_part": 1, "sec": 0.08 }
+   ]
+  },
+  {
+   "file": "c5_duyen",
+   "voice": "duyen",
+   "text": "Bạn bấm trả lời. Gõ, xin lỗi, mình chưa làm được gì cả. Nhìn lại rồi xóa.",
+   "parts": [
+    "Bạn bấm trả lời.",
+    "Gõ, xin lỗi, mình chưa làm được gì cả.",
+    "Nhìn lại rồi xóa."
+   ],
+   "tempo": 1.0,
+   "scene": "c5",
+   "pause": 0.5,
+   "inner_pauses": [
+    { "after_part": 0, "sec": 0.3 },
+    { "after_part": 1, "sec": 0.5 }
+   ]
+  },
+  {
+   "file": "c6_duyen",
+   "voice": "duyen",
+   "text": "Gõ lại, mình đang cố. Cũng xóa. Tắt điện thoại, mà tin nhắn vẫn ở đó.",
+   "parts": [
+    "Gõ lại, mình đang cố.",
+    "Cũng xóa.",
+    "Tắt điện thoại, mà tin nhắn vẫn ở đó."
+   ],
+   "tempo": 1.0,
+   "scene": "c6",
+   "pause": 1.5,
+   "inner_pauses": [
+    { "after_part": 0, "sec": 0.3 },
+    { "after_part": 1, "sec": 0.5 }
+   ]
+  }
+ ]
+}

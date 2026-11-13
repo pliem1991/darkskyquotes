@@ -1,0 +1,44 @@
+[
+ {
+  "file": "c1_duyen",
+  "voice": "Mỹ Duyên",
+  "score": 1.0,
+  "heard": "nếu bạn nhận được tin nhắn từ chính mình năm năm trước.",
+  "seconds": 3.21
+ },
+ {
+  "file": "c2_duyen",
+  "voice": "Mỹ Duyên",
+  "score": 0.884,
+  "heard": "Dòng đầu ghi, 30 tuổi sẽ dọn khỏi phòng trọ, bạn vừa ký gia hạn hợp đồng thêm 6 tháng nữa",
+  "seconds": 5.95
+ },
+ {
+  "file": "c3_duyen",
+  "voice": "Mỹ Duyên",
+  "score": 1.0,
+  "heard": "sẽ bỏ việc nếu không còn vui, sáng nào bạn cũng tắt báo thức ba lần mới chịu dậy.",
+  "seconds": 4.99
+ },
+ {
+  "file": "c4_duyen",
+  "voice": "Mỹ Duyên",
+  "score": 1.0,
+  "heard": "mỗi tuần sẽ gọi cho má một lần, bạn mở lịch sử cuộc gọi, cuộc cuối cách hai tháng mười ngày",
+  "seconds": 5.39
+ },
+ {
+  "file": "c5_duyen",
+  "voice": "Mỹ Duyên",
+  "score": 1.0,
+  "heard": "bạn bấm trả lời, gõ, xin lỗi, mình chưa làm được gì cả, nhìn lại rồi xóa",
+  "seconds": 5.52
+ },
+ {
+  "file": "c6_duyen",
+  "voice": "Mỹ Duyên",
+  "score": 1.0,
+  "heard": "gõ lại, mình đang cố, cũng xóa, tắt điện thoại mà tin nhắn vẫn ở đó",
+  "seconds": 4.85
+ }
+]

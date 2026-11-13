@@ -1,0 +1,28 @@
+{
+ "lines": [
+  {
+   "text": "Nếu bạn nhận được tin nhắn|từ chính mình năm năm trước?",
+   "scene": "c1"
+  },
+  {
+   "text": "Dòng đầu ghi,|ba mươi tuổi sẽ dọn khỏi phòng trọ.|Bạn vừa ký gia hạn hợp đồng thêm sáu tháng nữa.",
+   "scene": "c2"
+  },
+  {
+   "text": "Sẽ bỏ việc nếu không còn vui.|Sáng nào bạn cũng tắt báo thức ba lần mới chịu dậy.",
+   "scene": "c3"
+  },
+  {
+   "text": "Mỗi tuần sẽ gọi cho má một lần.|Bạn mở lịch sử cuộc gọi,|cuộc cuối cách hai tháng mười ngày.",
+   "scene": "c4"
+  },
+  {
+   "text": "Bạn bấm trả lời.|Gõ, xin lỗi, mình chưa làm được gì cả.|Nhìn lại rồi xóa.",
+   "scene": "c5"
+  },
+  {
+   "text": "Gõ lại, mình đang cố.|Cũng xóa.|Tắt điện thoại, mà tin nhắn vẫn ở đó.",
+   "scene": "c6"
+  }
+ ]
+}
