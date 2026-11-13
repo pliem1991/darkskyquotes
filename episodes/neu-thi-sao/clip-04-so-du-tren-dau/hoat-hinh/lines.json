@@ -1,0 +1,28 @@
+{
+ "lines": [
+  {
+   "text": "Nếu trên đầu mỗi người hiện số dư,|bạn sẽ nhìn ai trước?",
+   "scene": "c1"
+  },
+  {
+   "text": "Tám giờ trong thang máy,|trên đầu sếp hiện một tỷ hai,|vẫn than tháng này công ty khó khăn.",
+   "scene": "c2"
+  },
+  {
+   "text": "Trưa cả phòng rủ đi ăn lẩu,|thấy trên đầu bạn ba trăm mười hai ngàn,|cả nhóm liền đổi qua cơm tấm.",
+   "scene": "c3"
+  },
+  {
+   "text": "Tối đi hẹn hò,|hai người liếc lên đầu nhau,|rồi cùng nói uống trà đá thôi.",
+   "scene": "c4"
+  },
+  {
+   "text": "Cuối tuần về quê,|trên đầu má hiện hai mươi triệu ba trăm ngàn.",
+   "scene": "c5"
+  },
+  {
+   "text": "Hai mươi triệu là tiền bạn gửi cho má từ đầu năm,|ba trăm ngàn là của má.|Má chưa xài đồng nào.",
+   "scene": "c6"
+  }
+ ]
+}

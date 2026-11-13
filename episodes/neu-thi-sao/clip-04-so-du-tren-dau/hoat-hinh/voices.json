@@ -1,0 +1,111 @@
+{
+ "voices": {
+  "duyen": {
+   "preset": "Mỹ Duyên",
+   "pitch": 1.0,
+   "tempo": 1.17,
+   "af": "highpass=f=110,equalizer=f=300:t=q:w=1:g=-1.5,equalizer=f=3500:t=q:w=1.2:g=2,equalizer=f=6500:t=q:w=1:g=2,acompressor=threshold=-22dB:ratio=2:attack=15:release=200:makeup=2,loudnorm=I=-15:TP=-1.5:LRA=9"
+  }
+ },
+ "lead_in": 0.05,
+ "lines": [
+  {
+   "file": "c1_duyen",
+   "voice": "duyen",
+   "text": "Nếu trên đầu mỗi người hiện số dư, bạn sẽ nhìn ai trước?",
+   "parts": [
+    "Nếu trên đầu mỗi người hiện số dư,",
+    "bạn sẽ nhìn ai trước?"
+   ],
+   "tempo": 1.0,
+   "scene": "c1",
+   "pause": 0.35,
+   "inner_pauses": [
+    { "after_part": 0, "sec": 0.1 }
+   ]
+  },
+  {
+   "file": "c2_duyen",
+   "voice": "duyen",
+   "text": "Tám giờ trong thang máy, trên đầu sếp hiện một tỷ hai, vẫn than tháng này công ty khó khăn.",
+   "parts": [
+    "Tám giờ trong thang máy,",
+    "trên đầu sếp hiện một tỷ hai,",
+    "vẫn than tháng này công ty khó khăn."
+   ],
+   "tempo": 1.0,
+   "scene": "c2",
+   "pause": 0.3,
+   "inner_pauses": [
+    { "after_part": 0, "sec": 0.08 },
+    { "after_part": 1, "sec": 0.08 }
+   ]
+  },
+  {
+   "file": "c3_duyen",
+   "voice": "duyen",
+   "text": "Trưa cả phòng rủ đi ăn lẩu, thấy trên đầu bạn ba trăm mười hai ngàn, cả nhóm liền đổi qua cơm tấm.",
+   "parts": [
+    "Trưa cả phòng rủ đi ăn lẩu,",
+    "thấy trên đầu bạn ba trăm mười hai ngàn,",
+    "cả nhóm liền đổi qua cơm tấm."
+   ],
+   "tempo": 1.0,
+   "scene": "c3",
+   "pause": 0.3,
+   "inner_pauses": [
+    { "after_part": 0, "sec": 0.08 },
+    { "after_part": 1, "sec": 0.08 }
+   ]
+  },
+  {
+   "file": "c4_duyen",
+   "voice": "duyen",
+   "text": "Tối đi hẹn hò, hai người liếc lên đầu nhau, rồi cùng nói uống trà đá thôi.",
+   "parts": [
+    "Tối đi hẹn hò,",
+    "hai người liếc lên đầu nhau,",
+    "rồi cùng nói uống trà đá thôi."
+   ],
+   "tempo": 1.0,
+   "scene": "c4",
+   "pause": 0.4,
+   "inner_pauses": [
+    { "after_part": 0, "sec": 0.08 },
+    { "after_part": 1, "sec": 0.08 }
+   ]
+  },
+  {
+   "file": "c5_duyen",
+   "voice": "duyen",
+   "text": "Cuối tuần về quê, trên đầu má hiện hai mươi triệu ba trăm ngàn.",
+   "parts": [
+    "Cuối tuần về quê,",
+    "trên đầu má hiện hai mươi triệu ba trăm ngàn."
+   ],
+   "tempo": 1.0,
+   "scene": "c5",
+   "pause": 1.0,
+   "inner_pauses": [
+    { "after_part": 0, "sec": 0.1 }
+   ]
+  },
+  {
+   "file": "c6_duyen",
+   "voice": "duyen",
+   "text": "Hai mươi triệu là tiền bạn gửi cho má từ đầu năm, ba trăm ngàn là của má. Má chưa xài đồng nào.",
+   "parts": [
+    "Hai mươi triệu là tiền bạn gửi cho má từ đầu năm,",
+    "ba trăm ngàn là của má.",
+    "Má chưa xài đồng nào."
+   ],
+   "tempo": 1.0,
+   "scene": "c6",
+   "pause": 1.5,
+   "inner_pauses": [
+    { "after_part": 0, "sec": 0.1 },
+    { "after_part": 1, "sec": 0.6 }
+   ]
+  }
+ ]
+}

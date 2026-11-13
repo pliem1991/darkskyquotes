@@ -1,0 +1,130 @@
+{
+  "version": 1,
+  "historyId": "0cd71bcd-d7ca-45e8-b939-2d8abc898229",
+  "currentRevision": "85e96291-faf2-4a2d-8808-897b45ca402f",
+  "pendingChanges": false,
+  "files": {
+    "char.js": {
+      "hash": "a278a821a070bdc15d77a45ef09b39ca2d958678df79027420dcc757878452f6",
+      "content": "C:\\Users\\Liem.pt\\.cache\\hyperframes\\history\\0cd71bcd-d7ca-45e8-b939-2d8abc898229\\blobs\\a2\\a278a821a070bdc15d77a45ef09b39ca2d958678df79027420dcc757878452f6"
+    },
+    "data.js": {
+      "hash": "9da00ee175d87190f7f4bedd113b3427e70cf5737938ddc5fb4fbedf8caf4204",
+      "content": "C:\\Users\\Liem.pt\\.cache\\hyperframes\\history\\0cd71bcd-d7ca-45e8-b939-2d8abc898229\\blobs\\9d\\9da00ee175d87190f7f4bedd113b3427e70cf5737938ddc5fb4fbedf8caf4204"
+    },
+    "gsap.min.js": {
+      "hash": "92bb9a96476f983d212a2bc4f54c889039c1696dd4461d40a736860938570fbb",
+      "content": "C:\\Users\\Liem.pt\\.cache\\hyperframes\\history\\0cd71bcd-d7ca-45e8-b939-2d8abc898229\\blobs\\92\\92bb9a96476f983d212a2bc4f54c889039c1696dd4461d40a736860938570fbb"
+    },
+    "hyperframes.json": {
+      "hash": "53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50",
+      "content": "C:\\Users\\Liem.pt\\.cache\\hyperframes\\history\\0cd71bcd-d7ca-45e8-b939-2d8abc898229\\blobs\\53\\53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50"
+    },
+    "index.html": {
+      "hash": "7d4f027ca0eef45ddf12bd48eb0823a829f90cccd2bab25a26a2dda2110457af",
+      "content": "C:\\Users\\Liem.pt\\.cache\\hyperframes\\history\\0cd71bcd-d7ca-45e8-b939-2d8abc898229\\blobs\\7d\\7d4f027ca0eef45ddf12bd48eb0823a829f90cccd2bab25a26a2dda2110457af"
+    },
+    "main.js": {
+      "hash": "ce8f55aeec71ddf6236ec94a9db03823877175b97a2450785f4c96ec2d1753fe",
+      "content": "C:\\Users\\Liem.pt\\.cache\\hyperframes\\history\\0cd71bcd-d7ca-45e8-b939-2d8abc898229\\blobs\\ce\\ce8f55aeec71ddf6236ec94a9db03823877175b97a2450785f4c96ec2d1753fe"
+    },
+    "package.json": {
+      "hash": "5fd1ff71bb26b8d6a5134a79d2823e31514dd7989f0ac1aec4c8ee7a6179328f",
+      "content": "C:\\Users\\Liem.pt\\.cache\\hyperframes\\history\\0cd71bcd-d7ca-45e8-b939-2d8abc898229\\blobs\\5f\\5fd1ff71bb26b8d6a5134a79d2823e31514dd7989f0ac1aec4c8ee7a6179328f"
+    },
+    "scenes.js": {
+      "hash": "aad1c64c3c541c3044d0428df8059989e7a5399e16114ae28fe26f0f82fd06cc",
+      "content": "C:\\Users\\Liem.pt\\.cache\\hyperframes\\history\\0cd71bcd-d7ca-45e8-b939-2d8abc898229\\blobs\\aa\\aad1c64c3c541c3044d0428df8059989e7a5399e16114ae28fe26f0f82fd06cc"
+    }
+  },
+  "revisions": {
+    "fc268a88-bd6e-46e0-b29b-2298efa4dbef": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1794478982090,
+      "endedAt": 1794478982107,
+      "files": {
+        "index.html": {
+          "before": "C:\\Users\\Liem.pt\\.cache\\hyperframes\\history\\0cd71bcd-d7ca-45e8-b939-2d8abc898229\\blobs\\3c\\3c4230b8f3a0385a633c84a0a822890068604b798dfaafe53ebbe4ad7a2b751d",
+          "after": "C:\\Users\\Liem.pt\\.cache\\hyperframes\\history\\0cd71bcd-d7ca-45e8-b939-2d8abc898229\\blobs\\13\\13ea5977a3b553e43cb786d28b9a4f4262dcd4b4f42b022a2484474e888b0e45"
+        },
+        "main.js": {
+          "before": "C:\\Users\\Liem.pt\\.cache\\hyperframes\\history\\0cd71bcd-d7ca-45e8-b939-2d8abc898229\\blobs\\d3\\d35edc571c4633465fc648fb4bbded94f6b0e95d4c5ef2694ab81b81b2b27800",
+          "after": "C:\\Users\\Liem.pt\\.cache\\hyperframes\\history\\0cd71bcd-d7ca-45e8-b939-2d8abc898229\\blobs\\ce\\ce8f55aeec71ddf6236ec94a9db03823877175b97a2450785f4c96ec2d1753fe"
+        }
+      }
+    },
+    "54e8444f-4e06-4a49-89e2-0125f280926b": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1794479462028,
+      "endedAt": 1794479462029,
+      "files": {
+        "index.html": {
+          "before": "C:\\Users\\Liem.pt\\.cache\\hyperframes\\history\\0cd71bcd-d7ca-45e8-b939-2d8abc898229\\blobs\\13\\13ea5977a3b553e43cb786d28b9a4f4262dcd4b4f42b022a2484474e888b0e45",
+          "after": "C:\\Users\\Liem.pt\\.cache\\hyperframes\\history\\0cd71bcd-d7ca-45e8-b939-2d8abc898229\\blobs\\7d\\7d4f027ca0eef45ddf12bd48eb0823a829f90cccd2bab25a26a2dda2110457af"
+        }
+      }
+    },
+    "0cc90d83-7290-4500-b7c3-8878f181110d": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1794536716512,
+      "endedAt": 1794536716514,
+      "files": {
+        "scenes.js": {
+          "before": "C:\\Users\\Liem.pt\\.cache\\hyperframes\\history\\0cd71bcd-d7ca-45e8-b939-2d8abc898229\\blobs\\17\\17c0a49e915b20591232d5909bae0308d25796fbd84071d46425843a8fb6d856",
+          "after": "C:\\Users\\Liem.pt\\.cache\\hyperframes\\history\\0cd71bcd-d7ca-45e8-b939-2d8abc898229\\blobs\\05\\05589ab018d472a2dbb3d3f94c9418a4f02a12e8cc3b02a4de1f79dd2e67bb41"
+        }
+      }
+    },
+    "85e96291-faf2-4a2d-8808-897b45ca402f": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1794538055719,
+      "endedAt": 1794538055720,
+      "files": {
+        "scenes.js": {
+          "before": "C:\\Users\\Liem.pt\\.cache\\hyperframes\\history\\0cd71bcd-d7ca-45e8-b939-2d8abc898229\\blobs\\05\\05589ab018d472a2dbb3d3f94c9418a4f02a12e8cc3b02a4de1f79dd2e67bb41",
+          "after": "C:\\Users\\Liem.pt\\.cache\\hyperframes\\history\\0cd71bcd-d7ca-45e8-b939-2d8abc898229\\blobs\\aa\\aad1c64c3c541c3044d0428df8059989e7a5399e16114ae28fe26f0f82fd06cc"
+        }
+      }
+    }
+  },
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "5321a5a8-fe58-495f-8009-3d28198500c6",
+      "completedAt": 1794538104385,
+      "output": "E:\\Tiktok\\darkskyquotes\\episodes\\neu-thi-sao\\clip-04-so-du-tren-dau\\hoat-hinh\\output\\video-tmp.mp4",
+      "status": "completed",
+      "revision": "85e96291-faf2-4a2d-8808-897b45ca402f"
+    },
+    "retainedRevisions": [
+      "85e96291-faf2-4a2d-8808-897b45ca402f",
+      "0cc90d83-7290-4500-b7c3-8878f181110d"
+    ]
+  },
+  "pendingArtifactCleanup": []
+}

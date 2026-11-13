@@ -1,0 +1,44 @@
+[
+ {
+  "file": "c1_duyen",
+  "voice": "Mỹ Duyên",
+  "score": 1.0,
+  "heard": "Nếu trên đầu mỗi người hiện số dư, bạn sẽ nhìn ai trước?",
+  "seconds": 3.22
+ },
+ {
+  "file": "c2_duyen",
+  "voice": "Mỹ Duyên",
+  "score": 0.9,
+  "heard": "Tám giờ trong thang máy, trên đầu xếp hiện một tỷ hai, vẫn thang tháng này công ty khó khăn",
+  "seconds": 4.99
+ },
+ {
+  "file": "c3_duyen",
+  "voice": "Mỹ Duyên",
+  "score": 0.957,
+  "heard": "Trưa cả phòng rũ đi ăn lẩu, thấy trên đầu bạn ba trăm mười hai ngàn, cả nhóm liền đổi qua cơm tấm.",
+  "seconds": 5.65
+ },
+ {
+  "file": "c4_duyen",
+  "voice": "Mỹ Duyên",
+  "score": 0.941,
+  "heard": "Tối đi hẹn hò, hai người liết lên đầu nhau, rồi cùng nói uống trà đá thôi.",
+  "seconds": 4.8
+ },
+ {
+  "file": "c5_duyen",
+  "voice": "Mỹ Duyên",
+  "score": 1.0,
+  "heard": "Cuối tuần về quê trên đầu má hiện hai mươi triệu ba trăm ngàn",
+  "seconds": 3.45
+ },
+ {
+  "file": "c6_duyen",
+  "voice": "Mỹ Duyên",
+  "score": 1.0,
+  "heard": "Hai mươi triệu là tiền bạn gửi cho má từ đầu năm  Ba trăm ngàn là của má  Má chưa xài đồng nào",
+  "seconds": 6.07
+ }
+]

@@ -1,6 +1,6 @@
 # "Nếu... thì sao?" clip 4: Nếu trên đầu mỗi người hiện số dư tài khoản
 
-- **Trạng thái:** bản 5, viết 12/11/2026. Người dùng chê bản 3 chưa thực tế (sếp sao ít tiền, văn phòng đâu có căng tin); đã sửa và qua thêm hai lượt soát Sonnet, Haiku. **Chờ người dùng duyệt lời.**
+- **Trạng thái:** bản 5, viết 12/11/2026. **Người dùng duyệt lời ngày 12/11/2026.** Đã dựng hoạt hình, người dùng duyệt video 13/11/2026. Đã hẹn giờ 18/11/2026 12:00 trưa.
 - **Dạng:** tiền đề lạ đời, hậu quả đúng đời đi làm (người dùng chọn ý 1 trong 5 ý lạ đời, 12/11/2026)
 - **Hình:** hoạt hình 2D vẽ bằng code, nhân vật cô gái văn phòng (`../nhan-vat/co-gai-van-phong.html`), thêm người phụ: sếp, khách quán cơm, người hẹn hò, má. Con số hiện trong khung nhỏ lơ lửng trên đầu mỗi người
 - **Giọng:** VieNeu "Mỹ Duyên", ngôi "bạn"
