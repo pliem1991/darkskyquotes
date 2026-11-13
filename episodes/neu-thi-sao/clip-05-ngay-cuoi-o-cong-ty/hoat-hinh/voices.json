@@ -1,0 +1,113 @@
+{
+ "voices": {
+  "duyen": {
+   "preset": "Mỹ Duyên",
+   "pitch": 1.0,
+   "tempo": 1.17,
+   "af": "highpass=f=110,equalizer=f=300:t=q:w=1:g=-1.5,equalizer=f=3500:t=q:w=1.2:g=2,equalizer=f=6500:t=q:w=1:g=2,acompressor=threshold=-22dB:ratio=2:attack=15:release=200:makeup=2,loudnorm=I=-15:TP=-1.5:LRA=9"
+  }
+ },
+ "lead_in": 0.05,
+ "lines": [
+  {
+   "file": "c1_duyen",
+   "voice": "duyen",
+   "text": "Nếu hôm nay là ngày cuối bạn đi làm, mà không ai biết?",
+   "parts": [
+    "Nếu hôm nay là ngày cuối bạn đi làm,",
+    "mà không ai biết?"
+   ],
+   "tempo": 1.0,
+   "scene": "c1",
+   "pause": 0.35,
+   "inner_pauses": [
+    { "after_part": 0, "sec": 0.1 }
+   ]
+  },
+  {
+   "file": "c2_duyen",
+   "voice": "duyen",
+   "text": "Sáng vẫn quẹt thẻ đúng giờ, vẫn đúng thang máy, đúng tầng bốn, nhưng hôm nay bạn nhìn cái sảnh lâu hơn hai giây.",
+   "parts": [
+    "Sáng vẫn quẹt thẻ đúng giờ,",
+    "vẫn đúng thang máy, đúng tầng bốn,",
+    "nhưng hôm nay bạn nhìn cái sảnh lâu hơn hai giây."
+   ],
+   "tempo": 1.0,
+   "scene": "c2",
+   "pause": 0.3,
+   "inner_pauses": [
+    { "after_part": 0, "sec": 0.06 },
+    { "after_part": 1, "sec": 0.08 }
+   ]
+  },
+  {
+   "file": "c3_duyen",
+   "voice": "duyen",
+   "text": "Trưa đồng nghiệp hỏi mai ăn gì, bạn nói bún bò. Rồi mới nhớ, không có mai.",
+   "parts": [
+    "Trưa đồng nghiệp hỏi mai ăn gì,",
+    "bạn nói bún bò.",
+    "Rồi mới nhớ, không có mai."
+   ],
+   "tempo": 1.0,
+   "scene": "c3",
+   "pause": 0.35,
+   "inner_pauses": [
+    { "after_part": 0, "sec": 0.06 },
+    { "after_part": 1, "sec": 0.5 }
+   ]
+  },
+  {
+   "file": "c4_duyen",
+   "voice": "duyen",
+   "text": "Chiều lén chụp một tấm bàn làm việc, lau sạch hơn mọi ngày, bỏ cái cốc riêng vào túi.",
+   "parts": [
+    "Chiều lén chụp một tấm bàn làm việc,",
+    "lau sạch hơn mọi ngày,",
+    "bỏ cái cốc riêng vào túi."
+   ],
+   "tempo": 1.0,
+   "scene": "c4",
+   "pause": 0.35,
+   "inner_pauses": [
+    { "after_part": 0, "sec": 0.08 },
+    { "after_part": 1, "sec": 0.06 }
+   ]
+  },
+  {
+   "file": "c5_duyen",
+   "voice": "duyen",
+   "text": "Ra cổng, bảo vệ nói mai gặp lại nhé em. Bạn nói dạ.",
+   "parts": [
+    "Ra cổng,",
+    "bảo vệ nói mai gặp lại nhé em.",
+    "Bạn nói dạ."
+   ],
+   "tempo": 1.0,
+   "scene": "c5",
+   "pause": 1.0,
+   "inner_pauses": [
+    { "after_part": 0, "sec": 0.08 },
+    { "after_part": 1, "sec": 0.5 }
+   ]
+  },
+  {
+   "file": "c6_duyen",
+   "voice": "duyen",
+   "text": "Tối về mở lại tấm ảnh hồi chiều. Trên bàn không còn gì của bạn. Mà chưa ai hỏi tại sao.",
+   "parts": [
+    "Tối về mở lại tấm ảnh hồi chiều.",
+    "Trên bàn không còn gì của bạn.",
+    "Mà chưa ai hỏi tại sao."
+   ],
+   "tempo": 1.0,
+   "scene": "c6",
+   "pause": 1.5,
+   "inner_pauses": [
+    { "after_part": 0, "sec": 0.1 },
+    { "after_part": 1, "sec": 0.6 }
+   ]
+  }
+ ]
+}

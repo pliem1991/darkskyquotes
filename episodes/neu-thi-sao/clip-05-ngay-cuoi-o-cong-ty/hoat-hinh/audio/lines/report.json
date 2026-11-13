@@ -1,0 +1,44 @@
+[
+ {
+  "file": "c1_duyen",
+  "voice": "Mỹ Duyên",
+  "score": 1.0,
+  "heard": "nếu hôm nay là ngày cuối bạn đi làm mà không ai biết.",
+  "seconds": 3.49
+ },
+ {
+  "file": "c2_duyen",
+  "voice": "Mỹ Duyên",
+  "score": 1.0,
+  "heard": "Sáng vẫn quẹt thẻ đúng giờ, vẫn đúng thang máy, đúng tầng bốn, nhưng hôm nay bạn nhìn cái sảnh lâu hơn hai giây",
+  "seconds": 6.23
+ },
+ {
+  "file": "c3_duyen",
+  "voice": "Mỹ Duyên",
+  "score": 1.0,
+  "heard": "Trưa đồng nghiệp hỏi Mai ăn gì, bạn nói bún bò, rồi mới nhớ không có Mai",
+  "seconds": 4.99
+ },
+ {
+  "file": "c4_duyen",
+  "voice": "Mỹ Duyên",
+  "score": 1.0,
+  "heard": "chiều lén chụp một tấm bàn làm việc, lau sạch hơn mọi ngày, bỏ cái cốc riêng vào túi",
+  "seconds": 5.5
+ },
+ {
+  "file": "c5_duyen",
+  "voice": "Mỹ Duyên",
+  "score": 1.0,
+  "heard": "ra cổng, bảo vệ nói mai gặp lại nhé em, bạn nói dạ",
+  "seconds": 4.44
+ },
+ {
+  "file": "c6_duyen",
+  "voice": "Mỹ Duyên",
+  "score": 1.0,
+  "heard": "Tối về mở lại tấm ảnh hồi chiều, trên bàn không còn gì của bạn, mà chưa ai hỏi tại sao.",
+  "seconds": 5.52
+ }
+]

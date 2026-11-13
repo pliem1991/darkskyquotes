@@ -1,0 +1,28 @@
+{
+ "lines": [
+  {
+   "text": "Nếu hôm nay là ngày cuối bạn đi làm,|mà không ai biết?",
+   "scene": "c1"
+  },
+  {
+   "text": "Sáng vẫn quẹt thẻ đúng giờ,|vẫn đúng thang máy, đúng tầng bốn,|nhưng hôm nay bạn nhìn cái sảnh lâu hơn hai giây.",
+   "scene": "c2"
+  },
+  {
+   "text": "Trưa đồng nghiệp hỏi mai ăn gì,|bạn nói bún bò.|Rồi mới nhớ, không có mai.",
+   "scene": "c3"
+  },
+  {
+   "text": "Chiều lén chụp một tấm bàn làm việc,|lau sạch hơn mọi ngày,|bỏ cái cốc riêng vào túi.",
+   "scene": "c4"
+  },
+  {
+   "text": "Ra cổng,|bảo vệ nói mai gặp lại nhé em.|Bạn nói dạ.",
+   "scene": "c5"
+  },
+  {
+   "text": "Tối về mở lại tấm ảnh hồi chiều.|Trên bàn không còn gì của bạn.|Mà chưa ai hỏi tại sao.",
+   "scene": "c6"
+  }
+ ]
+}
