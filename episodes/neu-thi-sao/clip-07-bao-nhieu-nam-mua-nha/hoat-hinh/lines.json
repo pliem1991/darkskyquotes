@@ -1,0 +1,28 @@
+{
+ "lines": [
+  {
+   "text": "Nếu bạn tính được bao nhiêu năm nữa|mới mua nổi căn hộ?",
+   "scene": "c1"
+  },
+  {
+   "text": "Giả sử lương bạn mười lăm triệu,|trừ tiền phòng, ăn uống, xăng xe,|mỗi tháng để dành được chừng ba triệu.",
+   "scene": "c2"
+  },
+  {
+   "text": "Căn hộ nhỏ nhất ở ngoại thành,|hai phòng ngủ,|giá cũng chừng hai tỷ.",
+   "scene": "c3"
+  },
+  {
+   "text": "Hai tỷ chia ba triệu,|ra gần năm mươi sáu năm.|Lúc đó bạn tám mươi tư tuổi.",
+   "scene": "c4"
+  },
+  {
+   "text": "Mà mỗi năm giá nhà tăng chừng hai trăm triệu.|Tiết kiệm cả năm, ba mươi sáu triệu,|không đuổi kịp một lần tăng giá.",
+   "scene": "c5"
+  },
+  {
+   "text": "Tối nằm lướt tin bán nhà,|căn nào cũng hai tỷ trở lên.|Tắt đi rồi mở lại.|Y như mọi tối.",
+   "scene": "c6"
+  }
+ ]
+}
