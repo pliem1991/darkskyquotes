@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "historyId": "92041ac0-876c-49bb-a2f8-fb130f44ff55",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "char.js": {
+      "hash": "a278a821a070bdc15d77a45ef09b39ca2d958678df79027420dcc757878452f6",
+      "content": "C:\\Users\\Liem.pt\\.cache\\hyperframes\\history\\92041ac0-876c-49bb-a2f8-fb130f44ff55\\blobs\\a2\\a278a821a070bdc15d77a45ef09b39ca2d958678df79027420dcc757878452f6"
+    },
+    "data.js": {
+      "hash": "68fa62cda759a15d919c8cb9226ec0137a9132717ade148e9c88484fabc811c8",
+      "content": "C:\\Users\\Liem.pt\\.cache\\hyperframes\\history\\92041ac0-876c-49bb-a2f8-fb130f44ff55\\blobs\\68\\68fa62cda759a15d919c8cb9226ec0137a9132717ade148e9c88484fabc811c8"
+    },
+    "gsap.min.js": {
+      "hash": "92bb9a96476f983d212a2bc4f54c889039c1696dd4461d40a736860938570fbb",
+      "content": "C:\\Users\\Liem.pt\\.cache\\hyperframes\\history\\92041ac0-876c-49bb-a2f8-fb130f44ff55\\blobs\\92\\92bb9a96476f983d212a2bc4f54c889039c1696dd4461d40a736860938570fbb"
+    },
+    "index.html": {
+      "hash": "9285999ce75a67f7bf6e9d8fca1351f3f50178ea744ba407d25a9691b0e55a29",
+      "content": "C:\\Users\\Liem.pt\\.cache\\hyperframes\\history\\92041ac0-876c-49bb-a2f8-fb130f44ff55\\blobs\\92\\9285999ce75a67f7bf6e9d8fca1351f3f50178ea744ba407d25a9691b0e55a29"
+    },
+    "main.js": {
+      "hash": "a86bc0ff79746e1524f8fb5ca81b4a83bc6ce61e4462608ed09d9a3591582104",
+      "content": "C:\\Users\\Liem.pt\\.cache\\hyperframes\\history\\92041ac0-876c-49bb-a2f8-fb130f44ff55\\blobs\\a8\\a86bc0ff79746e1524f8fb5ca81b4a83bc6ce61e4462608ed09d9a3591582104"
+    },
+    "scenes.js": {
+      "hash": "8c00a00badf4389ee497c22254fdf63395d2f66b747979056fede62bd3b68ac3",
+      "content": "C:\\Users\\Liem.pt\\.cache\\hyperframes\\history\\92041ac0-876c-49bb-a2f8-fb130f44ff55\\blobs\\8c\\8c00a00badf4389ee497c22254fdf63395d2f66b747979056fede62bd3b68ac3"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "78e7d4c7-1a29-4271-904b-9a56a94f0ca6",
+      "completedAt": 1794903285484,
+      "output": "E:\\Tiktok\\darkskyquotes\\episodes\\neu-thi-sao\\clip-09-tiet-kiem-100k-moi-ngay\\hoat-hinh\\hf\\render_draft.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

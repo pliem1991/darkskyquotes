@@ -1,0 +1,44 @@
+[
+ {
+  "file": "c1_duyen",
+  "voice": "Mỹ Duyên",
+  "score": 1.0,
+  "heard": "nếu bạn tiết kiệm một trăm ngàn mỗi ngày.",
+  "seconds": 2.11
+ },
+ {
+  "file": "c2_duyen",
+  "voice": "Mỹ Duyên",
+  "score": 1.0,
+  "heard": "Mỗi ngày một trăm ngàn, chỉ bằng ly cà phê với ổ bánh mì, một năm ba mươi sáu triệu rưỡi",
+  "seconds": 6.41
+ },
+ {
+  "file": "c3_duyen",
+  "voice": "Mỹ Duyên",
+  "score": 1.0,
+  "heard": "Mười năm không nghỉ ngày nào, ba trăm sáu mươi lăm triệu",
+  "seconds": 4.03
+ },
+ {
+  "file": "c4_duyen",
+  "voice": "Mỹ Duyên",
+  "score": 1.0,
+  "heard": "Nhưng mười năm nữa giá gì cũng tăng. Ba trăm sáu mươi lăm triệu đó chỉ mua bằng hai trăm bốn mươi triệu bây giờ.",
+  "seconds": 6.27
+ },
+ {
+  "file": "c5_duyen",
+  "voice": "Mỹ Duyên",
+  "score": 1.0,
+  "heard": "hai trăm bốn mươi triệu, mười năm bỏ cà phê, bỏ trà sữa, bỏ ăn ngoài",
+  "seconds": 4.54
+ },
+ {
+  "file": "c6_duyen",
+  "voice": "Mỹ Duyên",
+  "score": 1.0,
+  "heard": "Nếu không tiết kiệm, mười năm nữa bạn có gì?",
+  "seconds": 2.82
+ }
+]

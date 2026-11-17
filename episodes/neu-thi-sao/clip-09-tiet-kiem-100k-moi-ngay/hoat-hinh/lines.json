@@ -1,0 +1,28 @@
+{
+ "lines": [
+  {
+   "text": "Nếu bạn tiết kiệm một trăm ngàn|mỗi ngày?",
+   "scene": "c1"
+  },
+  {
+   "text": "Mỗi ngày một trăm ngàn.|Chỉ bằng ly cà phê với ổ bánh mì.|Một năm,|ba mươi sáu triệu rưỡi.",
+   "scene": "c2"
+  },
+  {
+   "text": "Mười năm không nghỉ ngày nào.|Ba trăm sáu mươi lăm triệu.",
+   "scene": "c3"
+  },
+  {
+   "text": "Nhưng mười năm nữa giá gì cũng tăng.|Ba trăm sáu mươi lăm triệu đó|chỉ mua bằng hai trăm bốn mươi triệu bây giờ.",
+   "scene": "c4"
+  },
+  {
+   "text": "Hai trăm bốn mươi triệu.|Mười năm bỏ cà phê,|bỏ trà sữa,|bỏ ăn ngoài.",
+   "scene": "c5"
+  },
+  {
+   "text": "Nếu không tiết kiệm,|mười năm nữa bạn có gì?",
+   "scene": "c6"
+  }
+ ]
+}
