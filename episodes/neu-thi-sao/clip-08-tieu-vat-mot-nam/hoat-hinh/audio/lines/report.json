@@ -1,0 +1,44 @@
+[
+ {
+  "file": "c1_duyen",
+  "voice": "Mỹ Duyên",
+  "score": 1.0,
+  "heard": "nếu bạn gom hết tiền mình tiêu vặt trong một năm.",
+  "seconds": 2.47
+ },
+ {
+  "file": "c2_duyen",
+  "voice": "Mỹ Duyên",
+  "score": 0.958,
+  "heard": "Mỗi sáng một ly cà phê ba mươi ngàn, nhỏ mà ai cũng uống, ba trăm sáu mươi lăm ngàn, gần mười một triệu",
+  "seconds": 6.49
+ },
+ {
+  "file": "c3_duyen",
+  "voice": "Mỹ Duyên",
+  "score": 1.0,
+  "heard": "trà sữa hai ly mỗi tuần, bốn mươi lăm ngàn một ly, một năm gần bốn triệu bảy.",
+  "seconds": 4.53
+ },
+ {
+  "file": "c4_duyen",
+  "voice": "Mỹ Duyên",
+  "score": 1.0,
+  "heard": "ship đồ ăn ba lần tuần, mỗi lần mười lăm ngàn tiền ship, cả năm hơn hai triệu ba",
+  "seconds": 5.13
+ },
+ {
+  "file": "c5_duyen",
+  "voice": "Mỹ Duyên",
+  "score": 1.0,
+  "heard": "gom lại gần mười tám triệu, hơn một tháng lương.",
+  "seconds": 3.12
+ },
+ {
+  "file": "c6_duyen",
+  "voice": "Mỹ Duyên",
+  "score": 1.0,
+  "heard": "Mà nhịn hết thì năm đó bạn uống gì, ăn gì giữa trưa, về bằng gì lúc mưa",
+  "seconds": 4.61
+ }
+]

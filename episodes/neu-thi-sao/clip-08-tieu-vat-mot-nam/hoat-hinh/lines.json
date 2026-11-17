@@ -1,0 +1,28 @@
+{
+ "lines": [
+  {
+   "text": "Nếu bạn gom hết tiền mình tiêu vặt|trong một năm?",
+   "scene": "c1"
+  },
+  {
+   "text": "Mỗi sáng một ly cà phê ba mươi ngàn.|Nhỏ mà, ai cũng uống.|Ba trăm sáu mươi lăm ngày,|gần mười một triệu.",
+   "scene": "c2"
+  },
+  {
+   "text": "Trà sữa hai ly mỗi tuần,|bốn mươi lăm ngàn một ly.|Một năm, gần bốn triệu bảy.",
+   "scene": "c3"
+  },
+  {
+   "text": "Ship đồ ăn ba lần tuần,|mỗi lần mười lăm ngàn tiền ship.|Cả năm, hơn hai triệu ba.",
+   "scene": "c4"
+  },
+  {
+   "text": "Gom lại, gần mười tám triệu.|Hơn một tháng lương.",
+   "scene": "c5"
+  },
+  {
+   "text": "Mà nhịn hết thì năm đó|bạn uống gì,|ăn gì giữa trưa,|về bằng gì lúc mưa.",
+   "scene": "c6"
+  }
+ ]
+}
