@@ -1,7 +1,7 @@
 {
   "version": 1,
   "historyId": "237e7213-6e83-4da7-83e6-7e5b4c97ad0e",
-  "currentRevision": null,
+  "currentRevision": "abbe1bb1-e9a3-4ed2-ae80-2306d1f6818e",
   "pendingChanges": false,
   "files": {
     "char.js": {
@@ -29,11 +29,42 @@
       "content": "C:\\Users\\Liem.pt\\.cache\\hyperframes\\history\\237e7213-6e83-4da7-83e6-7e5b4c97ad0e\\blobs\\5f\\5fd1ff71bb26b8d6a5134a79d2823e31514dd7989f0ac1aec4c8ee7a6179328f"
     },
     "scenes.js": {
-      "hash": "c3897c21ee0a2fc1ed469857df3e38955be524131df73fa217511e27ffe18d1b",
-      "content": "C:\\Users\\Liem.pt\\.cache\\hyperframes\\history\\237e7213-6e83-4da7-83e6-7e5b4c97ad0e\\blobs\\c3\\c3897c21ee0a2fc1ed469857df3e38955be524131df73fa217511e27ffe18d1b"
+      "hash": "abb6b29d29ce36d248ec605ccbb92f7a21ee5e6a5207d152b8f86f62de709bbb",
+      "content": "C:\\Users\\Liem.pt\\.cache\\hyperframes\\history\\237e7213-6e83-4da7-83e6-7e5b4c97ad0e\\blobs\\ab\\abb6b29d29ce36d248ec605ccbb92f7a21ee5e6a5207d152b8f86f62de709bbb"
     }
   },
-  "revisions": {},
+  "revisions": {
+    "0ad06f78-a21b-4496-b7df-9ebbf35bc16f": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1794898539358,
+      "endedAt": 1794898539360,
+      "files": {
+        "scenes.js": {
+          "before": "C:\\Users\\Liem.pt\\.cache\\hyperframes\\history\\237e7213-6e83-4da7-83e6-7e5b4c97ad0e\\blobs\\c3\\c3897c21ee0a2fc1ed469857df3e38955be524131df73fa217511e27ffe18d1b",
+          "after": "C:\\Users\\Liem.pt\\.cache\\hyperframes\\history\\237e7213-6e83-4da7-83e6-7e5b4c97ad0e\\blobs\\3a\\3ab58a8fa07a7a15eb2c4b15da6aa30a057220ed0792c8765d63bacd6ba9649a"
+        }
+      }
+    },
+    "abbe1bb1-e9a3-4ed2-ae80-2306d1f6818e": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1794898835943,
+      "endedAt": 1794898835945,
+      "files": {
+        "scenes.js": {
+          "before": "C:\\Users\\Liem.pt\\.cache\\hyperframes\\history\\237e7213-6e83-4da7-83e6-7e5b4c97ad0e\\blobs\\3a\\3ab58a8fa07a7a15eb2c4b15da6aa30a057220ed0792c8765d63bacd6ba9649a",
+          "after": "C:\\Users\\Liem.pt\\.cache\\hyperframes\\history\\237e7213-6e83-4da7-83e6-7e5b4c97ad0e\\blobs\\ab\\abb6b29d29ce36d248ec605ccbb92f7a21ee5e6a5207d152b8f86f62de709bbb"
+        }
+      }
+    }
+  },
   "checks": {
     "latest": null,
     "revisions": {},
@@ -46,13 +77,16 @@
   },
   "renders": {
     "latest": {
-      "id": "398a2790-4bce-45e0-a47e-ed68a9924068",
-      "completedAt": 1794891122596,
-      "output": "E:\\Tiktok\\darkskyquotes\\episodes\\neu-thi-sao\\clip-08-tieu-vat-mot-nam\\hoat-hinh\\hf\\renders\\hf_2026-11-17_11-51-11.mp4",
+      "id": "8ef58d2c-6c10-40fe-a500-243236a3c1d3",
+      "completedAt": 1794898882191,
+      "output": "E:\\Tiktok\\darkskyquotes\\episodes\\neu-thi-sao\\clip-08-tieu-vat-mot-nam\\hoat-hinh\\hf\\renders\\hf_2026-11-17_14-00-33.mp4",
       "status": "completed",
-      "revision": null
+      "revision": "abbe1bb1-e9a3-4ed2-ae80-2306d1f6818e"
     },
-    "retainedRevisions": []
+    "retainedRevisions": [
+      "abbe1bb1-e9a3-4ed2-ae80-2306d1f6818e",
+      "0ad06f78-a21b-4496-b7df-9ebbf35bc16f"
+    ]
   },
   "pendingArtifactCleanup": []
 }
