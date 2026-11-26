@@ -1,0 +1,32 @@
+{
+ "lines": [
+  {
+   "text": "Nếu ngủ đủ tám tiếng,|sau giờ tan làm bạn còn mấy tiếng cho mình?",
+   "scene": "c1"
+  },
+  {
+   "text": "Giả sử sáu giờ rưỡi sáng phải dậy,|muốn đủ tám tiếng|thì mười giờ rưỡi tối phải ngủ.",
+   "scene": "c2"
+  },
+  {
+   "text": "Sáu giờ chiều tan làm,|kẹt xe trên cầu,|bảy giờ mới về tới phòng.",
+   "scene": "c3"
+  },
+  {
+   "text": "Nấu cơm, ăn cơm, rửa chén, tắm, giặt đồ,|nhìn đồng hồ đã chín giờ.",
+   "scene": "c4"
+  },
+  {
+   "text": "Vậy là còn một tiếng rưỡi.|Soạn đồ cho mai,|trả lời mấy tin nhắn,|chỉ còn chừng một tiếng.",
+   "scene": "c5"
+  },
+  {
+   "text": "Bạn nằm xuống lúc mười giờ rưỡi,|mở điện thoại chỉ một chút thôi,|bấm tắt thì đã gần một giờ sáng.",
+   "scene": "c6"
+  },
+  {
+   "text": "Tám tiếng ngủ còn lại năm tiếng rưỡi.",
+   "scene": "c7"
+  }
+ ]
+}

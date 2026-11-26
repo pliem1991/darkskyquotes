@@ -1,0 +1,51 @@
+[
+ {
+  "file": "c1_duyen",
+  "voice": "Mỹ Duyên",
+  "score": 0.933,
+  "heard": "nếu ngủ đủ 8 tiếng, sau giờ tan làm bạn còn mấy tiếng cho mình.",
+  "seconds": 3.65
+ },
+ {
+  "file": "c2_duyen",
+  "voice": "Mỹ Duyên",
+  "score": 1.0,
+  "heard": "giả sử sáu giờ rưỡi sáng phải dậy, muốn đủ tám tiếng thì mười giờ rưỡi tối phải ngủ.",
+  "seconds": 5.23
+ },
+ {
+  "file": "c3_duyen",
+  "voice": "Mỹ Duyên",
+  "score": 1.0,
+  "heard": "sáu giờ chiều tan làm, kẹt xe trên cầu, bảy giờ mới về tới phòng.",
+  "seconds": 4.85
+ },
+ {
+  "file": "c4_duyen",
+  "voice": "Mỹ Duyên",
+  "score": 1.0,
+  "heard": "nấu cơm, ăn cơm, rửa chén, tắm, giặt đồ, nhìn đồng hồ đã chín giờ",
+  "seconds": 4.86
+ },
+ {
+  "file": "c5_duyen",
+  "voice": "Mỹ Duyên",
+  "score": 1.0,
+  "heard": "vậy là còn một tiếng rưỡi, soạn đồ cho Mai trả lời mấy tin nhắn, chỉ còn chừng một tiếng",
+  "seconds": 5.95
+ },
+ {
+  "file": "c6_duyen",
+  "voice": "Mỹ Duyên",
+  "score": 1.0,
+  "heard": "bạn nằm xuống lúc mười giờ rưỡi, mở điện thoại chỉ một chút thôi, bấm tắt thì đã gần một giờ sáng",
+  "seconds": 5.79
+ },
+ {
+  "file": "c7_duyen",
+  "voice": "Mỹ Duyên",
+  "score": 1.0,
+  "heard": "Tám tiếng ngủ còn lại năm tiếng rưỡi",
+  "seconds": 1.84
+ }
+]

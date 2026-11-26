@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "historyId": "64c26209-3e70-4217-86dd-e2c5ada3555e",
+  "currentRevision": "fac8865a-0f39-4953-80bd-bf848e1b1635",
+  "pendingChanges": false,
+  "files": {
+    "char.js": {
+      "hash": "a278a821a070bdc15d77a45ef09b39ca2d958678df79027420dcc757878452f6",
+      "content": "C:\\Users\\liem.tt\\.cache\\hyperframes\\history\\64c26209-3e70-4217-86dd-e2c5ada3555e\\blobs\\a2\\a278a821a070bdc15d77a45ef09b39ca2d958678df79027420dcc757878452f6"
+    },
+    "data.js": {
+      "hash": "890c5164d91e1afe9185bf63f1fdc3b19801cd30299a40fe803ebdc29e9b20e0",
+      "content": "C:\\Users\\liem.tt\\.cache\\hyperframes\\history\\64c26209-3e70-4217-86dd-e2c5ada3555e\\blobs\\89\\890c5164d91e1afe9185bf63f1fdc3b19801cd30299a40fe803ebdc29e9b20e0"
+    },
+    "gsap.min.js": {
+      "hash": "92bb9a96476f983d212a2bc4f54c889039c1696dd4461d40a736860938570fbb",
+      "content": "C:\\Users\\liem.tt\\.cache\\hyperframes\\history\\64c26209-3e70-4217-86dd-e2c5ada3555e\\blobs\\92\\92bb9a96476f983d212a2bc4f54c889039c1696dd4461d40a736860938570fbb"
+    },
+    "index.html": {
+      "hash": "d002bd38300e8905f815ca81c99085f6c44d27358ef24c8b381bcc82da9b676b",
+      "content": "C:\\Users\\liem.tt\\.cache\\hyperframes\\history\\64c26209-3e70-4217-86dd-e2c5ada3555e\\blobs\\d0\\d002bd38300e8905f815ca81c99085f6c44d27358ef24c8b381bcc82da9b676b"
+    },
+    "main.js": {
+      "hash": "a86bc0ff79746e1524f8fb5ca81b4a83bc6ce61e4462608ed09d9a3591582104",
+      "content": "C:\\Users\\liem.tt\\.cache\\hyperframes\\history\\64c26209-3e70-4217-86dd-e2c5ada3555e\\blobs\\a8\\a86bc0ff79746e1524f8fb5ca81b4a83bc6ce61e4462608ed09d9a3591582104"
+    },
+    "scenes.js": {
+      "hash": "48e7b2cc1d5c806eb0bba60ade67d08f458cfa9d664f61e0cf8373ded36a0cef",
+      "content": "C:\\Users\\liem.tt\\.cache\\hyperframes\\history\\64c26209-3e70-4217-86dd-e2c5ada3555e\\blobs\\48\\48e7b2cc1d5c806eb0bba60ade67d08f458cfa9d664f61e0cf8373ded36a0cef"
+    }
+  },
+  "revisions": {
+    "fac8865a-0f39-4953-80bd-bf848e1b1635": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1795601089892,
+      "endedAt": 1795601089893,
+      "files": {
+        "scenes.js": {
+          "before": "C:\\Users\\liem.tt\\.cache\\hyperframes\\history\\64c26209-3e70-4217-86dd-e2c5ada3555e\\blobs\\d2\\d299c7697f0588a8431d9b6332f6d2be4695c60194ae306f498c6a0fc9610b4d",
+          "after": "C:\\Users\\liem.tt\\.cache\\hyperframes\\history\\64c26209-3e70-4217-86dd-e2c5ada3555e\\blobs\\48\\48e7b2cc1d5c806eb0bba60ade67d08f458cfa9d664f61e0cf8373ded36a0cef"
+        }
+      }
+    }
+  },
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "66e70aea-3b47-4a84-934c-da9ba12e7cb4",
+      "completedAt": 1795601154419,
+      "output": "D:\\Tiktok\\darkskyquotes\\episodes\\neu-thi-sao\\clip-10-ngu-du-tam-tieng\\hoat-hinh\\output\\video-silent.mp4",
+      "status": "completed",
+      "revision": "fac8865a-0f39-4953-80bd-bf848e1b1635"
+    },
+    "retainedRevisions": [
+      "fac8865a-0f39-4953-80bd-bf848e1b1635"
+    ]
+  },
+  "pendingArtifactCleanup": []
+}

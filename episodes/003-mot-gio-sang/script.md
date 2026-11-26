@@ -1,7 +1,7 @@
 # Tập 003: Một giờ sáng của riêng mình
 
 - **Trụ:** Tâm lý học gọi tên cảm giác
-- **Trạng thái:** bản 3 đã duyệt lời ngày 01/11/2026, chờ ảnh Google Flow (`prompts.md`), chưa đọc giọng
+- **Trạng thái:** **gác lại từ 25/11/2026** vì clip 10 "Nếu ngủ đủ tám tiếng" (series Nếu thì sao) đã dùng cùng nỗi đau thức khuya để giữ giờ cho mình. Muốn làm lại thì phải đổi nỗi đau. Trước đó: bản 3 đã duyệt lời ngày 01/11/2026, chờ ảnh Google Flow, chưa đọc giọng
 - **Độ dài dự kiến:** khoảng 70 giây (khoảng 169 âm tiết, ước theo nhịp tập 002), đo lại sau khi đọc giọng
 - **Người xem đang cảm thấy:** một giờ sáng, mắt đã díp mà chưa muốn ngủ, biết mai sẽ mệt và đang tự trách
 
