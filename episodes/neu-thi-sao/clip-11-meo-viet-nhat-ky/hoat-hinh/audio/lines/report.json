@@ -1,0 +1,51 @@
+[
+ {
+  "file": "c1_duyen",
+  "voice": "Mỹ Duyên",
+  "score": 1.0,
+  "heard": "Nếu con mèo viết nhật ký, nó tố bạn chuyện gì?",
+  "seconds": 2.8
+ },
+ {
+  "file": "c2_duyen",
+  "voice": "Mỹ Duyên",
+  "score": 0.905,
+  "heard": "Tui ngồi chờ ở cửa từ 5 giờ chiều, 8 giờ chủ mới về, câu đầu tiên là đói chưa cưng.",
+  "seconds": 5.44
+ },
+ {
+  "file": "c3_duyen",
+  "voice": "Mỹ Duyên",
+  "score": 1.0,
+  "heard": "Cả buổi tối chủ nằm cười với cục sáng, tui kêu ba lần không ai nghe",
+  "seconds": 4.14
+ },
+ {
+  "file": "c4_duyen",
+  "voice": "Mỹ Duyên",
+  "score": 1.0,
+  "heard": "Người lạ đưa tới một hộp thơm lắm, chủ nói cảm ơn rồi ăn hết, không chừa tui miếng nào",
+  "seconds": 5.51
+ },
+ {
+  "file": "c5_duyen",
+  "voice": "Mỹ Duyên",
+  "score": 1.0,
+  "heard": "thứ bảy chủ ngủ tới trưa, tui ngồi lên ngực chủ cả tiếng",
+  "seconds": 3.14
+ },
+ {
+  "file": "c6_duyen",
+  "voice": "Mỹ Duyên",
+  "score": 1.0,
+  "heard": "chủ nhật, chủ cười nói với cục sáng cả buổi, tắt nó đi rồi ôm tui ngồi im rất lâu",
+  "seconds": 5.32
+ },
+ {
+  "file": "c7_duyen",
+  "voice": "Mỹ Duyên",
+  "score": 1.0,
+  "heard": "có giọt nước rơi xuống đầu tui, tui liếm thử thấy mặn",
+  "seconds": 3.33
+ }
+]

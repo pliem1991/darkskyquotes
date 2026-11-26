@@ -1,0 +1,41 @@
+{
+ "voices": {
+  "duyen": {
+   "preset": "Mỹ Duyên",
+   "pitch": 1.0,
+   "tempo": 1.17,
+   "af": "highpass=f=110,equalizer=f=300:t=q:w=1:g=-1.5,equalizer=f=3500:t=q:w=1.2:g=2,equalizer=f=6500:t=q:w=1:g=2,acompressor=threshold=-22dB:ratio=2:attack=15:release=200:makeup=2,loudnorm=I=-15:TP=-1.5:LRA=9"
+  }
+ },
+ "lead_in": 0.05,
+ "lines": [
+  {"file": "c1_duyen", "voice": "duyen", "scene": "c1", "tempo": 1.0, "pause": 0.45,
+   "text": "Nếu con mèo viết nhật ký, nó tố bạn chuyện gì?",
+   "parts": ["Nếu con mèo viết nhật ký,", "nó tố bạn chuyện gì?"],
+   "inner_pauses": [{"after_part": 0, "sec": 0.08}]},
+  {"file": "c2_duyen", "voice": "duyen", "scene": "c2", "tempo": 1.0, "pause": 0.3,
+   "text": "Tui ngồi chờ ở cửa từ năm giờ chiều, tám giờ chủ mới về, câu đầu tiên là đói chưa cưng.",
+   "parts": ["Tui ngồi chờ ở cửa từ năm giờ chiều,", "tám giờ chủ mới về,", "câu đầu tiên là đói chưa cưng."],
+   "inner_pauses": [{"after_part": 0, "sec": 0.1}, {"after_part": 1, "sec": 0.2}]},
+  {"file": "c3_duyen", "voice": "duyen", "scene": "c3", "tempo": 1.0, "pause": 0.3,
+   "text": "Cả buổi tối chủ nằm cười với cục sáng, tui kêu ba lần không ai nghe.",
+   "parts": ["Cả buổi tối chủ nằm cười với cục sáng,", "tui kêu ba lần không ai nghe."],
+   "inner_pauses": [{"after_part": 0, "sec": 0.15}]},
+  {"file": "c4_duyen", "voice": "duyen", "scene": "c4", "tempo": 1.0, "pause": 0.3,
+   "text": "Người lạ đưa tới một hộp thơm lắm, chủ nói cảm ơn rồi ăn hết, không chừa tui miếng nào.",
+   "parts": ["Người lạ đưa tới một hộp thơm lắm,", "chủ nói cảm ơn rồi ăn hết,", "không chừa tui miếng nào."],
+   "inner_pauses": [{"after_part": 0, "sec": 0.08}, {"after_part": 1, "sec": 0.12}]},
+  {"file": "c5_duyen", "voice": "duyen", "scene": "c5", "tempo": 1.0, "pause": 0.45,
+   "text": "Thứ bảy chủ ngủ tới trưa, tui ngồi lên ngực chủ cả tiếng.",
+   "parts": ["Thứ bảy chủ ngủ tới trưa,", "tui ngồi lên ngực chủ cả tiếng."],
+   "inner_pauses": [{"after_part": 0, "sec": 0.08}]},
+  {"file": "c6_duyen", "voice": "duyen", "scene": "c6", "tempo": 1.0, "pause": 0.5,
+   "text": "Chủ nhật, chủ cười nói với cục sáng cả buổi, tắt nó đi rồi ôm tui ngồi im rất lâu.",
+   "parts": ["Chủ nhật, chủ cười nói với cục sáng cả buổi,", "tắt nó đi rồi ôm tui ngồi im rất lâu."],
+   "inner_pauses": [{"after_part": 0, "sec": 0.35}]},
+  {"file": "c7_duyen", "voice": "duyen", "scene": "c7", "tempo": 1.0, "pause": 1.6,
+   "text": "Có giọt nước rơi xuống đầu tui, tui liếm thử thấy mặn.",
+   "parts": ["Có giọt nước rơi xuống đầu tui,", "tui liếm thử thấy mặn."],
+   "inner_pauses": [{"after_part": 0, "sec": 0.3}]}
+ ]
+}

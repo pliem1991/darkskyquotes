@@ -1,0 +1,32 @@
+{
+ "lines": [
+  {
+   "text": "Nếu con mèo viết nhật ký,|nó tố bạn chuyện gì?",
+   "scene": "c1"
+  },
+  {
+   "text": "Tui ngồi chờ ở cửa từ năm giờ chiều,|tám giờ chủ mới về,|câu đầu tiên là đói chưa cưng.",
+   "scene": "c2"
+  },
+  {
+   "text": "Cả buổi tối chủ nằm cười với cục sáng,|tui kêu ba lần không ai nghe.",
+   "scene": "c3"
+  },
+  {
+   "text": "Người lạ đưa tới một hộp thơm lắm,|chủ nói cảm ơn rồi ăn hết,|không chừa tui miếng nào.",
+   "scene": "c4"
+  },
+  {
+   "text": "Thứ bảy chủ ngủ tới trưa,|tui ngồi lên ngực chủ cả tiếng.",
+   "scene": "c5"
+  },
+  {
+   "text": "Chủ nhật, chủ cười nói với cục sáng cả buổi,|tắt nó đi rồi ôm tui ngồi im rất lâu.",
+   "scene": "c6"
+  },
+  {
+   "text": "Có giọt nước rơi xuống đầu tui,|tui liếm thử thấy mặn.",
+   "scene": "c7"
+  }
+ ]
+}
