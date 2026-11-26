@@ -1,0 +1,126 @@
+{
+  "version": 1,
+  "historyId": "eeba97e0-354b-4758-a1df-3773fe9220c9",
+  "currentRevision": "9a6c1ed2-13dc-451a-a819-111563d059e3",
+  "pendingChanges": false,
+  "files": {
+    "char.js": {
+      "hash": "a278a821a070bdc15d77a45ef09b39ca2d958678df79027420dcc757878452f6",
+      "content": "C:\\Users\\liem.tt\\.cache\\hyperframes\\history\\eeba97e0-354b-4758-a1df-3773fe9220c9\\blobs\\a2\\a278a821a070bdc15d77a45ef09b39ca2d958678df79027420dcc757878452f6"
+    },
+    "data.js": {
+      "hash": "f66540f567fa42b9bfe251652c332f0f274c0c7be73be309b812397b4e97f82f",
+      "content": "C:\\Users\\liem.tt\\.cache\\hyperframes\\history\\eeba97e0-354b-4758-a1df-3773fe9220c9\\blobs\\f6\\f66540f567fa42b9bfe251652c332f0f274c0c7be73be309b812397b4e97f82f"
+    },
+    "gsap.min.js": {
+      "hash": "92bb9a96476f983d212a2bc4f54c889039c1696dd4461d40a736860938570fbb",
+      "content": "C:\\Users\\liem.tt\\.cache\\hyperframes\\history\\eeba97e0-354b-4758-a1df-3773fe9220c9\\blobs\\92\\92bb9a96476f983d212a2bc4f54c889039c1696dd4461d40a736860938570fbb"
+    },
+    "index.html": {
+      "hash": "0da85514dffdf60dc011c58792ab448ef0e94fe5349eea4c65e042e2da87d4cf",
+      "content": "C:\\Users\\liem.tt\\.cache\\hyperframes\\history\\eeba97e0-354b-4758-a1df-3773fe9220c9\\blobs\\0d\\0da85514dffdf60dc011c58792ab448ef0e94fe5349eea4c65e042e2da87d4cf"
+    },
+    "main.js": {
+      "hash": "6719e2355235a690680538359733b4ab085ca4c09eb99015dc4b3f4212048901",
+      "content": "C:\\Users\\liem.tt\\.cache\\hyperframes\\history\\eeba97e0-354b-4758-a1df-3773fe9220c9\\blobs\\67\\6719e2355235a690680538359733b4ab085ca4c09eb99015dc4b3f4212048901"
+    },
+    "scenes.js": {
+      "hash": "cb11768ad02d5e96324d400d8218d8cc9815a98ce1359617e5a6fd98129dca52",
+      "content": "C:\\Users\\liem.tt\\.cache\\hyperframes\\history\\eeba97e0-354b-4758-a1df-3773fe9220c9\\blobs\\cb\\cb11768ad02d5e96324d400d8218d8cc9815a98ce1359617e5a6fd98129dca52"
+    }
+  },
+  "revisions": {
+    "7b7f109d-6c9f-4a74-877f-0a7f1d0efe4f": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1795665387554,
+      "endedAt": 1795665387555,
+      "files": {
+        "scenes.js": {
+          "before": "C:\\Users\\liem.tt\\.cache\\hyperframes\\history\\eeba97e0-354b-4758-a1df-3773fe9220c9\\blobs\\a7\\a73760172f286b08833f0417d91f49d623e7a1eba98babbb279dc1a215ce318e",
+          "after": "C:\\Users\\liem.tt\\.cache\\hyperframes\\history\\eeba97e0-354b-4758-a1df-3773fe9220c9\\blobs\\19\\19a697b1f96c102ad3fd15d8e8e9207e21f5c2701366ed6f45dc1cf2d99f49f3"
+        }
+      }
+    },
+    "1f9a8a91-f2cd-4df2-9a29-a5a4398bd7b3": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1795665466102,
+      "endedAt": 1795665466104,
+      "files": {
+        "scenes.js": {
+          "before": "C:\\Users\\liem.tt\\.cache\\hyperframes\\history\\eeba97e0-354b-4758-a1df-3773fe9220c9\\blobs\\19\\19a697b1f96c102ad3fd15d8e8e9207e21f5c2701366ed6f45dc1cf2d99f49f3",
+          "after": "C:\\Users\\liem.tt\\.cache\\hyperframes\\history\\eeba97e0-354b-4758-a1df-3773fe9220c9\\blobs\\cb\\cb11768ad02d5e96324d400d8218d8cc9815a98ce1359617e5a6fd98129dca52"
+        }
+      }
+    },
+    "35def0e6-3ed8-4c7c-835b-6b03f2c3233f": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1795666088173,
+      "endedAt": 1795666088186,
+      "files": {
+        "data.js": {
+          "before": "C:\\Users\\liem.tt\\.cache\\hyperframes\\history\\eeba97e0-354b-4758-a1df-3773fe9220c9\\blobs\\6e\\6e386857b44bc00e0b42f1700020a497a9de0857a2c73563c4c7f8b12f5784c3",
+          "after": "C:\\Users\\liem.tt\\.cache\\hyperframes\\history\\eeba97e0-354b-4758-a1df-3773fe9220c9\\blobs\\f6\\f66540f567fa42b9bfe251652c332f0f274c0c7be73be309b812397b4e97f82f"
+        },
+        "index.html": {
+          "before": "C:\\Users\\liem.tt\\.cache\\hyperframes\\history\\eeba97e0-354b-4758-a1df-3773fe9220c9\\blobs\\d7\\d76719b182d0a2f31a6e03d9ae6d8e68a937f5d565aa83c7b9d290af739e94e4",
+          "after": "C:\\Users\\liem.tt\\.cache\\hyperframes\\history\\eeba97e0-354b-4758-a1df-3773fe9220c9\\blobs\\c6\\c6ca38ad555499a6e3ef499e7abb33e4bcdde6e3fa9c21bc645dda81f29ec5c7"
+        },
+        "main.js": {
+          "before": "C:\\Users\\liem.tt\\.cache\\hyperframes\\history\\eeba97e0-354b-4758-a1df-3773fe9220c9\\blobs\\a8\\a86bc0ff79746e1524f8fb5ca81b4a83bc6ce61e4462608ed09d9a3591582104",
+          "after": "C:\\Users\\liem.tt\\.cache\\hyperframes\\history\\eeba97e0-354b-4758-a1df-3773fe9220c9\\blobs\\67\\6719e2355235a690680538359733b4ab085ca4c09eb99015dc4b3f4212048901"
+        }
+      }
+    },
+    "9a6c1ed2-13dc-451a-a819-111563d059e3": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1795666178272,
+      "endedAt": 1795666178273,
+      "files": {
+        "index.html": {
+          "before": "C:\\Users\\liem.tt\\.cache\\hyperframes\\history\\eeba97e0-354b-4758-a1df-3773fe9220c9\\blobs\\c6\\c6ca38ad555499a6e3ef499e7abb33e4bcdde6e3fa9c21bc645dda81f29ec5c7",
+          "after": "C:\\Users\\liem.tt\\.cache\\hyperframes\\history\\eeba97e0-354b-4758-a1df-3773fe9220c9\\blobs\\0d\\0da85514dffdf60dc011c58792ab448ef0e94fe5349eea4c65e042e2da87d4cf"
+        }
+      }
+    }
+  },
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "09e460c3-17b8-4811-a5fb-c77b127eb93e",
+      "completedAt": 1795666236959,
+      "output": "D:\\Tiktok\\darkskyquotes\\episodes\\neu-thi-sao\\clip-12-muoi-xin-phep\\hoat-hinh\\output\\video-silent.mp4",
+      "status": "completed",
+      "revision": "9a6c1ed2-13dc-451a-a819-111563d059e3"
+    },
+    "retainedRevisions": [
+      "9a6c1ed2-13dc-451a-a819-111563d059e3",
+      "35def0e6-3ed8-4c7c-835b-6b03f2c3233f"
+    ]
+  },
+  "pendingArtifactCleanup": []
+}

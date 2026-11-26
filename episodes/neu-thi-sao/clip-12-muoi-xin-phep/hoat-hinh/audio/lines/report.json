@@ -1,0 +1,44 @@
+[
+ {
+  "file": "c1_duyen",
+  "voice": "Mỹ Duyên",
+  "score": 0.889,
+  "heard": "nếu muỗi phải xin phép trước khi đốt bàn.",
+  "seconds": 2.22
+ },
+ {
+  "file": "c2_duyen",
+  "voice": "Mỹ Duyên",
+  "score": 0.903,
+  "heard": "11 giờ đêm, muỗi số mười bốn, xin đốt, bắp chân trái, đồng ý không?",
+  "seconds": 4.09
+ },
+ {
+  "file": "c3_duyen",
+  "voice": "Mỹ Duyên",
+  "score": 1.0,
+  "heard": "Đêm đầu bạn bấm từ chối ba mươi lần, nó hỏi lại ba mươi mốt",
+  "seconds": 3.33
+ },
+ {
+  "file": "c4_duyen",
+  "voice": "Mỹ Duyên",
+  "score": 1.0,
+  "heard": "Đêm thứ hai, tụi nó đổi cách xin, xin đốt một chút thôi, hứa không sưng, bạn vẫn từ chối",
+  "seconds": 5.53
+ },
+ {
+  "file": "c5_duyen",
+  "voice": "Mỹ Duyên",
+  "score": 1.0,
+  "heard": "Đêm thứ ba tụi nó gửi điều khoản dài ba trang, mệt quá, bạn bấm đồng ý tất cả cho xong",
+  "seconds": 5.54
+ },
+ {
+  "file": "c6_duyen",
+  "voice": "Mỹ Duyên",
+  "score": 1.0,
+  "heard": "Chân đầy vết đốt, kèm một tin nhắn, mời bạn đánh giá muỗi số mười bốn",
+  "seconds": 4.15
+ }
+]

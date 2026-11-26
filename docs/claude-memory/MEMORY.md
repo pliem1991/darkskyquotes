@@ -21,3 +21,6 @@
 - [Phản biện trước khi gửi kịch bản](feedback-review-before-sending-script.md) — luôn soát AI hóa + 2 agent Sonnet, Haiku phản biện rồi mới gửi người dùng
 - [Flow mỗi lần 1 ảnh](feedback-flow-one-image.md) — chỉnh x4 về x1 trước khi tạo, tránh hết lượt trong ngày
 - [Nhịp hook và chuyển cảnh](feedback-dung-hook-chuyen-canh.md) — giữ hook ~2 giây, thẻ 'Một tiếng trước', vệt cọ + vân vải, thẻ không hiện giữa chuyển cảnh
+- [Môi trường máy D:\Tiktok](may-d-tiktok-env.md) — venv .tools/voice, render HyperFrames --workers 2 ưu tiên thấp, đường dẫn E:/ cũ
+- [Style lemo-opuscar](lemo-opuscar-styles.md) — clip 11 thử crayon-book giả lập (tooth.png, lọc #boil, viền tím than); chờ phản hồi trước khi áp cả series
+- [Thẻ theo dõi cuối video](feedback-follow-end-card.md) — mọi video thêm nút 'Theo dõi @dark.sky.quotes' cuối clip, kéo dài 5 giây; mẫu ở clip 12

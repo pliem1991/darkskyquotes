@@ -1,0 +1,37 @@
+{
+ "voices": {
+  "duyen": {
+   "preset": "Mỹ Duyên",
+   "pitch": 1.0,
+   "tempo": 1.17,
+   "af": "highpass=f=110,equalizer=f=300:t=q:w=1:g=-1.5,equalizer=f=3500:t=q:w=1.2:g=2,equalizer=f=6500:t=q:w=1:g=2,acompressor=threshold=-22dB:ratio=2:attack=15:release=200:makeup=2,loudnorm=I=-15:TP=-1.5:LRA=9"
+  }
+ },
+ "lead_in": 0.05,
+ "lines": [
+  {"file": "c1_duyen", "voice": "duyen", "scene": "c1", "tempo": 1.0, "pause": 0.45,
+   "text": "Nếu muỗi phải xin phép trước khi đốt bạn?",
+   "parts": ["Nếu muỗi phải xin phép", "trước khi đốt bạn?"],
+   "inner_pauses": [{"after_part": 0, "sec": 0.06}]},
+  {"file": "c2_duyen", "voice": "duyen", "scene": "c2", "tempo": 1.0, "pause": 0.3,
+   "text": "Mười một giờ đêm, muỗi số mười bốn xin đốt bắp chân trái, đồng ý không?",
+   "parts": ["Mười một giờ đêm,", "muỗi số mười bốn", "xin đốt bắp chân trái, đồng ý không?"],
+   "inner_pauses": [{"after_part": 0, "sec": 0.1}, {"after_part": 1, "sec": 0.06}]},
+  {"file": "c3_duyen", "voice": "duyen", "scene": "c3", "tempo": 1.0, "pause": 0.3,
+   "text": "Đêm đầu bạn bấm từ chối ba mươi lần, nó hỏi lại ba mươi mốt.",
+   "parts": ["Đêm đầu bạn bấm từ chối ba mươi lần,", "nó hỏi lại ba mươi mốt."],
+   "inner_pauses": [{"after_part": 0, "sec": 0.25}]},
+  {"file": "c4_duyen", "voice": "duyen", "scene": "c4", "tempo": 1.0, "pause": 0.3,
+   "text": "Đêm thứ hai tụi nó đổi cách xin, xin đốt một chút thôi, hứa không sưng, bạn vẫn từ chối.",
+   "parts": ["Đêm thứ hai tụi nó đổi cách xin,", "xin đốt một chút thôi, hứa không sưng,", "bạn vẫn từ chối."],
+   "inner_pauses": [{"after_part": 0, "sec": 0.08}, {"after_part": 1, "sec": 0.2}]},
+  {"file": "c5_duyen", "voice": "duyen", "scene": "c5", "tempo": 1.0, "pause": 0.35,
+   "text": "Đêm thứ ba tụi nó gửi điều khoản dài ba trang, mệt quá, bạn bấm đồng ý tất cả cho xong.",
+   "parts": ["Đêm thứ ba tụi nó gửi điều khoản dài ba trang,", "mệt quá, bạn bấm đồng ý tất cả cho xong."],
+   "inner_pauses": [{"after_part": 0, "sec": 0.2}]},
+  {"file": "c6_duyen", "voice": "duyen", "scene": "c6", "tempo": 1.0, "pause": 1.6,
+   "text": "Chân đầy vết đốt, kèm một tin nhắn, mời bạn đánh giá muỗi số mười bốn.",
+   "parts": ["Chân đầy vết đốt,", "kèm một tin nhắn,", "mời bạn đánh giá muỗi số mười bốn."],
+   "inner_pauses": [{"after_part": 0, "sec": 0.1}, {"after_part": 1, "sec": 0.15}]}
+ ]
+}

@@ -59,6 +59,7 @@ Danh sách này do mình tự lập cho tiếng Việt, hai repo gốc chỉ có
 - Viết 5 phương án hook, chọn một và nói rõ lý do theo cảm xúc của người xem.
 - Câu hỏi cuối mô tả phải trả lời được bằng chuyện thật của người xem. Không dùng "Bạn nghĩ sao?" hay "Đồng ý không?".
 - Không xin thả tim, không xin chia sẻ, không dùng "bạn sẽ không tin nổi".
+- Ngoại lệ do người dùng chốt ngày 26/11/2026: cuối mỗi video có thẻ nhắc theo dõi kênh ("+ Theo dõi @dark.sky.quotes", "để xem tình huống "Nếu..." tiếp theo"), giữ thêm 5 giây. Chỉ hiện bằng chữ, không đọc thành lời, không viết thêm lời năn nỉ.
 
 ## 7. Ranh giới sự thật
 

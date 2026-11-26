@@ -56,6 +56,7 @@
 
 - Hook mạnh ngay giây đầu, thẻ trắng bo tròn, chữ đậm, phần nhấn màu hồng
 - Watermark `@dark.sky.quotes` nhỏ mờ góc trái dưới
+- **Kết video nhắc theo dõi kênh, kéo dài thêm 5 giây** (người dùng yêu cầu 26/11/2026): sau thẻ câu hỏi cuối, hiện nút "+ Theo dõi @dark.sky.quotes" kèm dòng "để xem tình huống "Nếu..." tiếp theo", chỉ hiện chữ, không đọc thành lời. Cách làm có sẵn ở `episodes/neu-thi-sao/clip-12-muoi-xin-phep/hoat-hinh` (`build.py`: `FOLLOW_EXTRA = 5.0`, `followT = endT + 1.6`; `hf/main.js`: khối `#follow`; `audio.py`: tiếng ding ở `followT`). Clip mới chép từ clip 12
 - Chủ thể và chữ trong vùng an toàn TikTok (x 60–930, y 220–1440)
 - Giữ hook ~2 giây trước khi chuyển cảnh
 - Console encoding: luôn set `PYTHONUTF8=1` khi chạy Python

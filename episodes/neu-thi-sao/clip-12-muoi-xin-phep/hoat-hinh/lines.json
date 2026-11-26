@@ -1,0 +1,28 @@
+{
+ "lines": [
+  {
+   "text": "Nếu muỗi phải xin phép|trước khi đốt bạn?",
+   "scene": "c1"
+  },
+  {
+   "text": "Mười một giờ đêm,|muỗi số mười bốn|xin đốt bắp chân trái, đồng ý không?",
+   "scene": "c2"
+  },
+  {
+   "text": "Đêm đầu bạn bấm từ chối ba mươi lần,|nó hỏi lại ba mươi mốt.",
+   "scene": "c3"
+  },
+  {
+   "text": "Đêm thứ hai tụi nó đổi cách xin,|xin đốt một chút thôi, hứa không sưng,|bạn vẫn từ chối.",
+   "scene": "c4"
+  },
+  {
+   "text": "Đêm thứ ba tụi nó gửi điều khoản dài ba trang,|mệt quá, bạn bấm đồng ý tất cả cho xong.",
+   "scene": "c5"
+  },
+  {
+   "text": "Chân đầy vết đốt,|kèm một tin nhắn,|mời bạn đánh giá muỗi số mười bốn.",
+   "scene": "c6"
+  }
+ ]
+}
